@@ -799,7 +799,7 @@
   box-sizing: border-box;
   height: 56px;
   margin-inline: var(--_margin);
-  padding-inline: var(--md-sys-measurement-space200) var(--md-sys-measurement-space50);
+  padding-inline: var(--md-sys-measurement-space200);
   border-radius: var(--md-sys-shape-corner-full);
   background: var(--md-sys-color-surface-container-high);
   color: var(--md-sys-color-on-surface);
@@ -811,9 +811,12 @@
     background-color var(--md-sys-motion-spring-fast-effects-duration)
     var(--md-sys-motion-spring-fast-effects);
 }
+.m3-search__bar:has(.m3-search__trailing > .m3-icon-button:only-child) {
+  padding-inline-end: var(--md-sys-measurement-space100);
+}
 .m3-search[data-active] .m3-search__bar {
   margin-inline: 0;
-  padding-inline: var(--md-sys-measurement-space50);
+  padding-inline: var(--md-sys-measurement-space100);
 }
 .m3-search__leading,
 .m3-search__trailing {
