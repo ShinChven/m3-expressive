@@ -399,6 +399,7 @@ export function DataTable<T>({
                   <th
                     scope="col"
                     className="m3-data-table__actions-header"
+                    data-align="end"
                     data-sticky-end={stickyActions && !swipeToReveal ? '' : undefined}
                     style={
                       actionsWidth !== undefined
@@ -534,6 +535,7 @@ export function DataTable<T>({
                     {hasActions && (
                       <td
                         className="m3-data-table__actions"
+                        data-align="end"
                         data-sticky-end={stickyActions && !swipeToReveal ? '' : undefined}
                         style={
                           actionsWidth !== undefined

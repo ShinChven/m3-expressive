@@ -81,8 +81,9 @@
   );
 }
 /* Action column */
-.m3-data-table__actions-header,
-.m3-data-table__actions {
+.m3-data-table th.m3-data-table__actions-header,
+.m3-data-table td.m3-data-table__actions {
+  width: 1%;
   text-align: end;
   white-space: nowrap;
 }
@@ -239,6 +240,11 @@
 .m3-data-table__select {
   width: 56px;
   padding: 0 4px 0 8px !important;
+}
+.m3-data-table th.m3-data-table__actions-header,
+.m3-data-table td.m3-data-table__actions {
+  width: 1%;
+  text-align: end;
 }
 .m3-data-table tbody tr {
   position: relative;
