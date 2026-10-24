@@ -1,11 +1,4 @@
-import {
-  Badge,
-  Button,
-  Icon,
-  IconButton,
-  type NavItem,
-  NavigationBar,
-} from 'material-design-3-expressive-components'
+import { Badge, Button, Icon, IconButton, type NavItem, NavigationBar } from '@m3-expressive/react'
 import { useState } from 'react'
 import { defineDoc } from '../kit/doc'
 

@@ -1,9 +1,4 @@
-import {
-  Button,
-  LoadingIndicator,
-  type MaterialShapeName,
-  Slider,
-} from 'material-design-3-expressive-components'
+import { Button, LoadingIndicator, type MaterialShapeName, Slider } from '@m3-expressive/react'
 import { useEffect, useState } from 'react'
 import { defineDoc } from '../kit/doc'
 

@@ -1,4 +1,4 @@
-import { Button, CircularProgress, LinearProgress } from 'material-design-3-expressive-components'
+import { Button, CircularProgress, LinearProgress } from '@m3-expressive/react'
 import { useEffect, useState } from 'react'
 import { defineDoc } from '../kit/doc'
 

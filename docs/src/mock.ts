@@ -1,4 +1,4 @@
-import type { TreeItem, TreeLoader, TreeMove } from 'material-design-3-expressive-components'
+import type { TreeItem, TreeLoader, TreeMove } from '@m3-expressive/react'
 import { seeded } from './demo'
 
 // Demo data: the files and folders of a shared drive.

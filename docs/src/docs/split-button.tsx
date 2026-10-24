@@ -1,10 +1,4 @@
-import {
-  Button,
-  MenuDivider,
-  MenuItem,
-  SplitButton,
-  useSnackbar,
-} from 'material-design-3-expressive-components'
+import { Button, MenuDivider, MenuItem, SplitButton, useSnackbar } from '@m3-expressive/react'
 import { defineDoc } from '../kit/doc'
 
 export const doc = defineDoc({

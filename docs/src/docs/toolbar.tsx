@@ -1,12 +1,4 @@
-import {
-  Button,
-  Fab,
-  IconButton,
-  List,
-  ListItem,
-  TextField,
-  Toolbar,
-} from 'material-design-3-expressive-components'
+import { Button, Fab, IconButton, List, ListItem, TextField, Toolbar } from '@m3-expressive/react'
 import { useRef, useState } from 'react'
 import { defineDoc } from '../kit/doc'
 import { FILES } from '../mock'

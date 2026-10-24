@@ -19,15 +19,15 @@ export default defineConfig({
   resolve: {
     alias: [
       {
-        find: 'material-design-3-expressive-components/fonts.css',
+        find: '@m3-expressive/react/fonts.css',
         replacement: fileURLToPath(new URL('../src/styles/fonts.css', import.meta.url)),
       },
       {
-        find: 'material-design-3-expressive-components/styles.css',
+        find: '@m3-expressive/react/styles.css',
         replacement: fileURLToPath(new URL('../src/styles/index.css', import.meta.url)),
       },
       {
-        find: 'material-design-3-expressive-components',
+        find: '@m3-expressive/react',
         replacement: fileURLToPath(new URL('../src/index.ts', import.meta.url)),
       },
     ],

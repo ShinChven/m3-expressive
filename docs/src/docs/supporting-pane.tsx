@@ -8,7 +8,7 @@ import {
   Text,
   TextField,
   useWindowSizeClass,
-} from 'material-design-3-expressive-components'
+} from '@m3-expressive/react'
 import { useState } from 'react'
 import { defineDoc, raw } from '../kit/doc'
 import './supporting-pane.css'

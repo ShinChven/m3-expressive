@@ -1,11 +1,4 @@
-import {
-  Fab,
-  FabMenu,
-  FabMenuItem,
-  List,
-  ListItem,
-  useSnackbar,
-} from 'material-design-3-expressive-components'
+import { Fab, FabMenu, FabMenuItem, List, ListItem, useSnackbar } from '@m3-expressive/react'
 import { defineDoc } from '../kit/doc'
 import { FILES } from '../mock'
 import './fab-menu.css'

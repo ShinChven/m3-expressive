@@ -1,5 +1,5 @@
 /**
- * Build-time API data for the docs site: reads the material-design-3-expressive-components sources and extracts every
+ * Build-time API data for the docs site: reads the @m3-expressive/react sources and extracts every
  * interface (props with types and JSDoc) and every component's default prop values.
  * Exposed to the app as the virtual module `virtual:m3-api`, so props tables never drift
  * from the code.

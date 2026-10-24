@@ -1,7 +1,10 @@
 {
-  "name": "material-design-3-expressive-components",
+  "name": "@m3-expressive/react",
   "version": "0.1.0",
   "description": "Material 3 Expressive components, layouts and dynamic color theming for React.",
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "material-design",
     "material-3",

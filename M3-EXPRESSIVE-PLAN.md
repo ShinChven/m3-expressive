@@ -1,6 +1,6 @@
 # M3 Expressive 纯净版：实施计划
 
-> 目标：在新包 `material-design-3-expressive-components` 里做一个**只遵循 Material 3 Expressive** 的 React 组件库，并同步更新文档站（demo，`docs/`）。代码从 `material-components` 复制而来，原包不受影响。
+> 目标：在新包 `@m3-expressive/react` 里做一个**只遵循 Material 3 Expressive** 的 React 组件库，并同步更新文档站（demo，`docs/`）。代码从 `material-components` 复制而来，原包不受影响。
 > 规范来源：仓库内 `guidelines/`（m3.material.io 同步副本，Carbon `2026-10-13_06-10-19`）和 `guidelines/tokens/*.json`（DSDB token 表）。实现时以 token 表为准，文字说明为辅。
 
 ---
@@ -9,7 +9,7 @@
 
 1. **单一设计语言**：规范里标为 *no longer recommended* 的 baseline 变体、组件和 token 全部移除，不再提供 2021 / baseline 的开关。
 2. **Expressive 是默认值，而不是可选项**：配色固定为 2025 spec，动效用 spring，形状默认支持 morph，排版提供 emphasized 样式。
-3. **独立的新包**：代码复制自 `material-components`（保留 git 历史，原仓库作为 `upstream` 远程），以 `material-design-3-expressive-components` 的名字单独发布。新包没有存量用户，不需要兼容旧 API，所以旧组件直接删除，不设弃用过渡期。
+3. **独立的新包**：代码复制自 `material-components`（保留 git 历史，原仓库作为 `upstream` 远程），以 `@m3-expressive/react` 的名字单独发布。新包没有存量用户，不需要兼容旧 API，所以旧组件直接删除，不设弃用过渡期。
 4. 规范没有提出 Expressive 改动的组件（checkbox、radio、switch、text field、chips、dialog、sheets、tabs、snackbar、tooltip、badge、date/time picker、data table、tree view）**API 不变**，只跟随基础层（动效、排版、间距）的更新。
 
 ---
@@ -71,9 +71,9 @@
 
 ### P0 准备
 
-- [x] 把代码从 `material-components` 复制到 `material-design-3-expressive-components` 文件夹，保留 git 历史；原来的 `origin` 改名为 `upstream`，避免误推到原仓库。
-- [x] `package.json` / `package-lock.json` 的包名、docs 的路径别名、vitest 项目名改为 `material-design-3-expressive-components`；README 写明新包和原包的关系。
-- [x] 在 GitHub 新建 `material-design-3-expressive-components` 仓库，添加为 `origin` 并推送 `main`。
+- [x] 把代码从 `material-components` 复制到 `m3-expressive` 文件夹，保留 git 历史；原来的 `origin` 改名为 `upstream`，避免误推到原仓库。
+- [x] `package.json` / `package-lock.json` 的包名、docs 的路径别名、vitest 项目名改为 `@m3-expressive/react`；README 写明新包和原包的关系。
+- [x] 在 GitHub 新建 `m3-expressive` 仓库，添加为 `origin` 并推送 `main`。
 - [ ] 之后每个阶段：先 `git fetch origin`，确认 `main` 和 `origin/main` 一致，再从 `main` 切子分支，一个阶段一个 PR。
 - [x] 跑一遍 `npm run lint && npm run typecheck && npm run test:all`，记下基线，确认当前全部是绿的。
 - [x] 写一个 `scripts/tokens-from-dsdb.mjs`：从 `guidelines/tokens/*.json` 读出组件 token，生成供核对用的 CSS 变量清单。之后各组件逐个对照这份清单，不再凭肉眼读 markdown 表格。
@@ -183,7 +183,7 @@
 - [x] 改用新的 `AppScaffold`：large 窗口用 expanded rail（带 sections），medium 用 collapsed rail，compact 用 flexible nav bar 或 modal rail。
 - [ ] 顶栏改为 `AppBar`；`SearchTrigger` 改成 search app bar 的形态。（未做：顶栏保留 small app bar + 搜索按钮，以便滚动后显示页面标题）
 - [x] 品牌文案从 “Material Design 3” 改为 “Material 3 Expressive”，同步更新 `pages/Overview.tsx` 和 `pages/Start.tsx`。
-- [x] 展示给读者的包名改为 `material-design-3-expressive-components`：`pages/Start.tsx` 的安装命令和示例代码、`kit/DocPage.tsx` 生成的 import 行、每个页面示例里的 `from 'material-design-3-react'`，以及 `AUTHORING.md` 和测试里的对应说法。这个旧名字是更早之前遗留的，改完后删掉 `vite.config.ts`、`vitest.config.ts`、`tsconfig.json` 里 `material-design-3-react` 的路径别名。
+- [x] 展示给读者的包名改为 `@m3-expressive/react`：`pages/Start.tsx` 的安装命令和示例代码、`kit/DocPage.tsx` 生成的 import 行、每个页面示例里的 `from 'material-design-3-react'`，以及 `AUTHORING.md` 和测试里的对应说法。这个旧名字是更早之前遗留的，改完后删掉 `vite.config.ts`、`vitest.config.ts`、`tsconfig.json` 里 `material-design-3-react` 的路径别名。
 - [x] 主题配置迁移：`App.tsx` 里那段清理 localStorage 的逻辑，增加“遇到 `spec` 字段就丢弃”的处理。
 
 **删除的页面**，同时给旧 slug 加重定向，避免外部链接 404：
@@ -264,7 +264,7 @@
 
 ## 5. 从 `material-components` 迁移（MIGRATION.md 草稿）
 
-| `material-components` | `material-design-3-expressive-components` |
+| `material-components` | `@m3-expressive/react` |
 |---|---|
 | `import … from 'material-components'`，以及 `material-components/styles.css`、`/fonts.css` | 换成新包名，子路径不变 |
 | `ThemeProvider` 的 `spec`，`ThemeBuilder` 的 `showSpec` | 删除，固定使用 2025 |

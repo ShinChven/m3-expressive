@@ -1,4 +1,4 @@
-import { Button, Card, Icon } from 'material-design-3-expressive-components'
+import { Button, Card, Icon } from '@m3-expressive/react'
 import { Link } from 'react-router'
 import { GROUPS } from '../kit/doc'
 import { RichText } from '../kit/RichText'

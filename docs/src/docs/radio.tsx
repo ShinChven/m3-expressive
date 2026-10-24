@@ -1,4 +1,4 @@
-import { Button, Radio, RadioGroup, TextField } from 'material-design-3-expressive-components'
+import { Button, Radio, RadioGroup, TextField } from '@m3-expressive/react'
 import { useId, useState } from 'react'
 import { defineDoc } from '../kit/doc'
 

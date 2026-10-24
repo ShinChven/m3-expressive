@@ -10,7 +10,7 @@ import {
   Text,
   TextField,
   useSnackbar,
-} from 'material-design-3-expressive-components'
+} from '@m3-expressive/react'
 import { useId, useState } from 'react'
 import { defineDoc, raw } from '../kit/doc'
 import './bottom-sheet.css'

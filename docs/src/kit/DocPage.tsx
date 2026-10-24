@@ -9,7 +9,7 @@ import {
   TabGroup,
   TabPanel,
   Tabs,
-} from 'material-design-3-expressive-components'
+} from '@m3-expressive/react'
 import { useState } from 'react'
 import { useSearchParams } from 'react-router'
 import { ApiTable } from './ApiTable'
@@ -118,7 +118,7 @@ export function DocPage({ doc }: { doc: LoadedDoc }) {
   const tab = requested && available.includes(requested) ? requested : available[0]!
   const group = GROUPS.find((g) => g.key === doc.group)
   const copy = useCopy()
-  const importLine = `import { ${doc.imports.join(', ')} } from 'material-design-3-expressive-components'`
+  const importLine = `import { ${doc.imports.join(', ')} } from '@m3-expressive/react'`
   return (
     <article className="g-doc">
       <header className="g-doc__header">

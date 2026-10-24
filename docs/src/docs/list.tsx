@@ -6,7 +6,7 @@ import {
   ListSubheader,
   Switch,
   useSnackbar,
-} from 'material-design-3-expressive-components'
+} from '@m3-expressive/react'
 import { useState } from 'react'
 import { IMAGES } from '../demo'
 import { defineDoc, raw } from '../kit/doc'

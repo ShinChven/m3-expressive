@@ -23,7 +23,7 @@ import {
   ThemeScope,
   themeInitScript,
   useTheme,
-} from 'material-design-3-expressive-components'
+} from '@m3-expressive/react'
 import { useMemo, useState } from 'react'
 import { defineDoc } from '../kit/doc'
 import './theming.css'

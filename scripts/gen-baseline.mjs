@@ -1,5 +1,5 @@
 // Generates src/styles/baseline-scheme.css: the static M3 baseline colors used before
-// (or without) ThemeProvider. Run with `npm run gen:baseline -w material-design-3-expressive-components`.
+// (or without) ThemeProvider. Run with `npm run gen:baseline`.
 import { existsSync } from 'node:fs'
 import { writeFile } from 'node:fs/promises'
 import { registerHooks } from 'node:module'

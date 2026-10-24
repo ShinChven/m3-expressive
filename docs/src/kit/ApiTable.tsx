@@ -15,10 +15,7 @@ export function ApiTable({ entry }: { entry: ApiEntry }) {
   const defaults = api.defaults[entry.name] ?? {}
   const props = entry.interfaces.flatMap((name) => {
     const iface = api.interfaces[name]
-    if (!iface)
-      throw new Error(
-        `Interface ${name} not found in material-design-3-expressive-components sources`,
-      )
+    if (!iface) throw new Error(`Interface ${name} not found in @m3-expressive/react sources`)
     return iface.props
   })
   const extended = entry.interfaces.flatMap((name) => api.interfaces[name]?.extends ?? [])

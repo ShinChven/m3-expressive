@@ -11,7 +11,7 @@ import {
   ThemeBuilder,
   ThemeScope,
   useTheme,
-} from 'material-design-3-expressive-components'
+} from '@m3-expressive/react'
 import { useMemo } from 'react'
 import { Demo, Grid, Page, Section } from '../demo'
 

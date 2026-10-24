@@ -88,7 +88,7 @@ export function seeded(seed: number) {
   }
 }
 
-import { art } from 'material-design-3-expressive-components'
+import { art } from '@m3-expressive/react'
 
 export { art }
 export const IMAGES = Array.from({ length: 10 }, (_, i) => art(i + 2, 800, 600))

@@ -1,4 +1,4 @@
-import { Button, Icon, TextField, useSnackbar } from 'material-design-3-expressive-components'
+import { Button, Icon, TextField, useSnackbar } from '@m3-expressive/react'
 import { useMemo, useState } from 'react'
 import { Page, Section } from '../demo'
 import { ALL_ICON_NAMES } from '../docs/material-symbols-names'
@@ -54,7 +54,7 @@ export function IconsPage() {
   return (
     <Page
       title="Material Symbols Catalog"
-      description={`Complete set of all ${ALL_ICON_NAMES.length.toLocaleString()} Material Symbols icons included with material-design-3-expressive-components.`}
+      description={`Complete set of all ${ALL_ICON_NAMES.length.toLocaleString()} Material Symbols icons included with @m3-expressive/react.`}
     >
       <div className="icon-page">
         <div className="icon-doc__banner">

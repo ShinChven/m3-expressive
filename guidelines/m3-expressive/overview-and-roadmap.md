@@ -64,7 +64,7 @@ Baseline M3 relied on fixed 40dp buttons and 56dp FABs. Expressive introduces a 
 
 ---
 
-## 3. Implementation Audit: Status in `material-design-3-expressive-components`
+## 3. Implementation Audit: Status in `@m3-expressive/react`
 
 Everything the spec marks as no longer recommended has been removed (2021 color spec switch, segmented buttons, small and surface FABs, top/medium/large baseline app bars, bottom app bar, navigation drawer, baseline list and menu styles, divided search, four-color progress). See `MIGRATION.md` for the API changes.
 

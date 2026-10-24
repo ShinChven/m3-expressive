@@ -12,7 +12,7 @@ import {
   useWindowSizeClass,
   WINDOW_BREAKPOINTS,
   type WindowSizeClass,
-} from 'material-design-3-expressive-components'
+} from '@m3-expressive/react'
 import { useEffect, useState } from 'react'
 import { defineDoc } from '../kit/doc'
 import { FILES } from '../mock'

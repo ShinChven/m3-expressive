@@ -1,4 +1,4 @@
-import { Fab, List, ListItem, Tooltip } from 'material-design-3-expressive-components'
+import { Fab, List, ListItem, Tooltip } from '@m3-expressive/react'
 import { type UIEvent, useRef, useState } from 'react'
 import { defineDoc } from '../kit/doc'
 import { FILES } from '../mock'

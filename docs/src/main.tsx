@@ -1,5 +1,5 @@
-import 'material-design-3-expressive-components/fonts.css'
-import 'material-design-3-expressive-components/styles.css'
+import '@m3-expressive/react/fonts.css'
+import '@m3-expressive/react/styles.css'
 import './site.css'
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'

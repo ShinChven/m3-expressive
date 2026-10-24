@@ -1,4 +1,4 @@
-// Public API of material-design-3-expressive-components. Biome keeps these exports sorted.
+// Public API of @m3-expressive/react. Biome keeps these exports sorted.
 export * from './components/Action'
 export * from './components/AppBar'
 export * from './components/Badge'

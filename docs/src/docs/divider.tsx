@@ -9,7 +9,7 @@ import {
   List,
   ListItem,
   Switch,
-} from 'material-design-3-expressive-components'
+} from '@m3-expressive/react'
 import { Fragment } from 'react'
 import { defineDoc, raw } from '../kit/doc'
 

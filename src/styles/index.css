@@ -1,4 +1,4 @@
-/* material-design-3-expressive-components — Material 3 Expressive for React. Import once at the app root. */
+/* @m3-expressive/react — Material 3 Expressive for React. Import once at the app root. */
 @import "./baseline-scheme.css";
 @import "./tokens.css";
 @import "./base.css";

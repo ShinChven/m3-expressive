@@ -1,4 +1,4 @@
-import { Button, Dialog, Switch, TextField } from 'material-design-3-expressive-components'
+import { Button, Dialog, Switch, TextField } from '@m3-expressive/react'
 import { useState } from 'react'
 import { defineDoc } from '../kit/doc'
 

@@ -9,7 +9,7 @@ import {
   MenuItem,
   pointAnchor,
   SubMenu,
-} from 'material-design-3-expressive-components'
+} from '@m3-expressive/react'
 import { useRef, useState } from 'react'
 import { defineDoc, raw } from '../kit/doc'
 import './menu.css'

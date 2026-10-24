@@ -6,7 +6,7 @@ import {
   useLayer,
   usePresence,
   useScrollLock,
-} from 'material-design-3-expressive-components'
+} from '@m3-expressive/react'
 import { type KeyboardEvent, useEffect, useId, useMemo, useRef, useState } from 'react'
 import { useNavigate } from 'react-router'
 import { GROUPS } from './doc'

@@ -27,7 +27,7 @@ The site shows the source of each example as its code, read from this file at bu
 - Data that is not worth showing (long lists, generated images) can live above the first example, or come from `../demo` (`IMAGES`, `art()`, `seeded()`) and `../mock` (`FILES`, `fetchFiles`, `loadTree`, `moveTreeItem`: the files and folders of a shared drive).
 - Do not put a plain apostrophe in JSX text (`Don't`). The code highlighter reads it as the start of a string. Use the typographic apostrophe (`Don’t`) or rephrase.
 
-Allowed imports: `material-design-3-expressive-components`, `react`, `../kit/doc`, `../demo`, `../mock`, and an optional `./<slug>.css` file for styles that only this page needs.
+Allowed imports: `@m3-expressive/react`, `react`, `../kit/doc`, `../demo`, `../mock`, and an optional `./<slug>.css` file for styles that only this page needs.
 
 ## `defineDoc` fields
 
@@ -39,10 +39,10 @@ Allowed imports: `material-design-3-expressive-components`, `react`, `../kit/doc
 | `icon` | A Material Symbols name for the navigation. |
 | `order` | Position inside the group (1, 2, 3 …). |
 | `summary` | One or two sentences: what it is and when to use it. Backticks render as code. |
-| `imports` | The `material-design-3-expressive-components` names the examples use. The test checks that each one exists. |
+| `imports` | The `@m3-expressive/react` names the examples use. The test checks that each one exists. |
 | `preview` | A small, static-looking render for the overview card (about 250 × 148 px). Use `g-preview-row` / `g-preview-col`. Never open overlays here; the preview is inert. |
 | `playground` | Controls, a `render` component and a `code` generator (below). Leave it out only when a live playground makes no sense. |
-| `api` | One entry per component: `{ name, interfaces, inherits? }`. `name` is the component function name (it supplies the defaults); `interfaces` are the props interfaces in `packages/material-design-3-expressive-components/src`. |
+| `api` | One entry per component: `{ name, interfaces, inherits? }`. `name` is the component function name (it supplies the defaults); `interfaces` are the props interfaces in `src/`. |
 | `guidelines` | Two to four short usage rules in the spirit of m3.material.io. |
 
 ## Playground

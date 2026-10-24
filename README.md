@@ -1,19 +1,19 @@
-# Material 3 Expressive Components (`material-design-3-expressive-components`)
+# Material 3 Expressive for React (`@m3-expressive/react`)
 
 Material 3 Expressive components, adaptive layouts, and dynamic color theming for React 19. Plain CSS on M3 design tokens, spring motion, the Material shape library with shape morphing, full TypeScript types, server rendering, and React Server Components support.
 
 This is a separate package that started as a copy of [`material-components`](https://github.com/ShinChven/material-components), which stays as it is. This package follows M3 Expressive only: variants, components and tokens that the spec marks as no longer recommended are removed rather than kept as options. Coming from `material-components`? See [MIGRATION.md](./MIGRATION.md).
 
 ```bash
-npm install material-design-3-expressive-components
+npm install @m3-expressive/react
 ```
 
 ## Usage
 
 ```tsx
-import 'material-design-3-expressive-components/fonts.css' // Roboto Flex + Material Symbols, self-hosted
-import 'material-design-3-expressive-components/styles.css' // tokens, colors, and component styles
-import { Button, SnackbarProvider, ThemeProvider } from 'material-design-3-expressive-components'
+import '@m3-expressive/react/fonts.css' // Roboto Flex + Material Symbols, self-hosted
+import '@m3-expressive/react/styles.css' // tokens, colors, and component styles
+import { Button, SnackbarProvider, ThemeProvider } from '@m3-expressive/react'
 
 export function App() {
   return (

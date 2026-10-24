@@ -8,7 +8,7 @@ import {
   MenuButton,
   MenuItem,
   Search,
-} from 'material-design-3-expressive-components'
+} from '@m3-expressive/react'
 import { useRef } from 'react'
 import { defineDoc, raw } from '../kit/doc'
 

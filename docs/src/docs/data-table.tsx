@@ -7,7 +7,7 @@ import {
   type SortState,
   TextField,
   useSnackbar,
-} from 'material-design-3-expressive-components'
+} from '@m3-expressive/react'
 import { useEffect, useMemo, useState } from 'react'
 import { defineDoc, raw } from '../kit/doc'
 import { FILES, type FileRow, fetchFiles, type KeysetQuery, type Status } from '../mock'

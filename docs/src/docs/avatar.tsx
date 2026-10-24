@@ -1,4 +1,4 @@
-import { Avatar, IconButton, List, ListItem } from 'material-design-3-expressive-components'
+import { Avatar, IconButton, List, ListItem } from '@m3-expressive/react'
 import { IMAGES } from '../demo'
 import { defineDoc, raw } from '../kit/doc'
 import './avatar.css'

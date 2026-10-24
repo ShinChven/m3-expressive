@@ -1,4 +1,4 @@
-import { Button, IconButton, RichTooltip, Tooltip } from 'material-design-3-expressive-components'
+import { Button, IconButton, RichTooltip, Tooltip } from '@m3-expressive/react'
 import { useState } from 'react'
 import { defineDoc, raw } from '../kit/doc'
 import './tooltip.css'

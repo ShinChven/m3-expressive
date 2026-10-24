@@ -1,7 +1,7 @@
 import { readFileSync } from 'node:fs'
 import { resolve } from 'node:path'
+import { createScheme } from '@m3-expressive/react'
 import { render, waitFor } from '@testing-library/react'
-import { createScheme } from 'material-design-3-expressive-components'
 import { MemoryRouter } from 'react-router'
 import { App, START } from '../src/App'
 import { faviconSvg, markColors } from '../src/favicon'

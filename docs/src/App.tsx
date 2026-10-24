@@ -11,7 +11,7 @@ import {
   SnackbarProvider,
   ThemeProvider,
   useTheme,
-} from 'material-design-3-expressive-components'
+} from '@m3-expressive/react'
 import { useEffect, useState } from 'react'
 import { Link, Navigate, Route, Routes, useLocation, useParams } from 'react-router'
 import { useThemedFavicon } from './favicon'

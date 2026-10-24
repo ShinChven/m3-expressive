@@ -1,4 +1,4 @@
-import { Button, Card, CardContent, CardHeader } from 'material-design-3-expressive-components'
+import { Button, Card, CardContent, CardHeader } from '@m3-expressive/react'
 import { useState } from 'react'
 import { defineDoc } from '../kit/doc'
 import './spacing.css'

@@ -11,7 +11,7 @@ import {
   MenuButton,
   MenuItem,
   useSnackbar,
-} from 'material-design-3-expressive-components'
+} from '@m3-expressive/react'
 import { art, IMAGES } from '../demo'
 import { defineDoc, raw } from '../kit/doc'
 import './card.css'

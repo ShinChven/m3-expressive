@@ -4,7 +4,7 @@ import {
   shapePath,
   useMediaQuery,
   useTheme,
-} from 'material-design-3-expressive-components'
+} from '@m3-expressive/react'
 import { useEffect } from 'react'
 
 /** Colors of the site mark: the shape and the "M3" inside it. */

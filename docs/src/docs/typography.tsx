@@ -1,4 +1,4 @@
-import { Text } from 'material-design-3-expressive-components'
+import { Text } from '@m3-expressive/react'
 import { defineDoc } from '../kit/doc'
 import './typography.css'
 

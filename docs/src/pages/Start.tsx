@@ -2,11 +2,11 @@ import { Page, Section } from '../demo'
 import { CodeBlock } from '../kit/CodeBlock'
 import { RichText } from '../kit/RichText'
 
-const INSTALL = 'npm install material-design-3-expressive-components'
+const INSTALL = 'npm install @m3-expressive/react'
 
-const SETUP = `import 'material-design-3-expressive-components/fonts.css' // Roboto Flex and Material Symbols, self-hosted
-import 'material-design-3-expressive-components/styles.css' // tokens, colors and all component styles
-import { Button, SnackbarProvider, ThemeProvider } from 'material-design-3-expressive-components'
+const SETUP = `import '@m3-expressive/react/fonts.css' // Roboto Flex and Material Symbols, self-hosted
+import '@m3-expressive/react/styles.css' // tokens, colors and all component styles
+import { Button, SnackbarProvider, ThemeProvider } from '@m3-expressive/react'
 
 export function App() {
   return (
@@ -18,7 +18,7 @@ export function App() {
   )
 }`
 
-const ROUTER = `import { type LinkComponentProps, LinkProvider } from 'material-design-3-expressive-components'
+const ROUTER = `import { type LinkComponentProps, LinkProvider } from '@m3-expressive/react'
 import { Link } from 'react-router'
 
 function RouterLink({ href, ref, ...rest }: LinkComponentProps) {
@@ -30,7 +30,7 @@ function RouterLink({ href, ref, ...rest }: LinkComponentProps) {
 </LinkProvider>`
 
 const VITE = `// vite.config.ts
-import { themeInitScript } from 'material-design-3-expressive-components'
+import { themeInitScript } from '@m3-expressive/react'
 
 export default defineConfig({
   plugins: [
@@ -45,7 +45,7 @@ export default defineConfig({
 })`
 
 const NEXT = `// app/layout.tsx (a server component)
-import { themeInitScript } from 'material-design-3-expressive-components'
+import { themeInitScript } from '@m3-expressive/react'
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -69,7 +69,7 @@ const VITE_WARNINGS = `export default defineConfig({
   },
 })`
 
-const LOCALE = `import { M3LocaleProvider } from 'material-design-3-expressive-components'
+const LOCALE = `import { M3LocaleProvider } from '@m3-expressive/react'
 
 // UK formats: day/month/year, weeks start on Monday, 24-hour clock
 <M3LocaleProvider locale="en-GB" messages={{ rowsPerPage: 'Files per screen' }}>

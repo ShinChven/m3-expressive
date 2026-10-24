@@ -1,4 +1,4 @@
-import { Switch } from 'material-design-3-expressive-components'
+import { Switch } from '@m3-expressive/react'
 import { useState } from 'react'
 import { defineDoc } from '../kit/doc'
 

@@ -1,4 +1,4 @@
-import { Button } from 'material-design-3-expressive-components'
+import { Button } from '@m3-expressive/react'
 import { useState } from 'react'
 import { defineDoc } from '../kit/doc'
 

@@ -1,4 +1,4 @@
-import { IconButton, TextField, useSnackbar } from 'material-design-3-expressive-components'
+import { IconButton, TextField, useSnackbar } from '@m3-expressive/react'
 import { useState } from 'react'
 import { defineDoc, raw } from '../kit/doc'
 

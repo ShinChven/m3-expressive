@@ -134,7 +134,7 @@ export interface DocMeta<C extends Controls = Controls> {
   icon: string
   /** One or two sentences: what it is and when to use it. */
   summary: string
-  /** Named exports from `material-design-3-expressive-components` used by the examples. */
+  /** Named exports from `@m3-expressive/react` used by the examples. */
   imports: string[]
   /** Small live preview for the overview card. */
   preview: ComponentType

@@ -1,4 +1,4 @@
-import { Badge, IconButton } from 'material-design-3-expressive-components'
+import { Badge, IconButton } from '@m3-expressive/react'
 import { useState } from 'react'
 import { defineDoc, raw } from '../kit/doc'
 

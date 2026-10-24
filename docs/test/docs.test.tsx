@@ -1,10 +1,7 @@
 import api from 'virtual:m3-api'
+import * as m3 from '@m3-expressive/react'
+import { type LinkComponentProps, LinkProvider, SnackbarProvider } from '@m3-expressive/react'
 import { render } from '@testing-library/react'
-import {
-  type LinkComponentProps,
-  LinkProvider,
-  SnackbarProvider,
-} from 'material-design-3-expressive-components'
 import type { ReactNode } from 'react'
 import { MemoryRouter } from 'react-router'
 import { GROUPS, jsx, makeHelpers, raw } from '../src/kit/doc'
@@ -40,7 +37,7 @@ describe('component pages', () => {
   })
 
   describe.each(DOCS.map((d) => [d.slug, d] as const))('%s', (_slug, doc) => {
-    it('documents interfaces that exist in material-design-3-expressive-components', () => {
+    it('documents interfaces that exist in @m3-expressive/react', () => {
       expect(doc.api.length).toBeGreaterThan(0)
       for (const entry of doc.api) {
         for (const name of entry.interfaces)
@@ -48,17 +45,14 @@ describe('component pages', () => {
       }
     })
 
-    it('imports only names exported by material-design-3-expressive-components', async () => {
-      const m3 = await import('material-design-3-expressive-components')
+    it('imports only names exported by @m3-expressive/react', () => {
       for (const name of doc.imports) expect(m3, name).toHaveProperty(name)
     })
 
     it('shows every library name its examples use in the import line', () => {
       // The page header prints `imports` as the line readers copy, so it must cover the source.
       const source = SOURCES[`../src/docs/${doc.slug}.tsx`] ?? ''
-      const statement = source.match(
-        /import\s*\{([^}]*)\}\s*from\s*'material-design-3-expressive-components'/,
-      )
+      const statement = source.match(/import\s*\{([^}]*)\}\s*from\s*'@m3-expressive\/react'/)
       const used = (statement?.[1] ?? '')
         .split(',')
         .map((name) => name.trim())

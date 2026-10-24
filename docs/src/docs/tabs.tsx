@@ -1,4 +1,4 @@
-import { Tab, TabGroup, TabPanel, Tabs } from 'material-design-3-expressive-components'
+import { Tab, TabGroup, TabPanel, Tabs } from '@m3-expressive/react'
 import { useState } from 'react'
 import { defineDoc } from '../kit/doc'
 import './tabs.css'

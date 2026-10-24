@@ -1,7 +1,7 @@
 import '@testing-library/jest-dom/vitest'
+import { SnackbarProvider } from '@m3-expressive/react'
 import { render, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
-import { SnackbarProvider } from 'material-design-3-expressive-components'
 import { MemoryRouter } from 'react-router'
 import { describe, expect, it, vi } from 'vitest'
 import { ExampleNames } from '../src/docs/icon'

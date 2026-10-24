@@ -1,4 +1,4 @@
-import { IconButton, useSnackbar } from 'material-design-3-expressive-components'
+import { IconButton, useSnackbar } from '@m3-expressive/react'
 import type { ReactNode } from 'react'
 
 const TOKEN =

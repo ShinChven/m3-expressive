@@ -7,7 +7,7 @@ import {
   SuggestionChip,
   TextField,
   useSnackbar,
-} from 'material-design-3-expressive-components'
+} from '@m3-expressive/react'
 import { useEffect, useState } from 'react'
 import { IMAGES } from '../demo'
 import { defineDoc } from '../kit/doc'

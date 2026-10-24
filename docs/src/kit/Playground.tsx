@@ -1,12 +1,4 @@
-import {
-  Button,
-  ButtonGroup,
-  Icon,
-  Select,
-  Slider,
-  Switch,
-  TextField,
-} from 'material-design-3-expressive-components'
+import { Button, ButtonGroup, Icon, Select, Slider, Switch, TextField } from '@m3-expressive/react'
 import { createElement, type ReactNode, useMemo, useState } from 'react'
 import { CodeBlock } from './CodeBlock'
 import {

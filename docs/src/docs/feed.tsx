@@ -9,7 +9,7 @@ import {
   FeedLayout,
   FilterChip,
   Text,
-} from 'material-design-3-expressive-components'
+} from '@m3-expressive/react'
 import { useState } from 'react'
 import { art, IMAGES } from '../demo'
 import { defineDoc } from '../kit/doc'

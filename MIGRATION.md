@@ -1,12 +1,12 @@
 # Migrating from `material-components`
 
-`material-design-3-expressive-components` follows Material 3 Expressive only. Everything the M3 spec marks as no longer recommended is gone, and the Expressive behavior is the default. Most components keep their API; the table lists every change.
+`@m3-expressive/react` follows Material 3 Expressive only. Everything the M3 spec marks as no longer recommended is gone, and the Expressive behavior is the default. Most components keep their API; the table lists every change.
 
 ## Package
 
-| `material-components` | `material-design-3-expressive-components` |
+| `material-components` | `@m3-expressive/react` |
 |---|---|
-| `import … from 'material-components'` | `import … from 'material-design-3-expressive-components'` |
+| `import … from 'material-components'` | `import … from '@m3-expressive/react'` |
 | `material-components/styles.css`, `/fonts.css` | Same subpaths under the new name |
 
 ## Theme

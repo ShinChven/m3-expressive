@@ -1,9 +1,4 @@
-import {
-  Avatar,
-  IconButton,
-  Search,
-  type SearchSuggestion,
-} from 'material-design-3-expressive-components'
+import { Avatar, IconButton, Search, type SearchSuggestion } from '@m3-expressive/react'
 import { useEffect, useState } from 'react'
 import { defineDoc, raw } from '../kit/doc'
 import { fetchFiles } from '../mock'
