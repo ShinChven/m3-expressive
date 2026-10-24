@@ -1036,7 +1036,17 @@
 :is(.g-example__stage, .g-row):has(> :is(.m3-field, .m3-date-field, .m3-time-field)) {
   align-items: flex-start;
 }
-.g-example__stage > :only-child:is(.m3-data-table, .m3-tree, .g-frame, .m3-carousel, .g-fill) {
+.g-example__stage
+  > :only-child:is(
+    .m3-data-table,
+    .m3-tree,
+    .m3-list-view,
+    .lv-shell,
+    .lv-split,
+    .g-frame,
+    .m3-carousel,
+    .g-fill
+  ) {
   flex: 1 1 100%;
 }
 .g-example__actions {
