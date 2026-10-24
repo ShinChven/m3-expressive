@@ -106,6 +106,12 @@ export const doc = defineDoc({
         label: 'App bar',
       },
       brand: { type: 'boolean', default: true },
+      indicator: {
+        type: 'select',
+        options: ['hug', 'fill'],
+        default: 'hug',
+        label: 'Rail indicator',
+      },
       fab: { type: 'boolean', default: true, label: 'FAB' },
       footer: { type: 'boolean', default: false, label: 'Navigation footer' },
     },
@@ -121,6 +127,7 @@ export const doc = defineDoc({
             value={view}
             onNavigate={(key) => setView(key)}
             mode={v.mode}
+            railIndicator={v.indicator}
             aria-label="Playground"
             brand={
               v.brand ? (
@@ -166,6 +173,7 @@ export const doc = defineDoc({
           value: raw('view'),
           onNavigate: raw('(key) => setView(key)'),
           ...changed(v, ['mode']),
+          railIndicator: v.indicator !== 'hug' ? v.indicator : undefined,
           brand: v.brand
             ? raw('<Text as="span" variant="title-medium">Northwind Drive</Text>')
             : undefined,
