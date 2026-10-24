@@ -178,9 +178,11 @@ describe('DataTable', () => {
     )
     const actionHeader = screen.getByRole('columnheader', { name: 'Quick Actions' })
     expect(actionHeader).toHaveAttribute('data-sticky-end', '')
+    expect(actionHeader).toHaveAttribute('data-align', 'end')
     expect(actionHeader).toHaveStyle({ width: '140px' })
     const actionCells = container.querySelectorAll('.m3-data-table__actions')
     expect(actionCells[0]).toHaveAttribute('data-sticky-end', '')
+    expect(actionCells[0]).toHaveAttribute('data-align', 'end')
   })
 
   it('supports stickyHeader with stickyActions', () => {
@@ -198,8 +200,10 @@ describe('DataTable', () => {
     expect(table).toHaveAttribute('data-sticky', '')
     const actionHeader = screen.getByRole('columnheader', { name: 'Actions' })
     expect(actionHeader).toHaveAttribute('data-sticky-end', '')
+    expect(actionHeader).toHaveAttribute('data-align', 'end')
     const actionCells = container.querySelectorAll('.m3-data-table__actions')
     expect(actionCells[0]).toHaveAttribute('data-sticky-end', '')
+    expect(actionCells[0]).toHaveAttribute('data-align', 'end')
   })
 
   it('supports mobile swipe-to-reveal gestures', () => {
