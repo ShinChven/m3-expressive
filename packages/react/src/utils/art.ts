@@ -22,6 +22,10 @@ export interface ArtOptions {
    * who ask for reduced motion see instead.
    */
   animated?: boolean
+  /**
+   * Speed multiplier for the drift animation (default: 1).
+   */
+  speed?: number
 }
 
 /**
@@ -38,7 +42,7 @@ export function art(
   seed: number,
   width = 600,
   height = 400,
-  { animated = false }: ArtOptions = {},
+  { animated = false, speed = 1 }: ArtOptions = {},
 ): string {
   const r = rand(seed * 7919 + 13)
   // A separate stream, so that the animated artwork keeps the static layout.
@@ -60,12 +64,13 @@ export function art(
       shapes.push(shape)
       continue
     }
-    const dx = Math.round((motion() - 0.5) * width * 0.16)
-    const dy = Math.round((motion() - 0.5) * height * 0.16)
-    const turn = Math.round((motion() - 0.5) * 24)
-    const scale = (0.92 + motion() * 0.16).toFixed(2)
-    const duration = Math.round(10 + motion() * 8)
-    const delay = Math.round(motion() * duration)
+    const dx = Math.round((motion() - 0.5) * width * 0.2)
+    const dy = Math.round((motion() - 0.5) * height * 0.2)
+    const turn = Math.round((motion() - 0.5) * 32)
+    const scale = (0.9 + motion() * 0.2).toFixed(2)
+    const baseDuration = 5 + motion() * 4
+    const duration = +(baseDuration / Math.max(0.1, speed)).toFixed(1)
+    const delay = +(motion() * duration).toFixed(1)
     shapes.push(`<g class='m${i}'>${shape}</g>`)
     keyframes.push(
       `.m${i}{animation:m${i} ${duration}s ease-in-out -${delay}s infinite}@keyframes m${i}{50%{transform:translate(${dx}px,${dy}px) rotate(${turn}deg) scale(${scale})}}`,

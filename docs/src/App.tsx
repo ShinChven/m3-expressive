@@ -4,6 +4,8 @@ import {
   IconButton,
   type LinkComponentProps,
   LinkProvider,
+  MenuButton,
+  MenuItem,
   type NavItem,
   type NavSection,
   type ScrollTarget,
@@ -125,7 +127,7 @@ function DocRoute() {
   return doc ? <DocPage key={doc.slug} doc={doc} /> : <Navigate to="/" replace />
 }
 
-const BRAND = 'Material 3 Expressive'
+const BRAND = 'M3 Expressive'
 
 function pageName(pathname: string): string {
   if (pathname === '/theme') return 'Theme builder'
@@ -203,18 +205,20 @@ function Shell() {
   useThemedFavicon()
   const [searchOpen, setSearchOpen] = useState(false)
 
-  const toggleTheme = (e: React.MouseEvent<HTMLElement>) => {
+  const toggleTheme = (e?: { currentTarget?: unknown }) => {
     const nextMode = theme.resolvedMode === 'dark' ? 'light' : 'dark'
+    const target = e?.currentTarget instanceof HTMLElement ? e.currentTarget : null
     if (
       typeof document === 'undefined' ||
       !('startViewTransition' in document) ||
-      window.matchMedia('(prefers-reduced-motion: reduce)').matches
+      window.matchMedia('(prefers-reduced-motion: reduce)').matches ||
+      !target
     ) {
       theme.setMode(nextMode)
       return
     }
 
-    const rect = e.currentTarget.getBoundingClientRect()
+    const rect = target.getBoundingClientRect()
     const x = rect.left + rect.width / 2
     const y = rect.top + rect.height / 2
     const endRadius = Math.hypot(
@@ -237,7 +241,7 @@ function Shell() {
         },
         {
           duration: 500,
-          easing: 'cubic-bezier(0.2, 0, 0, 1)',
+          easing: 'cubic-bezier(0.2, 0, 1)',
           pseudoElement: '::view-transition-new(root)',
         },
       )
@@ -274,6 +278,19 @@ function Shell() {
         navigationDensity="compact"
         railWidth={300}
         railIndicator="fill"
+        navigationFooter={
+          <div className="g-rail-footer">
+            <IconButton
+              icon={<GithubIcon size={20} />}
+              label="GitHub repository"
+              tooltip
+              href="https://github.com/ShinChven/m3-expressive"
+              target="_blank"
+              rel="noreferrer"
+            />
+            <span className="g-rail-footer__version">v0.1.0</span>
+          </div>
+        }
         appBar={(ctx) => (
           <AppBar
             title={
@@ -289,21 +306,49 @@ function Shell() {
               <div className="g-topbar-actions">
                 <FrameworkSwitch />
                 <SearchTrigger onClick={() => setSearchOpen(true)} />
-                <IconButton icon="palette" label="Theme builder" tooltip href="/theme" />
-                <IconButton
-                  icon={theme.resolvedMode === 'dark' ? 'light_mode' : 'dark_mode'}
-                  label={theme.resolvedMode === 'dark' ? 'Use light theme' : 'Use dark theme'}
-                  tooltip
-                  onClick={toggleTheme}
-                />
-                <IconButton
-                  icon={<GithubIcon size={22} />}
-                  label="GitHub repository"
-                  tooltip
-                  href="https://github.com/ShinChven/m3-expressive"
-                  target="_blank"
-                  rel="noreferrer"
-                />
+                <div className="g-topbar-desktop-only">
+                  <IconButton icon="palette" label="Theme builder" tooltip href="/theme" />
+                  <IconButton
+                    icon={theme.resolvedMode === 'dark' ? 'light_mode' : 'dark_mode'}
+                    label={theme.resolvedMode === 'dark' ? 'Use light theme' : 'Use dark theme'}
+                    tooltip
+                    onClick={toggleTheme}
+                  />
+                  <IconButton
+                    icon={<GithubIcon size={22} />}
+                    label="GitHub repository"
+                    tooltip
+                    href="https://github.com/ShinChven/m3-expressive"
+                    target="_blank"
+                    rel="noreferrer"
+                  />
+                </div>
+                <div className="g-topbar-mobile-only">
+                  <MenuButton
+                    placement="bottom-end"
+                    trigger={(triggerProps) => (
+                      <IconButton {...triggerProps} icon="more_vert" label="More options" />
+                    )}
+                  >
+                    <MenuItem
+                      icon={theme.resolvedMode === 'dark' ? 'light_mode' : 'dark_mode'}
+                      onSelect={(e) => toggleTheme(e)}
+                    >
+                      {theme.resolvedMode === 'dark' ? 'Use light theme' : 'Use dark theme'}
+                    </MenuItem>
+                    <MenuItem icon="palette" href="/theme">
+                      Theme builder
+                    </MenuItem>
+                    <MenuItem
+                      icon={<GithubIcon size={20} />}
+                      href="https://github.com/ShinChven/m3-expressive"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      GitHub repository
+                    </MenuItem>
+                  </MenuButton>
+                </div>
               </div>
             }
           />
