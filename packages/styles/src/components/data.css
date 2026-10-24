@@ -101,8 +101,14 @@
     var(--md-sys-motion-spring-fast-effects);
 }
 .m3-data-table[data-actions-visibility="hover"] tbody tr:hover .m3-data-table__actions-content,
-.m3-data-table[data-actions-visibility="hover"] tbody tr:focus-within .m3-data-table__actions-content,
-.m3-data-table[data-actions-visibility="hover"] tbody tr[data-swiped] .m3-data-table__actions-content {
+.m3-data-table[data-actions-visibility="hover"]
+  tbody
+  tr:focus-within
+  .m3-data-table__actions-content,
+.m3-data-table[data-actions-visibility="hover"]
+  tbody
+  tr[data-swiped]
+  .m3-data-table__actions-content {
   opacity: 1;
   pointer-events: auto;
 }

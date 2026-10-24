@@ -1,12 +1,12 @@
 import {
-  useCallback,
-  useEffect,
-  useRef,
-  useState,
   type CSSProperties,
   type KeyboardEvent,
   type MouseEvent,
   type ReactNode,
+  useCallback,
+  useEffect,
+  useRef,
+  useState,
 } from 'react'
 import { useM3Locale } from '../i18n/locale'
 import { cx } from '../utils/hooks'
@@ -220,7 +220,7 @@ export function DataTable<T>({
       el.removeEventListener('scroll', checkScroll)
       ro?.disconnect()
     }
-  }, [checkScroll, rows, columns])
+  }, [checkScroll])
 
   const [swipedRowId, setSwipedRowId] = useState<string | null>(null)
   const [activeSwipeId, setActiveSwipeId] = useState<string | null>(null)
@@ -284,7 +284,6 @@ export function DataTable<T>({
     setSwipeOffset(0)
     touchStartRef.current = null
   }
-
 
   const colStyle = (col: DataTableColumn<T>): CSSProperties | undefined =>
     col.width !== undefined ? { width: col.width } : undefined
@@ -415,9 +414,7 @@ export function DataTable<T>({
                 <tr className="m3-data-table__progress-row">
                   <th
                     colSpan={
-                      columns.length +
-                      (selectable ? 1 : 0) +
-                      (hasActions && !swipeToReveal ? 1 : 0)
+                      columns.length + (selectable ? 1 : 0) + (hasActions && !swipeToReveal ? 1 : 0)
                     }
                   >
                     <LinearProgress thickness={3} aria-label={messages.loading} />
@@ -546,9 +543,7 @@ export function DataTable<T>({
                               : undefined
                         }
                       >
-                        <div className="m3-data-table__actions-content">
-                          {rowActions!(row)}
-                        </div>
+                        <div className="m3-data-table__actions-content">{rowActions!(row)}</div>
                       </td>
                     )}
                   </tr>

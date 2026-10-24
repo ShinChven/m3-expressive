@@ -521,10 +521,7 @@ export function ExampleRowActions() {
               <IconButton {...props} icon="more_vert" size="sm" label="More actions" />
             )}
           >
-            <MenuItem
-              icon="download"
-              onSelect={() => snackbar.show(`Downloading “${row.name}”`)}
-            >
+            <MenuItem icon="download" onSelect={() => snackbar.show(`Downloading “${row.name}”`)}>
               Download
             </MenuItem>
             <MenuItem
@@ -533,10 +530,7 @@ export function ExampleRowActions() {
             >
               Duplicate
             </MenuItem>
-            <MenuItem
-              icon="delete"
-              onSelect={() => removeRow(row.id, row.name)}
-            >
+            <MenuItem icon="delete" onSelect={() => removeRow(row.id, row.name)}>
               Delete
             </MenuItem>
           </MenuButton>
@@ -591,11 +585,22 @@ export function ExampleStickyActions() {
 
 const WIDE_COLUMNS: DataTableColumn<FileRow>[] = [
   { key: 'name', header: 'File Name', width: 180, cell: (row) => row.name },
-  { key: 'status', header: 'Status', width: 130, cell: (row) => <StatusLabel status={row.status} /> },
+  {
+    key: 'status',
+    header: 'Status',
+    width: 130,
+    cell: (row) => <StatusLabel status={row.status} />,
+  },
   { key: 'folder', header: 'Directory', width: 150, cell: (row) => row.folder },
   { key: 'owner', header: 'Assigned Owner', width: 140, cell: (row) => row.owner },
   { key: 'kind', header: 'Asset Format', width: 120, cell: (row) => row.kind },
-  { key: 'size', header: 'Total Size', numeric: true, width: 110, cell: (row) => formatSize(row.size) },
+  {
+    key: 'size',
+    header: 'Total Size',
+    numeric: true,
+    width: 110,
+    cell: (row) => formatSize(row.size),
+  },
   { key: 'modified', header: 'Last Timestamp', width: 130, cell: (row) => row.modified },
 ]
 
@@ -726,12 +731,7 @@ export function ExampleActionConfirmation() {
         rows={rows}
         getRowId={(row) => row.id}
         rowActions={(row) => (
-          <Button
-            variant="text"
-            size="xs"
-            icon="delete"
-            onClick={() => setDeletingRow(row)}
-          >
+          <Button variant="text" size="xs" icon="delete" onClick={() => setDeletingRow(row)}>
             Delete
           </Button>
         )}
@@ -752,7 +752,8 @@ export function ExampleActionConfirmation() {
           </>
         }
       >
-        Are you sure you want to delete “{deletingRow?.name}”? This action will move the file to the trash.
+        Are you sure you want to delete “{deletingRow?.name}”? This action will move the file to the
+        trash.
       </Dialog>
     </>
   )
