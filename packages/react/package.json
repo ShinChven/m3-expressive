@@ -1,0 +1,51 @@
+{
+  "name": "@m3-expressive/react",
+  "version": "0.1.0",
+  "description": "Material 3 Expressive components, layouts and dynamic color theming for React 19.",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "exports": {
+    ".": {
+      "source": "./src/index.ts",
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./styles.css": {
+      "source": "../styles/src/index.css",
+      "default": "../styles/dist/styles.css"
+    },
+    "./fonts.css": {
+      "source": "../styles/src/fonts.css",
+      "default": "../styles/dist/fonts.css"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "vite build && tsc -p tsconfig.build.json && node ../../scripts/fix-dts-imports.mjs"
+  },
+  "peerDependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "dependencies": {
+    "@m3-expressive/core": "^0.1.0",
+    "@m3-expressive/styles": "^0.1.0",
+    "@tanstack/react-virtual": "3.14.22"
+  },
+  "devDependencies": {
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  }
+}

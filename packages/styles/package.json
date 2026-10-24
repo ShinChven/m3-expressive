@@ -1,0 +1,40 @@
+{
+  "name": "@m3-expressive/styles",
+  "version": "0.1.0",
+  "description": "Material 3 Expressive design tokens, baseline colors, typography, motion springs and component CSS.",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": {
+    ".": {
+      "source": "./src/index.css",
+      "default": "./dist/styles.css"
+    },
+    "./styles.css": {
+      "source": "./src/index.css",
+      "default": "./dist/styles.css"
+    },
+    "./fonts.css": {
+      "source": "./src/fonts.css",
+      "default": "./dist/fonts.css"
+    },
+    "./tokens.css": "./src/tokens.css",
+    "./baseline-scheme.css": "./src/baseline-scheme.css",
+    "./base.css": "./src/base.css",
+    "./package.json": "./package.json"
+  },
+  "main": "./dist/styles.css",
+  "files": [
+    "dist",
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/roboto-flex": "5.3.0",
+    "material-symbols": "0.48.1"
+  }
+}

@@ -1,6 +1,7 @@
-import { Button, ButtonGroup, Icon, Select, Slider, Switch, TextField } from '@m3-expressive/react'
+import { Button, Select, Slider, Switch, TextField } from '@m3-expressive/react'
 import { createElement, type ReactNode, useMemo, useState } from 'react'
 import { CodeBlock } from './CodeBlock'
+import { formatFrameworkCode } from './codeTransform'
 import {
   type Control,
   type Controls,
@@ -8,6 +9,9 @@ import {
   type Playground as PlaygroundDef,
   type Values,
 } from './doc'
+import { useFramework } from './framework'
+import { VueMount } from './VueMount'
+import { VUE_COMPONENTS } from './vueComponents'
 
 /** Icons offered by `icon` controls ('' = no icon). */
 const ICONS = [
@@ -51,100 +55,91 @@ function ControlInput({
         <Switch
           label={label}
           checked={value as boolean}
-          onChange={(e) => onChange(e.target.checked)}
+          onChange={(checked) => onChange(checked)}
         />
       )
     case 'select':
-      if (control.options.length <= 3 && control.options.every((o) => o.length <= 9)) {
-        return (
-          <div className="g-control">
-            <span className="g-control__label" id={`ctl-${name}`}>
-              {label}
-            </span>
-            <ButtonGroup
-              variant="connected"
-              selection="single"
-              size="xs"
-              aria-labelledby={`ctl-${name}`}
-              value={value as string}
-              onChange={(v) => v !== null && onChange(v)}
-            >
-              {control.options.map((o) => (
-                <Button key={o} variant="tonal" value={o}>
-                  {o}
-                </Button>
-              ))}
-            </ButtonGroup>
-          </div>
-        )
-      }
       return (
         <Select
-          variant="outlined"
           label={label}
-          fullWidth
           value={value as string}
-          onChange={onChange}
-          options={control.options.map((o) => ({ value: o, label: o }))}
+          onChange={(next) => onChange(next)}
+          options={control.options.map((opt) => ({
+            value: opt,
+            label: opt === '' ? 'None' : opt.replace(/^./, (c) => c.toUpperCase()),
+          }))}
         />
       )
     case 'icon':
       return (
         <Select
-          variant="outlined"
           label={label}
-          fullWidth
-          value={(value as string) || 'none'}
-          onChange={(v) => onChange(v === 'none' ? '' : v)}
-          options={ICONS.map((i) => ({
-            value: i || 'none',
-            label: i || 'None',
-            icon: i ? <Icon name={i} /> : undefined,
+          value={value as string}
+          onChange={(next) => onChange(next)}
+          options={ICONS.map((icon) => ({
+            value: icon,
+            label: icon === '' ? 'None' : icon,
           }))}
         />
       )
     case 'number':
       return (
-        <div className="g-control">
-          <span className="g-control__label" id={`ctl-${name}`}>
-            {label}: <strong>{value as number}</strong>
-          </span>
+        <div className="g-playground__control-range">
+          <div className="g-playground__control-range-head">
+            <span className="m3-typescale-body-medium">{label}</span>
+            <span className="m3-typescale-body-small">{String(value)}</span>
+          </div>
           <Slider
-            aria-labelledby={`ctl-${name}`}
             min={control.min}
             max={control.max}
             step={control.step ?? 1}
             value={value as number}
-            onChange={onChange}
+            onChange={(next) => onChange(next)}
+            aria-label={label}
           />
         </div>
       )
     default:
-      return (
-        <TextField
-          variant="outlined"
-          label={label}
-          fullWidth
-          value={value as string}
-          onValueChange={onChange}
-        />
-      )
+      return <TextField label={label} value={value as string} onValueChange={onChange} />
   }
 }
 
 /** Live preview driven by controls, with the matching generated code. */
-export function Playground<C extends Controls>({ playground }: { playground: PlaygroundDef<C> }) {
+export function Playground<C extends Controls>({
+  playground,
+  slug,
+  imports,
+}: {
+  playground: PlaygroundDef<C>
+  slug?: string
+  imports?: string[]
+}) {
   const [values, setValues] = useState<Values<C>>(() => defaults(playground.controls))
+  const { framework } = useFramework()
   const helpers = useMemo(() => makeHelpers(playground.controls), [playground.controls])
-  const code = playground.code(values, helpers)
+  const rawCode = playground.code(values, helpers)
   const isDefault = JSON.stringify(values) === JSON.stringify(defaults(playground.controls))
+
+  const displayCode = useMemo(() => {
+    return formatFrameworkCode(rawCode, framework, imports)
+  }, [rawCode, framework, imports])
+
+  const vueComponent = slug ? VUE_COMPONENTS[slug] : null
+
   return (
     <div className="g-playground">
       <div className="g-playground__main">
         <div className="g-stage" data-stage={playground.stage ?? 'center'}>
-          {createElement(playground.render as (v: Values<C>) => ReactNode, values)}
+          {framework === 'vue' && vueComponent ? (
+            <VueMount component={vueComponent} props={values as Record<string, unknown>} />
+          ) : (
+            createElement(playground.render as (v: Values<C>) => ReactNode, values)
+          )}
         </div>
-        <CodeBlock code={code} caption="Generated code" />
+        <CodeBlock
+          code={displayCode}
+          caption={`${framework === 'vue' ? 'Vue 3' : framework === 'html' ? 'HTML/CSS' : 'React'} generated code`}
+        />
       </div>
       <aside className="g-playground__controls" aria-label="Controls">
         <div className="g-playground__controls-head">

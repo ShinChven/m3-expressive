@@ -25,13 +25,14 @@
     "rules": {
       "preset": "recommended",
       "style": {
-        "noNonNullAssertion": "off"
+        "noNonNullAssertion": "off",
+        "useVueMultiWordComponentNames": "off"
       }
     }
   },
   "overrides": [
     {
-      "includes": ["src/**"],
+      "includes": ["src/**", "packages/**"],
       "linter": {
         "rules": {
           "a11y": {
@@ -56,7 +57,7 @@
       }
     },
     {
-      "includes": ["test/**"],
+      "includes": ["test/**", "packages/*/test/**", "docs/test/**"],
       "linter": {
         "rules": {
           "correctness": {
@@ -64,6 +65,17 @@
           },
           "a11y": {
             "noNoninteractiveTabindex": "off"
+          }
+        }
+      }
+    },
+    {
+      "includes": ["**/*.vue"],
+      "linter": {
+        "rules": {
+          "correctness": {
+            "noUnusedVariables": "off",
+            "noUnusedImports": "off"
           }
         }
       }

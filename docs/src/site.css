@@ -801,12 +801,22 @@
 .g-doc__header {
   padding: 8px 0 24px;
 }
+.g-doc__eyebrow-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
 .g-doc__eyebrow {
   display: inline-flex;
   align-items: center;
   gap: 6px;
   color: var(--md-sys-color-primary);
   font: var(--md-sys-typescale-label-large);
+}
+.g-framework-switch {
+  flex-shrink: 0;
 }
 .g-doc__header h1 {
   margin: 8px 0 8px;

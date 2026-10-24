@@ -5,7 +5,13 @@
     "customConditions": ["source", "md3-source"],
     "paths": {
       "@m3-expressive/react": ["../src/index.ts"],
-      "@m3-expressive/react/*": ["../src/*"]
+      "@m3-expressive/react/*": ["../src/*"],
+      "@m3-expressive/vue": ["../packages/vue/src/index.ts"],
+      "@m3-expressive/vue/*": ["../packages/vue/src/*"],
+      "@m3-expressive/core": ["../packages/core/src/index.ts"],
+      "@m3-expressive/core/*": ["../packages/core/src/*"],
+      "@m3-expressive/styles": ["../packages/styles/src/index.css"],
+      "@m3-expressive/styles/*": ["../packages/styles/src/*"]
     }
   },
   "include": ["src", "plugins", "test", "vite.config.ts"]

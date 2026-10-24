@@ -17,6 +17,8 @@ import { Link, Navigate, Route, Routes, useLocation, useParams } from 'react-rou
 import { useThemedFavicon } from './favicon'
 import { DocPage } from './kit/DocPage'
 import { GROUPS } from './kit/doc'
+import { FrameworkSwitch } from './kit/FrameworkSwitch'
+import { FrameworkProvider } from './kit/framework'
 import { DOC_BY_SLUG, DOCS } from './kit/registry'
 import { SearchDialog, SearchTrigger } from './kit/SearchDialog'
 import { IconsPage } from './pages/Icons'
@@ -94,7 +96,9 @@ export function App() {
     <ThemeProvider defaultConfig={DEFAULT_DOCS_CONFIG}>
       <LinkProvider component={RouterLink}>
         <SnackbarProvider>
-          <Shell />
+          <FrameworkProvider>
+            <Shell />
+          </FrameworkProvider>
         </SnackbarProvider>
       </LinkProvider>
     </ThemeProvider>
@@ -183,7 +187,7 @@ function Brand() {
       </span>
       <span className="g-brand__text">
         <span className="m3-typescale-emphasized-title-medium">M3 Expressive</span>
-        <span className="g-brand__sub">React · {DOCS.length} pages</span>
+        <span className="g-brand__sub">React &amp; Vue 3 · {DOCS.length} pages</span>
       </span>
     </div>
   )
@@ -239,6 +243,7 @@ function Shell() {
             scrollTarget={ctx.scrollTarget}
             actions={
               <>
+                <FrameworkSwitch size="xs" />
                 <SearchTrigger onClick={() => setSearchOpen(true)} />
                 <IconButton icon="palette" label="Theme builder" tooltip href="/theme" />
                 <IconButton
