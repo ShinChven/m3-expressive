@@ -471,15 +471,26 @@
 
 /* ---------- List view (Virtualized large data list) ---------- */
 .m3-list-view {
+  --_segment: transparent;
   position: relative;
   overflow-y: auto;
+  overscroll-behavior-y: contain;
   contain: strict;
   box-sizing: border-box;
+  width: 100%;
   background: var(--md-sys-color-surface);
   color: var(--md-sys-color-on-surface);
   border: 1px solid var(--md-sys-color-outline-variant);
-  border-radius: var(--md-sys-shape-corner-medium);
+  border-radius: var(--md-sys-shape-corner-large);
   outline: none;
+}
+.m3-list-view[data-variant="segmented"] {
+  --_segment: var(--m3-list-segment-color, var(--md-sys-color-surface-container));
+  background: var(--md-sys-color-surface-container-lowest);
+}
+:is(.m3-card, .g-frame) > .m3-list-view {
+  border: none;
+  border-radius: inherit;
 }
 .m3-list-view__inner {
   position: relative;
@@ -488,15 +499,93 @@
 .m3-list-view__item {
   position: absolute;
   top: 0;
-  left: 0;
-  width: 100%;
+  inset-inline: 0;
   box-sizing: border-box;
+  padding-inline: var(--md-sys-measurement-space100);
+  list-style: none;
+}
+/* Reset per-wrapper :first-child/:last-child so only the true first/last virtual rows get 16dp outer corners. */
+.m3-list-view__item > .m3-list-item:not([data-selected]) > .m3-list-item__row {
+  border-radius: var(--md-sys-shape-corner-extra-small);
+}
+.m3-list-view__item[data-first] > .m3-list-item:not([data-selected]) > .m3-list-item__row {
+  border-start-start-radius: var(--md-sys-shape-corner-large);
+  border-start-end-radius: var(--md-sys-shape-corner-large);
+}
+.m3-list-view__item[data-last] > .m3-list-item:not([data-selected]) > .m3-list-item__row {
+  border-end-start-radius: var(--md-sys-shape-corner-large);
+  border-end-end-radius: var(--md-sys-shape-corner-large);
+}
+.m3-list-view__item[data-selected] > .m3-list-item > .m3-list-item__row {
+  border-radius: var(--md-sys-shape-corner-large);
+  background: var(--md-sys-color-secondary-container);
+  color: var(--md-sys-color-on-secondary-container);
+}
+.m3-list-view__item[data-selected] > .m3-list-item .m3-list-item__headline {
+  font: var(--md-sys-typescale-emphasized-body-large);
+  letter-spacing: var(--md-sys-typescale-emphasized-body-large-tracking);
+}
+.m3-list-view__item[data-selected]
+  > .m3-list-item
+  :is(
+    .m3-list-item__supporting,
+    .m3-list-item__overline,
+    .m3-list-item__leading,
+    .m3-list-item__trailing,
+    .m3-list-item__trailing-text
+  ) {
+  color: inherit;
+}
+.m3-list-view[data-interactive] .m3-list-view__item {
+  cursor: pointer;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.m3-list-view[data-interactive]
+  .m3-list-item:not([data-disabled])
+  > .m3-list-item__row:not(.m3-list-item__action)::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: currentColor;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--md-sys-motion-spring-fast-effects-duration)
+    var(--md-sys-motion-spring-fast-effects);
+}
+.m3-list-view[data-interactive]
+  .m3-list-view__item:hover
+  .m3-list-item:not([data-disabled])
+  > .m3-list-item__row:not(.m3-list-item__action)::before {
+  opacity: var(--md-sys-state-hover-state-layer-opacity);
+}
+.m3-list-view[data-interactive]
+  .m3-list-view__item:active
+  .m3-list-item:not([data-disabled])
+  > .m3-list-item__row:not(.m3-list-item__action)::before {
+  opacity: var(--md-sys-state-pressed-state-layer-opacity);
+}
+.m3-list-view:focus-visible .m3-list-view__item[data-active] > .m3-list-item > .m3-list-item__row,
+.m3-list-view:focus-visible .m3-list-view__item[data-active]:not(:has(> .m3-list-item)) {
+  outline: var(--md-sys-focus-ring-width) solid var(--md-sys-focus-ring-color);
+  outline-offset: calc(var(--md-sys-focus-ring-width) * -1);
+}
+.m3-list-view:focus-visible:not(:has(.m3-list-view__item[data-active])) {
+  outline: var(--md-sys-focus-ring-width) solid var(--md-sys-focus-ring-color);
+  outline-offset: calc(var(--md-sys-focus-ring-width) * -1);
 }
 .m3-list-view__empty {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 120px;
+  gap: 8px;
+  height: 100%;
+  min-height: 160px;
+  padding: 32px 16px;
+  box-sizing: border-box;
   color: var(--md-sys-color-on-surface-variant);
   font: var(--md-sys-typescale-body-medium);
+  text-align: center;
 }

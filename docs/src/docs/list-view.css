@@ -1,0 +1,199 @@
+/* Styles for the List view documentation page, playground, and use-case examples. */
+
+.lv-preview.m3-list-view {
+  border: none;
+  background: transparent;
+}
+.lv-preview .m3-list-item__row {
+  min-height: 44px;
+  padding-block: 6px;
+}
+
+.lv-shell {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid var(--md-sys-color-outline-variant);
+  border-radius: var(--md-sys-shape-corner-large);
+  background: var(--md-sys-color-surface);
+  color: var(--md-sys-color-on-surface);
+}
+.lv-shell > .m3-list-view {
+  border: none;
+  border-radius: 0;
+}
+
+.lv-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 12px;
+  min-height: 56px;
+  padding: 8px 16px;
+  border-bottom: 1px solid var(--md-sys-color-outline-variant);
+  background: var(--md-sys-color-surface-container-low);
+}
+.lv-toolbar[data-selection] {
+  background: var(--md-sys-color-secondary-container);
+  color: var(--md-sys-color-on-secondary-container);
+}
+
+.lv-toolbar__meta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-inline-start: auto;
+  color: var(--md-sys-color-on-surface-variant);
+  font: var(--md-sys-typescale-label-medium);
+  font-variant-numeric: tabular-nums;
+}
+.lv-toolbar[data-selection] .lv-toolbar__meta {
+  color: inherit;
+}
+
+.lv-subbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 6px 16px;
+  border-bottom: 1px solid var(--md-sys-color-outline-variant);
+  background: var(--md-sys-color-surface);
+}
+
+.lv-jump-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2px;
+}
+.lv-jump-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 26px;
+  height: 26px;
+  padding: 0 6px;
+  border: none;
+  border-radius: var(--md-sys-shape-corner-full);
+  background: transparent;
+  color: var(--md-sys-color-on-surface-variant);
+  font: var(--md-sys-typescale-label-small);
+  font-variant-numeric: tabular-nums;
+  cursor: pointer;
+  transition:
+    background-color var(--md-sys-motion-spring-fast-effects-duration)
+    var(--md-sys-motion-spring-fast-effects),
+    color var(--md-sys-motion-spring-fast-effects-duration) var(--md-sys-motion-spring-fast-effects);
+}
+.lv-jump-btn:hover {
+  background: color-mix(in srgb, var(--md-sys-color-on-surface) 10%, transparent);
+  color: var(--md-sys-color-on-surface);
+}
+.lv-jump-btn[data-active] {
+  background: var(--md-sys-color-primary-container);
+  color: var(--md-sys-color-on-primary-container);
+  font-weight: 600;
+}
+
+.lv-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  min-height: 44px;
+  padding: 6px 16px;
+  border-top: 1px solid var(--md-sys-color-outline-variant);
+  background: var(--md-sys-color-surface-container-low);
+  color: var(--md-sys-color-on-surface-variant);
+  font: var(--md-sys-typescale-body-small);
+}
+
+.lv-split {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(260px, 0.85fr);
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid var(--md-sys-color-outline-variant);
+  border-radius: var(--md-sys-shape-corner-large);
+  background: var(--md-sys-color-surface);
+}
+@media (max-width: 720px) {
+  .lv-split {
+    grid-template-columns: 1fr;
+  }
+}
+.lv-split__list {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  border-inline-end: 1px solid var(--md-sys-color-outline-variant);
+}
+@media (max-width: 720px) {
+  .lv-split__list {
+    border-inline-end: none;
+    border-bottom: 1px solid var(--md-sys-color-outline-variant);
+  }
+}
+.lv-split__list > .m3-list-view {
+  border: none;
+  border-radius: 0;
+}
+.lv-split__detail {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 20px 24px;
+  background: var(--md-sys-color-surface-container-lowest);
+}
+
+.lv-kv-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  padding: 12px 16px;
+  border-radius: var(--md-sys-shape-corner-medium);
+  background: var(--md-sys-color-surface-container-low);
+}
+.lv-kv {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.lv-kv__label {
+  color: var(--md-sys-color-on-surface-variant);
+  font: var(--md-sys-typescale-label-small);
+}
+.lv-kv__value {
+  color: var(--md-sys-color-on-surface);
+  font: var(--md-sys-typescale-body-medium);
+}
+
+.lv-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  height: 24px;
+  padding: 0 10px;
+  border-radius: var(--md-sys-shape-corner-full);
+  background: var(--md-sys-color-surface-container-highest);
+  color: var(--md-sys-color-on-surface-variant);
+  font: var(--md-sys-typescale-label-small);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.lv-pill[data-tone="primary"] {
+  background: var(--md-sys-color-primary-container);
+  color: var(--md-sys-color-on-primary-container);
+}
+.lv-pill[data-tone="tertiary"] {
+  background: var(--md-sys-color-tertiary-container);
+  color: var(--md-sys-color-on-tertiary-container);
+}
+.lv-pill[data-tone="error"] {
+  background: var(--md-sys-color-error-container);
+  color: var(--md-sys-color-on-error-container);
+}

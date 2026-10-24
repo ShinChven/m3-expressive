@@ -1,0 +1,4 @@
+interface:
+  display_name: "M3 Doc Playground & Examples"
+  short_description: "Design M3 Expressive playgrounds and component examples"
+  default_prompt: "Create or upgrade a component's playground and real-world use-case examples in docs/src/docs/."
