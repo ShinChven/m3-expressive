@@ -221,7 +221,7 @@ describe('Snackbar', () => {
       'closed',
     )
     await waitFor(() => expect(screen.queryByText('Hello')).not.toBeInTheDocument())
-    expect(onClose).toHaveBeenCalledWith('dismiss')
+    await waitFor(() => expect(onClose).toHaveBeenCalledWith('dismiss'))
   })
 })
 

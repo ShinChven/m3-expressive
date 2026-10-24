@@ -197,6 +197,7 @@ export const doc = defineDoc({
                 placeholder="Filter by name or folder"
                 leadingIcon="filter_list"
                 value={search}
+                className="g-table-filter"
                 onValueChange={(text) => {
                   setSearch(text)
                   setCursor(0)
@@ -443,6 +444,7 @@ export function ExampleServerData() {
             placeholder="Filter by name or folder"
             leadingIcon="filter_list"
             value={search}
+            className="g-table-filter"
             onValueChange={(text) => {
               setSearch(text)
               restart()

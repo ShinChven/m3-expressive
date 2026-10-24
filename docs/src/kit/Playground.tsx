@@ -55,7 +55,7 @@ function ControlInput({
         <Switch
           label={label}
           checked={value as boolean}
-          onChange={(checked) => onChange(checked)}
+          onChange={(e) => onChange(e.target.checked)}
         />
       )
     case 'select':

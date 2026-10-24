@@ -826,7 +826,7 @@
 .g-framework-switch__trigger {
   display: inline-flex;
   align-items: center;
-  gap: 4px;
+  gap: 8px;
   height: 36px;
   box-sizing: border-box;
   padding: 0 8px 0 10px;
@@ -846,9 +846,11 @@
 .g-framework-switch__trigger:hover {
   background: var(--md-sys-color-surface-container-highest);
 }
-.g-framework-switch__icon {
-  font-size: 18px;
-  color: var(--md-sys-color-primary);
+.g-framework-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
 }
 .g-framework-switch__label {
   font-weight: 500;
@@ -898,6 +900,29 @@
 }
 .g-doc__panel {
   padding-top: 24px;
+}
+
+/* Table toolbar search filter (M3 search pill) */
+.g-table-filter {
+  --_height: 40px;
+}
+.m3-field.g-table-filter .m3-field__container,
+.m3-field.g-table-filter .m3-field__outline {
+  min-height: 40px;
+  height: 40px;
+  border-radius: var(--md-sys-shape-corner-full);
+}
+.m3-field.g-table-filter .m3-field__container {
+  background: var(--md-sys-color-surface-container-high);
+}
+.m3-field.g-table-filter .m3-field__outline {
+  border-color: var(--md-sys-color-outline-variant);
+}
+.m3-field.g-table-filter .m3-field__body {
+  padding-top: 0;
+}
+.m3-field.g-table-filter .m3-field__row {
+  align-items: center;
 }
 .g-guidelines {
   margin: 0 0 24px;
@@ -1062,6 +1087,29 @@
 }
 .g-playground__controls .m3-selection-field {
   min-height: 40px;
+}
+.g-playground__control-range {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 4px 0;
+}
+.g-playground__control-range-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+.g-playground__control-range-head .m3-typescale-body-medium {
+  color: var(--md-sys-color-on-surface);
+  font: var(--md-sys-typescale-label-large);
+}
+.g-playground__control-range-head .m3-typescale-body-small {
+  color: var(--md-sys-color-on-surface-variant);
+  font: var(--md-sys-typescale-label-medium);
+  background: var(--md-sys-color-surface-container-high);
+  padding: 2px 8px;
+  border-radius: var(--md-sys-shape-corner-full);
 }
 .g-control {
   display: flex;

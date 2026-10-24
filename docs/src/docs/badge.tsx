@@ -27,8 +27,8 @@ export const doc = defineDoc({
   playground: {
     controls: {
       content: { type: 'select', options: ['dot', 'number', 'text'], default: 'number' },
-      count: { type: 'number', default: 3, min: 0, max: 1200, step: 1, label: 'Count (number)' },
-      text: { type: 'text', default: 'New', label: 'Text (text)' },
+      count: { type: 'number', default: 3, min: 0, max: 1200, step: 1, label: 'Count' },
+      text: { type: 'text', default: 'New', label: 'Text' },
       max: { type: 'select', options: ['9', '99', '999'], default: '999' },
       showZero: { type: 'boolean', default: false, label: 'Show zero' },
       invisible: { type: 'boolean', default: false },
