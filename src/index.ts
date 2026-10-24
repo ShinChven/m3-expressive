@@ -1,6 +1,7 @@
 // Public API of @m3-expressive/react. Biome keeps these exports sorted.
 export * from './components/Action'
 export * from './components/AppBar'
+export * from './components/Artwork'
 export * from './components/Badge'
 export * from './components/Button'
 export * from './components/ButtonGroup'

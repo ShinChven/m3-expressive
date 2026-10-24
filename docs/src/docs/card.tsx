@@ -16,7 +16,7 @@ import { art, IMAGES } from '../demo'
 import { defineDoc, raw } from '../kit/doc'
 import './card.css'
 
-/** `IMAGES[0]` with drifting shapes. */
+// IMAGES[0] with drifting shapes.
 const ANIMATED_IMAGE = art(2, 800, 600, { animated: true })
 
 export const doc = defineDoc({
@@ -40,6 +40,7 @@ export const doc = defineDoc({
     'MenuButton',
     'MenuItem',
     'useSnackbar',
+    'art',
   ],
   preview: () => (
     <Card variant="outlined" style={{ width: 200 }}>
@@ -66,7 +67,7 @@ export const doc = defineDoc({
         default: 'flush',
         label: 'Media layout',
       },
-      animated: { type: 'boolean', default: false, label: 'Animated media' },
+      animated: { type: 'boolean', default: true, label: 'Animated media' },
       actionArea: { type: 'boolean', default: false, label: 'Action area' },
       actions: { type: 'boolean', default: true },
       dragged: { type: 'boolean', default: false },
@@ -249,6 +250,30 @@ export function ExampleAnatomy() {
         <Button variant="tonal" icon="add_photo_alternate">
           Add photos
         </Button>
+      </CardActions>
+    </Card>
+  )
+}
+
+/**
+ * Animated media
+ * `CardMedia` paired with animated generative artwork (`art(seed, width, height, { animated: true })`) produces smooth, continuously drifting abstract shapes with no network requests or video assets.
+ */
+export function ExampleAnimatedMedia() {
+  return (
+    <Card variant="elevated" style={{ width: 340 }}>
+      <CardHeader
+        avatar={<Avatar name="Grace Hopper" />}
+        title="Trip to Lisbon"
+        subhead="Album · 48 photos"
+      />
+      <CardMedia src={art(2, 800, 600, { animated: true })} />
+      <CardContent>
+        Five days by the sea. Grace Hopper added 12 new photos.
+      </CardContent>
+      <CardActions>
+        <Button variant="text">Download</Button>
+        <Button variant="tonal">Share</Button>
       </CardActions>
     </Card>
   )

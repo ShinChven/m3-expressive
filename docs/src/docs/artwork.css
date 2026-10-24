@@ -1,0 +1,53 @@
+.artwork-doc-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(260px, 100%), 1fr));
+  gap: 16px;
+  width: 100%;
+}
+
+.artwork-doc-palette-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: var(--md-sys-shape-corner-large);
+  border: 1px solid var(--md-sys-color-outline-variant);
+  background: var(--md-sys-color-surface-container-low);
+}
+
+.artwork-doc-palette-info {
+  padding: 12px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.artwork-doc-hero {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--md-sys-shape-corner-extra-large);
+  width: 100%;
+}
+
+.artwork-doc-hero__overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 32px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.2) 60%, transparent 100%);
+  color: #ffffff;
+}
+
+.artwork-doc-hero__title {
+  margin: 0 0 8px;
+  font: var(--md-sys-typescale-headline-medium);
+  color: #ffffff;
+}
+
+.artwork-doc-hero__desc {
+  margin: 0 0 16px;
+  font: var(--md-sys-typescale-body-large);
+  color: rgba(255, 255, 255, 0.85);
+  max-width: 50ch;
+}
