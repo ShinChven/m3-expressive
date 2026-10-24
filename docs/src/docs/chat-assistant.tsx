@@ -90,8 +90,8 @@ export const doc = defineDoc({
     controls: {
       model: {
         type: 'select',
-        options: ['Gemini 1.5 Pro', 'Gemini 1.5 Flash', 'Claude 3.5 Sonnet'],
-        default: 'Gemini 1.5 Pro',
+        options: ['Gemini 4 Argon', 'Gemini 4 Flash', 'Claude 3.5 Sonnet'],
+        default: 'Gemini 4 Argon',
         label: 'Model',
       },
       density: {
@@ -358,7 +358,7 @@ export function ExampleStreamingConversation() {
       {streaming && <LinearProgress aria-label="Streaming answer" />}
       <ChatAssistant
         title="Code Assistant"
-        subtitle="Gemini 1.5 Pro · Context Window 1M"
+        subtitle="Gemini 4 Argon · Context Window 1M"
         messages={messages}
         streaming={streaming}
         suggestions={[
