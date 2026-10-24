@@ -93,6 +93,8 @@ export interface M3Messages {
   selectRow: string
   /** Number of selected rows, shown in the data table toolbar. */
   selectedCount: (count: number) => string
+  /** Header and accessible label for row action buttons in data tables. */
+  actions: string
   /** Tree view button that loads more children. */
   loadMore: string
   /** Button that tries a failed load again. */
@@ -155,6 +157,7 @@ export const enUS: M3Messages = {
   selectRow: 'Select row',
   selectedCount: (count) => `${count} selected`,
   loadMore: 'Load more',
+  actions: 'Actions',
   retry: 'Try again',
   moveFailed: (label) => `Could not move ${label}`,
   moved: (label, target) => `Moved ${label} ${target}`,

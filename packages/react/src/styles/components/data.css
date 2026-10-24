@@ -37,11 +37,144 @@
   gap: 4px;
   margin-inline-start: auto;
 }
+.m3-data-table__scroll-wrapper {
+  position: relative;
+  flex: 1 1 auto;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
 .m3-data-table__scroll {
   position: relative;
   flex: 1 1 auto;
   min-height: 0;
   overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  touch-action: pan-x pan-y;
+  overscroll-behavior-x: contain;
+}
+.m3-data-table__scroll-indicator {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 24px;
+  pointer-events: none;
+  z-index: 4;
+  opacity: 1;
+  transition: opacity var(--md-sys-motion-spring-fast-effects-duration)
+    var(--md-sys-motion-spring-fast-effects);
+}
+.m3-data-table__scroll-indicator--start {
+  inset-inline-start: 0;
+  background: linear-gradient(
+    to right,
+    color-mix(in srgb, var(--md-sys-color-surface) 95%, transparent),
+    transparent
+  );
+}
+.m3-data-table__scroll-indicator--end {
+  inset-inline-end: 0;
+  background: linear-gradient(
+    to left,
+    color-mix(in srgb, var(--md-sys-color-surface) 95%, transparent),
+    transparent
+  );
+}
+/* Action column */
+.m3-data-table__actions-header,
+.m3-data-table__actions {
+  text-align: end;
+  white-space: nowrap;
+}
+.m3-data-table__actions-content {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 4px;
+}
+
+/* Hover-only visibility for action buttons (desktop clean mode) */
+.m3-data-table[data-actions-visibility="hover"] .m3-data-table__actions-content {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--md-sys-motion-spring-fast-effects-duration)
+    var(--md-sys-motion-spring-fast-effects);
+}
+.m3-data-table[data-actions-visibility="hover"] tbody tr:hover .m3-data-table__actions-content,
+.m3-data-table[data-actions-visibility="hover"] tbody tr:focus-within .m3-data-table__actions-content,
+.m3-data-table[data-actions-visibility="hover"] tbody tr[data-swiped] .m3-data-table__actions-content {
+  opacity: 1;
+  pointer-events: auto;
+}
+@media (hover: none) {
+  .m3-data-table[data-actions-visibility="hover"] .m3-data-table__actions-content {
+    opacity: 1;
+    pointer-events: auto;
+  }
+}
+
+/* Sticky end (Actions column pinned on horizontal scroll) */
+.m3-data-table [data-sticky-end] {
+  position: sticky;
+  inset-inline-end: 0;
+  z-index: 2;
+  background: var(--md-sys-color-surface);
+  border-inline-start: 1px solid var(--md-sys-color-outline-variant);
+}
+.m3-data-table thead th[data-sticky-end] {
+  z-index: 3;
+}
+.m3-data-table tbody tr:hover [data-sticky-end] {
+  background: color-mix(in srgb, var(--md-sys-color-on-surface) 8%, var(--md-sys-color-surface));
+}
+.m3-data-table tbody tr[data-selected] [data-sticky-end] {
+  background: color-mix(in srgb, var(--md-sys-color-primary) 8%, var(--md-sys-color-surface));
+}
+.m3-data-table tbody tr[data-selected]:hover [data-sticky-end] {
+  background: color-mix(in srgb, var(--md-sys-color-primary) 12%, var(--md-sys-color-surface));
+}
+.m3-data-table[data-scrolled-x] [data-sticky-end]::before {
+  content: "";
+  position: absolute;
+  inset-block: 0;
+  inset-inline-start: -12px;
+  width: 12px;
+  pointer-events: none;
+  background: linear-gradient(
+    to right,
+    transparent,
+    color-mix(in srgb, var(--md-sys-color-shadow, #000) 8%, transparent)
+  );
+}
+
+/* Row swipe-to-reveal mobile gesture */
+.m3-data-table tbody tr[data-swipe-row] {
+  touch-action: pan-y;
+  user-select: none;
+  transition: transform var(--md-sys-motion-spring-default-spatial-duration)
+    var(--md-sys-motion-spring-default-spatial);
+}
+.m3-data-table tbody tr[data-swiping] {
+  transition: none !important;
+}
+.m3-data-table[data-swipe-to-reveal] thead .m3-data-table__actions-header {
+  display: none;
+}
+.m3-data-table[data-swipe-to-reveal] tbody .m3-data-table__actions {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  inset-inline-end: 0;
+  transform: translateX(100%);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 12px;
+  background: var(--md-sys-color-surface-container-high);
+  border-bottom: 1px solid var(--md-sys-color-outline-variant);
+  box-sizing: border-box;
+  z-index: 2;
+  box-shadow: inset 1px 0 0 var(--md-sys-color-outline-variant);
 }
 .m3-data-table table {
   width: 100%;

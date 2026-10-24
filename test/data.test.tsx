@@ -128,6 +128,91 @@ describe('DataTable', () => {
     render(<DataTable columns={columns} rows={[]} getRowId={(r) => r.id} empty="No pages yet" />)
     expect(screen.getByText('No pages yet')).toBeInTheDocument()
   })
+
+  it('renders action buttons and handles actions without triggering row click', async () => {
+    const onRowClick = vi.fn()
+    const onEdit = vi.fn()
+    const onDelete = vi.fn()
+    render(
+      <DataTable
+        columns={columns}
+        rows={rows}
+        getRowId={(r) => r.id}
+        onRowClick={onRowClick}
+        rowActions={(row) => (
+          <>
+            <button type="button" onClick={() => onEdit(row.id)}>
+              Edit
+            </button>
+            <button type="button" onClick={() => onDelete(row.id)}>
+              Delete
+            </button>
+          </>
+        )}
+      />,
+    )
+    expect(screen.getByRole('columnheader', { name: 'Actions' })).toBeInTheDocument()
+    const editButtons = screen.getAllByRole('button', { name: 'Edit' })
+    expect(editButtons).toHaveLength(3)
+    await userEvent.click(editButtons[0]!)
+    expect(onEdit).toHaveBeenCalledWith('1')
+    expect(onRowClick).not.toHaveBeenCalled()
+  })
+
+  it('supports stickyActions and actionsVisibility hover modes', () => {
+    const { container } = render(
+      <DataTable
+        columns={columns}
+        rows={rows}
+        getRowId={(r) => r.id}
+        stickyActions
+        actionsVisibility="hover"
+        actionsHeader="Quick Actions"
+        actionsWidth={140}
+        rowActions={(row) => <button type="button">Action {row.id}</button>}
+      />,
+    )
+    expect(container.querySelector('.m3-data-table')).toHaveAttribute(
+      'data-actions-visibility',
+      'hover',
+    )
+    const actionHeader = screen.getByRole('columnheader', { name: 'Quick Actions' })
+    expect(actionHeader).toHaveAttribute('data-sticky-end', '')
+    expect(actionHeader).toHaveStyle({ width: '140px' })
+    const actionCells = container.querySelectorAll('.m3-data-table__actions')
+    expect(actionCells[0]).toHaveAttribute('data-sticky-end', '')
+  })
+
+  it('supports mobile swipe-to-reveal gestures', () => {
+    const { container } = render(
+      <DataTable
+        columns={columns}
+        rows={rows}
+        getRowId={(r) => r.id}
+        swipeToReveal
+        rowActions={(row) => <button type="button">Delete {row.id}</button>}
+      />,
+    )
+    const table = container.querySelector('.m3-data-table')!
+    expect(table).toHaveAttribute('data-swipe-to-reveal', '')
+    const rowElements = container.querySelectorAll('tbody tr')
+    expect(rowElements[0]).toHaveAttribute('data-swipe-row', '')
+
+    // Simulate touch swipe left
+    fireEvent.touchStart(rowElements[0]!, {
+      touches: [{ clientX: 200, clientY: 50 }],
+    })
+    fireEvent.touchMove(rowElements[0]!, {
+      touches: [{ clientX: 100, clientY: 50 }],
+    })
+    fireEvent.touchEnd(rowElements[0]!)
+
+    expect(rowElements[0]).toHaveAttribute('data-swiped', '')
+
+    // Clicking a swiped row closes it
+    fireEvent.click(rowElements[0]!)
+    expect(rowElements[0]).not.toHaveAttribute('data-swiped')
+  })
 })
 
 describe('TreeView', () => {
