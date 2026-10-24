@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "description": "Material 3 Expressive components, design tokens and dynamic color theming for React and Vue.",
+  "homepage": "https://shinchven.github.io/m3-expressive/",
   "keywords": [
     "material-design",
     "material-3",
