@@ -1,6 +1,7 @@
 import { Button, Card, Icon } from '@m3-expressive/react'
 import { Link } from 'react-router'
 import { GROUPS } from '../kit/doc'
+import { GithubIcon } from '../kit/GithubIcon'
 import { RichText } from '../kit/RichText'
 import { DOCS } from '../kit/registry'
 
@@ -12,9 +13,9 @@ export function OverviewPage() {
           <h1 className="m3-typescale-emphasized-display-medium">Material 3 Expressive</h1>
           <p>
             {DOCS.length} pages of Material 3 Expressive components, layouts and foundations for
-            React: dynamic color, spring motion, the shape library and shape morphing. Each page has
-            a live playground, worked examples with their code, and an API table generated from the
-            library source.
+            React and Vue 3: dynamic color, spring motion, the shape library and shape morphing.
+            Each page has a live playground, worked examples with their code, and an API table
+            generated from the library source.
           </p>
           <div className="g-row">
             <Button href="/start" icon="rocket_launch">
@@ -25,6 +26,15 @@ export function OverviewPage() {
             </Button>
             <Button href="/theme" variant="outlined" icon="palette">
               Theme builder
+            </Button>
+            <Button
+              href="https://github.com/ShinChven/m3-expressive"
+              variant="outlined"
+              icon={<GithubIcon size={20} />}
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
             </Button>
           </div>
         </div>

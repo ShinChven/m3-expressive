@@ -19,6 +19,7 @@ import { DocPage } from './kit/DocPage'
 import { GROUPS } from './kit/doc'
 import { FrameworkSwitch } from './kit/FrameworkSwitch'
 import { FrameworkProvider } from './kit/framework'
+import { GithubIcon } from './kit/GithubIcon'
 import { DOC_BY_SLUG, DOCS } from './kit/registry'
 import { SearchDialog, SearchTrigger } from './kit/SearchDialog'
 import { IconsPage } from './pages/Icons'
@@ -27,6 +28,9 @@ import { StartPage } from './pages/Start'
 import { ThemePage } from './pages/Theme'
 
 function RouterLink({ href, ref, ...rest }: LinkComponentProps) {
+  if (href.startsWith('http://') || href.startsWith('https://') || href.startsWith('//')) {
+    return <a {...rest} ref={ref} href={href} />
+  }
   return <Link {...rest} ref={ref} to={href} />
 }
 
@@ -291,6 +295,14 @@ function Shell() {
                   label={theme.resolvedMode === 'dark' ? 'Use light theme' : 'Use dark theme'}
                   tooltip
                   onClick={toggleTheme}
+                />
+                <IconButton
+                  icon={<GithubIcon size={22} />}
+                  label="GitHub repository"
+                  tooltip
+                  href="https://github.com/ShinChven/m3-expressive"
+                  target="_blank"
+                  rel="noreferrer"
                 />
               </div>
             }
