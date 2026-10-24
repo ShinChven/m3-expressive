@@ -14,9 +14,7 @@ import {
   ChatThoughtAccordion,
   Icon,
   IconButton,
-  InputChip,
   LinearProgress,
-  SuggestionChip,
   Text,
   useSnackbar,
 } from '@m3-expressive/react'
@@ -72,9 +70,7 @@ export const doc = defineDoc({
     'ChatThoughtAccordion',
     'Icon',
     'IconButton',
-    'InputChip',
     'LinearProgress',
-    'SuggestionChip',
     'Text',
     'useSnackbar',
   ],
@@ -705,10 +701,10 @@ export function ExampleDocumentAnalysis() {
             }}
           >
             <div>
-              <p style={{ margin: '0 0 10px' }}>
-                According to **Q3_Financial_Summary.pdf**, cloud infrastructure gross margin
-                increased to **64.2%** (up from 58.1% in Q2), driven by server consolidation and
-                automated scale-down policies.
+              <p style={{ margin: '0 0 12px' }}>
+                According to <strong>Q3_Financial_Summary.pdf</strong>, cloud infrastructure gross
+                margin increased to <strong>64.2%</strong> (up from 58.1% in Q2), driven by server
+                consolidation and automated scale-down policies.
               </p>
 
               <div className="ca-citations">
@@ -727,34 +723,15 @@ export function ExampleDocumentAnalysis() {
           </ChatMessage>
         </div>
 
-        <div className="g-row" style={{ padding: '0 16px', gap: '8px' }}>
-          <SuggestionChip
-            label="Explain YoY cash flow"
-            icon="query_stats"
-            onClick={() => snackbar.show('Prompt: Explain YoY cash flow')}
-          />
-          <SuggestionChip
-            label="Extract top 3 risk factors"
-            icon="warning"
-            onClick={() => snackbar.show('Prompt: Extract top 3 risk factors')}
-          />
-        </div>
-
-        <div style={{ padding: '8px 16px 0' }}>
-          <div className="g-row" style={{ gap: '6px' }}>
-            {attachments.map((file) => (
-              <InputChip
-                key={file.id}
-                label={file.name}
-                icon={file.icon}
-                onRemove={() => snackbar.show(`Removed attachment: ${file.name}`)}
-              />
-            ))}
-          </div>
-        </div>
+        <ChatPromptSuggestions
+          suggestions={['Explain YoY cash flow', 'Extract top 3 risk factors']}
+          onSelect={(q) => snackbar.show(`Prompt: ${q}`)}
+        />
 
         <ChatInputBar
           placeholder="Ask a question about the attached documents..."
+          attachments={attachments}
+          onRemoveAttachment={(id) => snackbar.show(`Removed attachment ${id}`)}
           onSend={(val) => snackbar.show(`Query: ${val}`)}
         />
       </div>

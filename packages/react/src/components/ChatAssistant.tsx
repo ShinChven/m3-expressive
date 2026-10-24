@@ -374,9 +374,6 @@ export function ChatMessage({
       )}
 
       <div className="m3-chat-bubble-container">
-        {/* Thinking Accordion (Chain of Thought) */}
-        {message.thought && <ChatThoughtAccordion thought={message.thought} />}
-
         {/* Message Bubble */}
         <div
           className="m3-chat-bubble"
@@ -384,12 +381,14 @@ export function ChatMessage({
           data-shape={shape}
           data-color={isUser ? userColor : undefined}
         >
+          {/* Thinking Accordion (Chain of Thought) */}
+          {message.thought && <ChatThoughtAccordion thought={message.thought} />}
+
           {children ?? <FormattedMessageContent content={message.content} onCopyCode={onCopy} />}
 
           {/* Streaming Cursor */}
           {message.status === 'streaming' && <span className="m3-chat-cursor" aria-hidden="true" />}
         </div>
-
         {/* Timestamp and Actions */}
         <div className="m3-chat-meta">
           {showTimestamp && message.timestamp && <span>{message.timestamp}</span>}
