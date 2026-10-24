@@ -1,11 +1,14 @@
-import { Button, Card, Icon } from '@m3-expressive/react'
+import { Button, Card, Icon, Shape } from '@m3-expressive/react'
 import { Link } from 'react-router'
+import { useCopy } from '../kit/CodeBlock'
 import { GROUPS } from '../kit/doc'
 import { GithubIcon } from '../kit/GithubIcon'
 import { RichText } from '../kit/RichText'
 import { DOCS } from '../kit/registry'
+import { AGENT_BOOTSTRAP_PROMPT } from './Start'
 
 export function OverviewPage() {
+  const copy = useCopy()
   return (
     <div className="g-page">
       <header className="g-hero">
@@ -39,6 +42,36 @@ export function OverviewPage() {
           </div>
         </div>
       </header>
+      <section className="g-agent-banner" aria-labelledby="agent-skill-heading">
+        <div className="g-agent-banner__lead">
+          <div className="g-agent-banner__badge" aria-hidden="true">
+            <Shape name="cookie-9" className="g-agent-banner__shape" />
+            <Icon name="smart_toy" />
+          </div>
+          <div className="g-agent-banner__copy">
+            <h2 id="agent-skill-heading" className="m3-typescale-emphasized-title-large">
+              AI Agent Skill &amp; Copy-Source Setup
+            </h2>
+            <p className="g-muted">
+              Vendor full or selective component source code directly into your project
+              (shadcn-style) and guide Claude Code, Cursor, Codex, or Pi to strictly follow Material
+              3 Expressive design rules, 2025 HCT tokens, and spring physics.
+            </p>
+          </div>
+        </div>
+        <div className="g-row g-agent-banner__actions">
+          <Button
+            variant="tonal"
+            icon="content_copy"
+            onClick={() => copy(AGENT_BOOTSTRAP_PROMPT, 'Agent prompt')}
+          >
+            Copy Agent Prompt
+          </Button>
+          <Button variant="outlined" href="/start#ai-agent-skill-copy-source-setup" icon="terminal">
+            Copy-Source Guide
+          </Button>
+        </div>
+      </section>
       {GROUPS.map((group) => {
         const docs = DOCS.filter((d) => d.group === group.key)
         if (docs.length === 0) return null

@@ -1,4 +1,4 @@
-import { copyFileSync, existsSync, mkdirSync, readdirSync, writeFileSync } from 'node:fs'
+import { copyFileSync, cpSync, existsSync, mkdirSync, readdirSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import react from '@vitejs/plugin-react'
@@ -67,6 +67,11 @@ function githubPagesSpa(): Plugin {
             copyFileSync(indexPath, join(compDir, 'index.html'))
           }
         }
+      }
+
+      const skillDir = fileURLToPath(new URL('../.agents/skills/m3-expressive', import.meta.url))
+      if (existsSync(skillDir)) {
+        cpSync(skillDir, join(outDir, 'skills', 'm3-expressive'), { recursive: true })
       }
     },
   }

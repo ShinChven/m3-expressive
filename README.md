@@ -77,6 +77,76 @@ npm install @m3-expressive/styles
 </button>
 ```
 
+## AI Agent Skill & Copy-Source Setup
+
+Prefer owning the component source code directly in your repository (shadcn-style) and guiding your AI coding agent (**Claude Code, Cursor, Codex, Windsurf, Pi, or Cindy**) to strictly follow Material 3 Expressive specifications? Use the bundled [`m3-expressive`](./.agents/skills/m3-expressive/SKILL.md) skill.
+
+### 1. Install the Agent Skill
+
+```bash
+# Install via Skills CLI
+npx skills add ShinChven/m3-expressive --skill m3-expressive
+
+# Or copy directly into your project's .agents/skills/ directory
+git clone --depth 1 https://github.com/ShinChven/m3-expressive.git /tmp/m3-expressive && \
+  mkdir -p .agents/skills && cp -R /tmp/m3-expressive/.agents/skills/m3-expressive .agents/skills/
+```
+
+### 2. Vendor Component Source (`copy-m3.mjs`)
+
+The skill includes a zero-dependency dependency-resolver CLI ([`.agents/skills/m3-expressive/scripts/copy-m3.mjs`](./.agents/skills/m3-expressive/scripts/copy-m3.mjs)) that copies either the full source tree or a selective subset of components (with all transitive TypeScript and CSS dependencies resolved automatically):
+
+```bash
+# Copy the full React 19 + CSS source tree into ./src/m3
+node .agents/skills/m3-expressive/scripts/copy-m3.mjs --target ./src/m3
+
+# Or cherry-pick specific components + their transitive TS & CSS dependencies
+node .agents/skills/m3-expressive/scripts/copy-m3.mjs --target ./src/m3 \
+  --components Button,Card,Dialog,AppBar,AppScaffold
+
+# Or copy Vue 3.5+ SFCs + Core + CSS tokens
+node .agents/skills/m3-expressive/scripts/copy-m3.mjs --target ./src/m3 --framework vue
+
+# List all available modules and their dependencies
+node .agents/skills/m3-expressive/scripts/copy-m3.mjs --list
+```
+
+Then map `@m3-expressive/react` to `./src/m3/index.ts` in `tsconfig.json` (and your bundler) so every component import and documentation snippet resolves directly to your vendored source:
+
+```json
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@m3-expressive/react": ["./src/m3/index.ts"],
+      "@m3-expressive/react/styles.css": ["./src/m3/styles/index.css"],
+      "@m3-expressive/react/fonts.css": ["./src/m3/styles/fonts.css"],
+      "@/m3": ["./src/m3/index.ts"]
+    }
+  }
+}
+```
+
+### 3. Ready-to-Use Agent Bootstrap Prompt
+
+Paste this prompt into Claude Code, Cursor, Codex, or Pi to set up Material 3 Expressive via source copy and enforce M3 Expressive design rules:
+
+```text
+Use the m3-expressive skill from https://github.com/ShinChven/m3-expressive (.agents/skills/m3-expressive/SKILL.md) to configure Material 3 Expressive in this project by copying the component source code:
+1. Clone https://github.com/ShinChven/m3-expressive (if not already present), copy .agents/skills/m3-expressive into ./.agents/skills/m3-expressive, and run `node .agents/skills/m3-expressive/scripts/copy-m3.mjs --target ./src/m3` to vendor the component source and CSS tokens.
+2. Install the required runtime packages (@material/material-color-utilities, @fontsource-variable/roboto-flex, material-symbols, and @tanstack/react-virtual if using ListView/TreeView).
+3. Configure tsconfig.json and bundler path aliases so @m3-expressive/react resolves to ./src/m3/index.ts and @m3-expressive/react/styles.css resolves to ./src/m3/styles/index.css.
+4. Wire ThemeProvider (2025 HCT seed + expressive motionScheme), SnackbarProvider, and themeInitScript() at the app root.
+5. Follow all Material 3 Expressive rules in the skill: use Expressive-only components (AppBar, Toolbar, ButtonGroup, NavigationRail, AppScaffold, LoadingIndicator, wavy Progress), --md-sys-color-* surface-container hierarchy, spatial vs. effects spring tokens, emphasized typography, and the 35 Material shapes with morphing.
+```
+
+### What the Skill Enforces
+
+- **Copy-Source Architecture ([`references/source-copy-manifest.md`](./.agents/skills/m3-expressive/references/source-copy-manifest.md))**: Full or selective component vendoring, minimal npm dependencies, and ready-to-use Vite, Next.js App Router (RSC), and Vue 3 configurations.
+- **Expressive-Only Components ([`references/expressive-design-rules.md`](./.agents/skills/m3-expressive/references/expressive-design-rules.md))**: Eliminates deprecated M3 baseline patterns (`TopAppBar` → `AppBar`, `BottomAppBar` → `Toolbar`, `SegmentedButtons` → `ButtonGroup variant="connected"`, `NavigationDrawer` → `NavigationRail expanded` / `AppScaffold`, spinner in button → `LoadingIndicator`).
+- **5 Expressive Foundation Invariants**: 2025 HCT dynamic color & `surface-container-*` hierarchy (never hardcoded hex), dual-spring physics (`spatial` vs. `effects` springs), 15 emphasized typescale styles, the 35-shape library with polygon morphing, and 8dp spacing tokens.
+- **7 Expressive Design Tactics & Hero Moments**: Guides page composition using shape tension, focal color contrast, editorial typography, canonical multi-pane layouts (`ListDetailLayout`, `SupportingPaneLayout`, `FeedLayout`), and 1–2 Hero Moments per user flow.
+
 ## Foundations
 
 - **Dynamic Color**: HCT color space matching the 2025 (M3 Expressive) color spec via `@material/material-color-utilities`. Supports nine scheme variants, contrast levels, and seamless circular wave view transitions when toggling dark/light modes.

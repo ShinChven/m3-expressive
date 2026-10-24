@@ -1,0 +1,4 @@
+interface:
+  display_name: "Material 3 Expressive"
+  short_description: "Copy-source setup and M3 Expressive design system guide"
+  default_prompt: "Set up Material 3 Expressive in this project by copying component source code and build UI following M3 Expressive guidelines."

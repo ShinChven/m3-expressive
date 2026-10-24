@@ -1,11 +1,62 @@
+import { Button } from '@m3-expressive/react'
+import skillMarkdown from '../../../.agents/skills/m3-expressive/SKILL.md?raw'
 import { Page, Section } from '../demo'
-import { CodeBlock } from '../kit/CodeBlock'
+import { CodeBlock, useCopy } from '../kit/CodeBlock'
 import { useFramework } from '../kit/framework'
 import { RichText } from '../kit/RichText'
 
 const INSTALL_REACT = 'npm install @m3-expressive/react'
 const INSTALL_VUE = 'npm install @m3-expressive/vue @m3-expressive/styles'
 const INSTALL_HTML = 'npm install @m3-expressive/styles'
+
+const SKILL_INSTALL = `# Install the m3-expressive skill via Skills CLI
+npx skills add ShinChven/m3-expressive --skill m3-expressive
+
+# Or copy directly from the repository into your project's .agents/skills/
+git clone --depth 1 https://github.com/ShinChven/m3-expressive.git /tmp/m3-expressive && \\
+  mkdir -p .agents/skills && cp -R /tmp/m3-expressive/.agents/skills/m3-expressive .agents/skills/`
+
+const COPY_SOURCE_REACT = `# Option A: Copy the full React 19 + CSS source tree into ./src/m3
+node .agents/skills/m3-expressive/scripts/copy-m3.mjs --target ./src/m3
+
+# Option B: Copy only selected components + their transitive TS & CSS dependencies
+node .agents/skills/m3-expressive/scripts/copy-m3.mjs --target ./src/m3 \\
+  --components Button,Card,Dialog,AppBar,AppScaffold
+
+# Install minimal runtime dependencies
+npm install @material/material-color-utilities @tanstack/react-virtual \\
+  @fontsource-variable/roboto-flex material-symbols`
+
+const COPY_SOURCE_VUE = `# Copy Vue 3.5+ SFCs, core utilities, and CSS tokens into ./src/m3
+node .agents/skills/m3-expressive/scripts/copy-m3.mjs --target ./src/m3 --framework vue
+
+# Install minimal runtime dependencies
+npm install @material/material-color-utilities @fontsource-variable/roboto-flex material-symbols`
+
+const COPY_SOURCE_CSS = `# Copy standalone Material 3 Expressive CSS tokens & component stylesheets
+node .agents/skills/m3-expressive/scripts/copy-m3.mjs --target ./src/styles/m3 --framework css
+
+# Install self-hosted Roboto Flex & Material Symbols fonts
+npm install @fontsource-variable/roboto-flex material-symbols`
+
+const COPY_SOURCE_TSCONFIG = `{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@m3-expressive/react": ["./src/m3/index.ts"],
+      "@m3-expressive/react/styles.css": ["./src/m3/styles/index.css"],
+      "@m3-expressive/react/fonts.css": ["./src/m3/styles/fonts.css"],
+      "@/m3": ["./src/m3/index.ts"]
+    }
+  }
+}`
+
+export const AGENT_BOOTSTRAP_PROMPT = `Use the m3-expressive skill from https://github.com/ShinChven/m3-expressive (.agents/skills/m3-expressive/SKILL.md) to configure Material 3 Expressive in this project by copying the component source code:
+1. Clone https://github.com/ShinChven/m3-expressive (if not already present), copy .agents/skills/m3-expressive into ./.agents/skills/m3-expressive, and run \`node .agents/skills/m3-expressive/scripts/copy-m3.mjs --target ./src/m3\` to vendor the component source and CSS tokens.
+2. Install the required runtime packages (@material/material-color-utilities, @fontsource-variable/roboto-flex, material-symbols, and @tanstack/react-virtual if using ListView/TreeView).
+3. Configure tsconfig.json and bundler path aliases so @m3-expressive/react resolves to ./src/m3/index.ts and @m3-expressive/react/styles.css resolves to ./src/m3/styles/index.css.
+4. Wire ThemeProvider (2025 HCT seed + expressive motionScheme), SnackbarProvider, and themeInitScript() at the app root.
+5. Follow all Material 3 Expressive rules in the skill: use Expressive-only components (AppBar, Toolbar, ButtonGroup, NavigationRail, AppScaffold, LoadingIndicator, wavy Progress), --md-sys-color-* surface-container hierarchy, spatial vs. effects spring tokens, emphasized typography, and the 35 Material shapes with morphing.`
 
 const SETUP_REACT = `import '@m3-expressive/react/fonts.css' // Roboto Flex and Material Symbols, self-hosted
 import '@m3-expressive/react/styles.css' // tokens, colors and all component styles
@@ -115,6 +166,7 @@ function Steps({ items }: { items: string[] }) {
 
 export function StartPage() {
   const { framework } = useFramework()
+  const copy = useCopy()
 
   const installCode =
     framework === 'vue' ? INSTALL_VUE : framework === 'html' ? INSTALL_HTML : INSTALL_REACT
@@ -140,6 +192,63 @@ export function StartPage() {
           }
         >
           <CodeBlock code={installCode} caption="Terminal" />
+        </Section>
+
+        <Section
+          title="AI Agent Skill & Copy-Source Setup"
+          description="Prefer owning the component source code (shadcn-style) and having your AI coding agent (Claude Code, Cursor, Codex, Windsurf, Pi, or Cindy) configure and follow Material 3 Expressive automatically? Install the bundled m3-expressive skill."
+        >
+          <div className="g-row g-start__actions">
+            <Button
+              icon="smart_toy"
+              emphasized
+              onClick={() => copy(AGENT_BOOTSTRAP_PROMPT, 'Agent prompt')}
+            >
+              Copy Agent Bootstrap Prompt
+            </Button>
+            <Button
+              variant="tonal"
+              icon="description"
+              onClick={() => copy(skillMarkdown, 'SKILL.md')}
+            >
+              Copy SKILL.md
+            </Button>
+            <Button
+              variant="outlined"
+              icon="open_in_new"
+              href="https://github.com/ShinChven/m3-expressive/tree/main/.agents/skills/m3-expressive"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View Skill on GitHub
+            </Button>
+          </div>
+          <CodeBlock code={SKILL_INSTALL} caption="1. Install the Agent Skill" />
+          <CodeBlock
+            code={
+              framework === 'vue'
+                ? COPY_SOURCE_VUE
+                : framework === 'html'
+                  ? COPY_SOURCE_CSS
+                  : COPY_SOURCE_REACT
+            }
+            caption="2. Vendor Component Source (copy-m3.mjs)"
+          />
+          {framework === 'react' && (
+            <CodeBlock code={COPY_SOURCE_TSCONFIG} caption="3. Map Path Aliases in tsconfig.json" />
+          )}
+          <CodeBlock
+            code={AGENT_BOOTSTRAP_PROMPT}
+            caption="Prompt for Claude Code / Cursor / Codex"
+          />
+          <Steps
+            items={[
+              '**Copy-Source Ownership (`copy-m3.mjs`)**: Vendors the full TypeScript/React/Vue source tree or cherry-picks individual components (`--components Button,Card,Dialog,AppBar`) with automatic transitive TS and CSS dependency resolution.',
+              '**Expressive-Only Component Rules**: Prevents agents from generating deprecated M3 baseline patterns (`TopAppBar` → `AppBar`, `BottomAppBar` → `Toolbar`, `SegmentedButtons` → `ButtonGroup variant="connected"`, `NavigationDrawer` → `NavigationRail expanded` / `AppScaffold`, spinner in button → `LoadingIndicator`).',
+              '**5 Expressive Foundation Systems**: Enforces 2025 HCT dynamic color & `surface-container-*` hierarchy (zero hardcoded hex), dual-spring physics (`spatial` vs. `effects` springs), 15 emphasized typescale styles, the 35-shape library with polygon morphing, and 8dp spacing tokens.',
+              '**7 Expressive Design Tactics & Hero Moments**: Guides page composition with shape tension, focal color contrast, editorial typography, adaptive canonical layouts (`ListDetailLayout`, `SupportingPaneLayout`, `FeedLayout`), and 1–2 Hero Moments per user flow.',
+            ]}
+          />
         </Section>
 
         <Section
