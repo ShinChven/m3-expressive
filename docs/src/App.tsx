@@ -327,11 +327,7 @@ function Shell() {
                   <MenuButton
                     placement="bottom-end"
                     trigger={(triggerProps) => (
-                      <IconButton
-                        {...triggerProps}
-                        icon="more_vert"
-                        label="More options"
-                      />
+                      <IconButton {...triggerProps} icon="more_vert" label="More options" />
                     )}
                   >
                     <MenuItem

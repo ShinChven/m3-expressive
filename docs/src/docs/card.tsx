@@ -268,9 +268,7 @@ export function ExampleAnimatedMedia() {
         subhead="Album · 48 photos"
       />
       <CardMedia src={art(2, 800, 600, { animated: true })} />
-      <CardContent>
-        Five days by the sea. Grace Hopper added 12 new photos.
-      </CardContent>
+      <CardContent>Five days by the sea. Grace Hopper added 12 new photos.</CardContent>
       <CardActions>
         <Button variant="text">Download</Button>
         <Button variant="tonal">Share</Button>

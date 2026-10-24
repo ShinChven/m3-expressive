@@ -1,12 +1,10 @@
 import type { ImgHTMLAttributes } from 'react'
 import type { MaterialShapeName } from '../shapes/materialShapes'
-import { art, type ArtOptions } from '../utils/art'
+import { type ArtOptions, art } from '../utils/art'
 import { cx } from '../utils/hooks'
 import { shapeMaskStyle } from './List'
 
-export interface ArtworkProps
-  extends Omit<ImgHTMLAttributes<HTMLImageElement>, 'src'>,
-    ArtOptions {
+export interface ArtworkProps extends Omit<ImgHTMLAttributes<HTMLImageElement>, 'src'>, ArtOptions {
   /** Numeric seed selecting palette (0-6) and deterministic layout. */
   seed?: number
   /** ViewBox width in px (default: 600). */

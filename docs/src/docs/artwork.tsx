@@ -1,8 +1,8 @@
 import {
-  Artwork,
-  art,
   ARTWORK_PALETTES,
+  Artwork,
   Avatar,
+  art,
   Button,
   Card,
   CardActions,
@@ -108,7 +108,8 @@ export const doc = defineDoc({
     {
       name: 'Artwork',
       interfaces: ['ArtworkProps'],
-      inherits: 'Accepts all standard `<img>` attributes. Generates SVG data URI directly in-memory.',
+      inherits:
+        'Accepts all standard `<img>` attributes. Generates SVG data URI directly in-memory.',
     },
     {
       name: 'art',
@@ -149,9 +150,7 @@ export function ExampleCard() {
         subhead="Album · 48 photos"
       />
       <CardMedia src={art(2, 800, 600, { animated: true })} />
-      <CardContent>
-        Five days by the sea. Grace Hopper added 12 new photos.
-      </CardContent>
+      <CardContent>Five days by the sea. Grace Hopper added 12 new photos.</CardContent>
       <CardActions>
         <Button variant="text">Download</Button>
         <Button variant="tonal">Share</Button>
@@ -168,7 +167,7 @@ export function ExamplePalettes() {
   return (
     <div className="artwork-doc-grid">
       {ARTWORK_PALETTES.map((_, index) => (
-        <div key={index} className="artwork-doc-palette-card">
+        <div key={PALETTE_NAMES[index]} className="artwork-doc-palette-card">
           <Artwork seed={index} aspectRatio="16 / 9" animated />
           <div className="artwork-doc-palette-info">
             <span className="m3-typescale-label-large">{PALETTE_NAMES[index]}</span>
@@ -214,7 +213,8 @@ export function ExampleHero() {
       <div className="artwork-doc-hero__overlay">
         <h3 className="artwork-doc-hero__title">Material 3 Expressive Art</h3>
         <p className="artwork-doc-hero__desc">
-          Continuous mathematical drifting vectors that bring expressive character to digital experiences.
+          Continuous mathematical drifting vectors that bring expressive character to digital
+          experiences.
         </p>
         <div>
           <Button variant="filled">Explore gallery</Button>

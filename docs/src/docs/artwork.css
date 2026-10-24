@@ -35,7 +35,12 @@
   flex-direction: column;
   justify-content: flex-end;
   padding: 32px;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.2) 60%, transparent 100%);
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.75) 0%,
+    rgba(0, 0, 0, 0.2) 60%,
+    transparent 100%
+  );
   color: #ffffff;
 }
 
