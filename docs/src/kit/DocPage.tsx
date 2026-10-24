@@ -15,7 +15,6 @@ import { useSearchParams } from 'react-router'
 import { ApiTable } from './ApiTable'
 import { CodeBlock, useCopy } from './CodeBlock'
 import { GROUPS } from './doc'
-import { FrameworkSwitch } from './FrameworkSwitch'
 import { useFramework } from './framework'
 import { Playground } from './Playground'
 import { RichText } from './RichText'
@@ -123,8 +122,7 @@ export function DocPage({ doc }: { doc: LoadedDoc }) {
   const { framework } = useFramework()
   const importLine = useMemo(() => {
     if (framework === 'vue') {
-      const names = doc.imports.map((name) => `M3${name}`)
-      return `import { ${names.join(', ')} } from '@m3-expressive/vue'`
+      return `import { ${doc.imports.join(', ')} } from '@m3-expressive/vue'`
     }
     if (framework === 'html') {
       return "import '@m3-expressive/styles'"
@@ -134,12 +132,9 @@ export function DocPage({ doc }: { doc: LoadedDoc }) {
   return (
     <article className="g-doc">
       <header className="g-doc__header">
-        <div className="g-doc__eyebrow-row">
-          <div className="g-doc__eyebrow">
-            <Icon name={group?.icon ?? 'widgets'} size={18} />
-            {group?.label}
-          </div>
-          <FrameworkSwitch size="xs" />
+        <div className="g-doc__eyebrow">
+          <Icon name={group?.icon ?? 'widgets'} size={18} />
+          {group?.label}
         </div>
         <h1 className="m3-typescale-display-small">{doc.name}</h1>
         <p className="g-doc__summary">

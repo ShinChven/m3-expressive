@@ -1,6 +1,5 @@
 import { Page, Section } from '../demo'
 import { CodeBlock } from '../kit/CodeBlock'
-import { FrameworkSwitch } from '../kit/FrameworkSwitch'
 import { useFramework } from '../kit/framework'
 import { RichText } from '../kit/RichText'
 
@@ -130,11 +129,6 @@ export function StartPage() {
       description="Install the library, add its styles, and start building with Material 3 Expressive."
     >
       <div className="g-start">
-        <div style={{ marginBottom: '24px', display: 'flex', alignItems: 'center', gap: '12px' }}>
-          <span className="m3-typescale-label-large">Select framework:</span>
-          <FrameworkSwitch size="sm" />
-        </div>
-
         <Section
           title="Install"
           description={

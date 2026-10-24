@@ -1,10 +1,8 @@
 import type { Framework } from './framework'
 
 function toVueTemplate(jsx: string): string {
-  // Convert component names from <Button to <M3Button
+  // In Vue 3 <script setup>, imported components are used directly
   const out = jsx
-    .replace(/<([A-Z][a-zA-Z0-9]+)/g, '<M3$1')
-    .replace(/<\/([A-Z][a-zA-Z0-9]+)>/g, '</M3$1>')
     // Convert {false} to :prop="false"
     .replace(/([a-zA-Z0-9]+)=\{false\}/g, ':$1="false"')
     .replace(/([a-zA-Z0-9]+)=\{true\}/g, '$1')
@@ -42,9 +40,8 @@ export function formatFrameworkCode(
     return rawCode
   }
   if (framework === 'vue') {
-    const vueImports = imports.map((i) => `M3${i}`).join(', ')
-    const scriptHeader = vueImports
-      ? `<script setup>\nimport { ${vueImports} } from '@m3-expressive/vue'\n</script>\n\n`
+    const scriptHeader = imports.length
+      ? `<script setup>\nimport { ${imports.join(', ')} } from '@m3-expressive/vue'\n</script>\n\n`
       : ''
     return `${scriptHeader}${toVueTemplate(rawCode)}`
   }

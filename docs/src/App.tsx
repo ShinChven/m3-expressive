@@ -242,8 +242,8 @@ function Shell() {
             navigation={ctx.menuButton}
             scrollTarget={ctx.scrollTarget}
             actions={
-              <>
-                <FrameworkSwitch size="xs" />
+              <div className="g-topbar-actions">
+                <FrameworkSwitch />
                 <SearchTrigger onClick={() => setSearchOpen(true)} />
                 <IconButton icon="palette" label="Theme builder" tooltip href="/theme" />
                 <IconButton
@@ -252,7 +252,7 @@ function Shell() {
                   tooltip
                   onClick={() => theme.setMode(theme.resolvedMode === 'dark' ? 'light' : 'dark')}
                 />
-              </>
+              </div>
             }
           />
         )}

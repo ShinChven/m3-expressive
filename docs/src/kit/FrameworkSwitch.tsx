@@ -1,4 +1,4 @@
-import { Button, ButtonGroup } from '@m3-expressive/react'
+import { MenuButton, MenuItem } from '@m3-expressive/react'
 import { type Framework, useFramework } from './framework'
 
 const OPTIONS: { key: Framework; label: string; icon: string }[] = [
@@ -7,28 +7,43 @@ const OPTIONS: { key: Framework; label: string; icon: string }[] = [
   { key: 'html', label: 'HTML/CSS', icon: 'html' },
 ]
 
-export function FrameworkSwitch({ size = 'xs' }: { size?: 'xs' | 'sm' }) {
+export function FrameworkSwitch() {
   const { framework, setFramework } = useFramework()
+  const current = OPTIONS.find((o) => o.key === framework) ?? OPTIONS[0]!
 
   return (
-    <ButtonGroup
-      variant="connected"
-      selection="single"
-      size={size}
-      aria-label="Target framework"
-      className="g-framework-switch"
-    >
-      {OPTIONS.map((opt) => (
-        <Button
-          key={opt.key}
-          value={opt.key}
-          selected={framework === opt.key}
-          icon={opt.icon}
-          onClick={() => setFramework(opt.key)}
-        >
-          {opt.label}
-        </Button>
-      ))}
-    </ButtonGroup>
+    <div className="g-framework-switch">
+      <MenuButton
+        placement="bottom-end"
+        trigger={(triggerProps) => (
+          <button
+            {...triggerProps}
+            type="button"
+            className="g-framework-switch__trigger m3-focus-ring"
+            aria-label={`Current framework: ${current.label}. Click to switch framework.`}
+          >
+            <span className="m3-icon g-framework-switch__icon" aria-hidden="true">
+              {current.icon}
+            </span>
+            <span className="g-framework-switch__label">{current.label}</span>
+            <span className="m3-icon g-framework-switch__arrow" aria-hidden="true">
+              arrow_drop_down
+            </span>
+          </button>
+        )}
+      >
+        {OPTIONS.map((opt) => (
+          <MenuItem
+            key={opt.key}
+            type="radio"
+            checked={framework === opt.key}
+            icon={opt.icon}
+            onSelect={() => setFramework(opt.key)}
+          >
+            {opt.label}
+          </MenuItem>
+        ))}
+      </MenuButton>
+    </div>
   )
 }

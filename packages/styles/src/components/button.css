@@ -5,7 +5,7 @@
   --_padding-icon: var(--md-sys-measurement-space200);
   --_gap: var(--md-sys-measurement-space100);
   --_outline-width: 1px;
-  --_radius-round: var(--md-sys-shape-corner-full);
+  --_radius-round: calc(var(--_height) / 2);
   --_radius-square: var(--md-sys-shape-corner-medium);
   --_radius-pressed: var(--md-sys-shape-corner-small);
   --_radius: var(--_radius-round);
@@ -82,7 +82,8 @@
   --_radius: var(--_radius-round);
 }
 /* Shape morph (on by default): smaller corners while pressed. */
-.m3-button[data-morph]:active:not(:disabled, [aria-disabled="true"]) {
+/* Shape morph (on by default): smaller corners while pressed, excluding toggle buttons that morph to square. */
+.m3-button[data-morph]:active:not(:disabled, [aria-disabled="true"], [data-toggle]) {
   border-radius: var(--_radius-pressed);
 }
 .m3-button[data-emphasized] {
@@ -230,7 +231,7 @@
 .m3-icon-button {
   --_size: 40px;
   --_width: 40px;
-  --_radius-round: var(--md-sys-shape-corner-full);
+  --_radius-round: calc(var(--_size) / 2);
   --_radius-square: var(--md-sys-shape-corner-medium);
   --_radius-pressed: var(--md-sys-shape-corner-small);
   --_radius: var(--_radius-round);
@@ -291,7 +292,8 @@
   --_radius: var(--_radius-round);
 }
 /* Shape morph (on by default): smaller corners while pressed. */
-.m3-icon-button[data-morph]:active:not(:disabled, [aria-disabled="true"]) {
+/* Shape morph (on by default): smaller corners while pressed, excluding toggle buttons that morph to square. */
+.m3-icon-button[data-morph]:active:not(:disabled, [aria-disabled="true"], [data-toggle]) {
   border-radius: var(--_radius-pressed);
 }
 
@@ -752,7 +754,7 @@
 .m3-fab-menu[data-open] .m3-fab-menu__fab {
   width: 56px;
   height: 56px;
-  border-radius: var(--md-sys-shape-corner-full);
+  border-radius: 28px;
   background: var(--_close);
   color: var(--_on-close);
 }
