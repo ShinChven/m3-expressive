@@ -1,0 +1,286 @@
+{
+  "id": "37697297db0555a6",
+  "component": "Tooltips",
+  "tokenSets": [
+    {
+      "displayName": "Tooltip - Plain",
+      "tokenSetName": "md.comp.plain-tooltip",
+      "description": "For plain tooltips.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.plain-tooltip.supporting-text.color",
+          "displayName": "Plain tooltip supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.inverse-on-surface"
+        },
+        {
+          "name": "md.comp.plain-tooltip.supporting-text.type",
+          "displayName": "Supporting text type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.plain-tooltip.supporting-text.font",
+          "displayName": "Plain tooltip supporting text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.body-small.font"
+        },
+        {
+          "name": "md.comp.plain-tooltip.supporting-text.weight",
+          "displayName": "Plain tooltip supporting text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.body-small.weight"
+        },
+        {
+          "name": "md.comp.plain-tooltip.supporting-text.size",
+          "displayName": "Plain tooltip supporting text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.body-small.size"
+        },
+        {
+          "name": "md.comp.plain-tooltip.supporting-text.line-height",
+          "displayName": "Plain tooltip supporting text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.body-small.line-height"
+        },
+        {
+          "name": "md.comp.plain-tooltip.supporting-text.tracking",
+          "displayName": "Plain tooltip supporting text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.body-small.tracking"
+        },
+        {
+          "name": "md.comp.plain-tooltip.container.shape",
+          "displayName": "Plain tooltip container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.extra-small"
+        },
+        {
+          "name": "md.comp.plain-tooltip.container.color",
+          "displayName": "Plain tooltip container color",
+          "type": "COLOR",
+          "value": "md.sys.color.inverse-surface"
+        }
+      ]
+    },
+    {
+      "displayName": "Tooltip - Rich",
+      "tokenSetName": "md.comp.rich-tooltip",
+      "description": "For rich tooltips.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.rich-tooltip.action.hover.state-layer.opacity",
+          "displayName": "Rich tooltip action hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.rich-tooltip.action.hover.state-layer.color",
+          "displayName": "Rich tooltip action hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.rich-tooltip.container.surface-tint-layer.color",
+          "displayName": "Rich tooltip container surface tint layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-tint"
+        },
+        {
+          "name": "md.comp.rich-tooltip.action.label-text.type",
+          "displayName": "Type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.rich-tooltip.action.label-text.font",
+          "displayName": "Rich tooltip action label text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.label-large.font"
+        },
+        {
+          "name": "md.comp.rich-tooltip.action.label-text.weight",
+          "displayName": "Rich tooltip action label text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.label-large.weight"
+        },
+        {
+          "name": "md.comp.rich-tooltip.action.label-text.size",
+          "displayName": "Rich tooltip action label text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.label-large.size"
+        },
+        {
+          "name": "md.comp.rich-tooltip.action.label-text.line-height",
+          "displayName": "Rich tooltip action label text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.label-large.line-height"
+        },
+        {
+          "name": "md.comp.rich-tooltip.action.label-text.tracking",
+          "displayName": "Rich tooltip action label text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.label-large.tracking"
+        },
+        {
+          "name": "md.comp.rich-tooltip.supporting-text.type",
+          "displayName": "Type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.rich-tooltip.supporting-text.font",
+          "displayName": "Rich tooltip supporting text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.body-medium.font"
+        },
+        {
+          "name": "md.comp.rich-tooltip.supporting-text.weight",
+          "displayName": "Rich tooltip supporting text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.body-medium.weight"
+        },
+        {
+          "name": "md.comp.rich-tooltip.supporting-text.size",
+          "displayName": "Rich tooltip supporting text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.body-medium.size"
+        },
+        {
+          "name": "md.comp.rich-tooltip.supporting-text.line-height",
+          "displayName": "Rich tooltip supporting text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.body-medium.line-height"
+        },
+        {
+          "name": "md.comp.rich-tooltip.supporting-text.tracking",
+          "displayName": "Rich tooltip supporting text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.body-medium.tracking"
+        },
+        {
+          "name": "md.comp.rich-tooltip.subhead.type",
+          "displayName": "Type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.rich-tooltip.subhead.font",
+          "displayName": "Rich tooltip subhead font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.title-small.font"
+        },
+        {
+          "name": "md.comp.rich-tooltip.subhead.weight",
+          "displayName": "Rich tooltip subhead weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.title-small.weight"
+        },
+        {
+          "name": "md.comp.rich-tooltip.subhead.size",
+          "displayName": "Rich tooltip subhead size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.title-small.size"
+        },
+        {
+          "name": "md.comp.rich-tooltip.subhead.line-height",
+          "displayName": "Rich tooltip subhead line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.title-small.line-height"
+        },
+        {
+          "name": "md.comp.rich-tooltip.subhead.tracking",
+          "displayName": "Rich tooltip subhead tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.title-small.tracking"
+        },
+        {
+          "name": "md.comp.rich-tooltip.action.focus.label-text.color",
+          "displayName": "Rich tooltip action focus label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.rich-tooltip.action.focus.state-layer.opacity",
+          "displayName": "Rich tooltip action focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.rich-tooltip.action.focus.state-layer.color",
+          "displayName": "Rich tooltip action focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.rich-tooltip.action.hover.label-text.color",
+          "displayName": "Rich tooltip action hover label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.rich-tooltip.action.label-text.color",
+          "displayName": "Rich tooltip action label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.rich-tooltip.supporting-text.color",
+          "displayName": "Rich tooltip supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.rich-tooltip.subhead.color",
+          "displayName": "Rich tooltip subhead color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.rich-tooltip.container.shape",
+          "displayName": "Rich tooltip container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.medium"
+        },
+        {
+          "name": "md.comp.rich-tooltip.container.shadow-color",
+          "displayName": "Rich tooltip container shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.rich-tooltip.container.elevation",
+          "displayName": "Rich tooltip container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level2"
+        },
+        {
+          "name": "md.comp.rich-tooltip.container.color",
+          "displayName": "Rich tooltip container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container"
+        },
+        {
+          "name": "md.comp.rich-tooltip.action.pressed.label-text.color",
+          "displayName": "Rich tooltip action pressed label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.rich-tooltip.action.pressed.state-layer.opacity",
+          "displayName": "Rich tooltip action pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.rich-tooltip.action.pressed.state-layer.color",
+          "displayName": "Rich tooltip action pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        }
+      ]
+    }
+  ]
+}

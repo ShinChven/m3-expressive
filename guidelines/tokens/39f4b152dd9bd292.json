@@ -1,0 +1,1066 @@
+{
+  "id": "39f4b152dd9bd292",
+  "component": "Time pickers",
+  "tokenSets": [
+    {
+      "displayName": "Time picker - Input",
+      "tokenSetName": "md.comp.time-input",
+      "description": "For input time pickers.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.time-input.focus.indicator.outline.offset",
+          "displayName": "Time input focus indicator offset",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.outer-offset"
+        },
+        {
+          "name": "md.comp.time-input.focus.indicator.thickness",
+          "displayName": "Time input focus indicator thickness",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.thickness"
+        },
+        {
+          "name": "md.comp.time-input.focus.indicator.color",
+          "displayName": "Time input focus indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary"
+        },
+        {
+          "name": "md.comp.time-input.surface-tint-layer.color",
+          "displayName": "Time input surface tint layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-tint"
+        },
+        {
+          "name": "md.comp.time-input.period-selector.container.height",
+          "displayName": "Time input period selector container height",
+          "type": "LENGTH",
+          "value": "72dp"
+        },
+        {
+          "name": "md.comp.time-input.period-selector.container.width",
+          "displayName": "Time input period selector container width",
+          "type": "LENGTH",
+          "value": "52dp"
+        },
+        {
+          "name": "md.comp.time-input.time-input-field.container.height",
+          "displayName": "Time input time input field container height",
+          "type": "LENGTH",
+          "value": "72dp"
+        },
+        {
+          "name": "md.comp.time-input.time-input-field.container.width",
+          "displayName": "Time input time input field container width",
+          "type": "LENGTH",
+          "value": "96dp"
+        },
+        {
+          "name": "md.comp.time-input.period-selector.unselected.pressed.label-text.color",
+          "displayName": "Time input period selector unselected pressed label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.time-input.period-selector.selected.pressed.label-text.color",
+          "displayName": "Time input period selector selected pressed label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.time-input.period-selector.pressed.state-layer.opacity",
+          "displayName": "Time input period selector pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.time-input.period-selector.unselected.pressed.state-layer.color",
+          "displayName": "Time input period selector unselected pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.time-input.period-selector.selected.pressed.state-layer.color",
+          "displayName": "Time input period selector selected pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.time-input.period-selector.unselected.focus.label-text.color",
+          "displayName": "Time input period selector unselected focus label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.time-input.period-selector.selected.focus.label-text.color",
+          "displayName": "Time input period selector selected focus label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.time-input.period-selector.focus.state-layer.opacity",
+          "displayName": "Time input period selector focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.time-input.period-selector.unselected.focus.state-layer.color",
+          "displayName": "Time input period selector unselected focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.time-input.period-selector.selected.focus.state-layer.color",
+          "displayName": "Time input period selector selected focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.time-input.time-input-field.focus.label-text.color",
+          "displayName": "Time input time input field focus label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.time-input.time-input-field.focus.outline.width",
+          "displayName": "Time input time input field focus outline width",
+          "type": "LENGTH",
+          "value": "2dp"
+        },
+        {
+          "name": "md.comp.time-input.time-input-field.focus.outline.color",
+          "displayName": "Time input time input field focus outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.time-input.time-input-field.focus.container.color",
+          "displayName": "Time input time input field focus container color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary-container"
+        },
+        {
+          "name": "md.comp.time-input.period-selector.unselected.hover.label-text.color",
+          "displayName": "Time input period selector unselected hover label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.time-input.period-selector.selected.hover.label-text.color",
+          "displayName": "Time input period selector selected hover label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.time-input.period-selector.hover.state-layer.opacity",
+          "displayName": "Time input period selector hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.time-input.period-selector.unselected.hover.state-layer.color",
+          "displayName": "Time input period selector unselected hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.time-input.period-selector.selected.hover.state-layer.color",
+          "displayName": "Time input period selector selected hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.time-input.time-input-field.hover.label-text.color",
+          "displayName": "Time input time input field hover label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.time-input.time-input-field.hover.state-layer.opacity",
+          "displayName": "Time input time input field hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.time-input.time-input-field.hover.state-layer.color",
+          "displayName": "Time input time input field hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.time-input.period-selector.label-text.type",
+          "displayName": "Type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.time-input.period-selector.label-text.font",
+          "displayName": "Time input period selector label text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.title-medium.font"
+        },
+        {
+          "name": "md.comp.time-input.period-selector.label-text.weight",
+          "displayName": "Time input period selector label text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.title-medium.weight"
+        },
+        {
+          "name": "md.comp.time-input.period-selector.label-text.size",
+          "displayName": "Time input period selector label text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.title-medium.size"
+        },
+        {
+          "name": "md.comp.time-input.period-selector.label-text.line-height",
+          "displayName": "Time input period selector label text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.title-medium.line-height"
+        },
+        {
+          "name": "md.comp.time-input.period-selector.label-text.tracking",
+          "displayName": "Time input period selector label text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.title-medium.tracking"
+        },
+        {
+          "name": "md.comp.time-input.period-selector.unselected.label-text.color",
+          "displayName": "Time input period selector unselected label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.time-input.period-selector.selected.label-text.color",
+          "displayName": "Time input period selector selected label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.time-input.period-selector.outline.width",
+          "displayName": "Time input period selector outline width",
+          "type": "LENGTH",
+          "value": "1dp"
+        },
+        {
+          "name": "md.comp.time-input.period-selector.outline.color",
+          "displayName": "Time input period selector outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.outline"
+        },
+        {
+          "name": "md.comp.time-input.period-selector.container.shape",
+          "displayName": "Time input period selector container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.small"
+        },
+        {
+          "name": "md.comp.time-input.period-selector.selected.container.color",
+          "displayName": "Time input period selector selected container color",
+          "type": "COLOR",
+          "value": "md.sys.color.tertiary-container"
+        },
+        {
+          "name": "md.comp.time-input.time-input-field.supporting-text.type",
+          "displayName": "Type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.time-input.time-input-field.supporting-text.font",
+          "displayName": "Time input time input field supporting text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.body-small.font"
+        },
+        {
+          "name": "md.comp.time-input.time-input-field.supporting-text.weight",
+          "displayName": "Time input time input field supporting text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.body-small.weight"
+        },
+        {
+          "name": "md.comp.time-input.time-input-field.supporting-text.size",
+          "displayName": "Time input time input field supporting text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.body-small.size"
+        },
+        {
+          "name": "md.comp.time-input.time-input-field.supporting-text.line-height",
+          "displayName": "Time input time input field supporting text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.body-small.line-height"
+        },
+        {
+          "name": "md.comp.time-input.time-input-field.supporting-text.tracking",
+          "displayName": "Time input time input field supporting text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.body-small.tracking"
+        },
+        {
+          "name": "md.comp.time-input.time-input-field.supporting-text.color",
+          "displayName": "Time input time input field supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.time-input.time-input-field.separator.type",
+          "displayName": "Type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.time-input.time-input-field.separator.font",
+          "displayName": "Time input time input field separator font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.display-large.font"
+        },
+        {
+          "name": "md.comp.time-input.time-input-field.separator.weight",
+          "displayName": "Time input time input field separator weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.display-large.weight"
+        },
+        {
+          "name": "md.comp.time-input.time-input-field.separator.size",
+          "displayName": "Time input time input field separator size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.display-large.size"
+        },
+        {
+          "name": "md.comp.time-input.time-input-field.separator.line-height",
+          "displayName": "Time input time input field separator line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.display-large.line-height"
+        },
+        {
+          "name": "md.comp.time-input.time-input-field.separator.tracking",
+          "displayName": "Time input time input field separator tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.display-large.tracking"
+        },
+        {
+          "name": "md.comp.time-input.time-input-field.separator.color",
+          "displayName": "Time input time input field separator color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.time-input.time-input-field.label-text.type",
+          "displayName": "Time input time input field label text type",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.time-input.time-input-field.label-text.font",
+          "displayName": "Time input time input field label text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.display-medium.font"
+        },
+        {
+          "name": "md.comp.time-input.time-input-field.label-text.weight",
+          "displayName": "Time input time input field label text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.display-medium.weight"
+        },
+        {
+          "name": "md.comp.time-input.time-input-field.label-text.size",
+          "displayName": "Time input time input field label text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.display-medium.size"
+        },
+        {
+          "name": "md.comp.time-input.time-input-field.label-text.line-height",
+          "displayName": "Time input time input field label text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.display-medium.line-height"
+        },
+        {
+          "name": "md.comp.time-input.time-input-field.label-text.tracking",
+          "displayName": "Time input time input field label text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.display-medium.tracking"
+        },
+        {
+          "name": "md.comp.time-input.time-input-field.label-text.color",
+          "displayName": "Time input time input field label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.time-input.time-input-field.container.shape",
+          "displayName": "Time input time input field container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.small"
+        },
+        {
+          "name": "md.comp.time-input.time-input-field.container.color",
+          "displayName": "Time input time input field container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-highest"
+        },
+        {
+          "name": "md.comp.time-input.headline.type",
+          "displayName": "Time input headline type",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.time-input.headline.font",
+          "displayName": "Time input headline font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.label-medium.font"
+        },
+        {
+          "name": "md.comp.time-input.headline.weight",
+          "displayName": "Time input headline weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.label-medium.weight"
+        },
+        {
+          "name": "md.comp.time-input.headline.size",
+          "displayName": "Time input headline size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.label-medium.size"
+        },
+        {
+          "name": "md.comp.time-input.headline.line-height",
+          "displayName": "Time input headline line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.label-medium.line-height"
+        },
+        {
+          "name": "md.comp.time-input.headline.tracking",
+          "displayName": "Time input headline tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.label-medium.tracking"
+        },
+        {
+          "name": "md.comp.time-input.headline.color",
+          "displayName": "Time input headline color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.time-input.container.shape",
+          "displayName": "Time input container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.extra-large"
+        },
+        {
+          "name": "md.comp.time-input.container.elevation",
+          "displayName": "Time input container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.time-input.container.color",
+          "displayName": "Time input container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-high"
+        }
+      ]
+    },
+    {
+      "displayName": "Time picker - Dial",
+      "tokenSetName": "md.comp.time-picker",
+      "description": "For dial time pickers.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.time-picker.surface-tint-layer.color",
+          "displayName": "Time picker surface tint layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-tint"
+        },
+        {
+          "name": "md.comp.time-picker.clock-dial.color",
+          "displayName": "Time picker clock dial color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-highest"
+        },
+        {
+          "name": "md.comp.time-picker.clock-dial.shape",
+          "displayName": "Time picker clock dial shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.time-picker.clock-dial.shape.ignore",
+          "displayName": "Time picker clock dial shape ignore",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.time-picker.clock-dial.color.ignore",
+          "displayName": "Time picker clock dial color ignore",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.time-picker.clock-dial.selector.track.container.width",
+          "displayName": "Time picker clock dial selector track container width",
+          "type": "LENGTH",
+          "value": "2dp"
+        },
+        {
+          "name": "md.comp.time-picker.clock-dial.selector.center.container.size",
+          "displayName": "Time picker clock dial selector center container size",
+          "type": "LENGTH",
+          "value": "8dp"
+        },
+        {
+          "name": "md.comp.time-picker.clock-dial.selector.handle.container.size",
+          "displayName": "Time picker clock dial selector handle container size",
+          "type": "LENGTH",
+          "value": "48dp"
+        },
+        {
+          "name": "md.comp.time-picker.clock-dial.container.size",
+          "displayName": "Time picker clock dial container size",
+          "type": "LENGTH",
+          "value": "256dp"
+        },
+        {
+          "name": "md.comp.time-picker.period-selector.horizontal.container.height",
+          "displayName": "Time picker period selector horizontal container height",
+          "type": "LENGTH",
+          "value": "38dp"
+        },
+        {
+          "name": "md.comp.time-picker.period-selector.horizontal.container.width",
+          "displayName": "Time picker period selector horizontal container width",
+          "type": "LENGTH",
+          "value": "216dp"
+        },
+        {
+          "name": "md.comp.time-picker.period-selector.vertical.container.height",
+          "displayName": "Time picker period selector vertical container height",
+          "type": "LENGTH",
+          "value": "80dp"
+        },
+        {
+          "name": "md.comp.time-picker.period-selector.vertical.container.width",
+          "displayName": "Time picker period selector vertical container width",
+          "type": "LENGTH",
+          "value": "52dp"
+        },
+        {
+          "name": "md.comp.time-picker.time-selector.container.height",
+          "displayName": "Time picker time selector container height",
+          "type": "LENGTH",
+          "value": "80dp"
+        },
+        {
+          "name": "md.comp.time-picker.time-selector.24h-vertical.container.width",
+          "displayName": "Time picker time selector 24h vertical container width",
+          "type": "LENGTH",
+          "value": "114dp"
+        },
+        {
+          "name": "md.comp.time-picker.time-selector.container.width",
+          "displayName": "Time picker time selector container width",
+          "type": "LENGTH",
+          "value": "96dp"
+        },
+        {
+          "name": "md.comp.time-picker.period-selector.unselected.pressed.label-text.color",
+          "displayName": "Time picker period selector unselected pressed label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.time-picker.period-selector.selected.pressed.label-text.color",
+          "displayName": "Time picker period selector selected pressed label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.time-picker.period-selector.pressed.state-layer.opacity",
+          "displayName": "Time picker period selector pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.time-picker.period-selector.unselected.pressed.state-layer.color",
+          "displayName": "Time picker period selector unselected pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.time-picker.period-selector.selected.pressed.state-layer.color",
+          "displayName": "Time picker period selector selected pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.time-picker.time-selector.unselected.pressed.label-text.color",
+          "displayName": "Time picker time selector unselected pressed label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.time-picker.time-selector.selected.pressed.label-text.color",
+          "displayName": "Time picker time selector selected pressed label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.time-picker.time-selector.pressed.state-layer.opacity",
+          "displayName": "Time picker time selector pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.time-picker.time-selector.unselected.pressed.state-layer.color",
+          "displayName": "Time picker time selector unselected pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.time-picker.time-selector.selected.pressed.state-layer.color",
+          "displayName": "Time picker time selector selected pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.time-picker.period-selector.unselected.focus.label-text.color",
+          "displayName": "Time picker period selector unselected focus label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.time-picker.period-selector.selected.focus.label-text.color",
+          "displayName": "Time picker period selector selected focus label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.time-picker.period-selector.focus.state-layer.opacity",
+          "displayName": "Time picker period selector focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.time-picker.period-selector.unselected.focus.state-layer.color",
+          "displayName": "Time picker period selector unselected focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.time-picker.period-selector.selected.focus.state-layer.color",
+          "displayName": "Time picker period selector selected focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.time-picker.time-selector.unselected.focus.label-text.color",
+          "displayName": "Time picker time selector unselected focus label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.time-picker.time-selector.selected.focus.label-text.color",
+          "displayName": "Time picker time selector selected focus label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.time-picker.time-selector.focus.state-layer.opacity",
+          "displayName": "Time picker time selector focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.time-picker.time-selector.unselected.focus.state-layer.color",
+          "displayName": "Time picker time selector unselected focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.time-picker.time-selector.selected.focus.state-layer.color",
+          "displayName": "Time picker time selector selected focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.time-picker.period-selector.unselected.hover.label-text.color",
+          "displayName": "Time picker period selector unselected hover label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.time-picker.period-selector.selected.hover.label-text.color",
+          "displayName": "Time picker period selector selected hover label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.time-picker.period-selector.hover.state-layer.opacity",
+          "displayName": "Time picker period selector hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.time-picker.period-selector.unselected.hover.state-layer.color",
+          "displayName": "Time picker period selector unselected hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.time-picker.period-selector.selected.hover.state-layer.color",
+          "displayName": "Time picker period selector selected hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.time-picker.time-selector.unselected.hover.label-text.color",
+          "displayName": "Time picker time selector unselected hover label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.time-picker.time-selector.selected.hover.label-text.color",
+          "displayName": "Time picker time selector selected hover label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.time-picker.time-selector.hover.state-layer.opacity",
+          "displayName": "Time picker time selector hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.time-picker.time-selector.unselected.hover.state-layer.color",
+          "displayName": "Time picker time selector unselected hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.time-picker.time-selector.selected.hover.state-layer.color",
+          "displayName": "Time picker time selector selected hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.time-picker.clock-dial.selector.track.container.color",
+          "displayName": "Time picker clock dial selector track container color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.time-picker.clock-dial.selector.center.container.shape",
+          "displayName": "Time picker clock dial selector center container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.time-picker.clock-dial.selector.center.container.color",
+          "displayName": "Time picker clock dial selector center container color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.time-picker.clock-dial.selector.handle.container.shape",
+          "displayName": "Time picker clock dial selector handle container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.time-picker.clock-dial.selector.handle.container.color",
+          "displayName": "Time picker clock dial selector handle container color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.time-picker.clock-dial.label-text.type",
+          "displayName": "Time picker clock dial label text type",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.time-picker.clock-dial.label-text.font",
+          "displayName": "Time picker clock dial label text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.body-large.font"
+        },
+        {
+          "name": "md.comp.time-picker.clock-dial.label-text.weight",
+          "displayName": "Time picker clock dial label text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.body-large.weight"
+        },
+        {
+          "name": "md.comp.time-picker.clock-dial.label-text.size",
+          "displayName": "Time picker clock dial label text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.body-large.size"
+        },
+        {
+          "name": "md.comp.time-picker.clock-dial.label-text.line-height",
+          "displayName": "Time picker clock dial label text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.body-large.line-height"
+        },
+        {
+          "name": "md.comp.time-picker.clock-dial.label-text.tracking",
+          "displayName": "Time picker clock dial label text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.body-large.tracking"
+        },
+        {
+          "name": "md.comp.time-picker.clock-dial.unselected.label-text.color",
+          "displayName": "Time picker clock dial unselected label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.time-picker.clock-dial.selected.label-text.color",
+          "displayName": "Time picker clock dial selected label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.time-picker.period-selector.label-text.type",
+          "displayName": "Time picker period selector label text type",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.time-picker.period-selector.label-text.font",
+          "displayName": "Time picker period selector label text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.title-medium.font"
+        },
+        {
+          "name": "md.comp.time-picker.period-selector.label-text.weight",
+          "displayName": "Time picker period selector label text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.title-medium.weight"
+        },
+        {
+          "name": "md.comp.time-picker.period-selector.label-text.size",
+          "displayName": "Time picker period selector label text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.title-medium.size"
+        },
+        {
+          "name": "md.comp.time-picker.period-selector.label-text.line-height",
+          "displayName": "Time picker period selector label text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.title-medium.line-height"
+        },
+        {
+          "name": "md.comp.time-picker.period-selector.label-text.tracking",
+          "displayName": "Time picker period selector label text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.title-medium.tracking"
+        },
+        {
+          "name": "md.comp.time-picker.period-selector.unselected.label-text.color",
+          "displayName": "Time picker period selector unselected label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.time-picker.period-selector.selected.label-text.color",
+          "displayName": "Time picker period selector selected label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.time-picker.period-selector.outline.width",
+          "displayName": "Time picker period selector outline width",
+          "type": "LENGTH",
+          "value": "1dp"
+        },
+        {
+          "name": "md.comp.time-picker.period-selector.outline.color",
+          "displayName": "Time picker period selector outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.outline"
+        },
+        {
+          "name": "md.comp.time-picker.period-selector.container.shape",
+          "displayName": "Time picker period selector container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.small"
+        },
+        {
+          "name": "md.comp.time-picker.period-selector.selected.container.color",
+          "displayName": "Time picker period selector selected container color",
+          "type": "COLOR",
+          "value": "md.sys.color.tertiary-container"
+        },
+        {
+          "name": "md.comp.time-picker.time-selector.separator.type",
+          "displayName": "Time picker time selector separator type",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.time-picker.time-selector.separator.font",
+          "displayName": "Time picker time selector separator font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.display-large.font"
+        },
+        {
+          "name": "md.comp.time-picker.time-selector.separator.weight",
+          "displayName": "Time picker time selector separator weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.display-large.weight"
+        },
+        {
+          "name": "md.comp.time-picker.time-selector.separator.size",
+          "displayName": "Time picker time selector separator size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.display-large.size"
+        },
+        {
+          "name": "md.comp.time-picker.time-selector.separator.line-height",
+          "displayName": "Time picker time selector separator line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.display-large.line-height"
+        },
+        {
+          "name": "md.comp.time-picker.time-selector.separator.tracking",
+          "displayName": "Time picker time selector separator tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.display-large.tracking"
+        },
+        {
+          "name": "md.comp.time-picker.time-selector.separator.color",
+          "displayName": "Time picker time selector separator color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.time-picker.time-selector.label-text.type",
+          "displayName": "Time picker time selector label text type",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.time-picker.time-selector.label-text.font",
+          "displayName": "Time picker time selector label text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.display-large.font"
+        },
+        {
+          "name": "md.comp.time-picker.time-selector.label-text.weight",
+          "displayName": "Time picker time selector label text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.display-large.weight"
+        },
+        {
+          "name": "md.comp.time-picker.time-selector.label-text.size",
+          "displayName": "Time picker time selector label text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.display-large.size"
+        },
+        {
+          "name": "md.comp.time-picker.time-selector.label-text.line-height",
+          "displayName": "Time picker time selector label text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.display-large.line-height"
+        },
+        {
+          "name": "md.comp.time-picker.time-selector.label-text.tracking",
+          "displayName": "Time picker time selector label text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.display-large.tracking"
+        },
+        {
+          "name": "md.comp.time-picker.time-selector.unselected.label-text.color",
+          "displayName": "Time picker time selector unselected label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.time-picker.time-selector.selected.label-text.color",
+          "displayName": "Time picker time selector selected label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.time-picker.time-selector.container.shape",
+          "displayName": "Time picker time selector container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.small"
+        },
+        {
+          "name": "md.comp.time-picker.time-selector.unselected.container.color",
+          "displayName": "Time picker time selector unselected container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-highest"
+        },
+        {
+          "name": "md.comp.time-picker.time-selector.selected.container.color",
+          "displayName": "Time picker time selector selected container color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary-container"
+        },
+        {
+          "name": "md.comp.time-picker.headline.type",
+          "displayName": "Time picker headline type",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.time-picker.headline.font",
+          "displayName": "Time picker headline font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.label-medium.font"
+        },
+        {
+          "name": "md.comp.time-picker.headline.weight",
+          "displayName": "Time picker headline weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.label-medium.weight"
+        },
+        {
+          "name": "md.comp.time-picker.headline.size",
+          "displayName": "Time picker headline size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.label-medium.size"
+        },
+        {
+          "name": "md.comp.time-picker.headline.line-height",
+          "displayName": "Time picker headline line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.label-medium.line-height"
+        },
+        {
+          "name": "md.comp.time-picker.headline.tracking",
+          "displayName": "Time picker headline tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.label-medium.tracking"
+        },
+        {
+          "name": "md.comp.time-picker.headline.color",
+          "displayName": "Time picker headline color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.time-picker.container.shape",
+          "displayName": "Time picker container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.extra-large"
+        },
+        {
+          "name": "md.comp.time-picker.container.elevation",
+          "displayName": "Time picker container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.time-picker.container.color",
+          "displayName": "Time picker container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-high"
+        }
+      ]
+    }
+  ]
+}

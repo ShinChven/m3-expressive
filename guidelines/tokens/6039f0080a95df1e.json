@@ -1,0 +1,520 @@
+{
+  "id": "6039f0080a95df1e",
+  "component": "Tabs",
+  "tokenSets": [
+    {
+      "displayName": "Tabs - Secondary navigation",
+      "tokenSetName": "md.comp.secondary-navigation-tab",
+      "description": "For secondary tabs.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.secondary-navigation-tab.focus.indicator.outline.offset",
+          "displayName": "Secondary navigation tab focus indicator offset",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.inner-offset"
+        },
+        {
+          "name": "md.comp.secondary-navigation-tab.focus.indicator.thickness",
+          "displayName": "Secondary navigation tab focus indicator thickness",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.thickness"
+        },
+        {
+          "name": "md.comp.secondary-navigation-tab.focus.indicator.color",
+          "displayName": "Secondary navigation tab focus indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary"
+        },
+        {
+          "name": "md.comp.secondary-navigation-tab.divider.height",
+          "displayName": "Secondary navigation tab divider height",
+          "type": "LENGTH",
+          "value": "1dp"
+        },
+        {
+          "name": "md.comp.secondary-navigation-tab.divider.color",
+          "displayName": "Secondary navigation tab divider color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-variant"
+        },
+        {
+          "name": "md.comp.secondary-navigation-tab.active-indicator.height",
+          "displayName": "Secondary navigation tab active indicator height",
+          "type": "LENGTH",
+          "value": "2dp"
+        },
+        {
+          "name": "md.comp.secondary-navigation-tab.active-indicator.color",
+          "displayName": "Secondary navigation tab active indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.secondary-navigation-tab.with-icon.pressed.icon.color",
+          "displayName": "Secondary navigation tab with icon pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.secondary-navigation-tab.with-icon.focus.icon.color",
+          "displayName": "Secondary navigation tab with icon focus icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.secondary-navigation-tab.with-icon.hover.icon.color",
+          "displayName": "Secondary navigation tab with icon hover icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.secondary-navigation-tab.with-icon.inactive.icon.color",
+          "displayName": "Secondary navigation tab with icon inactive icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.secondary-navigation-tab.with-icon.active.icon.color",
+          "displayName": "Secondary navigation tab with icon active icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.secondary-navigation-tab.with-icon.icon.size",
+          "displayName": "Secondary navigation tab with icon icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.secondary-navigation-tab.inactive.label-text.color",
+          "displayName": "Secondary navigation tab inactive label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.secondary-navigation-tab.active.label-text.color",
+          "displayName": "Secondary navigation tab active label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.secondary-navigation-tab.label-text.type",
+          "displayName": "Type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.secondary-navigation-tab.label-text.font",
+          "displayName": "Secondary navigation tab label text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.title-small.font"
+        },
+        {
+          "name": "md.comp.secondary-navigation-tab.label-text.weight",
+          "displayName": "Secondary navigation tab label text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.title-small.weight"
+        },
+        {
+          "name": "md.comp.secondary-navigation-tab.label-text.size",
+          "displayName": "Secondary navigation tab label text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.title-small.size"
+        },
+        {
+          "name": "md.comp.secondary-navigation-tab.label-text.line-height",
+          "displayName": "Secondary navigation tab label text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.title-small.line-height"
+        },
+        {
+          "name": "md.comp.secondary-navigation-tab.label-text.tracking",
+          "displayName": "Secondary navigation tab label text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.title-small.tracking"
+        },
+        {
+          "name": "md.comp.secondary-navigation-tab.focus.label-text.color",
+          "displayName": "Secondary navigation tab focus label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.secondary-navigation-tab.focus.state-layer.opacity",
+          "displayName": "Secondary navigation tab focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.secondary-navigation-tab.focus.state-layer.color",
+          "displayName": "Secondary navigation tab focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.secondary-navigation-tab.hover.label-text.color",
+          "displayName": "Secondary navigation tab hover label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.secondary-navigation-tab.hover.state-layer.opacity",
+          "displayName": "Secondary navigation tab hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.secondary-navigation-tab.hover.state-layer.color",
+          "displayName": "Secondary navigation tab hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.secondary-navigation-tab.container.shadow-color",
+          "displayName": "Secondary navigation tab container shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.secondary-navigation-tab.container.elevation",
+          "displayName": "Secondary navigation tab container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.secondary-navigation-tab.container.height",
+          "displayName": "Secondary navigation tab container height",
+          "type": "LENGTH",
+          "value": "48dp"
+        },
+        {
+          "name": "md.comp.secondary-navigation-tab.container.shape",
+          "displayName": "Secondary navigation tab container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.none"
+        },
+        {
+          "name": "md.comp.secondary-navigation-tab.container.color",
+          "displayName": "Secondary navigation tab container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface"
+        },
+        {
+          "name": "md.comp.secondary-navigation-tab.pressed.label-text.color",
+          "displayName": "Secondary navigation tab pressed label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.secondary-navigation-tab.pressed.state-layer.opacity",
+          "displayName": "Secondary navigation tab pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.secondary-navigation-tab.pressed.state-layer.color",
+          "displayName": "Secondary navigation tab pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        }
+      ]
+    },
+    {
+      "displayName": "Tabs - Primary navigation",
+      "tokenSetName": "md.comp.primary-navigation-tab",
+      "description": "For primary tabs.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.primary-navigation-tab.focus.indicator.outline.offset",
+          "displayName": "Primary navigation tab focus indicator offset",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.inner-offset"
+        },
+        {
+          "name": "md.comp.primary-navigation-tab.focus.indicator.thickness",
+          "displayName": "Primary navigation tab focus indicator thickness",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.thickness"
+        },
+        {
+          "name": "md.comp.primary-navigation-tab.focus.indicator.color",
+          "displayName": "Primary navigation tab focus indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary"
+        },
+        {
+          "name": "md.comp.primary-navigation-tab.divider.height",
+          "displayName": "Primary navigation tab divider height",
+          "type": "LENGTH",
+          "value": "1dp"
+        },
+        {
+          "name": "md.comp.primary-navigation-tab.divider.color",
+          "displayName": "Primary navigation tab divider color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-variant"
+        },
+        {
+          "name": "md.comp.primary-navigation-tab.with-label-text.inactive.label-text.color",
+          "displayName": "Primary navigation tab with label text inactive color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.primary-navigation-tab.with-label-text.active.label-text.color",
+          "displayName": "Primary navigation tab with label text active color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.primary-navigation-tab.with-label-text.label-text.type",
+          "displayName": "Label text type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.primary-navigation-tab.with-label-text.label-text.font",
+          "displayName": "Primary navigation tab with label text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.title-small.font"
+        },
+        {
+          "name": "md.comp.primary-navigation-tab.with-label-text.label-text.weight",
+          "displayName": "Primary navigation tab with label text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.title-small.weight"
+        },
+        {
+          "name": "md.comp.primary-navigation-tab.with-label-text.label-text.size",
+          "displayName": "Primary navigation tab with label text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.title-small.size"
+        },
+        {
+          "name": "md.comp.primary-navigation-tab.with-label-text.label-text.line-height",
+          "displayName": "Primary navigation tab with label text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.title-small.line-height"
+        },
+        {
+          "name": "md.comp.primary-navigation-tab.with-label-text.label-text.tracking",
+          "displayName": "Primary navigation tab with label text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.title-small.tracking"
+        },
+        {
+          "name": "md.comp.primary-navigation-tab.with-label-text.inactive.focus.label-text.color",
+          "displayName": "Primary navigation tab with label text inactive focus color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.primary-navigation-tab.with-label-text.active.focus.label-text.color",
+          "displayName": "Primary navigation tab with label text active focus color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.primary-navigation-tab.with-icon.inactive.focus.icon.color",
+          "displayName": "Primary navigation tab with icon inactive focus color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.primary-navigation-tab.with-icon.active.focus.icon.color",
+          "displayName": "Primary navigation tab with icon active focus color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.primary-navigation-tab.inactive.focus.state-layer.opacity",
+          "displayName": "Primary navigation tab inactive focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.primary-navigation-tab.inactive.focus.state-layer.color",
+          "displayName": "Primary navigation tab inactive focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.primary-navigation-tab.active.focus.state-layer.opacity",
+          "displayName": "Primary navigation tab active focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.primary-navigation-tab.active.focus.state-layer.color",
+          "displayName": "Primary navigation tab active focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.primary-navigation-tab.with-label-text.inactive.hover.label-text.color",
+          "displayName": "Primary navigation tab with label text inactive hover color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.primary-navigation-tab.with-label-text.active.hover.label-text.color",
+          "displayName": "Primary navigation tab with label text active hover color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.primary-navigation-tab.with-icon.inactive.hover.icon.color",
+          "displayName": "Primary navigation tab with icon inactive hover icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.primary-navigation-tab.with-icon.active.hover.icon.color",
+          "displayName": "Primary navigation tab with icon active hover icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.primary-navigation-tab.inactive.hover.state-layer.opacity",
+          "displayName": "Primary navigation tab inactive hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.primary-navigation-tab.inactive.hover.state-layer.color",
+          "displayName": "Primary navigation tab inactive hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.primary-navigation-tab.active.hover.state-layer.opacity",
+          "displayName": "Primary navigation tab active hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.primary-navigation-tab.active.hover.state-layer.color",
+          "displayName": "Primary navigation tab active hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.primary-navigation-tab.active-indicator.shape",
+          "displayName": "Primary navigation tab active indicator shape",
+          "type": "SHAPE",
+          "value": null
+        },
+        {
+          "name": "md.comp.primary-navigation-tab.active-indicator.height",
+          "displayName": "Primary navigation tab active indicator height",
+          "type": "LENGTH",
+          "value": "3dp"
+        },
+        {
+          "name": "md.comp.primary-navigation-tab.active-indicator.color",
+          "displayName": "Primary navigation tab active indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.primary-navigation-tab.with-icon.inactive.icon.color",
+          "displayName": "Primary navigation tab with icon inactive color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.primary-navigation-tab.with-icon.active.icon.color",
+          "displayName": "Primary navigation tab with icon active color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.primary-navigation-tab.with-icon.icon.size",
+          "displayName": "Primary navigation tab with icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.primary-navigation-tab.container.elevation",
+          "displayName": "Primary navigation tab container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.primary-navigation-tab.with-icon-and-label-text.container.height",
+          "displayName": "Primary navigation tab with icon and label text container height",
+          "type": "LENGTH",
+          "value": "64dp"
+        },
+        {
+          "name": "md.comp.primary-navigation-tab.container.height",
+          "displayName": "Primary navigation tab container height",
+          "type": "LENGTH",
+          "value": "48dp"
+        },
+        {
+          "name": "md.comp.primary-navigation-tab.container.shape",
+          "displayName": "Primary navigation tab container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.none"
+        },
+        {
+          "name": "md.comp.primary-navigation-tab.container.color",
+          "displayName": "Primary navigation tab container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface"
+        },
+        {
+          "name": "md.comp.primary-navigation-tab.with-label-text.inactive.pressed.label-text.color",
+          "displayName": "Primary navigation tab with label text inactive pressed color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.primary-navigation-tab.with-label-text.active.pressed.label-text.color",
+          "displayName": "Primary navigation tab with label text active pressed color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.primary-navigation-tab.with-icon.inactive.pressed.icon.color",
+          "displayName": "Primary navigation tab with icon inactive pressed color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.primary-navigation-tab.with-icon.active.pressed.icon.color",
+          "displayName": "Primary navigation tab with icon active pressed color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.primary-navigation-tab.inactive.pressed.state-layer.opacity",
+          "displayName": "Primary navigation tab inactive pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.primary-navigation-tab.inactive.pressed.state-layer.color",
+          "displayName": "Primary navigation tab inactive pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.primary-navigation-tab.active.pressed.state-layer.opacity",
+          "displayName": "Primary navigation tab active pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.primary-navigation-tab.active.pressed.state-layer.color",
+          "displayName": "Primary navigation tab active pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        }
+      ]
+    }
+  ]
+}

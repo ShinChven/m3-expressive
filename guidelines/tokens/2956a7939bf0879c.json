@@ -1,0 +1,726 @@
+{
+  "id": "2956a7939bf0879c",
+  "component": "Toolbars",
+  "tokenSets": [
+    {
+      "displayName": "Toolbar - Floating",
+      "tokenSetName": "md.comp.toolbar.floating",
+      "description": "For floating toolbars.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.toolbar.floating.container.elevation",
+          "displayName": "Floating toolbar container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.toolbar.floating.vertical.container.width",
+          "displayName": "Floating toolbar container height - vertical",
+          "type": "LENGTH",
+          "value": "64dp"
+        },
+        {
+          "name": "md.comp.toolbar.floating.horizontal.container.height",
+          "displayName": "Floating toolbar container height - horizontal",
+          "type": "LENGTH",
+          "value": "64dp"
+        },
+        {
+          "name": "md.comp.toolbar.floating.container.leading-space",
+          "displayName": "Floating toolbar leading space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space100"
+        },
+        {
+          "name": "md.comp.toolbar.floating.container.between-space",
+          "displayName": "Floating toolbar space between actions",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space50"
+        },
+        {
+          "name": "md.comp.toolbar.floating.horizontal.container.external-space",
+          "displayName": "Floating toolbar margin from screen edge - horizontal",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space200"
+        },
+        {
+          "name": "md.comp.toolbar.floating.container.external-padding",
+          "displayName": "Floating toolbar margin from screen edge",
+          "type": "LENGTH",
+          "value": "16dp"
+        },
+        {
+          "name": "md.comp.toolbar.floating.vertical.container.external-space",
+          "displayName": "Floating toolbar margin from screen edge - vertical",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space300"
+        },
+        {
+          "name": "md.comp.toolbar.floating.container.trailing-space",
+          "displayName": "Floating toolbar trailing space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space100"
+        },
+        {
+          "name": "md.comp.toolbar.floating.container.height",
+          "displayName": "Floating toolbar container height",
+          "type": "LENGTH",
+          "value": "64dp"
+        },
+        {
+          "name": "md.comp.toolbar.floating.vibrant.button.selected.container.color",
+          "displayName": "Floating toolbar vibrant selected button container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container"
+        },
+        {
+          "name": "md.comp.toolbar.floating.vibrant.button.selected.text.color",
+          "displayName": "Floating toolbar vibrant selected button text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.toolbar.floating.vibrant.button.selected.icon.color",
+          "displayName": "Floating toolbar vibrant selected button icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.toolbar.floating.vibrant.button.unselected.text.color",
+          "displayName": "Floating toolbar vibrant unselected button text color ",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.toolbar.floating.vibrant.button.unselected.icon.color",
+          "displayName": "Floating toolbar vibrant unselected button icon color ",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.toolbar.floating.vibrant.container.color",
+          "displayName": "Floating toolbar vibrant color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary-container"
+        },
+        {
+          "name": "md.comp.toolbar.floating.standard.container.color",
+          "displayName": "Floating toolbar standard color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container"
+        },
+        {
+          "name": "md.comp.toolbar.floating.container.shape",
+          "displayName": "Floating toolbar container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        }
+      ]
+    },
+    {
+      "displayName": "Toolbar - Docked",
+      "tokenSetName": "md.comp.toolbar.docked",
+      "description": "For docked toolbars.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.toolbar.docked.container.color",
+          "displayName": "Docked toolbar container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container"
+        },
+        {
+          "name": "md.comp.toolbar.docked.container.height",
+          "displayName": "Docked toolbar container height",
+          "type": "LENGTH",
+          "value": "64dp"
+        },
+        {
+          "name": "md.comp.toolbar.docked.container.leading-space",
+          "displayName": "Docked toolbar leading padding",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space200"
+        },
+        {
+          "name": "md.comp.toolbar.docked.container.trailing-space",
+          "displayName": "Docked toolbar trailing padding",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space200"
+        },
+        {
+          "name": "md.comp.toolbar.docked.container.max-spacing",
+          "displayName": "Docked toolbar max space between actions",
+          "type": "LENGTH",
+          "value": "32dp"
+        },
+        {
+          "name": "md.comp.toolbar.docked.container.min-spacing",
+          "displayName": "Docked toolbar min space between actions",
+          "type": "LENGTH",
+          "value": "4dp"
+        },
+        {
+          "name": "md.comp.toolbar.docked.container.shape",
+          "displayName": "Docked toolbar container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.none"
+        }
+      ]
+    },
+    {
+      "displayName": "Toolbar - Color - Vibrant",
+      "tokenSetName": "md.comp.toolbar.vibrant",
+      "description": "For vibrant docked and floating toolbars.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.toolbar.vibrant.container.shape",
+          "displayName": "Toolbar vibrant container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.toolbar.vibrant.selected.label-text.color",
+          "displayName": "Toolbar vibrant selected label color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.toolbar.vibrant.label-text.color",
+          "displayName": "Toolbar vibrant label color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.toolbar.vibrant.icon.color",
+          "displayName": "Toolbar vibrant icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.toolbar.vibrant.selected.icon.color",
+          "displayName": "Toolbar vibrant selected icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.toolbar.vibrant.selected.button.container.color",
+          "displayName": " Toolbar vibrant selected button container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container"
+        },
+        {
+          "name": "md.comp.toolbar.vibrant.button.container.color",
+          "displayName": "Toolbar vibrant button container color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary-container"
+        },
+        {
+          "name": "md.comp.toolbar.vibrant.container.color",
+          "displayName": "Toolbar standard container color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary-container"
+        },
+        {
+          "name": "md.comp.toolbar.vibrant.pressed.state-layer.opacity",
+          "displayName": "Toolbar vibrant pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.toolbar.vibrant.selected.pressed.label-text.color",
+          "displayName": "Toolbar vibrant selected pressed label color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.toolbar.vibrant.pressed.label-text.color",
+          "displayName": "Toolbar vibrant pressed label color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.toolbar.vibrant.selected.pressed.icon.color",
+          "displayName": "Toolbar vibrant selected pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.toolbar.vibrant.pressed.icon.color",
+          "displayName": "Toolbar vibrant pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.toolbar.vibrant.selected.pressed.state-layer.color",
+          "displayName": "Toolbar vibrant selected pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.toolbar.vibrant.pressed.state-layer.color",
+          "displayName": "Toolbar vibrant pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.toolbar.vibrant.focused.state-layer.opacity",
+          "displayName": "Toolbar vibrant focused state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.toolbar.vibrant.selected.focused.label-text.color",
+          "displayName": "Toolbar vibrant selected focused label color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.toolbar.vibrant.focused.label-text.color",
+          "displayName": "Toolbar vibrant focused label color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.toolbar.vibrant.selected.focused.icon.color",
+          "displayName": "Toolbar vibrant selected focused icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.toolbar.vibrant.focused.icon.color",
+          "displayName": "Toolbar vibrant focused icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.toolbar.vibrant.selected.focused.state-layer.color",
+          "displayName": "Toolbar vibrant selected focused state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.toolbar.vibrant.focused.state-layer.color",
+          "displayName": "Toolbar vibrant focused state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.toolbar.vibrant.hovered.state-layer.opacity",
+          "displayName": "Toolbar vibrant hovered state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.toolbar.vibrant.selected.hovered.label-text.color",
+          "displayName": "Toolbar vibrant selected hovered label color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.toolbar.vibrant.hovered.label-text.color",
+          "displayName": "Toolbar vibrant hovered label color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.toolbar.vibrant.selected.hovered.icon.color",
+          "displayName": "Toolbar vibrant selected hovered icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.toolbar.vibrant.hovered.icon.color",
+          "displayName": "Toolbar vibrant hovered icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.toolbar.vibrant.selected.hovered.state-layer.color",
+          "displayName": "Toolbar vibrant selected hovered state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.toolbar.vibrant.hovered.state-layer.color",
+          "displayName": "Toolbar vibrant hovered state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.toolbar.vibrant.disabled.label-text.opacity",
+          "displayName": "Toolbar vibrant disabled label opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.toolbar.vibrant.disabled.icon.opacity",
+          "displayName": "Toolbar vibrant disabled icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.toolbar.vibrant.disabled.label-text.color",
+          "displayName": "Toolbar vibrant disabled label color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.toolbar.vibrant.disabled.icon.color",
+          "displayName": "Toolbar vibrant disabled icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        }
+      ]
+    },
+    {
+      "displayName": "Toolbar - Color - Standard",
+      "tokenSetName": "md.comp.toolbar.standard",
+      "description": "For standard docked and floating toolbars.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.toolbar.standard.hovered.state-layer.opacity",
+          "displayName": "Toolbar standard hovered state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.toolbar.standard.selected.button.container.color",
+          "displayName": " Toolbar standard selected button container color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary-container"
+        },
+        {
+          "name": "md.comp.toolbar.standard.selected.pressed.label-text.color",
+          "displayName": "Toolbar standard selected pressed label color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.toolbar.standard.pressed.state-layer.opacity",
+          "displayName": "Toolbar standard pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.toolbar.standard.pressed.label-text.color",
+          "displayName": "Toolbar standard pressed label color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.toolbar.standard.selected.pressed.icon.color",
+          "displayName": "Toolbar standard selected pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.toolbar.standard.pressed.icon.color",
+          "displayName": "Toolbar standard pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.toolbar.standard.selected.pressed.state-layer.color",
+          "displayName": "Toolbar standard selected pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.toolbar.standard.pressed.state-layer.color",
+          "displayName": "Toolbar standard pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.toolbar.standard.focused.state-layer.opacity",
+          "displayName": "Toolbar standard focused state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.toolbar.standard.selected.focused.label-text.color",
+          "displayName": "Toolbar standard selected focused label color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.toolbar.standard.focused.label-text.color",
+          "displayName": "Toolbar standard focused label color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.toolbar.standard.selected.focused.icon.color",
+          "displayName": "Toolbar standard selected focused icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.toolbar.standard.focused.icon.color",
+          "displayName": "Toolbar standard focused icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.toolbar.standard.selected.focused.state-layer.color",
+          "displayName": "Toolbar standard selected focused state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.toolbar.standard.focused.state-layer.color",
+          "displayName": "Toolbar standard focused state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.toolbar.standard.hovered.state-layer.color",
+          "displayName": "Toolbar standard hovered state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.toolbar.standard.selected.hovered.state-layer.color",
+          "displayName": "Toolbar standard selected hovered state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.toolbar.standard.hovered.icon.color",
+          "displayName": "Toolbar standard hovered icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.toolbar.standard.selected.hovered.icon.color",
+          "displayName": "Toolbar standard selected hovered icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.toolbar.standard.hovered.label-text.color",
+          "displayName": "Toolbar standard hovered label color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.toolbar.standard.selected.hovered.label-text.color",
+          "displayName": "Toolbar standard selected hovered label color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.toolbar.standard.disabled.icon.opacity",
+          "displayName": "Toolbar standard disabled icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.toolbar.standard.disabled.label-text.opacity",
+          "displayName": "Toolbar standard disabled label opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.toolbar.standard.disabled.label-text.color",
+          "displayName": "Toolbar standard disabled label color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.toolbar.standard.disabled.icon.color",
+          "displayName": "Toolbar standard disabled icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.toolbar.standard.container.shape",
+          "displayName": "Toolbar standard container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.toolbar.standard.selected.label-text.color",
+          "displayName": "Toolbar standard selected label color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.toolbar.standard.label-text.color",
+          "displayName": "Toolbar standard label color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.toolbar.standard.selected.icon.color",
+          "displayName": "Toolbar standard selected icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.toolbar.standard.icon.color",
+          "displayName": "Toolbar standard icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.toolbar.standard.button.container.color",
+          "displayName": "Toolbar standard button container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container"
+        },
+        {
+          "name": "md.comp.toolbar.standard.container.color",
+          "displayName": "Toolbar standard container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container"
+        }
+      ]
+    },
+    {
+      "displayName": "Toolbar - Floating - FAB",
+      "tokenSetName": "md.comp.toolbar.floating.fab",
+      "description": "For floating toolbars with a FAB in them.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.toolbar.floating.fab.medium.container.elevation",
+          "displayName": "Toolbar floating FAB medium container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level2"
+        },
+        {
+          "name": "md.comp.toolbar.floating.fab.medium.container.shape",
+          "displayName": "Toolbar floating FAB medium container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.large-increased"
+        },
+        {
+          "name": "md.comp.toolbar.floating.fab.medium.icon.size",
+          "displayName": "Toolbar floating FAB medium icon size",
+          "type": "LENGTH",
+          "value": "28dp"
+        },
+        {
+          "name": "md.comp.toolbar.floating.fab.medium.container.width",
+          "displayName": "Toolbar floating FAB medium container width",
+          "type": "LENGTH",
+          "value": "80dp"
+        },
+        {
+          "name": "md.comp.toolbar.floating.fab.medium.container.height",
+          "displayName": "Toolbar floating FAB medium container height",
+          "type": "LENGTH",
+          "value": "80dp"
+        },
+        {
+          "name": "md.comp.toolbar.floating.fab.icon.size",
+          "displayName": "Toolbar floating FAB icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.toolbar.floating.fab.container.shape",
+          "displayName": "Toolbar floating FAB container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.large"
+        },
+        {
+          "name": "md.comp.toolbar.floating.fab.container.width",
+          "displayName": "Toolbar floating FAB container width",
+          "type": "LENGTH",
+          "value": "56dp"
+        },
+        {
+          "name": "md.comp.toolbar.floating.fab.container.height",
+          "displayName": "Toolbar floating FAB container height",
+          "type": "LENGTH",
+          "value": "56dp"
+        },
+        {
+          "name": "md.comp.toolbar.floating.fab.container.elevation",
+          "displayName": "Toolbar floating FAB container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.toolbar.floating.fab.between-space",
+          "displayName": "Toolbar floating FAB space between toolbar and FAB",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space100"
+        },
+        {
+          "name": "md.comp.toolbar.floating.fab.vibrant.icon.color",
+          "displayName": "Toolbar floating FAB vibrant icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.toolbar.floating.fab.vibrant.container.color",
+          "displayName": "Toolbar floating FAB vibrant container color",
+          "type": "COLOR",
+          "value": "md.sys.color.tertiary-container"
+        },
+        {
+          "name": "md.comp.toolbar.floating.fab.standard.icon.color",
+          "displayName": "Toolbar floating FAB standard icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.toolbar.floating.fab.standard.container.color",
+          "displayName": "Toolbar floating FAB standard container color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary-container"
+        }
+      ]
+    },
+    {
+      "displayName": "Bottom app bar (baseline)",
+      "tokenSetName": "md.comp.bottom-app-bar",
+      "description": "Baseline bottom app bar container tokens. For expressive, use `md.comp.toolbar.docked` and `md.comp.toolbar.standard` instead.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.bottom-app-bar.container.surface-tint-layer.color",
+          "displayName": "Bottom app bar container surface tint layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-tint"
+        },
+        {
+          "name": "md.comp.bottom-app-bar.with-fab.container.height",
+          "displayName": "Bottom app bar with FAB container height",
+          "type": "LENGTH",
+          "value": "72dp"
+        },
+        {
+          "name": "md.comp.bottom-app-bar.container.height",
+          "displayName": "Bottom app bar container height",
+          "type": "LENGTH",
+          "value": "80dp"
+        },
+        {
+          "name": "md.comp.bottom-app-bar.container.elevation",
+          "displayName": "Bottom app bar container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level2"
+        },
+        {
+          "name": "md.comp.bottom-app-bar.container.shape",
+          "displayName": "Bottom app bar container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.none"
+        },
+        {
+          "name": "md.comp.bottom-app-bar.container.color",
+          "displayName": "Bottom app bar container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container"
+        }
+      ]
+    }
+  ]
+}

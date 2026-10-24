@@ -1,0 +1,3588 @@
+{
+  "id": "60990dd98dea0998",
+  "component": "Text fields",
+  "tokenSets": [
+    {
+      "displayName": "Text field - Outlined",
+      "tokenSetName": "md.comp.outlined-text-field",
+      "description": "For outlined text fields.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.outlined-text-field.focus.indicator.outline.thickness",
+          "displayName": "Outlined text field focus indicator thickness",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.thickness"
+        },
+        {
+          "name": "md.comp.outlined-text-field.error.focus.indicator.outline.color",
+          "displayName": "Outlined text field focus indicator color - error",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.outlined-text-field.focus.indicator.outline.color",
+          "displayName": "Outlined text field focus indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary"
+        },
+        {
+          "name": "md.comp.outlined-text-field.container.height",
+          "displayName": "Outlined text field container height",
+          "type": "LENGTH",
+          "value": "56dp"
+        },
+        {
+          "name": "md.comp.outlined-text-field.input-text.placeholder.color",
+          "displayName": "Outlined text field input text placeholder color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.outlined-text-field.input-text.prefix.color",
+          "displayName": "Outlined text field input text prefix color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.outlined-text-field.input-text.suffix.color",
+          "displayName": "Outlined text field input text suffix color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.outlined-text-field.error.hover.trailing-icon.color",
+          "displayName": "Outlined text field error hover trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-error-container"
+        },
+        {
+          "name": "md.comp.outlined-text-field.error.hover.leading-icon.color",
+          "displayName": "Outlined text field error hover leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.outlined-text-field.error.hover.supporting-text.color",
+          "displayName": "Outlined text field error hover supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.outlined-text-field.error.hover.input-text.color",
+          "displayName": "Outlined text field error hover input text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-text-field.error.hover.label-text.color",
+          "displayName": "Outlined text field error hover label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-error-container"
+        },
+        {
+          "name": "md.comp.outlined-text-field.error.hover.outline.color",
+          "displayName": "Outlined text field error hover outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-error-container"
+        },
+        {
+          "name": "md.comp.outlined-text-field.error.focus.caret.color",
+          "displayName": "Outlined text field error focus caret color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.outlined-text-field.error.focus.trailing-icon.color",
+          "displayName": "Outlined text field error focus trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.outlined-text-field.error.focus.leading-icon.color",
+          "displayName": "Outlined text field error focus leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.outlined-text-field.error.focus.supporting-text.color",
+          "displayName": "Outlined text field error focus supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.outlined-text-field.error.focus.input-text.color",
+          "displayName": "Outlined text field error focus input text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-text-field.error.focus.label-text.color",
+          "displayName": "Outlined text field error focus label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.outlined-text-field.error.focus.outline.color",
+          "displayName": "Outlined text field error focus outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.outlined-text-field.error.trailing-icon.color",
+          "displayName": "Outlined text field error trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.outlined-text-field.error.leading-icon.color",
+          "displayName": "Outlined text field error leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.outlined-text-field.error.supporting-text.color",
+          "displayName": "Outlined text field error supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.outlined-text-field.error.input-text.color",
+          "displayName": "Outlined text field error input text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-text-field.error.label-text.color",
+          "displayName": "Outlined text field error label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.outlined-text-field.error.outline.color",
+          "displayName": "Outlined text field error outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.outlined-text-field.hover.trailing-icon.color",
+          "displayName": "Outlined text field hover trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.outlined-text-field.hover.leading-icon.color",
+          "displayName": "Outlined text field hover leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.outlined-text-field.hover.supporting-text.color",
+          "displayName": "Outlined text field hover supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.outlined-text-field.hover.input-text.color",
+          "displayName": "Outlined text field hover input text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-text-field.hover.label-text.color",
+          "displayName": "Outlined text field hover label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-text-field.hover.outline.color",
+          "displayName": "Outlined text field hover outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-text-field.hover.outline.width",
+          "displayName": "Outlined text field hover outline width",
+          "type": "LENGTH",
+          "value": "1dp"
+        },
+        {
+          "name": "md.comp.outlined-text-field.focus.trailing-icon.color",
+          "displayName": "Outlined text field focus trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.outlined-text-field.focus.leading-icon.color",
+          "displayName": "Outlined text field focus leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.outlined-text-field.focus.supporting-text.color",
+          "displayName": "Outlined text field focus supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.outlined-text-field.focus.input-text.color",
+          "displayName": "Outlined text field focus input text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-text-field.focus.label-text.color",
+          "displayName": "Outlined text field focus label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.outlined-text-field.focus.outline.color",
+          "displayName": "Outlined text field focus outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.outlined-text-field.focus.outline.width",
+          "displayName": "Outlined text field focus outline width",
+          "type": "LENGTH",
+          "value": "3dp"
+        },
+        {
+          "name": "md.comp.outlined-text-field.disabled.trailing-icon.opacity",
+          "displayName": "Outlined text field disabled trailing-icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.outlined-text-field.disabled.trailing-icon.color",
+          "displayName": "Outlined text field disabled trailing-icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-text-field.disabled.leading-icon.opacity",
+          "displayName": "Outlined text field disabled leading icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.outlined-text-field.disabled.leading-icon.color",
+          "displayName": "Outlined text field disabled leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-text-field.disabled.supporting-text.opacity",
+          "displayName": "Outlined text field disabled supporting text opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.outlined-text-field.disabled.supporting-text.color",
+          "displayName": "Outlined text field disabled supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-text-field.disabled.input-text.opacity",
+          "displayName": "Outlined text field disabled input text opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.outlined-text-field.disabled.input-text.color",
+          "displayName": "Outlined text field disabled input text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-text-field.disabled.label-text.opacity",
+          "displayName": "Outlined text field disabled label text opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.outlined-text-field.disabled.label-text.color",
+          "displayName": "Outlined text field disabled label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-text-field.disabled.outline.opacity",
+          "displayName": "Outlined text field disabled outline opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.outlined-text-field.disabled.outline.color",
+          "displayName": "Outlined text field disabled outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-text-field.disabled.outline.width",
+          "displayName": "Outlined text field disabled outline width",
+          "type": "LENGTH",
+          "value": "1dp"
+        },
+        {
+          "name": "md.comp.outlined-text-field.caret.color",
+          "displayName": "Outlined text field caret color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.outlined-text-field.trailing-icon.size",
+          "displayName": "Outlined text field trailing icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.outlined-text-field.trailing-icon.color",
+          "displayName": "Outlined text field trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.outlined-text-field.leading-icon.size",
+          "displayName": "Outlined text field leading icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.outlined-text-field.leading-icon.color",
+          "displayName": "Outlined text field leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.outlined-text-field.supporting-text.type",
+          "displayName": "Outlined text field supporting text type",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.outlined-text-field.supporting-text.font",
+          "displayName": "Outlined text field supporting text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.body-small.font"
+        },
+        {
+          "name": "md.comp.outlined-text-field.supporting-text.weight",
+          "displayName": "Outlined text field supporting text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.body-small.weight"
+        },
+        {
+          "name": "md.comp.outlined-text-field.supporting-text.size",
+          "displayName": "Outlined text field supporting text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.body-small.size"
+        },
+        {
+          "name": "md.comp.outlined-text-field.supporting-text.line-height",
+          "displayName": "Outlined text field supporting text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.body-small.line-height"
+        },
+        {
+          "name": "md.comp.outlined-text-field.supporting-text.tracking",
+          "displayName": "Outlined text field supporting text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.body-small.tracking"
+        },
+        {
+          "name": "md.comp.outlined-text-field.supporting-text.color",
+          "displayName": "Outlined text field supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.outlined-text-field.label-text.populated.size",
+          "displayName": "Outlined text field label text populated size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.body-small.size"
+        },
+        {
+          "name": "md.comp.outlined-text-field.label-text.populated.line-height",
+          "displayName": "Outlined text field label text populated line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.body-small.line-height"
+        },
+        {
+          "name": "md.comp.outlined-text-field.label-text.type",
+          "displayName": "Outlined text field label text type",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.outlined-text-field.label-text.font",
+          "displayName": "Outlined text field label text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.body-large.font"
+        },
+        {
+          "name": "md.comp.outlined-text-field.label-text.weight",
+          "displayName": "Outlined text field label text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.body-large.weight"
+        },
+        {
+          "name": "md.comp.outlined-text-field.label-text.size",
+          "displayName": "Outlined text field label text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.body-large.size"
+        },
+        {
+          "name": "md.comp.outlined-text-field.label-text.line-height",
+          "displayName": "Outlined text field label text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.body-large.line-height"
+        },
+        {
+          "name": "md.comp.outlined-text-field.label-text.tracking",
+          "displayName": "Outlined text field label text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.body-large.tracking"
+        },
+        {
+          "name": "md.comp.outlined-text-field.label-text.color",
+          "displayName": "Outlined text field label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.outlined-text-field.input-text.type",
+          "displayName": "Outlined text field input text type",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.outlined-text-field.input-text.font",
+          "displayName": "Outlined text field input text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.body-large.font"
+        },
+        {
+          "name": "md.comp.outlined-text-field.input-text.weight",
+          "displayName": "Outlined text field input text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.body-large.weight"
+        },
+        {
+          "name": "md.comp.outlined-text-field.input-text.size",
+          "displayName": "Outlined text field input text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.body-large.size"
+        },
+        {
+          "name": "md.comp.outlined-text-field.input-text.line-height",
+          "displayName": "Outlined text field input text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.body-large.line-height"
+        },
+        {
+          "name": "md.comp.outlined-text-field.input-text.tracking",
+          "displayName": "Outlined text field input text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.body-large.tracking"
+        },
+        {
+          "name": "md.comp.outlined-text-field.input-text.color",
+          "displayName": "Outlined text field input text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-text-field.outline.color",
+          "displayName": "Outlined text field outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.outline"
+        },
+        {
+          "name": "md.comp.outlined-text-field.outline.width",
+          "displayName": "Outlined text field outline width",
+          "type": "LENGTH",
+          "value": "1dp"
+        },
+        {
+          "name": "md.comp.outlined-text-field.container.shape",
+          "displayName": "Outlined text field container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.extra-small"
+        }
+      ]
+    },
+    {
+      "displayName": "Text field - Filled",
+      "tokenSetName": "md.comp.filled-text-field",
+      "description": "For filled text fields.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.filled-text-field.focus.active-indicator.thickness",
+          "displayName": "Filled text field focus active indicator thickness",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.thickness"
+        },
+        {
+          "name": "md.comp.filled-text-field.supporting-text.type",
+          "displayName": "Filled text field supporting text type",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.filled-text-field.supporting-text.font",
+          "displayName": "Filled text field supporting text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.body-small.font"
+        },
+        {
+          "name": "md.comp.filled-text-field.supporting-text.weight",
+          "displayName": "Filled text field supporting text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.body-small.weight"
+        },
+        {
+          "name": "md.comp.filled-text-field.supporting-text.size",
+          "displayName": "Filled text field supporting text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.body-small.size"
+        },
+        {
+          "name": "md.comp.filled-text-field.supporting-text.line-height",
+          "displayName": "Filled text field supporting text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.body-small.line-height"
+        },
+        {
+          "name": "md.comp.filled-text-field.supporting-text.tracking",
+          "displayName": "Filled text field supporting text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.body-small.tracking"
+        },
+        {
+          "name": "md.comp.filled-text-field.container.height",
+          "displayName": "Filled text field container height",
+          "type": "LENGTH",
+          "value": "56dp"
+        },
+        {
+          "name": "md.comp.filled-text-field.input-text.placeholder.color",
+          "displayName": "Filled text field input text placeholder color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-text-field.input-text.suffix.color",
+          "displayName": "Filled text field input text suffix color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-text-field.input-text.prefix.color",
+          "displayName": "Filled text field input text prefix color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-text-field.label-text.type",
+          "displayName": "Filled text field label text type",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.filled-text-field.label-text.font",
+          "displayName": "Filled text field label text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.body-large.font"
+        },
+        {
+          "name": "md.comp.filled-text-field.label-text.weight",
+          "displayName": "Filled text field label text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.body-large.weight"
+        },
+        {
+          "name": "md.comp.filled-text-field.label-text.size",
+          "displayName": "Filled text field label text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.body-large.size"
+        },
+        {
+          "name": "md.comp.filled-text-field.label-text.line-height",
+          "displayName": "Filled text field label text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.body-large.line-height"
+        },
+        {
+          "name": "md.comp.filled-text-field.label-text.tracking",
+          "displayName": "Filled text field label text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.body-large.tracking"
+        },
+        {
+          "name": "md.comp.filled-text-field.label-text.color",
+          "displayName": "Filled text field label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-text-field.error.hover.state-layer.opacity",
+          "displayName": "Filled text field error hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.filled-text-field.error.hover.state-layer.color",
+          "displayName": "Filled text field error hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-text-field.error.hover.trailing-icon.color",
+          "displayName": "Filled text field error hover trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-error-container"
+        },
+        {
+          "name": "md.comp.filled-text-field.error.hover.leading-icon.color",
+          "displayName": "Filled text field error hover leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-text-field.error.hover.supporting-text.color",
+          "displayName": "Filled text field error hover supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.filled-text-field.error.hover.input-text.color",
+          "displayName": "Filled text field error hover input text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-text-field.error.hover.label-text.color",
+          "displayName": "Filled text field error hover label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-error-container"
+        },
+        {
+          "name": "md.comp.filled-text-field.error.hover.active-indicator.color",
+          "displayName": "Filled text field error hover active indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-error-container"
+        },
+        {
+          "name": "md.comp.filled-text-field.error.focus.caret.color",
+          "displayName": "Filled text field error focus caret color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.filled-text-field.error.focus.trailing-icon.color",
+          "displayName": "Filled text field error focus trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.filled-text-field.error.focus.leading-icon.color",
+          "displayName": "Filled text field error focus leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-text-field.error.focus.supporting-text.color",
+          "displayName": "Filled text field error focus supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.filled-text-field.error.focus.input-text.color",
+          "displayName": "Filled text field error focus input text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-text-field.error.focus.label-text.color",
+          "displayName": "Filled text field error focus label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.filled-text-field.error.focus.active-indicator.color",
+          "displayName": "Filled text field error focus active indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.filled-text-field.error.trailing-icon.color",
+          "displayName": "Filled text field error trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.filled-text-field.error.leading-icon.color",
+          "displayName": "Filled text field error leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-text-field.error.supporting-text.color",
+          "displayName": "Filled text field error supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.filled-text-field.error.input-text.color",
+          "displayName": "Filled text field error input text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-text-field.error.label-text.color",
+          "displayName": "Filled text field error label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.filled-text-field.error.active-indicator.color",
+          "displayName": "Filled text field error active indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.filled-text-field.hover.state-layer.opacity",
+          "displayName": "Filled text field hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.filled-text-field.hover.state-layer.color",
+          "displayName": "Filled text field hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-text-field.hover.trailing-icon.color",
+          "displayName": "Filled text field hover trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-text-field.hover.leading-icon.color",
+          "displayName": "Filled text field hover leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-text-field.hover.supporting-text.color",
+          "displayName": "Filled text field hover supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-text-field.hover.input-text.color",
+          "displayName": "Filled text field hover input text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-text-field.hover.label-text.color",
+          "displayName": "Filled text field hover label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-text-field.hover.active-indicator.color",
+          "displayName": "Filled text field hover active indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-text-field.hover.active-indicator.height",
+          "displayName": "Filled text field hover active indicator height",
+          "type": "LENGTH",
+          "value": "1dp"
+        },
+        {
+          "name": "md.comp.filled-text-field.focus.trailing-icon.color",
+          "displayName": "Filled text field focus trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-text-field.focus.leading-icon.color",
+          "displayName": "Filled text field focus leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-text-field.focus.supporting-text.color",
+          "displayName": "Filled text field focus supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-text-field.focus.input-text.color",
+          "displayName": "Filled text field focus input text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-text-field.focus.label-text.color",
+          "displayName": "Filled text field focus label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.filled-text-field.focus.active-indicator.color",
+          "displayName": "Filled text field focus active indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.filled-text-field.focus.active-indicator.height",
+          "displayName": "Filled text field focus active indicator height",
+          "type": "LENGTH",
+          "value": "2dp"
+        },
+        {
+          "name": "md.comp.filled-text-field.disabled.trailing-icon.opacity",
+          "displayName": "Filled text field disabled trailing icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.filled-text-field.disabled.trailing-icon.color",
+          "displayName": "Filled text field disabled trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-text-field.disabled.leading-icon.opacity",
+          "displayName": "Filled text field disabled leading icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.filled-text-field.disabled.leading-icon.color",
+          "displayName": "Filled text field disabled leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-text-field.disabled.supporting-text.opacity",
+          "displayName": "Filled text field disabled supporting text opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.filled-text-field.disabled.supporting-text.color",
+          "displayName": "Filled text field disabled supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-text-field.disabled.input-text.opacity",
+          "displayName": "Filled text field disabled input text opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.filled-text-field.disabled.input-text.color",
+          "displayName": "Filled text field disabled input text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-text-field.disabled.label-text.opacity",
+          "displayName": "Filled text field disabled label text opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.filled-text-field.disabled.label-text.color",
+          "displayName": "Filled text field disabled label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-text-field.disabled.active-indicator.opacity",
+          "displayName": "Filled text field disabled active indicator opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.filled-text-field.disabled.active-indicator.color",
+          "displayName": "Filled text field disabled active indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-text-field.disabled.active-indicator.height",
+          "displayName": "Filled text field disabled active indicator height",
+          "type": "LENGTH",
+          "value": "1dp"
+        },
+        {
+          "name": "md.comp.filled-text-field.disabled.container.opacity",
+          "displayName": "Filled text field disabled container opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.filled-text-field.disabled.container.color",
+          "displayName": "Filled text field disabled container color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-text-field.caret.color",
+          "displayName": "Filled text field caret color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.filled-text-field.trailing-icon.size",
+          "displayName": "Filled text field trailing icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.filled-text-field.trailing-icon.color",
+          "displayName": "Filled text field trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-text-field.leading-icon.size",
+          "displayName": "Filled text field leading icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.filled-text-field.leading-icon.color",
+          "displayName": "Filled text field leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-text-field.supporting-text.color",
+          "displayName": "Filled text field supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-text-field.label-text.populated.size",
+          "displayName": "Filled text field label text populated size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.body-small.size"
+        },
+        {
+          "name": "md.comp.filled-text-field.label-text.populated.line-height",
+          "displayName": "Filled text field label text populated line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.body-small.line-height"
+        },
+        {
+          "name": "md.comp.filled-text-field.input-text.type",
+          "displayName": "Filled text field input text type",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.filled-text-field.input-text.font",
+          "displayName": "Filled text field input text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.body-large.font"
+        },
+        {
+          "name": "md.comp.filled-text-field.input-text.weight",
+          "displayName": "Filled text field input text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.body-large.weight"
+        },
+        {
+          "name": "md.comp.filled-text-field.input-text.size",
+          "displayName": "Filled text field input text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.body-large.size"
+        },
+        {
+          "name": "md.comp.filled-text-field.input-text.line-height",
+          "displayName": "Filled text field input text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.body-large.line-height"
+        },
+        {
+          "name": "md.comp.filled-text-field.input-text.tracking",
+          "displayName": "Filled text field input text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.body-large.tracking"
+        },
+        {
+          "name": "md.comp.filled-text-field.input-text.color",
+          "displayName": "Filled text field input text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-text-field.active-indicator.color",
+          "displayName": "Filled text field active indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-text-field.active-indicator.height",
+          "displayName": "Filled text field active indicator height",
+          "type": "LENGTH",
+          "value": "1dp"
+        },
+        {
+          "name": "md.comp.filled-text-field.container.shape",
+          "displayName": "Filled text field container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.extra-small.top"
+        },
+        {
+          "name": "md.comp.filled-text-field.container.color",
+          "displayName": "Filled text field container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-highest"
+        }
+      ]
+    },
+    {
+      "displayName": "Text field - Select, outlined",
+      "tokenSetName": "md.comp.outlined-select",
+      "description": "For outlined select text fields.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.outlined-select.menu.container.surface-tint-layer.color",
+          "displayName": "Outlined select menu container surface tint layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-tint"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.caret.color",
+          "displayName": "Outlined select text field caret color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.error.focus.caret.color",
+          "displayName": "Outlined select text field error focus caret color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.container.height",
+          "displayName": "Outlined select text field container height",
+          "type": "LENGTH",
+          "value": "56dp"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.error.hover.state-layer.opacity",
+          "displayName": "Outlined select text field error hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.error.hover.state-layer.color",
+          "displayName": "Outlined select text field error hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.error.hover.trailing-icon.color",
+          "displayName": "Outlined select text field error hover trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-error-container"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.error.hover.leading-icon.color",
+          "displayName": "Outlined select text field error hover leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.error.hover.supporting-text.color",
+          "displayName": "Outlined select text field error hover supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.error.hover.input-text.color",
+          "displayName": "Outlined select text field error hover input text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.error.hover.label-text.color",
+          "displayName": "Outlined select text field error hover label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-error-container"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.error.hover.outline.color",
+          "displayName": "Outlined select text field error hover outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-error-container"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.error.focus.trailing-icon.color",
+          "displayName": "Outlined select text field error focus trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.error.focus.leading-icon.color",
+          "displayName": "Outlined select text field error focus leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.error.focus.supporting-text.color",
+          "displayName": "Outlined select text field error focus supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.error.focus.input-text.color",
+          "displayName": "Outlined select text field error focus input text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.error.focus.label-text.color",
+          "displayName": "Outlined select text field error focus label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.error.focus.outline.color",
+          "displayName": "Outlined select text field error focus outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.error.trailing-icon.color",
+          "displayName": "Outlined select text field error trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.error.leading-icon.color",
+          "displayName": "Outlined select text field error leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.error.supporting-text.color",
+          "displayName": "Outlined select text field error supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.error.input-text.color",
+          "displayName": "Outlined select text field error input text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.error.label-text.color",
+          "displayName": "Outlined select text field error label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.error.outline.color",
+          "displayName": "Outlined select text field error outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.hover.state-layer.opacity",
+          "displayName": "Outlined select text field hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.hover.state-layer.color",
+          "displayName": "Outlined select text field hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.hover.trailing-icon.color",
+          "displayName": "Outlined select text field hover trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.hover.leading-icon.color",
+          "displayName": "Outlined select text field hover leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.hover.supporting-text.color",
+          "displayName": "Outlined select text field hover supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.hover.input-text.color",
+          "displayName": "Outlined select text field hover input text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.hover.label-text.color",
+          "displayName": "Outlined select text field hover label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.hover.outline.color",
+          "displayName": "Outlined select text field hover outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.hover.outline.width",
+          "displayName": "Outlined select text field hover outline width",
+          "type": "LENGTH",
+          "value": "1dp"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.focus.trailing-icon.color",
+          "displayName": "Outlined select text field focus trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.focus.leading-icon.color",
+          "displayName": "Outlined select text field focus leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.focus.supporting-text.color",
+          "displayName": "Outlined select text field focus supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.focus.input-text.color",
+          "displayName": "Outlined select text field focus input text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.focus.label-text.color",
+          "displayName": "Outlined select text field focus label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.focus.outline.color",
+          "displayName": "Outlined select text field focus outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.focus.outline.width",
+          "displayName": "Outlined select text field focus outline width",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.thickness"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.disabled.trailing-icon.opacity",
+          "displayName": "Outlined select text field disabled trailing icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.disabled.trailing-icon.color",
+          "displayName": "Outlined select text field disabled trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.disabled.leading-icon.opacity",
+          "displayName": "Outlined select text field disabled leading icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.disabled.leading-icon.color",
+          "displayName": "Outlined select text field disabled leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.disabled.supporting-text.opacity",
+          "displayName": "Outlined select text field disabled supporting text opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.disabled.supporting-text.color",
+          "displayName": "Outlined select text field disabled supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.disabled.input-text.opacity",
+          "displayName": "Outlined select text field disabled input text opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.disabled.input-text.color",
+          "displayName": "Outlined select text field disabled input text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.disabled.label-text.opacity",
+          "displayName": "Outlined select text field disabled label text opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.disabled.label-text.color",
+          "displayName": "Outlined select text field disabled label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.disabled.outline.opacity",
+          "displayName": "Outlined select text field disabled outline opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.disabled.outline.color",
+          "displayName": "Outlined select text field disabled outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.disabled.outline.width",
+          "displayName": "Outlined select text field disabled outline width",
+          "type": "LENGTH",
+          "value": "1dp"
+        },
+        {
+          "name": "md.comp.outlined-select.menu.cascading-menu-indicator.icon.size",
+          "displayName": "Outlined select menu cascading menu indicator icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.outlined-select.menu.cascading-menu-indicator.icon.color",
+          "displayName": "Outlined select menu cascading menu indicator icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.outlined-select.menu.divider.height",
+          "displayName": "Outlined select menu divider height",
+          "type": "LENGTH",
+          "value": "1dp"
+        },
+        {
+          "name": "md.comp.outlined-select.menu.divider.color",
+          "displayName": "Outlined select menu divider color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-variant"
+        },
+        {
+          "name": "md.comp.outlined-select.menu.list-item.with-trailing-icon.trailing-icon.color",
+          "displayName": "Outlined select menu list item with trailing icon trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.outlined-select.menu.list-item.with-trailing-icon.trailing-icon.size",
+          "displayName": "Outlined select menu list item with trailing icon trailing icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.outlined-select.menu.list-item.with-leading-icon.leading-icon.color",
+          "displayName": "Outlined select menu list item with leading icon leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.outlined-select.menu.list-item.with-leading-icon.leading-icon.size",
+          "displayName": "Outlined select menu list item with leading icon leading icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.outlined-select.menu.list-item.selected.container.color",
+          "displayName": "Outlined select menu list item selected container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-highest"
+        },
+        {
+          "name": "md.comp.outlined-select.menu.list-item.label-text.type",
+          "displayName": "Outlined select menu list item label text type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.outlined-select.menu.list-item.label-text.font",
+          "displayName": "Outlined select menu list item label text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.label-large.font"
+        },
+        {
+          "name": "md.comp.outlined-select.menu.list-item.label-text.weight",
+          "displayName": "Outlined select menu list item label text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.label-large.weight"
+        },
+        {
+          "name": "md.comp.outlined-select.menu.list-item.label-text.size",
+          "displayName": "Outlined select menu list item label text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.label-large.size"
+        },
+        {
+          "name": "md.comp.outlined-select.menu.list-item.label-text.line-height",
+          "displayName": "Outlined select menu list item label text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.label-large.line-height"
+        },
+        {
+          "name": "md.comp.outlined-select.menu.list-item.label-text.tracking",
+          "displayName": "Outlined select menu list item label text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.label-large.tracking"
+        },
+        {
+          "name": "md.comp.outlined-select.menu.list-item.container.height",
+          "displayName": "Outlined select menu list item container height",
+          "type": "LENGTH",
+          "value": "48dp"
+        },
+        {
+          "name": "md.comp.outlined-select.menu.list-item.label-text.color",
+          "displayName": "Outlined select menu list item label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-select.menu.container.shape",
+          "displayName": "Outlined select menu container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.extra-small"
+        },
+        {
+          "name": "md.comp.outlined-select.menu.container.shadow-color",
+          "displayName": "Outlined select menu container shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.outlined-select.menu.container.elevation",
+          "displayName": "Outlined select menu container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level2"
+        },
+        {
+          "name": "md.comp.outlined-select.menu.container.color",
+          "displayName": "Outlined select menu container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.trailing-icon.size",
+          "displayName": "Outlined select text field trailing icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.trailing-icon.color",
+          "displayName": "Outlined select text field trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.leading-icon.size",
+          "displayName": "Outlined select text field leading icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.leading-icon.color",
+          "displayName": "Outlined select text field leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.supporting-text.type",
+          "displayName": "Outlined select text field supporting text type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.supporting-text.font",
+          "displayName": "Outlined select text field supporting text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.body-small.font"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.supporting-text.weight",
+          "displayName": "Outlined select text field supporting text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.body-small.weight"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.supporting-text.size",
+          "displayName": "Outlined select text field supporting text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.body-small.size"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.supporting-text.line-height",
+          "displayName": "Outlined select text field supporting text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.body-small.line-height"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.supporting-text.tracking",
+          "displayName": "Outlined select text field supporting text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.body-small.tracking"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.supporting-text.color",
+          "displayName": "Outlined select text field supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.label-text.populated.size",
+          "displayName": "Outlined select text field label text populated size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.body-small.size"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.label-text.populated.line-height",
+          "displayName": "Outlined select text field label text populated line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.body-small.line-height"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.label-text.type",
+          "displayName": "Outlined select text field label text type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.label-text.font",
+          "displayName": "Outlined select text field label text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.body-large.font"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.label-text.weight",
+          "displayName": "Outlined select text field label text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.body-large.weight"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.label-text.size",
+          "displayName": "Outlined select text field label text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.body-large.size"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.label-text.line-height",
+          "displayName": "Outlined select text field label text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.body-large.line-height"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.label-text.tracking",
+          "displayName": "Outlined select text field label text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.body-large.tracking"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.label-text.color",
+          "displayName": "Outlined select text field label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.input-text.type",
+          "displayName": "Outlined select text field input text type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.input-text.font",
+          "displayName": "Outlined select text field input text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.body-large.font"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.input-text.weight",
+          "displayName": "Outlined select text field input text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.body-large.weight"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.input-text.size",
+          "displayName": "Outlined select text field input text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.body-large.size"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.input-text.line-height",
+          "displayName": "Outlined select text field input text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.body-large.line-height"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.input-text.tracking",
+          "displayName": "Outlined select text field input text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.body-large.tracking"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.input-text.color",
+          "displayName": "Outlined select text field input text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.outline.color",
+          "displayName": "Outlined select text field outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.outline"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.outline.width",
+          "displayName": "Outlined select text field outline width",
+          "type": "LENGTH",
+          "value": "1dp"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.container.shape",
+          "displayName": "Outlined select text field container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.extra-small"
+        },
+        {
+          "name": "md.comp.outlined-select.text-field.container.color",
+          "displayName": "Outlined select text field container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-highest"
+        }
+      ]
+    },
+    {
+      "displayName": "Text field - Select, filled",
+      "tokenSetName": "md.comp.filled-select",
+      "description": "For filled select text fields.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.filled-select.menu.container.surface-tint-layer.color",
+          "displayName": "Filled select menu container surface tint layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-tint"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.caret.color",
+          "displayName": "Filled select text field caret color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.error.focus.caret.color",
+          "displayName": "Filled select text field error focus caret color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.container.height",
+          "displayName": "Filled select text field container height",
+          "type": "LENGTH",
+          "value": "56dp"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.error.hover.state-layer.opacity",
+          "displayName": "Filled select text field error hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.error.hover.state-layer.color",
+          "displayName": "Filled select text field error hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.error.hover.trailing-icon.color",
+          "displayName": "Filled select text field error hover trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-error-container"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.error.hover.leading-icon.color",
+          "displayName": "Filled select text field error hover leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.error.hover.supporting-text.color",
+          "displayName": "Filled select text field error hover supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.error.hover.input-text.color",
+          "displayName": "Filled select text field error hover input text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.error.hover.label-text.color",
+          "displayName": "Filled select text field error hover label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-error-container"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.error.hover.active-indicator.color",
+          "displayName": "Filled select text field error hover active indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-error-container"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.error.focus.trailing-icon.color",
+          "displayName": "Filled select text field error focus trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.error.focus.leading-icon.color",
+          "displayName": "Filled select text field error focus leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.error.focus.supporting-text.color",
+          "displayName": "Filled select text field error focus supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.error.focus.input-text.color",
+          "displayName": "Filled select text field error focus input text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.error.focus.label-text.color",
+          "displayName": "Filled select text field error focus label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.error.focus.active-indicator.color",
+          "displayName": "Filled select text field error focus active indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.error.trailing-icon.color",
+          "displayName": "Filled select text field error trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.error.leading-icon.color",
+          "displayName": "Filled select text field error leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.error.supporting-text.color",
+          "displayName": "Filled select text field error supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.error.input-text.color",
+          "displayName": "Filled select text field error input text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.error.label-text.color",
+          "displayName": "Filled select text field error label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.error.active-indicator.color",
+          "displayName": "Filled select text field error active indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.hover.state-layer.opacity",
+          "displayName": "Filled select text field hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.hover.state-layer.color",
+          "displayName": "Filled select text field hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.hover.trailing-icon.color",
+          "displayName": "Filled select text field hover trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.hover.leading-icon.color",
+          "displayName": "Filled select text field hover leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.hover.supporting-text.color",
+          "displayName": "Filled select text field hover supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.hover.input-text.color",
+          "displayName": "Filled select text field hover input text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.hover.label-text.color",
+          "displayName": "Filled select text field hover label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.hover.active-indicator.color",
+          "displayName": "Filled select text field hover active indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.hover.active-indicator.height",
+          "displayName": "Filled select text field hover active indicator height",
+          "type": "LENGTH",
+          "value": "1dp"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.focus.trailing-icon.color",
+          "displayName": "Filled select text field focus trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.focus.leading-icon.color",
+          "displayName": "Filled select text field focus leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.focus.supporting-text.color",
+          "displayName": "Filled select text field focus supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.focus.input-text.color",
+          "displayName": "Filled select text field focus input text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.focus.label-text.color",
+          "displayName": "Filled select text field focus label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.focus.active-indicator.color",
+          "displayName": "Filled select text field focus active indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.focus.active-indicator.height",
+          "displayName": "Filled select text field focus active indicator height",
+          "type": "LENGTH",
+          "value": "2dp"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.disabled.trailing-icon.opacity",
+          "displayName": "Filled select text field disabled trailing icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.filled-select.text-field.disabled.trailing-icon.color",
+          "displayName": "Filled select text field disabled trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.disabled.leading-icon.opacity",
+          "displayName": "Filled select text field disabled leading icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.filled-select.text-field.disabled.leading-icon.color",
+          "displayName": "Filled select text field disabled leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.disabled.supporting-text.opacity",
+          "displayName": "Filled select text field disabled supporting text opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.filled-select.text-field.disabled.supporting-text.color",
+          "displayName": "Filled select text field disabled supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.disabled.input-text.opacity",
+          "displayName": "Filled select text field disabled input text opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.filled-select.text-field.disabled.input-text.color",
+          "displayName": "Filled select text field disabled input text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.disabled.label-text.opacity",
+          "displayName": "Filled select text field disabled label text opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.filled-select.text-field.disabled.label-text.color",
+          "displayName": "Filled select text field disabled label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.disabled.active-indicator.opacity",
+          "displayName": "Filled select text field disabled active indicator opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.filled-select.text-field.disabled.active-indicator.color",
+          "displayName": "Filled select text field disabled active indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.disabled.active-indicator.height",
+          "displayName": "Filled select text field disabled active indicator height",
+          "type": "LENGTH",
+          "value": "1dp"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.disabled.container.opacity",
+          "displayName": "Filled select text field disabled container opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.filled-select.text-field.disabled.container.color",
+          "displayName": "Filled select text field disabled container color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-select.menu.cascading-menu-indicator.icon.size",
+          "displayName": "Filled select menu cascading menu indicator icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.filled-select.menu.cascading-menu-indicator.icon.color",
+          "displayName": "Filled select menu cascading menu indicator icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-select.menu.divider.height",
+          "displayName": "Filled select menu divider height",
+          "type": "LENGTH",
+          "value": "1dp"
+        },
+        {
+          "name": "md.comp.filled-select.menu.divider.color",
+          "displayName": "Filled select menu divider color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-variant"
+        },
+        {
+          "name": "md.comp.filled-select.menu.list-item.with-trailing-icon.trailing-icon.color",
+          "displayName": "Filled select menu list item with trailing icon trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-select.menu.list-item.with-trailing-icon.trailing-icon.size",
+          "displayName": "Filled select menu list item with trailing icon trailing icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.filled-select.menu.list-item.with-leading-icon.leading-icon.color",
+          "displayName": "Filled select menu list item with leading icon leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-select.menu.list-item.with-leading-icon.leading-icon.size",
+          "displayName": "Filled select menu list item with leading icon leading icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.filled-select.menu.list-item.selected.container.color",
+          "displayName": "Filled select menu list item selected container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-highest"
+        },
+        {
+          "name": "md.comp.filled-select.menu.list-item.label-text.type",
+          "displayName": "Filled select menu list item label text type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.filled-select.menu.list-item.label-text.font",
+          "displayName": "Filled select menu list item label text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.label-large.font"
+        },
+        {
+          "name": "md.comp.filled-select.menu.list-item.label-text.weight",
+          "displayName": "Filled select menu list item label text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.label-large.weight"
+        },
+        {
+          "name": "md.comp.filled-select.menu.list-item.label-text.size",
+          "displayName": "Filled select menu list item label text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.label-large.size"
+        },
+        {
+          "name": "md.comp.filled-select.menu.list-item.label-text.line-height",
+          "displayName": "Filled select menu list item label text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.label-large.line-height"
+        },
+        {
+          "name": "md.comp.filled-select.menu.list-item.label-text.tracking",
+          "displayName": "Filled select menu list item label text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.label-large.tracking"
+        },
+        {
+          "name": "md.comp.filled-select.menu.list-item.container.height",
+          "displayName": "Filled select menu list item container height",
+          "type": "LENGTH",
+          "value": "48dp"
+        },
+        {
+          "name": "md.comp.filled-select.menu.list-item.label-text.color",
+          "displayName": "Filled select menu list item label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-select.menu.container.shape",
+          "displayName": "Filled select menu container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.extra-small"
+        },
+        {
+          "name": "md.comp.filled-select.menu.container.shadow-color",
+          "displayName": "Filled select menu container shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.filled-select.menu.container.elevation",
+          "displayName": "Filled select menu container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level2"
+        },
+        {
+          "name": "md.comp.filled-select.menu.container.color",
+          "displayName": "Filled select menu container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.trailing-icon.size",
+          "displayName": "Filled select text field trailing icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.trailing-icon.color",
+          "displayName": "Filled select text field trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.leading-icon.size",
+          "displayName": "Filled select text field leading icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.leading-icon.color",
+          "displayName": "Filled select text field leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.supporting-text.type",
+          "displayName": "Filled select text field supporting text type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.filled-select.text-field.supporting-text.font",
+          "displayName": "Filled select text field supporting text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.body-small.font"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.supporting-text.weight",
+          "displayName": "Filled select text field supporting text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.body-small.weight"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.supporting-text.size",
+          "displayName": "Filled select text field supporting text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.body-small.size"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.supporting-text.line-height",
+          "displayName": "Filled select text field supporting text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.body-small.line-height"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.supporting-text.tracking",
+          "displayName": "Filled select text field supporting text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.body-small.tracking"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.supporting-text.color",
+          "displayName": "Filled select text field supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.label-text.populated.size",
+          "displayName": "Filled select text field label text populated size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.body-small.size"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.label-text.populated.line-height",
+          "displayName": "Filled select text field label text populated line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.body-small.line-height"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.label-text.type",
+          "displayName": "Filled select text field label text type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.filled-select.text-field.label-text.font",
+          "displayName": "Filled select text field label text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.body-large.font"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.label-text.weight",
+          "displayName": "Filled select text field label text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.body-large.weight"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.label-text.size",
+          "displayName": "Filled select text field label text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.body-large.size"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.label-text.line-height",
+          "displayName": "Filled select text field label text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.body-large.line-height"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.label-text.tracking",
+          "displayName": "Filled select text field label text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.body-large.tracking"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.label-text.color",
+          "displayName": "Filled select text field label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.input-text.type",
+          "displayName": "Filled select text field input text type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.filled-select.text-field.input-text.font",
+          "displayName": "Filled select text field input text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.body-large.font"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.input-text.weight",
+          "displayName": "Filled select text field input text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.body-large.weight"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.input-text.size",
+          "displayName": "Filled select text field input text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.body-large.size"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.input-text.line-height",
+          "displayName": "Filled select text field input text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.body-large.line-height"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.input-text.tracking",
+          "displayName": "Filled select text field input text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.body-large.tracking"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.input-text.color",
+          "displayName": "Filled select text field input text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.active-indicator.color",
+          "displayName": "Filled select text field active indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.active-indicator.height",
+          "displayName": "Filled select text field active indicator height",
+          "type": "LENGTH",
+          "value": "1dp"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.container.shape",
+          "displayName": "Filled select text field container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.extra-small.top"
+        },
+        {
+          "name": "md.comp.filled-select.text-field.container.color",
+          "displayName": "Filled select text field container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-highest"
+        }
+      ]
+    },
+    {
+      "displayName": "Text field - Autocomplete, filled",
+      "tokenSetName": "md.comp.filled-autocomplete",
+      "description": "For filled autocomplete text fields.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.filled-autocomplete.menu.list-item.label-text.type",
+          "displayName": "Filled autocomplete menu list item label text type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.filled-autocomplete.menu.list-item.label-text.font",
+          "displayName": "Filled autocomplete menu list item label text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.label-large.font"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.menu.list-item.label-text.weight",
+          "displayName": "Filled autocomplete menu list item label text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.label-large.weight"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.menu.list-item.label-text.size",
+          "displayName": "Filled autocomplete menu list item label text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.label-large.size"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.menu.list-item.label-text.line-height",
+          "displayName": "Filled autocomplete menu list item label text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.label-large.line-height"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.menu.list-item.label-text.tracking",
+          "displayName": "Filled autocomplete menu list item label text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.label-large.tracking"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.menu.divider.height",
+          "displayName": "Filled autocomplete menu divider height",
+          "type": "LENGTH",
+          "value": "1dp"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.menu.divider.color",
+          "displayName": "Filled autocomplete menu divider color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-variant"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.menu.list-item.label-text.color",
+          "displayName": "Filled autocomplete menu list item label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.menu.list-item.container.height",
+          "displayName": "Filled autocomplete menu list item container height",
+          "type": "LENGTH",
+          "value": "48dp"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.menu.list-item.selected.container.color",
+          "displayName": "Filled autocomplete menu list item selected container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-highest"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.menu.container.surface-tint-layer.color",
+          "displayName": "Filled autocomplete menu container surface tint layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-tint"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.container.height",
+          "displayName": "Filled autocomplete text field container height",
+          "type": "LENGTH",
+          "value": "56dp"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.error.hover.state-layer.opacity",
+          "displayName": "Filled autocomplete text field error hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.error.hover.state-layer.color",
+          "displayName": "Filled autocomplete text field error hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.error.hover.trailing-icon.color",
+          "displayName": "Filled autocomplete text field error hover trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-error-container"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.error.hover.leading-icon.color",
+          "displayName": "Filled autocomplete text field error hover leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.error.hover.supporting-text.color",
+          "displayName": "Filled autocomplete text field error hover supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.error.hover.input-text.color",
+          "displayName": "Filled autocomplete text field error hover input text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.error.hover.label-text.color",
+          "displayName": "Filled autocomplete text field error hover label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-error-container"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.error.hover.active-indicator.color",
+          "displayName": "Filled autocomplete text field error hover active indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-error-container"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.error.focus.caret.color",
+          "displayName": "error.Filled focus caret color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.error.focus.trailing-icon.color",
+          "displayName": "Filled autocomplete text field error focus trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.error.focus.leading-icon.color",
+          "displayName": "Filled autocomplete text field error focus leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.error.focus.supporting-text.color",
+          "displayName": "Filled autocomplete text field error focus supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.error.focus.input-text.color",
+          "displayName": "Filled autocomplete text field error focus input text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.error.focus.label-text.color",
+          "displayName": "Filled autocomplete text field error focus label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.error.focus.active-indicator.color",
+          "displayName": "Filled autocomplete text field error focus active indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.error.trailing-icon.color",
+          "displayName": "Filled autocomplete text field error trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.error.leading-icon.color",
+          "displayName": "Filled autocomplete text field error leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.error.supporting-text.color",
+          "displayName": "Filled autocomplete text field error supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.error.input-text.color",
+          "displayName": "Filled autocomplete text field error input text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.error.label-text.color",
+          "displayName": "Filled autocomplete text field error label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.error.active-indicator.color",
+          "displayName": "Filled autocomplete text field error active indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.hover.state-layer.opacity",
+          "displayName": "Filled autocomplete text field hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.hover.state-layer.color",
+          "displayName": "Filled autocomplete text field hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.hover.trailing-icon.color",
+          "displayName": "Filled autocomplete text field hover trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.hover.leading-icon.color",
+          "displayName": "Filled autocomplete text field hover leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.hover.supporting-text.color",
+          "displayName": "Filled autocomplete text field hover supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.hover.input-text.color",
+          "displayName": "Filled autocomplete text field hover input text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.hover.label-text.color",
+          "displayName": "Filled autocomplete text field hover label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.hover.active-indicator.color",
+          "displayName": "Filled autocomplete text field hover active indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.hover.active-indicator.height",
+          "displayName": "Filled autocomplete text field hover active indicator height",
+          "type": "LENGTH",
+          "value": "1dp"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.focus.trailing-icon.color",
+          "displayName": "Filled autocomplete text field focus trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.focus.leading-icon.color",
+          "displayName": "Filled autocomplete text field focus leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.focus.supporting-text.color",
+          "displayName": "Filled autocomplete text field focus supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.focus.input-text.color",
+          "displayName": "Filled autocomplete text field focus input text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.focus.label-text.color",
+          "displayName": "Filled autocomplete text field focus label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.focus.active-indicator.color",
+          "displayName": "Filled autocomplete text field focus active indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.focus.active-indicator.height",
+          "displayName": "Filled autocomplete text field focus active indicator height",
+          "type": "LENGTH",
+          "value": "2dp"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.disabled.trailing-icon.opacity",
+          "displayName": "Filled autocomplete text field disabled trailing icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.disabled.trailing-icon.color",
+          "displayName": "Filled autocomplete text field disabled trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.disabled.leading-icon.opacity",
+          "displayName": "Filled autocomplete text field disabled leading icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.disabled.leading-icon.color",
+          "displayName": "Filled autocomplete text field disabled leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.disabled.supporting-text.opacity",
+          "displayName": "Filled autocomplete text field disabled supporting text opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.disabled.supporting-text.color",
+          "displayName": "Filled autocomplete text field disabled supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.disabled.input-text.opacity",
+          "displayName": "Filled autocomplete text field disabled input text opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.disabled.input-text.color",
+          "displayName": "Filled autocomplete text field disabled input text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.disabled.label-text.opacity",
+          "displayName": "Filled autocomplete text field disabled label text opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.disabled.label-text.color",
+          "displayName": "Filled autocomplete text field disabled label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.disabled.active-indicator.opacity",
+          "displayName": "Filled autocomplete text field disabled active indicator opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.disabled.active-indicator.color",
+          "displayName": "Filled autocomplete text field disabled active indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.disabled.active-indicator.height",
+          "displayName": "Filled autocomplete text field disabled active indicator height",
+          "type": "LENGTH",
+          "value": "1dp"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.disabled.container.opacity",
+          "displayName": "Filled autocomplete text field disabled container opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.disabled.container.color",
+          "displayName": "Filled autocomplete text field disabled container color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.menu.cascading-menu-indicator.icon.size",
+          "displayName": "Filled autocomplete menu cascading menu indicator icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.menu.cascading-menu-indicator.icon.color",
+          "displayName": "Filled autocomplete menu cascading menu indicator icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.menu.container.shape",
+          "displayName": "Filled autocomplete menu container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.extra-small"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.menu.container.shadow-color",
+          "displayName": "Filled autocomplete menu container shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.menu.container.elevation",
+          "displayName": "Filled autocomplete menu container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level2"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.menu.container.color",
+          "displayName": "Filled autocomplete menu container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.caret.color",
+          "displayName": "Filled autocomplete text field caret color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.trailing-icon.size",
+          "displayName": "Filled autocomplete text field trailing icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.trailing-icon.color",
+          "displayName": "Filled autocomplete text field trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.leading-icon.size",
+          "displayName": "Filled autocomplete text field leading icon size",
+          "type": "LENGTH",
+          "value": "20dp"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.leading-icon.color",
+          "displayName": "Filled autocomplete text field leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.supporting-text.type",
+          "displayName": "Filled autocomplete text field supporting text type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.supporting-text.font",
+          "displayName": "Filled autocomplete text field supporting text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.body-small.font"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.supporting-text.weight",
+          "displayName": "Filled autocomplete text field supporting text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.body-small.weight"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.supporting-text.size",
+          "displayName": "Filled autocomplete text field supporting text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.body-small.size"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.supporting-text.line-height",
+          "displayName": "Filled autocomplete text field supporting text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.body-small.line-height"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.supporting-text.tracking",
+          "displayName": "Filled autocomplete text field supporting text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.body-small.tracking"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.supporting-text.color",
+          "displayName": "Filled autocomplete text field supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.label-text.populated.size",
+          "displayName": "Filled autocomplete text field label text populated size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.body-small.size"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.label-text.populated.line-height",
+          "displayName": "Filled autocomplete text field label text populated line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.body-small.line-height"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.label-text.type",
+          "displayName": "Filled autocomplete text field label text type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.label-text.font",
+          "displayName": "Filled autocomplete text field label text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.body-large.font"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.label-text.weight",
+          "displayName": "Filled autocomplete text field label text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.body-large.weight"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.label-text.size",
+          "displayName": "Filled autocomplete text field label text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.body-large.size"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.label-text.line-height",
+          "displayName": "Filled autocomplete text field label text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.body-large.line-height"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.label-text.tracking",
+          "displayName": "Filled autocomplete text field label text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.body-large.tracking"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.label-text.color",
+          "displayName": "Filled autocomplete text field label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.input-text.type",
+          "displayName": "Filled autocomplete text field input text type styl",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.input-text.font",
+          "displayName": "Filled autocomplete text field input text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.body-large.font"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.input-text.weight",
+          "displayName": "Filled autocomplete text field input text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.body-large.weight"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.input-text.size",
+          "displayName": "Filled autocomplete text field input text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.body-large.size"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.input-text.line-height",
+          "displayName": "Filled autocomplete text field input text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.body-large.line-height"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.input-text.tracking",
+          "displayName": "Filled autocomplete text field input text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.body-large.tracking"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.input-text.color",
+          "displayName": "Filled autocomplete text field input text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.active-indicator.color",
+          "displayName": "Filled autocomplete text field active indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.active-indicator.height",
+          "displayName": "Filled autocomplete text field active indicator height",
+          "type": "LENGTH",
+          "value": "1dp"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.container.shape",
+          "displayName": "Filled autocomplete text field container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.extra-small.top"
+        },
+        {
+          "name": "md.comp.filled-autocomplete.text-field.container.color",
+          "displayName": "Filled autocomplete text field container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-highest"
+        }
+      ]
+    },
+    {
+      "displayName": "Text field - Autocomplete, outlined",
+      "tokenSetName": "md.comp.outlined-autocomplete",
+      "description": "For outlined autocomplete text fields.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.outlined-autocomplete.menu.list-item.label-text.type",
+          "displayName": "Outlined autocomplete menu list item label text type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.menu.list-item.label-text.font",
+          "displayName": "Outlined autocomplete menu list item label text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.label-large.font"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.menu.list-item.label-text.weight",
+          "displayName": "Outlined autocomplete menu list item label text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.label-large.weight"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.menu.list-item.label-text.size",
+          "displayName": "Outlined autocomplete menu list item label text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.label-large.size"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.menu.list-item.label-text.line-height",
+          "displayName": "Outlined autocomplete menu list item label text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.label-large.line-height"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.menu.list-item.label-text.tracking",
+          "displayName": "Outlined autocomplete menu list item label text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.label-large.tracking"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.menu.divider.height",
+          "displayName": "Outlined autocomplete menu divider height",
+          "type": "LENGTH",
+          "value": "1dp"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.menu.divider.color",
+          "displayName": "Outlined autocomplete menu divider color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-variant"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.menu.list-item.selected.container.color",
+          "displayName": "Outlined autocomplete menu list item selected container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-highest"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.menu.list-item.label-text.color",
+          "displayName": "Outlined autocomplete menu list item label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.menu.list-item.container.height",
+          "displayName": "Outlined autocomplete menu list item container height",
+          "type": "LENGTH",
+          "value": "48dp"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.menu.container.surface-tint-layer.color",
+          "displayName": "Outlined autocomplete menu container surface tint layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-tint"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.container.height",
+          "displayName": "Outlined autocomplete text field container height",
+          "type": "LENGTH",
+          "value": "56dp"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.error.hover.state-layer.opacity",
+          "displayName": "Outlined autocomplete text field error hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.error.hover.state-layer.color",
+          "displayName": "Outlined autocomplete text field error hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.error.hover.trailing-icon.color",
+          "displayName": "Outlined autocomplete text field error hover trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-error-container"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.error.hover.leading-icon.color",
+          "displayName": "Outlined autocomplete text field error hover leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.error.hover.supporting-text.color",
+          "displayName": "Outlined autocomplete text field error hover supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.error.hover.input-text.color",
+          "displayName": "Outlined autocomplete text field error hover input text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.error.hover.label-text.color",
+          "displayName": "Outlined autocomplete text field error hover label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-error-container"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.error.hover.outline.color",
+          "displayName": "Outlined autocomplete text field error hover outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-error-container"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.error.focus.caret.color",
+          "displayName": "Outlined autocomplete text field error focus caret color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.error.focus.trailing-icon.color",
+          "displayName": "Outlinedfield error focus trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.error.focus.leading-icon.color",
+          "displayName": "Outlined autocomplete text field error focus leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.error.focus.supporting-text.color",
+          "displayName": "Outlined autocomplete text field error focus supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.error.focus.input-text.color",
+          "displayName": "Outlined autocomplete text field error focus input text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.error.focus.label-text.color",
+          "displayName": "Outlined autocomplete text field error focus label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.error.focus.outline.color",
+          "displayName": "Outlined autocomplete text field error focus outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.error.trailing-icon.color",
+          "displayName": "Outlined autocomplete text field error trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.error.leading-icon.color",
+          "displayName": "Outlined autocomplete text field error leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.error.supporting-text.color",
+          "displayName": "Outlined autocomplete text field error supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.error.input-text.color",
+          "displayName": "Outlined autocomplete text field error input text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.error.label-text.color",
+          "displayName": "Outlined autocomplete text field error label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.error.outline.color",
+          "displayName": "text field error outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.hover.state-layer.opacity",
+          "displayName": "Outlined autocomplete text field hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.hover.state-layer.color",
+          "displayName": "Outlined autocomplete text field hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.hover.trailing-icon.color",
+          "displayName": "Outlined autocomplete text field hover trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.hover.leading-icon.color",
+          "displayName": "Outlined autocomplete text field hover leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.hover.supporting-text.color",
+          "displayName": "Outlined autocomplete text field hover supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.hover.input-text.color",
+          "displayName": "Outlined autocomplete text field hover input text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.hover.label-text.color",
+          "displayName": "Outlined autocomplete text field hover label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.hover.outline.color",
+          "displayName": "Outlined autocomplete text field hover outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.hover.outline.width",
+          "displayName": "Outlined autocomplete text field hover outline width",
+          "type": "LENGTH",
+          "value": "1dp"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.focus.trailing-icon.color",
+          "displayName": "Outlined autocomplete text field focus trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.focus.leading-icon.color",
+          "displayName": "Outlined autocomplete text field focus leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.focus.supporting-text.color",
+          "displayName": "Outlined autocomplete text field focus supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.focus.input-text.color",
+          "displayName": "Outlined autocomplete text field focus input text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.focus.label-text.color",
+          "displayName": "Outlined autocomplete text field focus label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.focus.outline.color",
+          "displayName": "Outlined autocomplete text field focus outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.focus.outline.width",
+          "displayName": "Outlined autocomplete text field focus outline width",
+          "type": "LENGTH",
+          "value": "2dp"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.disabled.trailing-icon.opacity",
+          "displayName": "Outlined autocomplete text field disabled trailing icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.disabled.trailing-icon.color",
+          "displayName": "Outlined autocomplete text field disabled trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.disabled.leading-icon.opacity",
+          "displayName": "Outlined autocomplete text field disabled leading icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.disabled.leading-icon.color",
+          "displayName": "Outlined autocomplete text field disabled leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.disabled.supporting-text.opacity",
+          "displayName": "Outlined autocomplete text field disabled supporting text opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.disabled.supporting-text.color",
+          "displayName": "Outlined autocomplete text field disabled supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.disabled.input-text.opacity",
+          "displayName": "Outlined autocomplete text field disabled input text opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.disabled.input-text.color",
+          "displayName": "Outlined autocomplete text field disabled input text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.disabled.label-text.opacity",
+          "displayName": "Outlined autocomplete text field disabled label text opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.disabled.label-text.color",
+          "displayName": "Outlined autocomplete text field disabled label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.disabled.outline.opacity",
+          "displayName": "Outlined autocomplete text field disabled outline opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.disabled.outline.color",
+          "displayName": "Outlined autocomplete text field disabled outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.disabled.outline.width",
+          "displayName": "Outlined autocomplete text field disabled outline width",
+          "type": "LENGTH",
+          "value": "1dp"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.menu.cascading-menu-indicator.icon.size",
+          "displayName": "Outlined autocomplete menu cascading menu indicator icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.menu.cascading-menu-indicator.icon.color",
+          "displayName": "Outlined autocomplete menu cascading menu indicator icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.menu.container.shape",
+          "displayName": "Outlined autocomplete menu container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.extra-small"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.menu.container.shadow-color",
+          "displayName": "Outlined autocomplete menu container shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.menu.container.elevation",
+          "displayName": "Outlined autocomplete menu container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level2"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.menu.container.color",
+          "displayName": "Outlined autocomplete menu container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.caret.color",
+          "displayName": "Outlined autocomplete text field caret color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.trailing-icon.size",
+          "displayName": "Outlined autocomplete text field trailing icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.trailing-icon.color",
+          "displayName": "Outlined autocomplete text field trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.leading-icon.size",
+          "displayName": "Outlined autocomplete text field leading icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.leading-icon.color",
+          "displayName": "Outlined autocomplete text field leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.supporting-text.type",
+          "displayName": "Outlined autocomplete text field supporting text type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.supporting-text.font",
+          "displayName": "Outlined autocomplete text field supporting text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.body-small.font"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.supporting-text.weight",
+          "displayName": "Outlined autocomplete text field supporting text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.body-small.weight"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.supporting-text.size",
+          "displayName": "Outlined autocomplete text field supporting text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.body-small.size"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.supporting-text.line-height",
+          "displayName": "Outlined autocomplete text field supporting text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.body-small.line-height"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.supporting-text.tracking",
+          "displayName": "Outlined autocomplete text field supporting text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.body-small.tracking"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.supporting-text.color",
+          "displayName": "Outlined autocomplete text field supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.label-text.populated.size",
+          "displayName": "Outlined autocomplete text field label text populated size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.body-small.size"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.label-text.populated.line-height",
+          "displayName": "Outlined autocomplete text field label text populated line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.body-small.line-height"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.label-text.type",
+          "displayName": "Outlined autocomplete text field label text type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.label-text.font",
+          "displayName": "Outlined autocomplete text field label text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.body-large.font"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.label-text.weight",
+          "displayName": "Outlined autocomplete text field label text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.body-large.weight"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.label-text.size",
+          "displayName": "Outlined autocomplete text field label text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.body-large.size"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.label-text.line-height",
+          "displayName": "Outlined autocomplete text field label text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.body-large.line-height"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.label-text.tracking",
+          "displayName": "Outlined autocomplete text field label text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.body-large.tracking"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.label-text.color",
+          "displayName": "Outlined autocomplete text field label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.input-text.type",
+          "displayName": "Outlined autocomplete text field input text type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.input-text.font",
+          "displayName": "Outlined autocomplete text field input text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.body-large.font"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.input-text.weight",
+          "displayName": "Outlined autocomplete text field input text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.body-large.weight"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.input-text.size",
+          "displayName": "Outlined autocomplete text field input text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.body-large.size"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.input-text.line-height",
+          "displayName": "Outlined autocomplete text field input text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.body-large.line-height"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.input-text.tracking",
+          "displayName": "Outlined autocomplete text field input text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.body-large.tracking"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.input-text.color",
+          "displayName": "Outlined autocomplete text field input text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.outline.color",
+          "displayName": "Outlined autocomplete text field outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.outline"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.outline.width",
+          "displayName": "Outlined autocomplete text field outline width",
+          "type": "LENGTH",
+          "value": "1dp"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.container.shape",
+          "displayName": "Outlined autocomplete text field container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.extra-small"
+        },
+        {
+          "name": "md.comp.outlined-autocomplete.text-field.container.color",
+          "displayName": "Outlined autocomplete text field container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-highest"
+        }
+      ]
+    }
+  ]
+}

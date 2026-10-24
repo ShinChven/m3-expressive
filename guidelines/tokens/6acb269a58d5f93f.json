@@ -1,0 +1,170 @@
+{
+  "id": "6acb269a58d5f93f",
+  "component": "Radio button",
+  "tokenSets": [
+    {
+      "displayName": "Radio Button",
+      "tokenSetName": "md.comp.radio-button",
+      "description": "For radio buttons.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.radio-button.unselected.focus.icon.color",
+          "displayName": "Radio button unselected focus icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.radio-button.unselected.focus.state-layer.opacity",
+          "displayName": "Radio button unselected focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.radio-button.unselected.focus.state-layer.color",
+          "displayName": "Radio button unselected focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.radio-button.selected.focus.icon.color",
+          "displayName": "Radio button selected focus icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.radio-button.selected.focus.state-layer.opacity",
+          "displayName": "Radio button selected focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.radio-button.selected.focus.state-layer.color",
+          "displayName": "Radio button selected focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.radio-button.unselected.hover.icon.color",
+          "displayName": "Radio button unselected hover icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.radio-button.unselected.hover.state-layer.opacity",
+          "displayName": "Radio button unselected hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.radio-button.unselected.hover.state-layer.color",
+          "displayName": "Radio button unselected hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.radio-button.selected.hover.icon.color",
+          "displayName": "Radio button selected hover icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.radio-button.selected.hover.state-layer.opacity",
+          "displayName": "Radio button selected hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.radio-button.selected.hover.state-layer.color",
+          "displayName": "Radio button selected hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.radio-button.state-layer.size",
+          "displayName": "Radio button state layer size",
+          "type": "LENGTH",
+          "value": "40dp"
+        },
+        {
+          "name": "md.comp.radio-button.icon.size",
+          "displayName": "Radio button icon size",
+          "type": "LENGTH",
+          "value": "20dp"
+        },
+        {
+          "name": "md.comp.radio-button.unselected.icon.color",
+          "displayName": "Radio button icon unselected color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.radio-button.selected.icon.color",
+          "displayName": "Radio button icon selected color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.radio-button.unselected.pressed.icon.color",
+          "displayName": "Radio button unselected pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.radio-button.unselected.pressed.state-layer.opacity",
+          "displayName": "Radio button unselected pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.radio-button.unselected.pressed.state-layer.color",
+          "displayName": "Radio button unselected pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.radio-button.selected.pressed.icon.color",
+          "displayName": "Radio button selected pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.radio-button.selected.pressed.state-layer.opacity",
+          "displayName": "Radio button selected pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.radio-button.selected.pressed.state-layer.color",
+          "displayName": "Radio button selected pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.radio-button.disabled.unselected.icon.opacity",
+          "displayName": "Radio button disabled unselected icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.radio-button.disabled.unselected.icon.color",
+          "displayName": "Radio button disabled unselected icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.radio-button.disabled.selected.icon.opacity",
+          "displayName": "Radio button disabled selected icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.radio-button.disabled.selected.icon.color",
+          "displayName": "Radio button disabled selected icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        }
+      ]
+    }
+  ]
+}

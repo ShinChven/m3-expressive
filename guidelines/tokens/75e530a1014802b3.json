@@ -1,0 +1,92 @@
+{
+  "id": "75e530a1014802b3",
+  "component": "Bottom sheets",
+  "tokenSets": [
+    {
+      "displayName": "Sheets - Bottom",
+      "tokenSetName": "md.comp.sheet.bottom",
+      "description": "For bottom sheets.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.sheet.bottom.focus.indicator.outline.offset",
+          "displayName": "Sheet bottom focus indicator offset",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.outer-offset"
+        },
+        {
+          "name": "md.comp.sheet.bottom.focus.indicator.thickness",
+          "displayName": "Sheet bottom focus indicator thickness",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.thickness"
+        },
+        {
+          "name": "md.comp.sheet.bottom.focus.indicator.color",
+          "displayName": "Sheet bottom focus indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary"
+        },
+        {
+          "name": "md.comp.sheet.bottom.docked.drag-handle.opacity",
+          "displayName": "Sheet bottom docked drag handle opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.sheet.bottom.docked.container.surface-tint-layer.color",
+          "displayName": "Sheet bottom docked container surface tint layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-tint"
+        },
+        {
+          "name": "md.comp.sheet.bottom.docked.drag-handle.height",
+          "displayName": "Sheet bottom docked drag handle height",
+          "type": "LENGTH",
+          "value": "4dp"
+        },
+        {
+          "name": "md.comp.sheet.bottom.docked.drag-handle.width",
+          "displayName": "Sheet bottom docked drag handle width",
+          "type": "LENGTH",
+          "value": "32dp"
+        },
+        {
+          "name": "md.comp.sheet.bottom.docked.drag-handle.color",
+          "displayName": "Sheet bottom docked drag handle color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.sheet.bottom.docked.minimized.container.shape",
+          "displayName": "Sheet bottom docked minimized container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.none"
+        },
+        {
+          "name": "md.comp.sheet.bottom.docked.container.shape",
+          "displayName": "Sheet bottom docked container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.extra-large.top"
+        },
+        {
+          "name": "md.comp.sheet.bottom.docked.standard.container.elevation",
+          "displayName": "Sheet bottom docked standard container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.sheet.bottom.docked.modal.container.elevation",
+          "displayName": "Sheet bottom docked modal container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.sheet.bottom.docked.container.color",
+          "displayName": "Sheet bottom docked container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-low"
+        }
+      ]
+    }
+  ]
+}

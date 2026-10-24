@@ -1,0 +1,27 @@
+/* Styles used only by the feed page. */
+.feed-doc-preview {
+  width: 220px;
+}
+.feed-doc-preview img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: var(--md-sys-shape-corner-small);
+}
+.feed-doc-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 16px;
+}
+.feed-doc-stat strong {
+  font: var(--md-sys-typescale-display-small);
+}
+.feed-doc-stack {
+  display: flex;
+  flex: 1 1 100%;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+}

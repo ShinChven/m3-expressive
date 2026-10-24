@@ -1,0 +1,42 @@
+/* Styles used only by the list-detail page. */
+.list-detail-doc-frame {
+  height: 440px;
+}
+.list-detail-doc-frame .m3-pane-layout {
+  padding-top: var(--m3-window-margin);
+}
+.list-detail-doc-preview {
+  width: 460px;
+  height: 232px;
+  zoom: 0.5;
+}
+.list-detail-doc-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 16px 24px 24px;
+}
+.list-detail-doc-detail h3 {
+  margin: 0;
+}
+.list-detail-doc-empty {
+  display: grid;
+  place-items: center;
+  height: 100%;
+  padding: 24px;
+  color: var(--md-sys-color-on-surface-variant);
+  text-align: center;
+}
+.list-detail-doc-image {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: var(--md-sys-shape-corner-medium);
+}
+.list-detail-doc-thumb {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+  border-radius: var(--md-sys-shape-corner-small);
+}

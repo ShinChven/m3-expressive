@@ -1,0 +1,416 @@
+{
+  "id": "082d7fd6e058b011",
+  "component": "Button groups",
+  "tokenSets": [
+    {
+      "displayName": "Button group standard - Size - Xlarge",
+      "tokenSetName": "md.comp.button-group.standard.xlarge",
+      "description": "For XL standard button groups.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.button-group.standard.xlarge.pressed.item.width.motion.spring.dampening",
+          "displayName": "Button group xlarge pressed motion spring dampening",
+          "type": "DURATION",
+          "value": "md.sys.motion.spring.fast.spatial.damping"
+        },
+        {
+          "name": "md.comp.button-group.standard.xlarge.pressed.item.width.motion.spring.stiffness",
+          "displayName": "Button group xlarge pressed motion spring stiffness",
+          "type": "DURATION",
+          "value": "md.sys.motion.spring.fast.spatial.stiffness"
+        },
+        {
+          "name": "md.comp.button-group.standard.xlarge.pressed.item.width.multiplier",
+          "displayName": "Button group xlarge pressed width multiplier",
+          "type": "LENGTH",
+          "value": "15percent"
+        },
+        {
+          "name": "md.comp.button-group.standard.xlarge.container.height",
+          "displayName": "Button group xlarge container height",
+          "type": "LENGTH",
+          "value": "136dp"
+        },
+        {
+          "name": "md.comp.button-group.standard.xlarge.between-space",
+          "displayName": "Button group xlarge between space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space100"
+        }
+      ]
+    },
+    {
+      "displayName": "Button group standard - Size - Large",
+      "tokenSetName": "md.comp.button-group.standard.large",
+      "description": "For large standard button groups.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.button-group.standard.large.pressed.item.width.motion.spring.dampening",
+          "displayName": "Button group large pressed motion spring dampening",
+          "type": "DURATION",
+          "value": "md.sys.motion.spring.fast.spatial.damping"
+        },
+        {
+          "name": "md.comp.button-group.standard.large.pressed.item.width.motion.spring.stiffness",
+          "displayName": "Button group large pressed motion spring stiffness",
+          "type": "DURATION",
+          "value": "md.sys.motion.spring.fast.spatial.stiffness"
+        },
+        {
+          "name": "md.comp.button-group.standard.large.pressed.item.width.multiplier",
+          "displayName": "Button group large pressed width multiplier",
+          "type": "LENGTH",
+          "value": "15percent"
+        },
+        {
+          "name": "md.comp.button-group.standard.large.container.height",
+          "displayName": "Button group large container height",
+          "type": "LENGTH",
+          "value": "96dp"
+        },
+        {
+          "name": "md.comp.button-group.standard.large.between-space",
+          "displayName": "Button group large between space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space100"
+        }
+      ]
+    },
+    {
+      "displayName": "Button group standard - Size - Medium",
+      "tokenSetName": "md.comp.button-group.standard.medium",
+      "description": "For medium standard button groups.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.button-group.standard.medium.pressed.item.width.motion.spring.dampening",
+          "displayName": "Button group medium pressed motion spring dampening",
+          "type": "DURATION",
+          "value": "md.sys.motion.spring.fast.spatial.damping"
+        },
+        {
+          "name": "md.comp.button-group.standard.medium.pressed.item.width.motion.spring.stiffness",
+          "displayName": "Button group medium pressed motion spring stiffness",
+          "type": "DURATION",
+          "value": "md.sys.motion.spring.fast.spatial.stiffness"
+        },
+        {
+          "name": "md.comp.button-group.standard.medium.pressed.item.width.multiplier",
+          "displayName": "Button group medium pressed width multiplier",
+          "type": "LENGTH",
+          "value": "15percent"
+        },
+        {
+          "name": "md.comp.button-group.standard.medium.container.height",
+          "displayName": "Button group medium container height",
+          "type": "LENGTH",
+          "value": "56dp"
+        },
+        {
+          "name": "md.comp.button-group.standard.medium.between-space",
+          "displayName": "Button group medium between space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space100"
+        }
+      ]
+    },
+    {
+      "displayName": "Button group standard - Size - Small",
+      "tokenSetName": "md.comp.button-group.standard.small",
+      "description": "For small standard button groups.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.button-group.standard.small.pressed.item.width.motion.spring.dampening",
+          "displayName": "Button group small pressed motion spring dampening",
+          "type": "DURATION",
+          "value": "md.sys.motion.spring.fast.spatial.damping"
+        },
+        {
+          "name": "md.comp.button-group.standard.small.pressed.item.width.motion.spring.stiffness",
+          "displayName": "Button group small pressed motion spring stiffness",
+          "type": "DURATION",
+          "value": "md.sys.motion.spring.fast.spatial.stiffness"
+        },
+        {
+          "name": "md.comp.button-group.standard.small.pressed.item.width.multiplier",
+          "displayName": "Button group small pressed width multiplier",
+          "type": "LENGTH",
+          "value": "15percent"
+        },
+        {
+          "name": "md.comp.button-group.standard.small.container.height",
+          "displayName": "Button group small container height",
+          "type": "LENGTH",
+          "value": "40dp"
+        },
+        {
+          "name": "md.comp.button-group.standard.small.between-space",
+          "displayName": "Button group small between space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space150"
+        }
+      ]
+    },
+    {
+      "displayName": "Button group standard - Size - Xsmall",
+      "tokenSetName": "md.comp.button-group.standard.xsmall",
+      "description": "For XS standard button groups.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.button-group.standard.xsmall.pressed.item.width.motion.spring.dampening",
+          "displayName": "Button group xsmall pressed motion spring dampening",
+          "type": "DURATION",
+          "value": "md.sys.motion.spring.fast.spatial.damping"
+        },
+        {
+          "name": "md.comp.button-group.standard.xsmall.pressed.item.width.motion.spring.stiffness",
+          "displayName": "Button group xsmall pressed motion spring stiffness",
+          "type": "DURATION",
+          "value": "md.sys.motion.spring.fast.spatial.stiffness"
+        },
+        {
+          "name": "md.comp.button-group.standard.xsmall.pressed.item.width.multiplier",
+          "displayName": "Button group xsmall pressed width multiplier",
+          "type": "LENGTH",
+          "value": "15percent"
+        },
+        {
+          "name": "md.comp.button-group.standard.xsmall.container.height",
+          "displayName": "Button group xsmall container height",
+          "type": "LENGTH",
+          "value": "32dp"
+        },
+        {
+          "name": "md.comp.button-group.standard.xsmall.between-space",
+          "displayName": "Button group xsmall between space",
+          "type": "LENGTH",
+          "value": "18dp"
+        }
+      ]
+    },
+    {
+      "displayName": "Button group connected - Size - Xlarge",
+      "tokenSetName": "md.comp.button-group.connected.xlarge",
+      "description": "For XL connected button groups.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.button-group.connected.xlarge.selected.inner-corner.corner-size",
+          "displayName": "Button group connected xlarge selected inner corner size",
+          "type": "LENGTH",
+          "value": "50percent"
+        },
+        {
+          "name": "md.comp.button-group.connected.xlarge.pressed.inner-corner.corner-size",
+          "displayName": "Button group connected xlarge pressed inner corner size",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner-value.large"
+        },
+        {
+          "name": "md.comp.button-group.connected.xlarge.inner-corner.corner-size",
+          "displayName": "Button group connected xlarge inner corner size",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner-value.large-increased"
+        },
+        {
+          "name": "md.comp.button-group.connected.xlarge.container.height",
+          "displayName": "Button group connected xlarge container height",
+          "type": "LENGTH",
+          "value": "136dp"
+        },
+        {
+          "name": "md.comp.button-group.connected.xlarge.between-space",
+          "displayName": "Button group connected xlarge space between buttons",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space25"
+        },
+        {
+          "name": "md.comp.button-group.connected.xlarge.container.shape",
+          "displayName": "Button group connected xlarge container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        }
+      ]
+    },
+    {
+      "displayName": "Button group connected - Size - Large",
+      "tokenSetName": "md.comp.button-group.connected.large",
+      "description": "For large connected button groups.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.button-group.connected.large.pressed.inner-corner.corner-size",
+          "displayName": "Button group connected large pressed inner corner size",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner-value.medium"
+        },
+        {
+          "name": "md.comp.button-group.connected.large.selected.inner-corner.corner-size",
+          "displayName": "Button group connected large selected inner corner size",
+          "type": "LENGTH",
+          "value": "50percent"
+        },
+        {
+          "name": "md.comp.button-group.connected.large.inner-corner.corner-size",
+          "displayName": "Button group connected large inner corner size",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner-value.large"
+        },
+        {
+          "name": "md.comp.button-group.connected.large.container.height",
+          "displayName": "Button group connected large container height",
+          "type": "LENGTH",
+          "value": "96dp"
+        },
+        {
+          "name": "md.comp.button-group.connected.large.between-space",
+          "displayName": "Button group connected large space between buttons",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space25"
+        },
+        {
+          "name": "md.comp.button-group.connected.large.container.shape",
+          "displayName": "Button group connected large container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        }
+      ]
+    },
+    {
+      "displayName": "Button group connected - Size - Medium",
+      "tokenSetName": "md.comp.button-group.connected.medium",
+      "description": "For medium connected button groups.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.button-group.connected.medium.selected.inner-corner.corner-size",
+          "displayName": "Button group connected medium selected inner corner size",
+          "type": "LENGTH",
+          "value": "50percent"
+        },
+        {
+          "name": "md.comp.button-group.connected.medium.pressed.inner-corner.corner-size",
+          "displayName": "Button group connected medium pressed inner corner size",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner-value.extra-small"
+        },
+        {
+          "name": "md.comp.button-group.connected.medium.inner-corner.corner-size",
+          "displayName": "Button group connected medium inner corner size",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner-value.small"
+        },
+        {
+          "name": "md.comp.button-group.connected.medium.container.height",
+          "displayName": "Button group connected medium container height",
+          "type": "LENGTH",
+          "value": "56dp"
+        },
+        {
+          "name": "md.comp.button-group.connected.medium.between-space",
+          "displayName": "Button group connected medium space between buttons",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space25"
+        },
+        {
+          "name": "md.comp.button-group.connected.medium.container.shape",
+          "displayName": "Button group connected medium container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        }
+      ]
+    },
+    {
+      "displayName": "Button group connected - Size - Small",
+      "tokenSetName": "md.comp.button-group.connected.small",
+      "description": "For small connected button groups.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.button-group.connected.small.selected.inner-corner.corner-size",
+          "displayName": "Button group connected small selected inner corner size",
+          "type": "LENGTH",
+          "value": "50percent"
+        },
+        {
+          "name": "md.comp.button-group.connected.small.pressed.inner-corner.corner-size",
+          "displayName": "Button group connected small pressed inner corner size",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner-value.extra-small"
+        },
+        {
+          "name": "md.comp.button-group.connected.small.inner-corner.corner-size",
+          "displayName": "Button group connected small inner corner size",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner-value.small"
+        },
+        {
+          "name": "md.comp.button-group.connected.small.container.height",
+          "displayName": "Button group connected small container height",
+          "type": "LENGTH",
+          "value": "40dp"
+        },
+        {
+          "name": "md.comp.button-group.connected.small.between-space",
+          "displayName": "Button group connected small space between buttons",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space25"
+        },
+        {
+          "name": "md.comp.button-group.connected.small.container.shape",
+          "displayName": "Button group connected small container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        }
+      ]
+    },
+    {
+      "displayName": "Button group connected - Size - Xsmall",
+      "tokenSetName": "md.comp.button-group.connected.xsmall",
+      "description": "For XS connected button groups.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.button-group.connected.xsmall.selected.inner-corner.corner-size",
+          "displayName": "Button group connected xsmall selected inner corner size",
+          "type": "LENGTH",
+          "value": "50percent"
+        },
+        {
+          "name": "md.comp.button-group.connected.xsmall.pressed.inner-corner.corner-size",
+          "displayName": "Button group connected xsmall pressed inner corner size",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner-value.extra-small"
+        },
+        {
+          "name": "md.comp.button-group.connected.xsmall.inner-corner.corner-size",
+          "displayName": "Button group connected xsmall inner corner size",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner-value.small"
+        },
+        {
+          "name": "md.comp.button-group.connected.xsmall.container.height",
+          "displayName": "Button group connected xsmall container height",
+          "type": "LENGTH",
+          "value": "32dp"
+        },
+        {
+          "name": "md.comp.button-group.connected.xsmall.between-space",
+          "displayName": "Button group connected xsmall space between buttons",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space25"
+        },
+        {
+          "name": "md.comp.button-group.connected.xsmall.container.shape",
+          "displayName": "Button group connected xsmall container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        }
+      ]
+    }
+  ]
+}

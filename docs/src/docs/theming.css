@@ -1,0 +1,83 @@
+/* Styles used only by the theming page. */
+.theming-doc-swatch {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 64px;
+  padding: 8px;
+  border: 1px solid var(--md-sys-color-outline-variant);
+  border-radius: var(--md-sys-shape-corner-large);
+}
+.theming-doc-swatch > span {
+  height: 20px;
+  border-radius: var(--md-sys-shape-corner-full);
+}
+.theming-doc-swatch > span:nth-child(1) {
+  background: var(--md-sys-color-primary);
+}
+.theming-doc-swatch > span:nth-child(2) {
+  background: var(--md-sys-color-secondary-container);
+}
+.theming-doc-swatch > span:nth-child(3) {
+  background: var(--md-sys-color-tertiary-container);
+}
+.theming-doc-sample {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 420px;
+  padding: 24px;
+  border-radius: var(--md-sys-shape-corner-extra-large);
+}
+.theming-doc-sample > .g-row {
+  justify-content: space-between;
+}
+.theming-doc-grid {
+  display: grid;
+  flex: 1 1 100%;
+  grid-template-columns: repeat(auto-fill, minmax(min(240px, 100%), 1fr));
+  gap: 16px;
+}
+.theming-doc-roles {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(160px, 100%), 1fr));
+  gap: 8px;
+}
+.theming-doc-role {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 64px;
+  padding: 8px 12px;
+  border-radius: var(--md-sys-shape-corner-medium);
+  font: var(--md-sys-typescale-label-medium);
+}
+.theming-doc-role code {
+  font-family: var(--md-ref-typeface-mono);
+  font-size: 0.6875rem;
+}
+.theming-doc-column {
+  display: flex;
+  flex: 1 1 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  min-width: 0;
+}
+.theming-doc-column > .theming-doc-roles {
+  align-self: stretch;
+}
+.theming-doc-code {
+  box-sizing: border-box;
+  width: 100%;
+  max-height: 160px;
+  margin: 0;
+  padding: 12px 16px;
+  overflow: auto;
+  border-radius: var(--md-sys-shape-corner-medium);
+  background: var(--md-sys-color-surface-container-highest);
+  font-family: var(--md-ref-typeface-mono);
+  font-size: 0.75rem;
+  white-space: pre-wrap;
+  word-break: break-all;
+}

@@ -1,0 +1,770 @@
+{
+  "id": "3ec622835c7987b5",
+  "component": "App bars",
+  "tokenSets": [
+    {
+      "displayName": "App bar - Common",
+      "tokenSetName": "md.comp.app-bar",
+      "description": "Common tokens for all app bars.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.app-bar.search.trailing-space",
+          "displayName": "Search right padding",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space100"
+        },
+        {
+          "name": "md.comp.app-bar.search.leading-space",
+          "displayName": "Search left padding",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space100"
+        },
+        {
+          "name": "md.comp.app-bar.search.on-scroll.container.color",
+          "displayName": "Search container color on scroll",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-highest"
+        },
+        {
+          "name": "md.comp.app-bar.search.label.color",
+          "displayName": "Search label color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.app-bar.search.container.color",
+          "displayName": "Search container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container"
+        },
+        {
+          "name": "md.comp.app-bar.subtitle.color",
+          "displayName": "App bar subtitle text",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.app-bar.container.elevation",
+          "displayName": "App bar container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.app-bar.title.color",
+          "displayName": "App bar title text",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.app-bar.on-scroll.container.elevation",
+          "displayName": "App bar container elevation on scroll",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level2"
+        },
+        {
+          "name": "md.comp.app-bar.leading-icon.color",
+          "displayName": "App bar leading icon ",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.app-bar.trailing-icon.color",
+          "displayName": "App bar trailing icon ",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.app-bar.on-scroll.container.color",
+          "displayName": "App bar container color on scroll",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container"
+        },
+        {
+          "name": "md.comp.app-bar.container.color",
+          "displayName": "App bar container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface"
+        },
+        {
+          "name": "md.comp.app-bar.leading-space",
+          "displayName": "App bar left padding",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space50"
+        },
+        {
+          "name": "md.comp.app-bar.trailing-space",
+          "displayName": "App bar right padding",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space50"
+        },
+        {
+          "name": "md.comp.app-bar.icon-button-space",
+          "displayName": "App bar icon spacing",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space0"
+        },
+        {
+          "name": "md.comp.app-bar.container.shape",
+          "displayName": "App bar container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.none"
+        },
+        {
+          "name": "md.comp.app-bar.avatar.size",
+          "displayName": "App bar avatar size",
+          "type": "LENGTH",
+          "value": "32dp"
+        },
+        {
+          "name": "md.comp.app-bar.icon.size",
+          "displayName": "App bar icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        }
+      ]
+    },
+    {
+      "displayName": "App bar - Size - Medium (baseline)",
+      "tokenSetName": "md.comp.app-bar.medium",
+      "description": "For the baseline medium app bar. In expressive, consider using medium flexible instead `md.comp.app-bar.medium-flexible`.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.app-bar.medium.icon.size",
+          "displayName": "App bar medium icon button size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.app-bar.medium.subtitle.font",
+          "displayName": "App bar medium subtitle font",
+          "type": "TYPOGRAPHY",
+          "value": "md.sys.typescale.label-large"
+        },
+        {
+          "name": "md.comp.app-bar.medium.container.height",
+          "displayName": "App bar medium container height",
+          "type": "LENGTH",
+          "value": "112dp"
+        },
+        {
+          "name": "md.comp.app-bar.medium.title.font",
+          "displayName": "App bar medium title font",
+          "type": "TYPOGRAPHY",
+          "value": "md.sys.typescale.headline-small"
+        }
+      ]
+    },
+    {
+      "displayName": "App bar - Size - Large (baseline)",
+      "tokenSetName": "md.comp.app-bar.large",
+      "description": "For the baseline large app bar. In expressive, consider using large flexible instead `md.comp.app-bar.large-flexible`.\n",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.app-bar.large.icon.size",
+          "displayName": "App bar large icon button size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.app-bar.large.subtitle.font",
+          "displayName": "App bar large subtitle font",
+          "type": "TYPOGRAPHY",
+          "value": "md.sys.typescale.title-medium"
+        },
+        {
+          "name": "md.comp.app-bar.large.container.height",
+          "displayName": "App bar large container height",
+          "type": "LENGTH",
+          "value": "152dp"
+        },
+        {
+          "name": "md.comp.app-bar.large.title.font",
+          "displayName": "App bar large title font",
+          "type": "TYPOGRAPHY",
+          "value": "md.sys.typescale.headline-medium"
+        }
+      ]
+    },
+    {
+      "displayName": "App bar - Size - Small",
+      "tokenSetName": "md.comp.app-bar.small",
+      "description": "For the expressive small app bar and search app bar.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.app-bar.small.search.label-text.font",
+          "displayName": "Search title font",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.body-large"
+        },
+        {
+          "name": "md.comp.app-bar.small.search.container.shape",
+          "displayName": "Search container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.app-bar.small.search.container.height",
+          "displayName": "Search container height",
+          "type": "LENGTH",
+          "value": "56dp"
+        },
+        {
+          "name": "md.comp.app-bar.small.icon.size",
+          "displayName": "App bar small icon button size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.app-bar.small.container.height",
+          "displayName": "App bar small container height",
+          "type": "LENGTH",
+          "value": "64dp"
+        },
+        {
+          "name": "md.comp.app-bar.small.title.font",
+          "displayName": "App bar small title font",
+          "type": "TYPOGRAPHY",
+          "value": "md.sys.typescale.title-large"
+        },
+        {
+          "name": "md.comp.app-bar.small.subtitle.font",
+          "displayName": "App bar small subtitle font",
+          "type": "TYPOGRAPHY",
+          "value": "md.sys.typescale.label-medium"
+        }
+      ]
+    },
+    {
+      "displayName": "App bar - Size - Large Flexible",
+      "tokenSetName": "md.comp.app-bar.large-flexible",
+      "description": "For the large flexible app bar.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.app-bar.large-flexible.with-subtitle.container.height",
+          "displayName": "App bar large flexible container height with subtitle",
+          "type": "LENGTH",
+          "value": "152dp"
+        },
+        {
+          "name": "md.comp.app-bar.large-flexible.container.height",
+          "displayName": "App bar large flexible container height",
+          "type": "LENGTH",
+          "value": "120dp"
+        },
+        {
+          "name": "md.comp.app-bar.large-flexible.title.font",
+          "displayName": "App bar large Title font",
+          "type": "TYPOGRAPHY",
+          "value": "md.sys.typescale.display-small"
+        },
+        {
+          "name": "md.comp.app-bar.large-flexible.subtitle.font",
+          "displayName": "App bar large Subtitle font",
+          "type": "TYPOGRAPHY",
+          "value": "md.sys.typescale.title-medium"
+        }
+      ]
+    },
+    {
+      "displayName": "App bar - Size - Medium Flexible",
+      "tokenSetName": "md.comp.app-bar.medium-flexible",
+      "description": "For the medium flexible app bar.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.app-bar.medium-flexible.with-subtitle.container.height",
+          "displayName": "App bar medium flexible container height with subtitle",
+          "type": "LENGTH",
+          "value": "136dp"
+        },
+        {
+          "name": "md.comp.app-bar.medium-flexible.container.height",
+          "displayName": "App bar medium flexible container height",
+          "type": "LENGTH",
+          "value": "112dp"
+        },
+        {
+          "name": "md.comp.app-bar.medium-flexible.title.font",
+          "displayName": "App bar medium Title font",
+          "type": "TYPOGRAPHY",
+          "value": "md.sys.typescale.headline-medium"
+        },
+        {
+          "name": "md.comp.app-bar.medium-flexible.subtitle.font",
+          "displayName": "App bar medium Subtitle font",
+          "type": "TYPOGRAPHY",
+          "value": "md.sys.typescale.label-large"
+        }
+      ]
+    },
+    {
+      "displayName": "[Deprecated] Top app bar - Small, Center-aligned",
+      "tokenSetName": "md.comp.top-app-bar.small.centered",
+      "description": "This token set is deprecated. Use `md.comp.app-bar` and `md.comp.app-bar.small` tokens instead. \n\nOriginal component tokens for the center-aligned top app bar. ",
+      "isDeprecated": true,
+      "tokens": [
+        {
+          "name": "md.comp.top-app-bar.small.centered.on-scroll.container.elevation",
+          "displayName": "Top app bar (small) on scroll container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level2"
+        },
+        {
+          "name": "md.comp.top-app-bar.small.centered.headline.color",
+          "displayName": "Top app bar (small centered) headline color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.top-app-bar.small.centered.headline.type",
+          "displayName": "Type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.top-app-bar.small.centered.headline.font",
+          "displayName": "Top app bar (small centered) headline font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.title-large.font"
+        },
+        {
+          "name": "md.comp.top-app-bar.small.centered.headline.weight",
+          "displayName": "Top app bar (small centered) headline weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.title-large.weight"
+        },
+        {
+          "name": "md.comp.top-app-bar.small.centered.headline.size",
+          "displayName": "Top app bar (small centered) headline size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.title-large.size"
+        },
+        {
+          "name": "md.comp.top-app-bar.small.centered.headline.line-height",
+          "displayName": "Top app bar (small centered) headline height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.title-large.line-height"
+        },
+        {
+          "name": "md.comp.top-app-bar.small.centered.headline.tracking",
+          "displayName": "Top app bar (small centered) headline tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.title-large.tracking"
+        },
+        {
+          "name": "md.comp.top-app-bar.small.centered.trailing-icon.color",
+          "displayName": "Top app bar (small centered) trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.top-app-bar.small.centered.trailing-icon.size",
+          "displayName": "Top app bar (small centered) trailing icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.top-app-bar.small.centered.leading-icon.color",
+          "displayName": "Top app bar (small centered) leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.top-app-bar.small.centered.leading-icon.size",
+          "displayName": "Top app bar (small centered) leading icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.top-app-bar.small.centered.container.surface-tint-layer.color",
+          "displayName": "Top app bar (small centered) container surface tint layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-tint"
+        },
+        {
+          "name": "md.comp.top-app-bar.small.centered.container.elevation",
+          "displayName": "Top app bar (small centered) container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.top-app-bar.small.centered.container.height",
+          "displayName": "Top app bar (small centered) container height",
+          "type": "LENGTH",
+          "value": "64dp"
+        },
+        {
+          "name": "md.comp.top-app-bar.small.centered.container.shape",
+          "displayName": "Top app bar (small centered) container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.none"
+        },
+        {
+          "name": "md.comp.top-app-bar.small.centered.container.color",
+          "displayName": "Top app bar (small centered) container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface"
+        },
+        {
+          "name": "md.comp.top-app-bar.small.centered.on-scroll.container.color",
+          "displayName": "Top app bar (small centered) on-scroll container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container"
+        },
+        {
+          "name": "md.comp.top-app-bar.small.centered.avatar.shape",
+          "displayName": "Top app bar (small) on scroll avatar shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.top-app-bar.small.centered.avatar.size",
+          "displayName": "Top app bar (small) on scroll avatar size",
+          "type": "LENGTH",
+          "value": "30dp"
+        },
+        {
+          "name": "md.comp.top-app-bar.small.centered.on-scroll.container.shadow-color",
+          "displayName": "Top app bar (small) on scroll container shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        }
+      ]
+    },
+    {
+      "displayName": "[Deprecated] Top app bar - Small",
+      "tokenSetName": "md.comp.top-app-bar.small",
+      "description": "This token set is deprecated. Use `md.comp.app-bar` and `md.comp.app-bar.small` tokens instead.\n\nOriginal tokens for the small top app bar.",
+      "isDeprecated": true,
+      "tokens": [
+        {
+          "name": "md.comp.top-app-bar.small.on-scroll.container.elevation",
+          "displayName": "Top app bar (small) on scroll container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level2"
+        },
+        {
+          "name": "md.comp.top-app-bar.small.headline.color",
+          "displayName": "Top app bar (small) headline color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.top-app-bar.small.headline.type",
+          "displayName": "Type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.top-app-bar.small.headline.font",
+          "displayName": "Top app bar (small) headline font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.title-large.font"
+        },
+        {
+          "name": "md.comp.top-app-bar.small.headline.weight",
+          "displayName": "Top app bar (small) headline weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.title-large.weight"
+        },
+        {
+          "name": "md.comp.top-app-bar.small.headline.size",
+          "displayName": "Top app bar (small) headline size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.title-large.size"
+        },
+        {
+          "name": "md.comp.top-app-bar.small.headline.line-height",
+          "displayName": "Top app bar (small) headline height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.title-large.line-height"
+        },
+        {
+          "name": "md.comp.top-app-bar.small.headline.tracking",
+          "displayName": "Top app bar (small) headline tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.title-large.tracking"
+        },
+        {
+          "name": "md.comp.top-app-bar.small.trailing-icon.color",
+          "displayName": "Top app bar (small) trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.top-app-bar.small.trailing-icon.size",
+          "displayName": "Top app bar (small) trailing icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.top-app-bar.small.leading-icon.color",
+          "displayName": "Top app bar (small) leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.top-app-bar.small.leading-icon.size",
+          "displayName": "Top app bar (small) leading icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.top-app-bar.small.container.elevation",
+          "displayName": "Top app bar (small) container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.top-app-bar.small.container.height",
+          "displayName": "Top app bar (small) container height",
+          "type": "LENGTH",
+          "value": "64dp"
+        },
+        {
+          "name": "md.comp.top-app-bar.small.container.shape",
+          "displayName": "Top app bar (small) container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.none"
+        },
+        {
+          "name": "md.comp.top-app-bar.small.on-scroll.container.color",
+          "displayName": "Top app bar (small) on-scroll container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container"
+        },
+        {
+          "name": "md.comp.top-app-bar.small.container.color",
+          "displayName": "Top app bar (small) container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface"
+        },
+        {
+          "name": "md.comp.top-app-bar.small.on-scroll.container.shadow-color",
+          "displayName": "Top app bar (small) on scroll container shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.top-app-bar.small.container.surface-tint-layer.color",
+          "displayName": "Top app bar (small) container surface tint layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-tint"
+        }
+      ]
+    },
+    {
+      "displayName": "[Deprecated] Top app bar - Medium",
+      "tokenSetName": "md.comp.top-app-bar.medium",
+      "description": "This token set is deprecated. Use `md.comp.app-bar` and `md.comp.app-bar.medium` tokens instead. Original tokens for the medium top app bar.",
+      "isDeprecated": true,
+      "tokens": [
+        {
+          "name": "md.comp.top-app-bar.medium.headline.color",
+          "displayName": "Top app bar (medium) headline color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.top-app-bar.medium.headline.type",
+          "displayName": "Type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.top-app-bar.medium.headline.font",
+          "displayName": "Top app bar (medium) headline font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.headline-small.font"
+        },
+        {
+          "name": "md.comp.top-app-bar.medium.headline.weight",
+          "displayName": "Top app bar (medium) headline weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.headline-small.weight"
+        },
+        {
+          "name": "md.comp.top-app-bar.medium.headline.size",
+          "displayName": "Top app bar (medium) headline size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.headline-small.size"
+        },
+        {
+          "name": "md.comp.top-app-bar.medium.headline.line-height",
+          "displayName": "Top app bar (medium) headline height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.headline-small.line-height"
+        },
+        {
+          "name": "md.comp.top-app-bar.medium.headline.tracking",
+          "displayName": "Top app bar (medium) headline tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.headline-small.tracking"
+        },
+        {
+          "name": "md.comp.top-app-bar.medium.trailing-icon.color",
+          "displayName": "Top app bar (medium) trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.top-app-bar.medium.trailing-icon.size",
+          "displayName": "Top app bar (medium) trailing icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.top-app-bar.medium.leading-icon.color",
+          "displayName": "Top app bar (medium) leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.top-app-bar.medium.leading-icon.size",
+          "displayName": "Top app bar (medium) leading icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.top-app-bar.medium.container.elevation",
+          "displayName": "Top app bar (medium) container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.top-app-bar.medium.container.height",
+          "displayName": "Top app bar (medium) container height",
+          "type": "LENGTH",
+          "value": "112dp"
+        },
+        {
+          "name": "md.comp.top-app-bar.medium.container.shape",
+          "displayName": "Top app bar (medium) container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.none"
+        },
+        {
+          "name": "md.comp.top-app-bar.medium.container.color",
+          "displayName": "Top app bar (medium) container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface"
+        },
+        {
+          "name": "md.comp.top-app-bar.medium.container.surface-tint-layer.color",
+          "displayName": "Top app bar (medium) container surface tint layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-tint"
+        }
+      ]
+    },
+    {
+      "displayName": "[Deprecated] Top app bar -  Large",
+      "tokenSetName": "md.comp.top-app-bar.large",
+      "description": "This token set is deprecated. Use `md.comp.app-bar` and `md.comp.app-bar.large` tokens instead. Original tokens for the large top app bar.",
+      "isDeprecated": true,
+      "tokens": [
+        {
+          "name": "md.comp.top-app-bar.large.headline.color",
+          "displayName": "Top app bar (large) headline color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.top-app-bar.large.headline.type",
+          "displayName": "Type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.top-app-bar.large.headline.font",
+          "displayName": "Top app bar (large) headline font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.headline-medium.font"
+        },
+        {
+          "name": "md.comp.top-app-bar.large.headline.weight",
+          "displayName": "Top app bar (large) headline weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.headline-medium.weight"
+        },
+        {
+          "name": "md.comp.top-app-bar.large.headline.size",
+          "displayName": "Top app bar (large) headline size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.headline-medium.size"
+        },
+        {
+          "name": "md.comp.top-app-bar.large.headline.line-height",
+          "displayName": "Top app bar (large) headline height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.headline-medium.line-height"
+        },
+        {
+          "name": "md.comp.top-app-bar.large.headline.tracking",
+          "displayName": "Top app bar (large) headline tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.headline-medium.tracking"
+        },
+        {
+          "name": "md.comp.top-app-bar.large.trailing-icon.color",
+          "displayName": "Top app bar (large) trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.top-app-bar.large.trailing-icon.size",
+          "displayName": "Top app bar (large) trailing icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.top-app-bar.large.leading-icon.color",
+          "displayName": "Top app bar (large) leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.top-app-bar.large.leading-icon.size",
+          "displayName": "Top app bar (large) leading icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.top-app-bar.large.container.elevation",
+          "displayName": "Top app bar (large) container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.top-app-bar.large.container.height",
+          "displayName": "Top app bar (large) container height",
+          "type": "LENGTH",
+          "value": "152dp"
+        },
+        {
+          "name": "md.comp.top-app-bar.large.container.shape",
+          "displayName": "Top app bar (large) container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.none"
+        },
+        {
+          "name": "md.comp.top-app-bar.large.container.color",
+          "displayName": "Top app bar (large) container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface"
+        },
+        {
+          "name": "md.comp.top-app-bar.large.container.surface-tint-layer.color",
+          "displayName": "Top app bar (large) container surface tint layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-tint"
+        }
+      ]
+    }
+  ]
+}

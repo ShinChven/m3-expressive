@@ -1,0 +1,2402 @@
+{
+  "id": "0fe2282006ae098b",
+  "component": "Icon buttons",
+  "tokenSets": [
+    {
+      "displayName": "Icon button (baseline)",
+      "tokenSetName": "md.comp.icon-button",
+      "description": "This token set is not recommended. For baseline icon buttons. For expressive, use a size `md.comp.icon-button.small` and color `md.comp.icon-button.filled` token set instead.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.icon-button.focus.indicator.outline.offset",
+          "displayName": "Icon button focus indicator offset",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.outer-offset"
+        },
+        {
+          "name": "md.comp.icon-button.focus.indicator.thickness",
+          "displayName": "Icon button focus indicator thickness",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.thickness"
+        },
+        {
+          "name": "md.comp.icon-button.selected.hovered.icon.color",
+          "displayName": "Icon button hovered icon color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.icon-button.unselected.hovered.icon.color",
+          "displayName": "Icon button hovered icon color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.icon-button.focus.indicator.color",
+          "displayName": "Icon button focus indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary"
+        },
+        {
+          "name": "md.comp.icon-button.unselected.focused.icon.color",
+          "displayName": "Icon button focused icon color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.icon-button.selected.focused.icon.color",
+          "displayName": "Icon button focused icon color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.icon-button.focused.icon.color",
+          "displayName": "Icon button focused icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.icon-button.selected.focused.state-layer.color",
+          "displayName": "Icon button focused state layer color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.icon-button.focused.state-layer.opacity",
+          "displayName": "Icon button focused state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.icon-button.unselected.focused.state-layer.color",
+          "displayName": "Icon button focused state layer color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.icon-button.selected.container.shape.square",
+          "displayName": "Icon button selected container shape square",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.icon-button.selected.container.shape.round",
+          "displayName": "Icon button selected container shape round",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.medium"
+        },
+        {
+          "name": "md.comp.icon-button.pressed.container.corner-size.motion.spring.stiffness",
+          "displayName": "Icon button shape spring animation stiffness",
+          "type": "DURATION",
+          "value": "md.sys.motion.spring.fast.spatial.stiffness"
+        },
+        {
+          "name": "md.comp.icon-button.default.trailing-space",
+          "displayName": "Icon button default trailing space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space100"
+        },
+        {
+          "name": "md.comp.icon-button.default.leading-space",
+          "displayName": "Icon button default leading space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space100"
+        },
+        {
+          "name": "md.comp.icon-button.container.color",
+          "displayName": "Icon button container color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.icon-button.unselected.container.color",
+          "displayName": "Icon button container color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container"
+        },
+        {
+          "name": "md.comp.icon-button.selected.container.color",
+          "displayName": "Icon button container color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.icon-button.icon.color",
+          "displayName": "Icon button icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.icon-button.unselected.icon.color",
+          "displayName": "Icon button icon color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.icon-button.selected.icon.color",
+          "displayName": "Icon button icon color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.icon-button.disabled.container.color",
+          "displayName": "Icon button disabled container color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.icon-button.disabled.container.opacity",
+          "displayName": "Icon button disabled container opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.icon-button.disabled.icon.color",
+          "displayName": "Icon button disabled icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.icon-button.disabled.icon.opacity",
+          "displayName": "Icon button disabled icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.icon-button.hovered.state-layer.color",
+          "displayName": "Icon button hovered state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.icon-button.unselected.hovered.state-layer.color",
+          "displayName": "Icon button hovered state layer color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.icon-button.selected.hovered.state-layer.color",
+          "displayName": "Icon button hovered state layer color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.icon-button.hovered.state-layer.opacity",
+          "displayName": "Icon button hovered state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.icon-button.hovered.icon.color",
+          "displayName": "Icon button hovered icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.icon-button.focused.state-layer.color",
+          "displayName": "Icon button focused state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.icon-button.pressed.state-layer.color",
+          "displayName": "Icon button pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.icon-button.unselected.pressed.state-layer.color",
+          "displayName": "Icon button pressed state layer color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.icon-button.selected.pressed.state-layer.color",
+          "displayName": "Icon button pressed state layer color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.icon-button.pressed.state-layer.opacity",
+          "displayName": "Icon button pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.icon-button.pressed.icon.color",
+          "displayName": "Icon button pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.icon-button.unselected.pressed.icon.color",
+          "displayName": "Icon button pressed icon color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.icon-button.selected.pressed.icon.color",
+          "displayName": "Icon button pressed icon color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.icon-button.container.height",
+          "displayName": "Icon button container height",
+          "type": "LENGTH",
+          "value": "40dp"
+        },
+        {
+          "name": "md.comp.icon-button.icon.size",
+          "displayName": "Icon button icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.icon-button.narrow.leading-space",
+          "displayName": "Icon button narrow leading space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space50"
+        },
+        {
+          "name": "md.comp.icon-button.narrow.trailing-space",
+          "displayName": "Icon button narrow trailing space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space50"
+        },
+        {
+          "name": "md.comp.icon-button.wide.leading-space",
+          "displayName": "Icon button wide leading space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space175"
+        },
+        {
+          "name": "md.comp.icon-button.wide.trailing-space",
+          "displayName": "Icon button wide trailing space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space175"
+        },
+        {
+          "name": "md.comp.icon-button.container.shape.round",
+          "displayName": "Icon button container shape round",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.icon-button.container.shape.square",
+          "displayName": "Icon button container shape square",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.medium"
+        },
+        {
+          "name": "md.comp.icon-button.pressed.container.shape",
+          "displayName": "Icon button shape pressed morph",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.small"
+        },
+        {
+          "name": "md.comp.icon-button.pressed.container.corner-size.motion.spring.damping",
+          "displayName": "Icon button shape spring animation damping",
+          "type": "DURATION",
+          "value": "md.sys.motion.spring.fast.spatial.damping"
+        },
+        {
+          "name": "md.comp.icon-button.unselected.hover.state-layer.color",
+          "displayName": "Icon button unselected hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.icon-button.unselected.hover.state-layer.opacity",
+          "displayName": "Icon button icon unselected hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.icon-button.unselected.hover.icon.color",
+          "displayName": "Icon button unselected hover icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.icon-button.selected.hover.state-layer.color",
+          "displayName": "Icon button selected hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.icon-button.selected.hover.state-layer.opacity",
+          "displayName": "Icon button selected hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.icon-button.selected.hover.icon.color",
+          "displayName": "Icon button selected hover icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.icon-button.unselected.focus.state-layer.color",
+          "displayName": "Icon button unselected focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.icon-button.unselected.focus.state-layer.opacity",
+          "displayName": "Icon button unselected focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.icon-button.unselected.focus.icon.color",
+          "displayName": "Icon button unselected focus icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.icon-button.selected.focus.state-layer.color",
+          "displayName": "Icon button selected focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.icon-button.selected.focus.state-layer.opacity",
+          "displayName": "Icon button selected focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.icon-button.selected.focus.icon.color",
+          "displayName": "Icon button selected focus icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.icon-button.unselected.pressed.state-layer.opacity",
+          "displayName": "Icon button unselected pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.icon-button.selected.pressed.state-layer.opacity",
+          "displayName": "Icon button selected pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.icon-button.state-layer.size",
+          "displayName": "Icon button state layer size",
+          "type": "LENGTH",
+          "value": "40dp"
+        },
+        {
+          "name": "md.comp.icon-button.state-layer.width",
+          "displayName": "Icon button state layer width",
+          "type": "LENGTH",
+          "value": "40dp"
+        },
+        {
+          "name": "md.comp.icon-button.state-layer.shape",
+          "displayName": "Icon button state layer shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.icon-button.state-layer.height",
+          "displayName": "Icon button state layer height",
+          "type": "LENGTH",
+          "value": "40dp"
+        }
+      ]
+    },
+    {
+      "displayName": "Icon button - Color - Filled",
+      "tokenSetName": "md.comp.icon-button.filled",
+      "description": "For filled icon buttons.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.icon-button.filled.container.color",
+          "displayName": "Icon button filled container color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.icon-button.filled.unselected.container.color",
+          "displayName": "Icon button filled container color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container"
+        },
+        {
+          "name": "md.comp.icon-button.filled.selected.container.color",
+          "displayName": "Icon button filled container color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.icon-button.filled.icon.color",
+          "displayName": "Icon button filled icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.icon-button.filled.unselected.icon.color",
+          "displayName": "Icon button filled icon color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.icon-button.filled.selected.icon.color",
+          "displayName": "Icon button filled icon color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.icon-button.filled.disabled.container.color",
+          "displayName": "Icon button filled disabled container color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.icon-button.filled.disabled.container.opacity",
+          "displayName": "Icon button filled disabled container opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.icon-button.filled.disabled.icon.color",
+          "displayName": "Icon button filled disabled icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.icon-button.filled.disabled.icon.opacity",
+          "displayName": "Icon button filled disabled icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.icon-button.filled.hovered.state-layer.color",
+          "displayName": "Icon button filled hovered state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.icon-button.filled.unselected.hovered.state-layer.color",
+          "displayName": "Icon button filled hovered state layer color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.icon-button.filled.selected.hovered.state-layer.color",
+          "displayName": "Icon button filled hovered state layer color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.icon-button.filled.hovered.state-layer.opacity",
+          "displayName": "Icon button filled hovered state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.icon-button.filled.hovered.icon.color",
+          "displayName": "Icon button filled hovered icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.icon-button.filled.unselected.hovered.icon.color",
+          "displayName": "Icon button filled hovered icon color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.icon-button.filled.selected.hovered.icon.color",
+          "displayName": "Icon button filled hovered icon color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.icon-button.filled.focused.state-layer.color",
+          "displayName": "Icon button filled focused state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.icon-button.filled.unselected.focused.state-layer.color",
+          "displayName": "Icon button filled focused state layer color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.icon-button.filled.selected.focused.state-layer.color",
+          "displayName": "Icon button filled focused state layer color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.icon-button.filled.focused.state-layer.opacity",
+          "displayName": "Icon button filled focused state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.icon-button.filled.focused.icon.color",
+          "displayName": "Icon button filled focused icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.icon-button.filled.unselected.focused.icon.color",
+          "displayName": "Icon button filled focused icon color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.icon-button.filled.selected.focused.icon.color",
+          "displayName": "Icon button filled focused icon color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.icon-button.filled.pressed.state-layer.color",
+          "displayName": "Icon button filled pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.icon-button.filled.unselected.pressed.state-layer.color",
+          "displayName": "Icon button filled pressed state layer color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.icon-button.filled.selected.pressed.state-layer.color",
+          "displayName": "Icon button filled pressed state layer color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.icon-button.filled.pressed.state-layer.opacity",
+          "displayName": "Icon button filled pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.icon-button.filled.pressed.icon.color",
+          "displayName": "Icon button filled pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.icon-button.filled.unselected.pressed.icon.color",
+          "displayName": "Icon button filled pressed icon color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.icon-button.filled.selected.pressed.icon.color",
+          "displayName": "Icon button filled pressed icon color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        }
+      ]
+    },
+    {
+      "displayName": "Icon button - Size - Xsmall",
+      "tokenSetName": "md.comp.icon-button.xsmall",
+      "description": "For XS icon buttons.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.icon-button.xsmall.default.leading-space",
+          "displayName": "Icon button xsmall default leading space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space75"
+        },
+        {
+          "name": "md.comp.icon-button.xsmall.default.trailing-space",
+          "displayName": "Icon button xsmall default trailing space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space75"
+        },
+        {
+          "name": "md.comp.icon-button.xsmall.container.shape.square",
+          "displayName": "Icon button xsmall container shape square",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.medium"
+        },
+        {
+          "name": "md.comp.icon-button.xsmall.container.shape.round",
+          "displayName": "Icon button xsmall container shape round",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.icon-button.xsmall.wide.trailing-space",
+          "displayName": "Icon button xsmall wide trailing space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space125"
+        },
+        {
+          "name": "md.comp.icon-button.xsmall.wide.leading-space",
+          "displayName": "Icon button xsmall wide leading space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space125"
+        },
+        {
+          "name": "md.comp.icon-button.xsmall.narrow.trailing-space",
+          "displayName": "Icon button xsmall narrow trailing space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space50"
+        },
+        {
+          "name": "md.comp.icon-button.xsmall.narrow.leading-space",
+          "displayName": "Icon button xsmall narrow leading space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space50"
+        },
+        {
+          "name": "md.comp.icon-button.xsmall.container.height",
+          "displayName": "Icon button xsmall container height",
+          "type": "LENGTH",
+          "value": "32dp"
+        },
+        {
+          "name": "md.comp.icon-button.xsmall.icon.size",
+          "displayName": "Icon button xsmall icon size",
+          "type": "LENGTH",
+          "value": "20dp"
+        },
+        {
+          "name": "md.comp.icon-button.xsmall.outlined.outline.width",
+          "displayName": "Icon button xsmall outline width",
+          "type": "LENGTH",
+          "value": "1dp"
+        },
+        {
+          "name": "md.comp.icon-button.xsmall.pressed.container.shape",
+          "displayName": "Icon button xsmall shape pressed morph",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.small"
+        },
+        {
+          "name": "md.comp.icon-button.xsmall.selected.container.shape.square",
+          "displayName": "Icon button xsmall selected container shape square",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.icon-button.xsmall.selected.container.shape.round",
+          "displayName": "Icon button xsmall selected container shape round",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.medium"
+        },
+        {
+          "name": "md.comp.icon-button.xsmall.pressed.container.corner-size.motion.spring.stiffness",
+          "displayName": "Icon button xsmall shape spring animation stiffness",
+          "type": "DURATION",
+          "value": "md.sys.motion.spring.fast.spatial.stiffness"
+        },
+        {
+          "name": "md.comp.icon-button.xsmall.pressed.container.corner-size.motion.spring.damping",
+          "displayName": "Icon button xsmall shape spring animation damping",
+          "type": "DURATION",
+          "value": "md.sys.motion.spring.fast.spatial.damping"
+        }
+      ]
+    },
+    {
+      "displayName": "Icon button - Size - Small",
+      "tokenSetName": "md.comp.icon-button.small",
+      "description": "For small icon buttons.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.icon-button.small.default.trailing-space",
+          "displayName": "Icon button small default trailing space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space100"
+        },
+        {
+          "name": "md.comp.icon-button.small.default.leading-space",
+          "displayName": "Icon button small default leading space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space100"
+        },
+        {
+          "name": "md.comp.icon-button.small.container.height",
+          "displayName": "Icon button small container height",
+          "type": "LENGTH",
+          "value": "40dp"
+        },
+        {
+          "name": "md.comp.icon-button.small.icon.size",
+          "displayName": "Icon button small icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.icon-button.small.narrow.leading-space",
+          "displayName": "Icon button small narrow leading space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space50"
+        },
+        {
+          "name": "md.comp.icon-button.small.narrow.trailing-space",
+          "displayName": "Icon button small narrow trailing space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space50"
+        },
+        {
+          "name": "md.comp.icon-button.small.wide.leading-space",
+          "displayName": "Icon button small wide leading space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space175"
+        },
+        {
+          "name": "md.comp.icon-button.small.wide.trailing-space",
+          "displayName": "Icon button small wide trailing space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space175"
+        },
+        {
+          "name": "md.comp.icon-button.small.container.shape.round",
+          "displayName": "Icon button small container shape round",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.icon-button.small.container.shape.square",
+          "displayName": "Icon button small container shape square",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.medium"
+        },
+        {
+          "name": "md.comp.icon-button.small.outlined.outline.width",
+          "displayName": "Icon button small outline width",
+          "type": "LENGTH",
+          "value": "1dp"
+        },
+        {
+          "name": "md.comp.icon-button.small.pressed.container.shape",
+          "displayName": "Icon button small shape pressed morph",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.small"
+        },
+        {
+          "name": "md.comp.icon-button.small.selected.container.shape.square",
+          "displayName": "Icon button small selected container shape square",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.icon-button.small.selected.container.shape.round",
+          "displayName": "Icon button small selected container shape round",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.medium"
+        },
+        {
+          "name": "md.comp.icon-button.small.pressed.container.corner-size.motion.spring.stiffness",
+          "displayName": "Icon button small shape spring animation stiffness",
+          "type": "DURATION",
+          "value": "md.sys.motion.spring.fast.spatial.stiffness"
+        },
+        {
+          "name": "md.comp.icon-button.small.pressed.container.corner-size.motion.spring.damping",
+          "displayName": "Icon button small shape spring animation damping",
+          "type": "DURATION",
+          "value": "md.sys.motion.spring.fast.spatial.damping"
+        }
+      ]
+    },
+    {
+      "displayName": "Icon button - Size - Medium",
+      "tokenSetName": "md.comp.icon-button.medium",
+      "description": "For medium icon buttons.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.icon-button.medium.default.trailing-space",
+          "displayName": "Icon button medium default trailing space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space200"
+        },
+        {
+          "name": "md.comp.icon-button.medium.default.leading-space",
+          "displayName": "Icon button medium default leading space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space200"
+        },
+        {
+          "name": "md.comp.icon-button.medium.container.height",
+          "displayName": "Icon button medium container height",
+          "type": "LENGTH",
+          "value": "56dp"
+        },
+        {
+          "name": "md.comp.icon-button.medium.icon.size",
+          "displayName": "Icon button medium icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.icon-button.medium.narrow.trailing-space",
+          "displayName": "Icon button medium narrow trailing space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space150"
+        },
+        {
+          "name": "md.comp.icon-button.medium.narrow.leading-space",
+          "displayName": "Icon button medium narrow leading space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space150"
+        },
+        {
+          "name": "md.comp.icon-button.medium.wide.leading-space",
+          "displayName": "Icon button medium wide leading space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space300"
+        },
+        {
+          "name": "md.comp.icon-button.medium.wide.trailing-space",
+          "displayName": "Icon button medium wide trailing space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space300"
+        },
+        {
+          "name": "md.comp.icon-button.medium.container.shape.round",
+          "displayName": "Icon button medium container shape round",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.icon-button.medium.container.shape.square",
+          "displayName": "Icon button medium container shape square",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.large"
+        },
+        {
+          "name": "md.comp.icon-button.medium.outlined.outline.width",
+          "displayName": "Icon button medium outline width",
+          "type": "LENGTH",
+          "value": "1dp"
+        },
+        {
+          "name": "md.comp.icon-button.medium.pressed.container.shape",
+          "displayName": "Icon button medium shape pressed morph",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.medium"
+        },
+        {
+          "name": "md.comp.icon-button.medium.selected.container.shape.square",
+          "displayName": "Icon button medium selected container shape square",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.icon-button.medium.selected.container.shape.round",
+          "displayName": "Icon button medium selected container shape round",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.large"
+        },
+        {
+          "name": "md.comp.icon-button.medium.pressed.container.corner-size.motion.spring.stiffness",
+          "displayName": "Icon button medium shape spring animation stiffness",
+          "type": "DURATION",
+          "value": "md.sys.motion.spring.fast.spatial.stiffness"
+        },
+        {
+          "name": "md.comp.icon-button.medium.pressed.container.corner-size.motion.spring.damping",
+          "displayName": "Icon button medium shape spring animation damping",
+          "type": "DURATION",
+          "value": "md.sys.motion.spring.fast.spatial.damping"
+        }
+      ]
+    },
+    {
+      "displayName": "Icon button - Size - Large",
+      "tokenSetName": "md.comp.icon-button.large",
+      "description": "For large icon buttons.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.icon-button.large.default.trailing-space",
+          "displayName": "Icon button large default trailing space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space400"
+        },
+        {
+          "name": "md.comp.icon-button.large.default.leading-space",
+          "displayName": "Icon button large default leading space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space400"
+        },
+        {
+          "name": "md.comp.icon-button.large.container.height",
+          "displayName": "Icon button large container height",
+          "type": "LENGTH",
+          "value": "96dp"
+        },
+        {
+          "name": "md.comp.icon-button.large.icon.size",
+          "displayName": "Icon button large icon size",
+          "type": "LENGTH",
+          "value": "32dp"
+        },
+        {
+          "name": "md.comp.icon-button.large.narrow.leading-space",
+          "displayName": "Icon button large narrow leading space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space200"
+        },
+        {
+          "name": "md.comp.icon-button.large.narrow.trailing-space",
+          "displayName": "Icon button large narrow trailing space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space200"
+        },
+        {
+          "name": "md.comp.icon-button.large.wide.leading-space",
+          "displayName": "Icon button large wide leading space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space600"
+        },
+        {
+          "name": "md.comp.icon-button.large.wide.trailing-space",
+          "displayName": "Icon button large wide trailing space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space600"
+        },
+        {
+          "name": "md.comp.icon-button.large.container.shape.round",
+          "displayName": "Icon button large container shape round",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.icon-button.large.container.shape.square",
+          "displayName": "Icon button large container shape square",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.extra-large"
+        },
+        {
+          "name": "md.comp.icon-button.large.outlined.outline.width",
+          "displayName": "Icon button large outline width",
+          "type": "LENGTH",
+          "value": "2dp"
+        },
+        {
+          "name": "md.comp.icon-button.large.pressed.container.shape",
+          "displayName": "Icon button large shape pressed morph",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.large"
+        },
+        {
+          "name": "md.comp.icon-button.large.selected.container.shape.square",
+          "displayName": "Icon button large selected container shape square",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.icon-button.large.selected.container.shape.round",
+          "displayName": "Icon button large selected container shape round",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.extra-large"
+        },
+        {
+          "name": "md.comp.icon-button.large.pressed.container.corner-size.motion.spring.stiffness",
+          "displayName": "Icon button large shape spring animation stiffness",
+          "type": "DURATION",
+          "value": "md.sys.motion.spring.fast.spatial.stiffness"
+        },
+        {
+          "name": "md.comp.icon-button.large.pressed.container.corner-size.motion.spring.damping",
+          "displayName": "Icon button large shape spring animation damping",
+          "type": "DURATION",
+          "value": "md.sys.motion.spring.fast.spatial.damping"
+        }
+      ]
+    },
+    {
+      "displayName": "Icon button - Size - Xlarge",
+      "tokenSetName": "md.comp.icon-button.xlarge",
+      "description": "For XL icon buttons.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.icon-button.xlarge.default.trailing-space",
+          "displayName": "Icon button xlarge default trailing space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space600"
+        },
+        {
+          "name": "md.comp.icon-button.xlarge.default.leading-space",
+          "displayName": "Icon button xlarge default leading space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space600"
+        },
+        {
+          "name": "md.comp.icon-button.xlarge.container.height",
+          "displayName": "Icon button xlarge container height",
+          "type": "LENGTH",
+          "value": "136dp"
+        },
+        {
+          "name": "md.comp.icon-button.xlarge.icon.size",
+          "displayName": "Icon button xlarge icon size",
+          "type": "LENGTH",
+          "value": "40dp"
+        },
+        {
+          "name": "md.comp.icon-button.xlarge.narrow.leading-space",
+          "displayName": "Icon button xlarge narrow leading space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space400"
+        },
+        {
+          "name": "md.comp.icon-button.xlarge.narrow.trailing-space",
+          "displayName": "Icon button xlarge narrow trailing space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space400"
+        },
+        {
+          "name": "md.comp.icon-button.xlarge.wide.leading-space",
+          "displayName": "Icon button xlarge wide leading space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space900"
+        },
+        {
+          "name": "md.comp.icon-button.xlarge.wide.trailing-space",
+          "displayName": "Icon button xlarge wide trailing space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space900"
+        },
+        {
+          "name": "md.comp.icon-button.xlarge.container.shape.round",
+          "displayName": "Icon button xlarge container shape round",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.icon-button.xlarge.container.shape.square",
+          "displayName": "Icon button xlarge container shape square",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.extra-large"
+        },
+        {
+          "name": "md.comp.icon-button.xlarge.outlined.outline.width",
+          "displayName": "Icon button xlarge outline width",
+          "type": "LENGTH",
+          "value": "3dp"
+        },
+        {
+          "name": "md.comp.icon-button.xlarge.pressed.container.shape",
+          "displayName": "Icon button xlarge shape pressed morph",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.large"
+        },
+        {
+          "name": "md.comp.icon-button.xlarge.selected.container.shape.square",
+          "displayName": "Icon button xlarge selected container shape square",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.icon-button.xlarge.selected.container.shape.round",
+          "displayName": "Icon button xlarge selected container shape round",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.extra-large"
+        },
+        {
+          "name": "md.comp.icon-button.xlarge.pressed.container.corner-size.motion.spring.stiffness",
+          "displayName": "Icon button xlarge shape spring animation stiffness",
+          "type": "DURATION",
+          "value": "md.sys.motion.spring.fast.spatial.stiffness"
+        },
+        {
+          "name": "md.comp.icon-button.xlarge.pressed.container.corner-size.motion.spring.damping",
+          "displayName": "Icon button xlarge shape spring animation damping",
+          "type": "DURATION",
+          "value": "md.sys.motion.spring.fast.spatial.damping"
+        }
+      ]
+    },
+    {
+      "displayName": "Icon button - Color - Outlined",
+      "tokenSetName": "md.comp.icon-button.outlined",
+      "description": "For outlined icon buttons.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.icon-button.outlined.selected.container.color",
+          "displayName": "Icon button outlined container color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.inverse-surface"
+        },
+        {
+          "name": "md.comp.icon-button.outlined.hovered.state-layer.color",
+          "displayName": "Icon button outlined hovered state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.icon-button.outlined.focused.state-layer.color",
+          "displayName": "Icon button outlined focused state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.icon-button.outlined.icon.color",
+          "displayName": "Icon button outlined icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.icon-button.outlined.outline.color",
+          "displayName": "Icon button outlined color",
+          "type": "COLOR",
+          "value": "md.sys.color.outline-variant"
+        },
+        {
+          "name": "md.comp.icon-button.outlined.unselected.icon.color",
+          "displayName": "Icon button outlined icon color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.icon-button.outlined.selected.icon.color",
+          "displayName": "Icon button outlined icon color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.inverse-on-surface"
+        },
+        {
+          "name": "md.comp.icon-button.outlined.hovered.icon.color",
+          "displayName": "Icon button outlined hovered icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.icon-button.outlined.hovered.state-layer.opacity",
+          "displayName": "Icon button outlined hovered state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.icon-button.outlined.unselected.hovered.state-layer.color",
+          "displayName": "Icon button outlined hovered state layer color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.icon-button.outlined.selected.hovered.state-layer.color",
+          "displayName": "Icon button outlined hovered state layer color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.inverse-on-surface"
+        },
+        {
+          "name": "md.comp.icon-button.outlined.unselected.hovered.icon.color",
+          "displayName": "Icon button outlined hovered icon color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.icon-button.outlined.selected.hovered.icon.color",
+          "displayName": "Icon button outlined hovered icon color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.inverse-on-surface"
+        },
+        {
+          "name": "md.comp.icon-button.outlined.focused.state-layer.opacity",
+          "displayName": "Icon button outlined focused state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.icon-button.outlined.focused.icon.color",
+          "displayName": "Icon button outlined focused icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.icon-button.outlined.unselected.focused.state-layer.color",
+          "displayName": "Icon button outlined focused state layer color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.icon-button.outlined.selected.focused.state-layer.color",
+          "displayName": "Icon button outlined focused state layer color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.inverse-on-surface"
+        },
+        {
+          "name": "md.comp.icon-button.outlined.unselected.focused.icon.color",
+          "displayName": "Icon button outlined focused icon color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.icon-button.outlined.selected.focused.icon.color",
+          "displayName": "Icon button outlined focused icon color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.inverse-on-surface"
+        },
+        {
+          "name": "md.comp.icon-button.outlined.pressed.state-layer.color",
+          "displayName": "Icon button outlined pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.icon-button.outlined.pressed.icon.color",
+          "displayName": "Icon button outlined pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.icon-button.outlined.pressed.state-layer.opacity",
+          "displayName": "Icon button outlined pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.icon-button.outlined.unselected.pressed.state-layer.color",
+          "displayName": "Icon button outlined pressed state layer color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.icon-button.outlined.selected.pressed.state-layer.color",
+          "displayName": "Icon button outlined pressed state layer color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.inverse-on-surface"
+        },
+        {
+          "name": "md.comp.icon-button.outlined.unselected.pressed.icon.color",
+          "displayName": "Icon button outlined pressed icon color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.icon-button.outlined.selected.pressed.icon.color",
+          "displayName": "Icon button outlined pressed icon color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.inverse-on-surface"
+        },
+        {
+          "name": "md.comp.icon-button.outlined.unselected.outline.color",
+          "displayName": "Icon button outlined color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.outline-variant"
+        },
+        {
+          "name": "md.comp.icon-button.outlined.disabled.outline.color",
+          "displayName": "Icon button outlined disabled outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.outline-variant"
+        },
+        {
+          "name": "md.comp.icon-button.outlined.disabled.icon.opacity",
+          "displayName": "Icon button outlined disabled icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.icon-button.outlined.disabled.icon.color",
+          "displayName": "Icon button outlined disabled icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.icon-button.outlined.unselected.disabled.outline.color",
+          "displayName": "Icon button outlined disabled outline color (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.outline-variant"
+        },
+        {
+          "name": "md.comp.icon-button.outlined.selected.disabled.container.opacity",
+          "displayName": "Icon button outlined disabled container opacity (selected)",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.icon-button.outlined.selected.disabled.container.color",
+          "displayName": "Icon button outlined disabled container color (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        }
+      ]
+    },
+    {
+      "displayName": "Icon button - Color - Standard",
+      "tokenSetName": "md.comp.icon-button.standard",
+      "description": "For standard icon buttons.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.icon-button.standard.disabled.icon.color",
+          "displayName": "Icon button disabled icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.icon-button.standard.icon.color",
+          "displayName": "Icon button icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.icon-button.standard.disabled.icon.opacity",
+          "displayName": "Icon button disabled opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.icon-button.standard.hovered.state-layer.color",
+          "displayName": "Icon button hovered state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.icon-button.standard.focused.state-layer.color",
+          "displayName": "Icon button focused state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.icon-button.standard.pressed.state-layer.color",
+          "displayName": "Icon button pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.icon-button.standard.pressed.state-layer.opacity",
+          "displayName": "Icon button pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.icon-button.standard.pressed.icon.color",
+          "displayName": "Icon button pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.icon-button.standard.focused.icon.color",
+          "displayName": "Icon button focused icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.icon-button.standard.focused.state-layer.opacity",
+          "displayName": "Icon button focused state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.icon-button.standard.hovered.icon.color",
+          "displayName": "Icon button hovered icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.icon-button.standard.hovered.state-layer.opacity",
+          "displayName": "Icon button hovered state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.icon-button.standard.unselected.hovered.state-layer.color",
+          "displayName": "Icon button hovered state layer color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.icon-button.standard.selected.hovered.state-layer.color",
+          "displayName": "Icon button hovered state layer color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.icon-button.standard.unselected.hovered.icon.color",
+          "displayName": "Icon button hovered icon color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.icon-button.standard.selected.hovered.icon.color",
+          "displayName": "Icon button hovered icon color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.icon-button.standard.unselected.focused.state-layer.color",
+          "displayName": "Icon button focused state layer color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.icon-button.standard.selected.focused.state-layer.color",
+          "displayName": "Icon button focused state layer color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.icon-button.standard.unselected.focused.icon.color",
+          "displayName": "Icon button focused icon color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.icon-button.standard.selected.focused.icon.color",
+          "displayName": "Icon button focused icon color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.icon-button.standard.unselected.pressed.state-layer.color",
+          "displayName": "Icon button pressed state layer color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.icon-button.standard.selected.pressed.state-layer.color",
+          "displayName": "Icon button pressed state layer color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.icon-button.standard.unselected.pressed.icon.color",
+          "displayName": "Icon button pressed icon color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.icon-button.standard.selected.pressed.icon.color",
+          "displayName": "Icon button pressed icon color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.icon-button.standard.selected.icon.color",
+          "displayName": "Icon button icon color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.icon-button.standard.unselected.icon.color",
+          "displayName": "Icon button icon color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        }
+      ]
+    },
+    {
+      "displayName": "Icon button - Color - Tonal",
+      "tokenSetName": "md.comp.icon-button.tonal",
+      "description": "For tonal icon buttons.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.icon-button.tonal.pressed.state-layer.opacity",
+          "displayName": "Icon button tonal pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.icon-button.tonal.pressed.state-layer.color",
+          "displayName": "Icon button tonal pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.icon-button.tonal.focused.state-layer.color",
+          "displayName": "Icon button tonal focused state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.icon-button.tonal.hovered.state-layer.color",
+          "displayName": "Icon button tonal hovered state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.icon-button.tonal.disabled.icon.opacity",
+          "displayName": "Icon button tonal disabled icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.icon-button.tonal.disabled.icon.color",
+          "displayName": "Icon button tonal disabled icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.icon-button.tonal.disabled.container.opacity",
+          "displayName": "Icon button tonal disabled container opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.icon-button.tonal.disabled.container.color",
+          "displayName": "Icon button tonal disabled container color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.icon-button.tonal.container.color",
+          "displayName": "Icon button tonal container color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary-container"
+        },
+        {
+          "name": "md.comp.icon-button.tonal.pressed.icon.color",
+          "displayName": "Icon button tonal pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.icon-button.tonal.focused.state-layer.opacity",
+          "displayName": "Icon button tonal focused state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.icon-button.tonal.focused.icon.color",
+          "displayName": "Icon button tonal focused icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.icon-button.tonal.hovered.icon.color",
+          "displayName": "Icon button tonal hovered icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.icon-button.tonal.hovered.state-layer.opacity",
+          "displayName": "Icon button tonal hovered state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.icon-button.tonal.icon.color",
+          "displayName": "Icon button tonal icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.icon-button.tonal.unselected.container.color",
+          "displayName": "Icon button tonal container color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary-container"
+        },
+        {
+          "name": "md.comp.icon-button.tonal.selected.container.color",
+          "displayName": "Icon button tonal container color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary"
+        },
+        {
+          "name": "md.comp.icon-button.tonal.unselected.icon.color",
+          "displayName": "Icon button tonal icon color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.icon-button.tonal.selected.icon.color",
+          "displayName": "Icon button tonal icon color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary"
+        },
+        {
+          "name": "md.comp.icon-button.tonal.unselected.hovered.state-layer.color",
+          "displayName": "Icon button tonal hovered state layer color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.icon-button.tonal.selected.hovered.state-layer.color",
+          "displayName": "Icon button tonal hovered state layer color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary"
+        },
+        {
+          "name": "md.comp.icon-button.tonal.unselected.hovered.icon.color",
+          "displayName": "Icon button tonal hovered icon color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.icon-button.tonal.selected.hovered.icon.color",
+          "displayName": "Icon button tonal hovered icon color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary"
+        },
+        {
+          "name": "md.comp.icon-button.tonal.unselected.focused.state-layer.color",
+          "displayName": "Icon button tonal focused state layer color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.icon-button.tonal.selected.focused.state-layer.color",
+          "displayName": "Icon button tonal focused state layer color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary"
+        },
+        {
+          "name": "md.comp.icon-button.tonal.unselected.focused.icon.color",
+          "displayName": "Icon button tonal focused icon color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.icon-button.tonal.selected.focused.icon.color",
+          "displayName": "Icon button tonal focused icon color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary"
+        },
+        {
+          "name": "md.comp.icon-button.tonal.unselected.pressed.state-layer.color",
+          "displayName": "Icon button tonal pressed state layer color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.icon-button.tonal.selected.pressed.state-layer.color",
+          "displayName": "Icon button tonal pressed state layer color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary"
+        },
+        {
+          "name": "md.comp.icon-button.tonal.unselected.pressed.icon.color",
+          "displayName": "Icon button tonal pressed icon color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.icon-button.tonal.selected.pressed.icon.color",
+          "displayName": "Icon button tonal pressed icon color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary"
+        }
+      ]
+    },
+    {
+      "displayName": "[Deprecated] Icon button - Filled",
+      "tokenSetName": "md.comp.filled-icon-button",
+      "description": "This token set is deprecated. Use `md.comp.icon-button.filled` instead.",
+      "isDeprecated": true,
+      "tokens": [
+        {
+          "name": "md.comp.filled-icon-button.toggle.selected.pressed.icon.color",
+          "displayName": "Filled icon button toggle selected pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.filled-icon-button.toggle.unselected.pressed.icon.color",
+          "displayName": "Filled icon button toggle unselected pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.filled-icon-button.pressed.icon.color",
+          "displayName": "Filled icon button pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.filled-icon-button.toggle.selected.pressed.state-layer.color",
+          "displayName": "Filled icon button toggle selected pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.filled-icon-button.toggle.unselected.pressed.state-layer.color",
+          "displayName": "Filled icon button toggle unselected pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.filled-icon-button.pressed.state-layer.color",
+          "displayName": "Filled icon button pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.filled-icon-button.pressed.state-layer.opacity",
+          "displayName": "Filled icon button pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.filled-icon-button.toggle.selected.focus.icon.color",
+          "displayName": "Filled icon button toggle selected focus icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.filled-icon-button.toggle.unselected.focus.icon.color",
+          "displayName": "Filled icon button toggle unselected focus icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.filled-icon-button.focus.icon.color",
+          "displayName": "Filled icon button focus icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.filled-icon-button.toggle.selected.focus.state-layer.color",
+          "displayName": "Filled icon button toggle selected focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.filled-icon-button.toggle.unselected.focus.state-layer.color",
+          "displayName": "Filled icon button toggle unselected focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.filled-icon-button.focus.state-layer.color",
+          "displayName": "Filled icon button focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.filled-icon-button.focus.state-layer.opacity",
+          "displayName": "Filled icon button focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.filled-icon-button.focus.indicator.outline.offset",
+          "displayName": "Filled icon button focus indicator offset",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.outer-offset"
+        },
+        {
+          "name": "md.comp.filled-icon-button.focus.indicator.thickness",
+          "displayName": "Filled icon button focus indicator thickness",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.thickness"
+        },
+        {
+          "name": "md.comp.filled-icon-button.focus.indicator.color",
+          "displayName": "Filled icon button focus indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary"
+        },
+        {
+          "name": "md.comp.filled-icon-button.toggle.selected.hover.icon.color",
+          "displayName": "Filled icon button toggle selected hover icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.filled-icon-button.toggle.unselected.hover.icon.color",
+          "displayName": "Filled icon button toggle unselected hover icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.filled-icon-button.hover.icon.color",
+          "displayName": "Filled icon button hover icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.filled-icon-button.toggle.selected.hover.state-layer.color",
+          "displayName": "Filled icon button hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.filled-icon-button.toggle.unselected.hover.state-layer.color",
+          "displayName": "Filled icon button hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.filled-icon-button.hover.state-layer.color",
+          "displayName": "Filled icon button hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.filled-icon-button.hover.state-layer.opacity",
+          "displayName": "Filled icon button hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.filled-icon-button.disabled.icon.opacity",
+          "displayName": "Filled icon button disabled icon color",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.filled-icon-button.disabled.icon.color",
+          "displayName": "Filled icon button disabled icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-icon-button.disabled.container.opacity",
+          "displayName": "Filled icon button disabled container opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.filled-icon-button.disabled.container.color",
+          "displayName": "Filled icon button disabled container color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-icon-button.toggle.selected.icon.color",
+          "displayName": "Filled icon button toggle selected icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.filled-icon-button.toggle.unselected.icon.color",
+          "displayName": "Filled icon button toggle unselected icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.filled-icon-button.icon.color",
+          "displayName": "Filled icon button icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.filled-icon-button.icon.size",
+          "displayName": "Filled icon button icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.filled-icon-button.selected.container.color",
+          "displayName": "Filled icon button selected container color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.filled-icon-button.unselected.container.color",
+          "displayName": "Filled icon button unselected container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-highest"
+        },
+        {
+          "name": "md.comp.filled-icon-button.container.color",
+          "displayName": "Filled icon button container color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.filled-icon-button.container.shape",
+          "displayName": "Filled icon button container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.filled-icon-button.container.height",
+          "displayName": "Filled icon button container height",
+          "type": "LENGTH",
+          "value": "40dp"
+        },
+        {
+          "name": "md.comp.filled-icon-button.container.width",
+          "displayName": "Filled icon button container width",
+          "type": "LENGTH",
+          "value": "40dp"
+        },
+        {
+          "name": "md.comp.filled-icon-button.container.size",
+          "displayName": "Filled icon button container size",
+          "type": "LENGTH",
+          "value": "40dp"
+        }
+      ]
+    },
+    {
+      "displayName": "[Deprecated] Icon button - Outlined",
+      "tokenSetName": "md.outlined-icon-button",
+      "description": "This token set is deprecated. Use `md.comp.icon-button.outlined` instead.",
+      "isDeprecated": true,
+      "tokens": [
+        {
+          "name": "md.outlined-icon-button.selected.pressed.icon.color",
+          "displayName": "Outlined icon button selected pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.inverse-on-surface"
+        },
+        {
+          "name": "md.outlined-icon-button.unselected.pressed.icon.color",
+          "displayName": "Outlined icon button unselected pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.outlined-icon-button.selected.pressed.state-layer.color",
+          "displayName": "Outlined icon button selected pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.inverse-on-surface"
+        },
+        {
+          "name": "md.outlined-icon-button.unselected.pressed.state-layer.color",
+          "displayName": "Outlined icon button unselected pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.outlined-icon-button.pressed.state-layer.opacity",
+          "displayName": "Outlined icon button pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.outlined-icon-button.selected.focus.icon.color",
+          "displayName": "Outlined icon button focus icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.inverse-on-surface"
+        },
+        {
+          "name": "md.outlined-icon-button.unselected.focus.icon.color",
+          "displayName": "Outlined icon button focus icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.outlined-icon-button.selected.focus.state-layer.color",
+          "displayName": "Outlined icon button selected focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.inverse-on-surface"
+        },
+        {
+          "name": "md.outlined-icon-button.unselected.focus.state-layer.color",
+          "displayName": "Outlined icon button unselected focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.outlined-icon-button.focus.state-layer.opacity",
+          "displayName": "Outlined icon button focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.outlined-icon-button.focus.indicator.outline.offset",
+          "displayName": "Outlined icon button focus indicator offset",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.outer-offset"
+        },
+        {
+          "name": "md.outlined-icon-button.focus.indicator.thickness",
+          "displayName": "Outlined icon button focus indicator thickness",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.thickness"
+        },
+        {
+          "name": "md.outlined-icon-button.focus.indicator.color",
+          "displayName": "Outlined icon button focus indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary"
+        },
+        {
+          "name": "md.outlined-icon-button.selected.hover.icon.color",
+          "displayName": "Outlined icon button selected hover icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.inverse-on-surface"
+        },
+        {
+          "name": "md.outlined-icon-button.unselected.hover.icon.color",
+          "displayName": "Outlined icon button unselected hover icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.outlined-icon-button.selected.hover.state-layer.color",
+          "displayName": "Outlined icon button selected hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.inverse-on-surface"
+        },
+        {
+          "name": "md.outlined-icon-button.unselected.hover.state-layer.color",
+          "displayName": "Outlined icon button unselected hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.outlined-icon-button.hover.state-layer.opacity",
+          "displayName": "Outlined icon button hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.outlined-icon-button.disabled.unselected.outline.opacity",
+          "displayName": "Outlined icon button disabled unselected outline opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.outlined-icon-button.disabled.unselected.outline.color",
+          "displayName": "Outlined icon button disabled unselected outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.outlined-icon-button.disabled.icon.opacity",
+          "displayName": "Outlined icon button disabled icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.outlined-icon-button.disabled.icon.color",
+          "displayName": "Outlined icon button disabled icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.outlined-icon-button.disabled.selected.container.opacity",
+          "displayName": "Outlined icon button disabled selected container opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.outlined-icon-button.disabled.selected.container.color",
+          "displayName": "Outlined icon button disabled selected container color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.outlined-icon-button.selected.icon.color",
+          "displayName": "Outlined icon button selected icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.inverse-on-surface"
+        },
+        {
+          "name": "md.outlined-icon-button.unselected.icon.color",
+          "displayName": "Outlined icon button unselected icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.outlined-icon-button.icon.size",
+          "displayName": "Outlined icon button icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.outlined-icon-button.unselected.outline.width",
+          "displayName": "Outlined icon button unselected outline width",
+          "type": "LENGTH",
+          "value": "1dp"
+        },
+        {
+          "name": "md.outlined-icon-button.unselected.outline.color",
+          "displayName": "Outlined icon button unselected outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.outline"
+        },
+        {
+          "name": "md.outlined-icon-button.selected.container.color",
+          "displayName": "Outlined icon button selected container color",
+          "type": "COLOR",
+          "value": "md.sys.color.inverse-surface"
+        },
+        {
+          "name": "md.outlined-icon-button.container.shape",
+          "displayName": "Outlined icon button container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.outlined-icon-button.container.height",
+          "displayName": "Outlined icon button container height",
+          "type": "LENGTH",
+          "value": "40dp"
+        },
+        {
+          "name": "md.outlined-icon-button.container.width",
+          "displayName": "Outlined icon button container width",
+          "type": "LENGTH",
+          "value": "40dp"
+        },
+        {
+          "name": "md.outlined-icon-button.container.size",
+          "displayName": "Outlined icon button container size",
+          "type": "LENGTH",
+          "value": "40dp"
+        },
+        {
+          "name": "md.outlined-icon-button.disabled.outline.opacity",
+          "displayName": "Outlined icon button disabled outline opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.outlined-icon-button.disabled.outline.color",
+          "displayName": "Outlined icon button disabled outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        }
+      ]
+    },
+    {
+      "displayName": "[Deprecated] Icon button - Tonal",
+      "tokenSetName": "md.comp.filled-tonal-icon-button",
+      "description": "This token set is deprecated. Use `md.comp.icon-button.tonal` instead.",
+      "isDeprecated": true,
+      "tokens": [
+        {
+          "name": "md.comp.filled-tonal-icon-button.toggle.selected.pressed.icon.color",
+          "displayName": "Filled tonal icon button toggle selected pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.filled-tonal-icon-button.toggle.unselected.pressed.icon.color",
+          "displayName": "Filled tonal icon button toggle unselected pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-tonal-icon-button.pressed.icon.color",
+          "displayName": "Filled tonal icon button pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.filled-tonal-icon-button.toggle.selected.pressed.state-layer.color",
+          "displayName": "Filled tonal icon button toggle selected pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.filled-tonal-icon-button.toggle.unselected.pressed.state-layer.color",
+          "displayName": "Filled tonal icon button toggle unselected pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-tonal-icon-button.pressed.state-layer.color",
+          "displayName": "Filled tonal icon button pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.filled-tonal-icon-button.pressed.state-layer.opacity",
+          "displayName": "Filled tonal icon button pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.filled-tonal-icon-button.toggle.selected.focus.icon.color",
+          "displayName": "Filled tonal icon button toggle selected focus icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.filled-tonal-icon-button.toggle.unselected.focus.icon.color",
+          "displayName": "Filled tonal icon button toggle unselected focus icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-tonal-icon-button.focus.icon.color",
+          "displayName": "Filled tonal icon button focus icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.filled-tonal-icon-button.toggle.selected.focus.state-layer.color",
+          "displayName": "Filled tonal icon button toggle selected focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.filled-tonal-icon-button.toggle.unselected.focus.state-layer.color",
+          "displayName": "Filled tonal icon button toggle unselected focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-tonal-icon-button.focus.state-layer.color",
+          "displayName": "Filled tonal icon button focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.filled-tonal-icon-button.focus.state-layer.opacity",
+          "displayName": "Filled tonal icon button focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.filled-tonal-icon-button.focus.indicator.outline.offset",
+          "displayName": "Filled tonal icon button focus indicator offset",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.outer-offset"
+        },
+        {
+          "name": "md.comp.filled-tonal-icon-button.focus.indicator.thickness",
+          "displayName": "Filled tonal icon button focus indicator thickness",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.thickness"
+        },
+        {
+          "name": "md.comp.filled-tonal-icon-button.focus.indicator.color",
+          "displayName": "Filled tonal icon button focus indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary"
+        },
+        {
+          "name": "md.comp.filled-tonal-icon-button.toggle.selected.hover.icon.color",
+          "displayName": "Filled tonal icon button toggle selected hover icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.filled-tonal-icon-button.toggle.unselected.hover.icon.color",
+          "displayName": "Filled tonal icon button toggle unselected hover icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-tonal-icon-button.hover.icon.color",
+          "displayName": "Filled tonal icon button hover icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.filled-tonal-icon-button.hover.state-layer.opacity",
+          "displayName": "Filled tonal icon button hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.filled-tonal-icon-button.toggle.selected.hover.state-layer.color",
+          "displayName": "Filled tonal icon button toggle selected hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.filled-tonal-icon-button.toggle.unselected.hover.state-layer.color",
+          "displayName": "Filled tonal icon button toggle unselected hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-tonal-icon-button.hover.state-layer.color",
+          "displayName": "Filled tonal icon button hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.filled-tonal-icon-button.disabled.icon.opacity",
+          "displayName": "Filled tonal icon button disabled icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.filled-tonal-icon-button.disabled.icon.color",
+          "displayName": "Filled tonal icon button disabled icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-tonal-icon-button.disabled.container.opacity",
+          "displayName": "Filled tonal icon button disabled container opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.filled-tonal-icon-button.disabled.container.color",
+          "displayName": "Filled tonal icon button disabled container color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-tonal-icon-button.toggle.selected.icon.color",
+          "displayName": "Filled tonal icon button toggle selected icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.filled-tonal-icon-button.toggle.unselected.icon.color",
+          "displayName": "Filled tonal icon button toggle unselected icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filled-tonal-icon-button.icon.color",
+          "displayName": "Filled tonal icon button icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.filled-tonal-icon-button.icon.size",
+          "displayName": "Filled tonal icon button icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.filled-tonal-icon-button.selected.container.color",
+          "displayName": "Filled tonal icon button selected container color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary-container"
+        },
+        {
+          "name": "md.comp.filled-tonal-icon-button.unselected.container.color",
+          "displayName": "Filled tonal icon button unselected container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-highest"
+        },
+        {
+          "name": "md.comp.filled-tonal-icon-button.container.color",
+          "displayName": "Filled tonal icon button container color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary-container"
+        },
+        {
+          "name": "md.comp.filled-tonal-icon-button.container.shape",
+          "displayName": "Filled tonal icon button container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.filled-tonal-icon-button.container.height",
+          "displayName": "Filled tonal icon button container height",
+          "type": "LENGTH",
+          "value": "40dp"
+        },
+        {
+          "name": "md.comp.filled-tonal-icon-button.container.width",
+          "displayName": "Filled tonal icon button container width",
+          "type": "LENGTH",
+          "value": "40dp"
+        },
+        {
+          "name": "md.comp.filled-tonal-icon-button.container.size",
+          "displayName": "Filled tonal icon button container size",
+          "type": "LENGTH",
+          "value": "40dp"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1610 @@
+{
+  "id": "385a28e5d3bb3dd0",
+  "component": "Menus",
+  "tokenSets": [
+    {
+      "displayName": "Menu (baseline)",
+      "tokenSetName": "md.comp.menu",
+      "description": "Tokens for baseline GM3 menus. For expressive menus, use `md.comp.menus` instead.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.menu.focus.indicator.outline.offset",
+          "displayName": "Menu item focus indicator offset",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.inner-offset"
+        },
+        {
+          "name": "md.comp.menu.focus.indicator.thickness",
+          "displayName": "Menu item focus indicator thickness",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.thickness"
+        },
+        {
+          "name": "md.comp.menu.focus.indicator.color",
+          "displayName": "Menu item focus indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary"
+        },
+        {
+          "name": "md.comp.menu.list-item.focus.label-text.color",
+          "displayName": "Menu list item focus label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.menu.list-item.disabled.label-text.opacity",
+          "displayName": "Menu list item disabled label text opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.menu.container.elevation",
+          "displayName": "Menu container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level2"
+        },
+        {
+          "name": "md.comp.menu.container.shadow-color",
+          "displayName": "Menu container shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.menu.container.shape",
+          "displayName": "Menu container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.extra-small"
+        },
+        {
+          "name": "md.comp.menu.container.color",
+          "displayName": "Menu container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container"
+        },
+        {
+          "name": "md.comp.menu.list-item.selected.with-leading-icon.leading-icon.color",
+          "displayName": "Menu list item with leading icon - icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.menu.list-item.selected.with-leading-icon.trailing-icon.color",
+          "displayName": "Menu list item with trailing icon - icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.menu.list-item.selected.label-text.color",
+          "displayName": "Menu list item selected label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.menu.list-item.selected.container.color",
+          "displayName": "Menu list item selected container color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary-container"
+        },
+        {
+          "name": "md.comp.menu.container.surface-tint-layer.color",
+          "displayName": "Menu container surface tint layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-tint"
+        },
+        {
+          "name": "md.comp.menu.list-item.with-trailing-icon.pressed.icon.color",
+          "displayName": "Menu list item pressed trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.menu.list-item.with-leading-icon.pressed.icon.color",
+          "displayName": "Menu list item pressed leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.menu.list-item.pressed.label-text.color",
+          "displayName": "Menu list item pressed label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.menu.list-item.pressed.state-layer.opacity",
+          "displayName": "Menu list item pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.menu.list-item.pressed.state-layer.color",
+          "displayName": "Menu list item pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.menu.list-item.with-trailing-icon.focus.icon.color",
+          "displayName": "Menu list item focus trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.menu.list-item.with-leading-icon.focus.icon.color",
+          "displayName": "Menu list item focus leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.menu.list-item.focus.state-layer.opacity",
+          "displayName": "Menu list item focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.menu.list-item.focus.state-layer.color",
+          "displayName": "Menu list item focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.menu.list-item.with-trailing-icon.hover.icon.color",
+          "displayName": "Menu list item hover trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.menu.list-item.with-leading-icon.hover.icon.color",
+          "displayName": "Menu list item hover leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.menu.list-item.hover.label-text.color",
+          "displayName": "Menu list item hover label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.menu.list-item.hover.state-layer.opacity",
+          "displayName": "Menu list item hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.menu.list-item.hover.state-layer.color",
+          "displayName": "Menu list item hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.menu.list-item.with-trailing-icon.disabled.trailing-icon.opacity",
+          "displayName": "Menu list item disabled trailing icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.menu.list-item.with-trailing-icon.disabled.trailing-icon.color",
+          "displayName": "Menu list item disabled trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.menu.list-item.with-leading-icon.disabled.leading-icon.opacity",
+          "displayName": "Menu list item disabled leading icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.menu.list-item.with-leading-icon.disabled.leading-icon.color",
+          "displayName": "Menu list item disabled leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.menu.list-item.disabled.label-text.color",
+          "displayName": "Menu list item disabled label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.menu.cascading-menu-indicator.icon.size",
+          "displayName": "Menu icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.menu.cascading-menu-indicator.icon.color",
+          "displayName": "Menu icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.menu.list-item.with-trailing-icon.trailing-icon.color",
+          "displayName": "Menu list item trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.menu.list-item.with-trailing-icon.trailing-icon.size",
+          "displayName": "Menu list item trailing icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.menu.list-item.with-leading-icon.leading-icon.color",
+          "displayName": "Menu list item leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.menu.list-item.with-leading-icon.leading-icon.size",
+          "displayName": "Menu list item leading icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.menu.list-item.label-text.type",
+          "displayName": "Label text type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.menu.list-item.label-text.font",
+          "displayName": "Menu list item label text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.label-large.font"
+        },
+        {
+          "name": "md.comp.menu.list-item.label-text.weight",
+          "displayName": "Menu list item label text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.label-large.weight"
+        },
+        {
+          "name": "md.comp.menu.list-item.label-text.size",
+          "displayName": "Menu list item label text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.label-large.size"
+        },
+        {
+          "name": "md.comp.menu.list-item.label-text.line-height",
+          "displayName": "Menu list item label text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.label-large.line-height"
+        },
+        {
+          "name": "md.comp.menu.list-item.label-text.tracking",
+          "displayName": "Menu list item label text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.label-large.tracking"
+        },
+        {
+          "name": "md.comp.menu.list-item.container.height",
+          "displayName": "Menu list item container height",
+          "type": "LENGTH",
+          "value": "48dp"
+        },
+        {
+          "name": "md.comp.menu.list-item.label-text.color",
+          "displayName": "Menu list item label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.menu.divider.color",
+          "displayName": "Menu divider color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-variant"
+        },
+        {
+          "name": "md.comp.menu.divider.height",
+          "displayName": "Menu divider height",
+          "type": "LENGTH",
+          "value": "1dp"
+        }
+      ]
+    },
+    {
+      "displayName": "Menus - Common",
+      "tokenSetName": "md.comp.menus",
+      "description": "Common tokens for expressive menus. For baseline menus, use \"Menu (baseline)\" tokens `md.comp.menu`.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.menus.active.container.shape",
+          "displayName": "Menu active container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.large"
+        },
+        {
+          "name": "md.comp.menus.menu-item.height",
+          "displayName": "Menu item height",
+          "type": "LENGTH",
+          "value": "44dp"
+        },
+        {
+          "name": "md.comp.menus.horizontal.menu-item.focused.shape",
+          "displayName": "Menu horizontal menu item focused shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.medium"
+        },
+        {
+          "name": "md.comp.menus.horizontal.container.shape",
+          "displayName": "Menu horizontal container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.menus.horizontal.menu-item.hovered.shape",
+          "displayName": "Menu horizontal menu item hovered shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.medium"
+        },
+        {
+          "name": "md.comp.menus.horizontal.menu-item.pressed.shape",
+          "displayName": "Menu horizontal menu item pressed shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.medium"
+        },
+        {
+          "name": "md.comp.menus.menu-item.trailing-space",
+          "displayName": "Menu item trailing space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space200"
+        },
+        {
+          "name": "md.comp.menus.menu-item.leading-space",
+          "displayName": "Menu item leading space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space200"
+        },
+        {
+          "name": "md.comp.menus.menu-item.trailing-icon.size",
+          "displayName": "Menu item trailing icon size",
+          "type": "LENGTH",
+          "value": "20dp"
+        },
+        {
+          "name": "md.comp.menus.menu-item.top-space",
+          "displayName": "Menu item top space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space100"
+        },
+        {
+          "name": "md.comp.menus.menu-item.between-space",
+          "displayName": "Menu item between space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space150"
+        },
+        {
+          "name": "md.comp.menus.container.elevation",
+          "displayName": "Menu container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level2"
+        },
+        {
+          "name": "md.comp.menus.menu-item.bottom-space",
+          "displayName": "Menu item bottom space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space100"
+        },
+        {
+          "name": "md.comp.menus.group.padding",
+          "displayName": "Menu group padding",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space25"
+        },
+        {
+          "name": "md.comp.menus.menu-item.leading-icon.size",
+          "displayName": "Menu item leading icon size",
+          "type": "LENGTH",
+          "value": "20dp"
+        },
+        {
+          "name": "md.comp.menus.gap",
+          "displayName": "Menu gap",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space25"
+        },
+        {
+          "name": "md.comp.menus.horizontal.icon-only.gap",
+          "displayName": "Menu horizontal icon only gap",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space50"
+        },
+        {
+          "name": "md.comp.menus.menu-item.last-child.inner-corner.corner-size",
+          "displayName": "Menu item last child inner corner corner size",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.extra-small"
+        },
+        {
+          "name": "md.comp.menus.menu-item.first-child.shape",
+          "displayName": "Menu item first child shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.medium"
+        },
+        {
+          "name": "md.comp.menus.menu-item.first-child.inner-corner.corner-size",
+          "displayName": "Menu item first child inner corner corner size",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.extra-small"
+        },
+        {
+          "name": "md.comp.menus.menu-item.last-child.shape",
+          "displayName": "Menu item last child shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.medium"
+        },
+        {
+          "name": "md.comp.menus.menu-item.shape",
+          "displayName": "Menu item shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.extra-small"
+        },
+        {
+          "name": "md.comp.menus.inactive.container.shape",
+          "displayName": "Menu inactive container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.small"
+        },
+        {
+          "name": "md.comp.menus.group.shape",
+          "displayName": "Menu group shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.small"
+        },
+        {
+          "name": "md.comp.menus.horizontal.menu-item.leading-space",
+          "displayName": "Menu horizontal menu item leading space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space150"
+        },
+        {
+          "name": "md.comp.menus.menu-item.trailing-supporting-text.weight",
+          "displayName": "Menu item trailing supporting text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.label-large.weight"
+        },
+        {
+          "name": "md.comp.menus.menu-item.trailing-supporting-text.tracking",
+          "displayName": "Menu item trailing supporting text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.label-large.tracking"
+        },
+        {
+          "name": "md.comp.menus.menu-item.trailing-supporting-text.size",
+          "displayName": "Menu item trailing supporting text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.label-large.size"
+        },
+        {
+          "name": "md.comp.menus.menu-item.trailing-supporting-text.line-height",
+          "displayName": "Menu item trailing supporting text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.label-large.line-height"
+        },
+        {
+          "name": "md.comp.menus.menu-item.trailing-supporting-text.font",
+          "displayName": "Menu item trailing supporting text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.label-large.font"
+        },
+        {
+          "name": "md.comp.menus.menu-item.supporting-text.weight",
+          "displayName": "Menu item supporting text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.body-small.weight"
+        },
+        {
+          "name": "md.comp.menus.menu-item.supporting-text.tracking",
+          "displayName": "Menu item supporting text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.body-small.tracking"
+        },
+        {
+          "name": "md.comp.menus.menu-item.supporting-text.line-height",
+          "displayName": "Menu item supporting text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.body-small.line-height"
+        },
+        {
+          "name": "md.comp.menus.menu-item.supporting-text.size",
+          "displayName": "Menu item supporting text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.body-small.size"
+        },
+        {
+          "name": "md.comp.menus.menu-item.supporting-text.font",
+          "displayName": "Menu item supporting text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.body-small.font"
+        },
+        {
+          "name": "md.comp.menus.menu-item.label-text.weight",
+          "displayName": "Menu item label text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.label-large.weight"
+        },
+        {
+          "name": "md.comp.menus.menu-item.label-text.tracking",
+          "displayName": "Menu item label text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.label-large.tracking"
+        },
+        {
+          "name": "md.comp.menus.menu-item.label-text.size",
+          "displayName": "Menu item label text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.label-large.size"
+        },
+        {
+          "name": "md.comp.menus.menu-item.label-text.line-height",
+          "displayName": "Menu item label text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.label-large.line-height"
+        },
+        {
+          "name": "md.comp.menus.menu-item.label-text.font",
+          "displayName": "Menu item label text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.label-large.font"
+        },
+        {
+          "name": "md.comp.menus.menu-item.focus.indicator.outline.offset",
+          "displayName": "Menu item focus indicator outline offset",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.inner-offset"
+        },
+        {
+          "name": "md.comp.menus.menu-item.focus.indicator.thickness",
+          "displayName": "Menu item focus indicator thickness",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.thickness"
+        },
+        {
+          "name": "md.comp.menus.menu-item.focus.indicator.color",
+          "displayName": "Menu item focus indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary"
+        },
+        {
+          "name": "md.comp.menus.menu-item.selected.shape",
+          "displayName": "Menu item selected shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.medium"
+        },
+        {
+          "name": "md.comp.menus.horizontal.icon-only.menu-item.bottom-space",
+          "displayName": "Menu horizontal icon only menu item bottom space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space200"
+        },
+        {
+          "name": "md.comp.menus.horizontal.icon-only.menu-item.top-space",
+          "displayName": "Menu horizontal icon only menu item top space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space200"
+        },
+        {
+          "name": "md.comp.menus.horizontal.icon-only.menu-item.trailing-space",
+          "displayName": "Menu horizontal icon only menu item trailing space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space200"
+        },
+        {
+          "name": "md.comp.menus.horizontal.icon-only.menu-item.leading-space",
+          "displayName": "Menu horizontal icon only menu item leading space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space200"
+        },
+        {
+          "name": "md.comp.menus.horizontal.menu-item.bottom-space",
+          "displayName": "Menu horizontal menu item bottom space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space75"
+        },
+        {
+          "name": "md.comp.menus.horizontal.menu-item.top-space",
+          "displayName": "Menu horizontal menu item top space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space75"
+        },
+        {
+          "name": "md.comp.menus.horizontal.menu-item.between-space",
+          "displayName": "Menu horizontal menu item between space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space150"
+        },
+        {
+          "name": "md.comp.menus.horizontal.menu-item.trailing-space",
+          "displayName": "Menu horizontal menu item trailing space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space150"
+        },
+        {
+          "name": "md.comp.menus.horizontal.container.bottom-space",
+          "displayName": "Menu horizontal container bottom space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space100"
+        },
+        {
+          "name": "md.comp.menus.horizontal.container.top-space",
+          "displayName": "Menu horizontal container top space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space100"
+        },
+        {
+          "name": "md.comp.menus.container.shape",
+          "displayName": "Menu container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.large"
+        },
+        {
+          "name": "md.comp.menus.horizontal.menu-item.selected.pressed.shape",
+          "displayName": "Menu horizontal menu item selected pressed shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.menus.horizontal.menu-item.selected.focused.shape",
+          "displayName": "Menu horizontal menu item selected focused shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.menus.horizontal.menu-item.selected.hovered.shape",
+          "displayName": "Menu horizontal menu item selected hovered shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.menus.horizontal.icon-only.menu-item.selected.shape",
+          "displayName": "Menu horizontal icon only menu item selected shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        }
+      ]
+    },
+    {
+      "displayName": "Menus - Color - Vibrant",
+      "tokenSetName": "md.comp.menus.vibrant",
+      "description": "Color tokens for the vibrant expressive menu.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.menus.vibrant.menu-item.supporting-text.color",
+          "displayName": "Menu vibrant menu item supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.vibrant.section-label-text.color",
+          "displayName": "Menu vibrant section label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.trailing-supporting-text.color",
+          "displayName": "Menu vibrant menu item trailing supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.vibrant.icon-button.icon.color",
+          "displayName": "Menu vibrant icon button icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.leading-icon.color",
+          "displayName": "Menu vibrant menu item leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.label-text.color",
+          "displayName": "Menu vibrant menu item label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.trailing-icon.color",
+          "displayName": "Menu vibrant menu item trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.vibrant.icon-button.container.color",
+          "displayName": "Menu vibrant icon button container color",
+          "type": "COLOR",
+          "value": "md.sys.color.tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.vibrant.container.color",
+          "displayName": "Menu vibrant container color",
+          "type": "COLOR",
+          "value": "md.sys.color.tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.color",
+          "displayName": "Menu vibrant menu item color",
+          "type": "COLOR",
+          "value": "md.sys.color.tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.selected.container.color",
+          "displayName": "Menu vibrant menu item selected container color",
+          "type": "COLOR",
+          "value": "md.sys.color.tertiary"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.selected.pressed.label-text.color",
+          "displayName": "Menu vibrant menu item selected pressed label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.selected.pressed.state-layer.opacity",
+          "displayName": "Menu vibrant menu item selected pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.selected.pressed.state-layer.color",
+          "displayName": "Menu vibrant menu item selected pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.selected.focused.state-layer.opacity",
+          "displayName": "Menu vibrant menu item selected focused state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.selected.focused.label-text.color",
+          "displayName": "Menu vibrant menu item selected focused label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.selected.focused.state-layer.color",
+          "displayName": "Menu vibrant menu item selected focused state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.selected.hovered.state-layer.opacity",
+          "displayName": "Menu vibrant menu item selected hovered state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.selected.hovered.label-text.color",
+          "displayName": "Menu vibrant menu item selected hovered label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.selected.hovered.state-layer.color",
+          "displayName": "Menu vibrant menu item selected hovered state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.selected.disabled.label-text.opacity",
+          "displayName": "Menu vibrant menu item selected disabled label text opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.selected.disabled.supporting-text.opacity",
+          "displayName": "Menu vibrant menu item selected disabled supporting text opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.selected.disabled.trailing-supporting-text.opacity",
+          "displayName": "Menu vibrant menu item selected disabled trailing supporting text opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.selected.disabled.leading-icon.opacity",
+          "displayName": "Menu vibrant menu item selected disabled leading icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.selected.disabled.trailing-icon.opacity",
+          "displayName": "Menu vibrant menu item selected disabled trailing icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.menus.vibrant.icon-button.selected.disabled.icon.color",
+          "displayName": "Menu vibrant icon button selected disabled icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary"
+        },
+        {
+          "name": "md.comp.menus.vibrant.icon-button.selected.icon.color",
+          "displayName": "Menu vibrant icon button selected icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary"
+        },
+        {
+          "name": "md.comp.menus.vibrant.icon-button.selected.container.color",
+          "displayName": "Menu vibrant icon button selected container color",
+          "type": "COLOR",
+          "value": "md.sys.color.tertiary"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.selected.trailing-icon.color",
+          "displayName": "Menu vibrant menu item selected trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.selected.leading-icon.color",
+          "displayName": "Menu vibrant menu item selected leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.selected.label-text.color",
+          "displayName": "Menu vibrant menu item selected label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.selected.trailing-supporting-text.color",
+          "displayName": "Menu vibrant menu item selected trailing supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.selected.supporting-text.color",
+          "displayName": "Menu vibrant menu item selected supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.active.state-layer.opacity",
+          "displayName": "Menu vibrant menu item active state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.active.state-layer.color",
+          "displayName": "Menu vibrant menu item active state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.pressed.state-layer.opacity",
+          "displayName": "Menu vibrant menu item pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.menus.vibrant.icon-button.pressed.state-layer.color",
+          "displayName": "Menu vibrant icon button pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.pressed.trailing-icon.color",
+          "displayName": "Menu vibrant menu item pressed trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.tertiary"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.pressed.leading-icon.color",
+          "displayName": "Menu vibrant menu item pressed leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.tertiary"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.pressed.trailing-supporting-text.color",
+          "displayName": "Menu vibrant menu item pressed trailing supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.pressed.supporting-text.color",
+          "displayName": "Menu vibrant menu item pressed supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.pressed.label-text.color",
+          "displayName": "Menu vibrant menu item pressed label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.pressed.state-layer.color",
+          "displayName": "Menu vibrant menu item pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.focused.state-layer.opacity",
+          "displayName": "Menu vibrant menu item focused state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.hovered.state-layer.opacity",
+          "displayName": "Menu vibrant menu item hovered state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.menus.vibrant.icon-button.focused.state-layer.color",
+          "displayName": "Menu vibrant icon button focused state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.focused.trailing-icon.color",
+          "displayName": "Menu vibrant menu item focused trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.tertiary"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.focused.leading-icon.color",
+          "displayName": "Menu vibrant menu item focused leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.tertiary"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.focused.trailing-supporting-text.color",
+          "displayName": "Menu vibrant menu item focused trailing supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.focused.supporting-text.color",
+          "displayName": "Menu vibrant menu item focused supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.focused.label-text.color",
+          "displayName": "Menu vibrant menu item focused label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.focused.state-layer.color",
+          "displayName": "Menu vibrant menu item focused state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.vibrant.icon-button.hovered.state-layer.color",
+          "displayName": "Menu vibrant icon button hovered state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.hovered.trailing-icon.color",
+          "displayName": "Menu vibrant menu item hovered trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.tertiary"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.hovered.leading-icon.color",
+          "displayName": "Menu vibrant menu item hovered leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.tertiary"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.hovered.trailing-supporting-text.color",
+          "displayName": "Menu vibrant menu item hovered trailing supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.hovered.supporting-text.color",
+          "displayName": "Menu vibrant menu item hovered supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.hovered.label-text.color",
+          "displayName": "Menu vibrant menu item hovered label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.hovered.state-layer.color",
+          "displayName": "Menu vibrant menu item hovered state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.disabled.trailing-icon.opacity",
+          "displayName": "Menu vibrant menu item disabled trailing icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.disabled.leading-icon.opacity",
+          "displayName": "Menu vibrant menu item disabled leading icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.disabled.trailing-supporting-text.opacity",
+          "displayName": "Menu vibrant menu item disabled trailing supporting text opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.disabled.supporting-text.opacity",
+          "displayName": "Menu vibrant menu item disabled supporting text opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.disabled.label-text.opacity",
+          "displayName": "Menu vibrant menu item disabled label text opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.menus.vibrant.icon-button.disabled.icon.color",
+          "displayName": "Menu vibrant icon button disabled icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.disabled.trailing-icon.color",
+          "displayName": "Menu vibrant menu item disabled trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.disabled.leading-icon.color",
+          "displayName": "Menu vibrant menu item disabled leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.disabled.trailing-supporting-text.color",
+          "displayName": "Menu vibrant menu item disabled trailing supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.disabled.supporting-text.color",
+          "displayName": "Menu vibrant menu item disabled supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.vibrant.menu-item.disabled.label-text.color",
+          "displayName": "Menu vibrant menu item disabled label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        }
+      ]
+    },
+    {
+      "displayName": "Menus - Color - Standard",
+      "tokenSetName": "md.comp.menus.standard",
+      "description": "Color tokens for the standard expressive menu.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.menus.standard.menu-item.container.color",
+          "displayName": "Menu standard menu item container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-low"
+        },
+        {
+          "name": "md.comp.menus.standard.section-label-text.color",
+          "displayName": "Menu standard section label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.menus.standard.icon-button.selected.pressed.state-layer.color",
+          "displayName": "Menu standard icon button selected pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.active.state-layer.opacity",
+          "displayName": "Menu standard menu item active state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.active.state-layer.color",
+          "displayName": "Menu standard menu item active state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.focused.leading-icon.color",
+          "displayName": "Menu standard menu item focused leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.disabled.leading-icon.color",
+          "displayName": "Menu standard menu item disabled leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.selected.focused.state-layer.color",
+          "displayName": "Menu standard menu item selected focused state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.selected.focused.state-layer.opacity",
+          "displayName": "Menu standard menu item selected focused state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.selected.focused.label-text.color",
+          "displayName": "Menu standard menu item selected focused label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.selected.focused.supporting-text.color",
+          "displayName": "Menu standard menu item selected focused supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.selected.focused.trailing-supporting-text.color",
+          "displayName": "Menu standard menu item selected focused trailing supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.selected.focused.leading-icon.color",
+          "displayName": "Menu standard menu item selected focused leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.selected.focused.trailing-icon.color",
+          "displayName": "Menu standard menu item selected focused trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.selected.pressed.state-layer.color",
+          "displayName": "Menu standard menu item selected pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.selected.pressed.state-layer.opacity",
+          "displayName": "Menu standard menu item selected pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.selected.pressed.supporting-text.color",
+          "displayName": "Menu standard menu item selected pressed supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.selected.pressed.leading-icon.color",
+          "displayName": "Menu standard menu item selected pressed leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.selected.pressed.label-text.color",
+          "displayName": "Menu standard menu item selected pressed label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.selected.pressed.trailing-supporting-text.color",
+          "displayName": "Menu standard menu item selected pressed trailing supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.selected.pressed.trailing-icon.color",
+          "displayName": "Menu standard menu item selected pressed trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.selected.hovered.state-layer.color",
+          "displayName": "Menu standard menu item selected hovered state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.selected.hovered.state-layer.opacity",
+          "displayName": "Menu standard menu item selected hovered state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.selected.hovered.label-text.color",
+          "displayName": "Menu standard menu item selected hovered label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.selected.hovered.supporting-text.color",
+          "displayName": "Menu standard menu item selected hovered supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.selected.hovered.trailing-supporting-text.color",
+          "displayName": "Menu standard menu item selected hovered trailing supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.selected.hovered.leading-icon.color",
+          "displayName": "Menu standard menu item selected hovered leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.selected.hovered.trailing-icon.color",
+          "displayName": "Menu standard menu item selected hovered trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.selected.disabled.container.color",
+          "displayName": "Menu standard menu item selected disabled container color",
+          "type": "COLOR",
+          "value": "md.sys.color.tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.selected.disabled.container.opacity",
+          "displayName": "Menu standard menu item selected disabled container opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.selected.disabled.label-text.color",
+          "displayName": "Menu standard menu item selected disabled label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.selected.disabled.label-text.opacity",
+          "displayName": "Menu standard menu item selected disabled label text opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.selected.disabled.leading-icon.color",
+          "displayName": "Menu standard menu item selected disabled leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.selected.disabled.leading-icon.opacity",
+          "displayName": "Menu standard menu item selected disabled leading icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.selected.disabled.trailing-icon.opacity",
+          "displayName": "Menu standard menu item selected disabled trailing icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.selected.disabled.trailing-icon.color",
+          "displayName": "Menu standard menu item selected disabled trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.selected.disabled.trailing-supporting-text.color",
+          "displayName": "Menu standard menu item selected disabled trailing supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.selected.container.color",
+          "displayName": "Menu standard menu item selected container color",
+          "type": "COLOR",
+          "value": "md.sys.color.tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.selected.label-text.color",
+          "displayName": "Menu standard menu item selected label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.selected.supporting-text.color",
+          "displayName": "Menu standard menu item selected supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.selected.leading-icon.color",
+          "displayName": "Menu standard menu item selected leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.selected.trailing-icon.color",
+          "displayName": "Menu standard menu item selected trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.selected.trailing-supporting-text.color",
+          "displayName": "Menu standard menu item selected trailing supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.pressed.state-layer.color",
+          "displayName": "Menu standard menu item pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.pressed.state-layer.opacity",
+          "displayName": "Menu standard menu item pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.pressed.label-text.color",
+          "displayName": "Menu standard menu item pressed label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.pressed.leading-icon.color",
+          "displayName": "Menu standard menu item pressed leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.pressed.trailing-icon.color",
+          "displayName": "Menu standard menu item pressed trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.focused.state-layer.color",
+          "displayName": "Menu standard menu item focused state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.focused.state-layer.opacity",
+          "displayName": "Menu standard menu item focused state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.focused.label-text.color",
+          "displayName": "Menu standard menu item focused label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.focused.trailing-icon.color",
+          "displayName": "Menu standard menu item focused trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.hovered.state-layer.color",
+          "displayName": "Menu standard menu item hovered state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.hovered.state-layer.opacity",
+          "displayName": "Menu standard menu item hovered state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.hovered.label-text.color",
+          "displayName": "Menu standard menu item hovered label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.hovered.leading-icon.color",
+          "displayName": "Menu standard menu item hovered leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.hovered.trailing-icon.color",
+          "displayName": "Menu standard menu item hovered trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.disabled.trailing-icon.opacity",
+          "displayName": "Menu standard menu item disabled trailing icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.disabled.trailing-icon.color",
+          "displayName": "Menu standard menu item disabled trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.disabled.leading-icon.opacity",
+          "displayName": "Menu standard menu item disabled leading icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.disabled.trailing-supporting-text.opacity",
+          "displayName": "Menu standard menu item disabled trailing supporting text opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.disabled.supporting-text.color",
+          "displayName": "Menu standard menu item disabled supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.disabled.trailing-supporting-text.color",
+          "displayName": "Menu standard menu item disabled trailing supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.disabled.supporting-text.opacity",
+          "displayName": "Menu standard menu item disabled supporting text opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.disabled.label-text.opacity",
+          "displayName": "Menu standard menu item disabled label text opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.disabled.label-text.color",
+          "displayName": "Menu standard menu item disabled label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.trailing-supporting-text.color",
+          "displayName": "Menu standard menu item trailing supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.trailing-icon.color",
+          "displayName": "Menu standard menu item trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.leading-icon.color",
+          "displayName": "Menu standard menu item leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.supporting-text.color",
+          "displayName": "Menu standard menu item supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.menus.standard.menu-item.label-text.color",
+          "displayName": "Menu standard menu item label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.menus.standard.icon-button.selected.focused.state-layer.color",
+          "displayName": "Menu standard icon button selected focused state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.standard.icon-button.selected.hovered.state-layer.color",
+          "displayName": "Menu standard icon button selected hovered state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.standard.icon-button.disabled.icon.color",
+          "displayName": "Menu standard icon button disabled icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.standard.icon-button.selected.icon.color",
+          "displayName": "Menu standard icon button selected icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.standard.icon-button.selected.container.color",
+          "displayName": "Menu standard icon button selected container color",
+          "type": "COLOR",
+          "value": "md.sys.color.tertiary-container"
+        },
+        {
+          "name": "md.comp.menus.standard.icon-button.focused.state-layer.color",
+          "displayName": "Menu standard icon button focused state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.menus.standard.icon-button.pressed.state-layer.color",
+          "displayName": "Menu standard icon button pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.menus.standard.icon-button.hovered.state-layer.color",
+          "displayName": "Menu standard icon button hovered state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.menus.standard.disabled.icon-button.icon.color",
+          "displayName": "Menu standard disabled icon button icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.menus.standard.icon-button.icon.color",
+          "displayName": "Menu standard icon button icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.menus.standard.icon-button.container.color",
+          "displayName": "Menu standard icon button container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-low"
+        },
+        {
+          "name": "md.comp.menus.standard.container.shadow-color",
+          "displayName": "Menu standard container shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.menus.standard.container.color",
+          "displayName": "Menu standard container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-low"
+        }
+      ]
+    }
+  ]
+}

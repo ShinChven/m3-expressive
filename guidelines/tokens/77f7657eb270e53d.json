@@ -1,0 +1,26 @@
+{
+  "id": "77f7657eb270e53d",
+  "component": "Divider",
+  "tokenSets": [
+    {
+      "displayName": "Divider",
+      "tokenSetName": "md.comp.divider",
+      "description": "For dividers.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.divider.color",
+          "displayName": "Divider color",
+          "type": "COLOR",
+          "value": "md.sys.color.outline-variant"
+        },
+        {
+          "name": "md.comp.divider.thickness",
+          "displayName": "Divider thickness",
+          "type": "LENGTH",
+          "value": "1dp"
+        }
+      ]
+    }
+  ]
+}

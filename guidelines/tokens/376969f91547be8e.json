@@ -1,0 +1,416 @@
+{
+  "id": "376969f91547be8e",
+  "component": "Navigation drawer",
+  "tokenSets": [
+    {
+      "displayName": "Navigation drawers (baseline)",
+      "tokenSetName": "md.comp.navigation-drawer",
+      "description": "For the baseline navigation drawer. For expressive, use the expanded nav rail instead `md.comp.nav-rail.expanded`.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.navigation-drawer.focus.indicator.outline.offset",
+          "displayName": "Navigation drawers focus indicator offset",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.inner-offset"
+        },
+        {
+          "name": "md.comp.navigation-drawer.focus.indicator.thickness",
+          "displayName": "Navigation drawers focus indicator thickness",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.thickness"
+        },
+        {
+          "name": "md.comp.navigation-drawer.focus.indicator.color",
+          "displayName": "Navigation drawers focus indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary"
+        },
+        {
+          "name": "md.comp.navigation-drawer.container.color",
+          "displayName": "Navigation drawers container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface"
+        },
+        {
+          "name": "md.comp.navigation-drawer.standard.container.elevation",
+          "displayName": "Navigation drawers standard container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.navigation-drawer.standard.container.color",
+          "displayName": "Navigation drawers standard container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface"
+        },
+        {
+          "name": "md.comp.navigation-drawer.container.surface-tint-layer.color",
+          "displayName": "Navigation drawers container surface tint layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-tint"
+        },
+        {
+          "name": "md.comp.navigation-drawer.bottom.container.shape",
+          "displayName": "Navigation drawers bottom container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.large.top"
+        },
+        {
+          "name": "md.comp.navigation-drawer.modal.container.elevation",
+          "displayName": "Navigation drawers modal container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.navigation-drawer.container.shape",
+          "displayName": "Navigation drawers container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.large.end"
+        },
+        {
+          "name": "md.comp.navigation-drawer.container.height",
+          "displayName": "Navigation drawers container height",
+          "type": "LENGTH",
+          "value": "100percent"
+        },
+        {
+          "name": "md.comp.navigation-drawer.container.width",
+          "displayName": "Navigation drawers container width",
+          "type": "LENGTH",
+          "value": "360dp"
+        },
+        {
+          "name": "md.comp.navigation-drawer.modal.container.color",
+          "displayName": "Navigation drawers modal container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-low"
+        },
+        {
+          "name": "md.comp.navigation-drawer.active.label-text.weight",
+          "displayName": "Navigation drawers active label text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.label-large.weight.prominent"
+        },
+        {
+          "name": "md.comp.navigation-drawer.label-text.type",
+          "displayName": "Navigation drawers label text type",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.navigation-drawer.label-text.font",
+          "displayName": "Navigation drawers label text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.label-large.font"
+        },
+        {
+          "name": "md.comp.navigation-drawer.label-text.weight",
+          "displayName": "Navigation drawers label text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.label-large.weight"
+        },
+        {
+          "name": "md.comp.navigation-drawer.label-text.size",
+          "displayName": "Navigation drawers label text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.label-large.size"
+        },
+        {
+          "name": "md.comp.navigation-drawer.label-text.line-height",
+          "displayName": "Navigation drawers label text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.label-large.line-height"
+        },
+        {
+          "name": "md.comp.navigation-drawer.label-text.tracking",
+          "displayName": "Navigation drawers label text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.label-large.tracking"
+        },
+        {
+          "name": "md.comp.navigation-drawer.divider.color",
+          "displayName": "Navigation drawers divider color",
+          "type": "COLOR",
+          "value": "md.sys.color.outline"
+        },
+        {
+          "name": "md.comp.navigation-drawer.scrim.opacity",
+          "displayName": "Navigation drawers scrim opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.navigation-drawer.scrim.color",
+          "displayName": "Navigation drawers scrim color",
+          "type": "COLOR",
+          "value": "md.ref.palette.neutral-variant20"
+        },
+        {
+          "name": "md.comp.navigation-drawer.headline.type",
+          "displayName": "Type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.navigation-drawer.headline.font",
+          "displayName": "Navigation drawers headline font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.title-small.font"
+        },
+        {
+          "name": "md.comp.navigation-drawer.headline.weight",
+          "displayName": "Navigation drawers headline weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.title-small.weight"
+        },
+        {
+          "name": "md.comp.navigation-drawer.headline.size",
+          "displayName": "Navigation drawers headline size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.title-small.size"
+        },
+        {
+          "name": "md.comp.navigation-drawer.headline.line-height",
+          "displayName": "Navigation drawers headline line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.title-small.line-height"
+        },
+        {
+          "name": "md.comp.navigation-drawer.headline.tracking",
+          "displayName": "Navigation drawers headline tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.title-small.tracking"
+        },
+        {
+          "name": "md.comp.navigation-drawer.inactive.focus.icon.color",
+          "displayName": "Navigation drawers inactive focus icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.navigation-drawer.active.focus.icon.color",
+          "displayName": "Navigation drawers active focus icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.navigation-drawer.inactive.focus.label-text.color",
+          "displayName": "Navigation drawers inactive focus label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.navigation-drawer.active.focus.label-text.color",
+          "displayName": "Navigation drawers active focus label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.navigation-drawer.focus.state-layer.opacity",
+          "displayName": "Navigation drawers focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.navigation-drawer.inactive.focus.state-layer.color",
+          "displayName": "Navigation drawers inactive focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.navigation-drawer.active.focus.state-layer.color",
+          "displayName": "Navigation drawers active focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.navigation-drawer.inactive.hover.icon.color",
+          "displayName": "Navigation drawers inactive hover icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.navigation-drawer.active.hover.icon.color",
+          "displayName": "Navigation drawers active hover icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.navigation-drawer.inactive.hover.label-text.color",
+          "displayName": "Navigation drawers inactive hover label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.navigation-drawer.active.hover.label-text.color",
+          "displayName": "Navigation drawers active hover label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.navigation-drawer.hover.state-layer.opacity",
+          "displayName": "Navigation drawers hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.navigation-drawer.inactive.hover.state-layer.color",
+          "displayName": "Navigation drawers inactive hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.navigation-drawer.active.hover.state-layer.color",
+          "displayName": "Navigation drawers active hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.navigation-drawer.large-badge-label.type",
+          "displayName": "Navigation drawers large badge label type",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.navigation-drawer.large-badge-label.font",
+          "displayName": "Navigation drawers large badge label font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.label-large.font"
+        },
+        {
+          "name": "md.comp.navigation-drawer.large-badge-label.weight",
+          "displayName": "Navigation drawers large badge label weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.label-large.weight"
+        },
+        {
+          "name": "md.comp.navigation-drawer.large-badge-label.size",
+          "displayName": "Navigation drawers large badge label size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.label-large.size"
+        },
+        {
+          "name": "md.comp.navigation-drawer.large-badge-label.line-height",
+          "displayName": "Navigation drawers large badge label line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.label-large.line-height"
+        },
+        {
+          "name": "md.comp.navigation-drawer.large-badge-label.tracking",
+          "displayName": "Navigation drawers large badge label tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.label-large.tracking"
+        },
+        {
+          "name": "md.comp.navigation-drawer.large-badge-label.color",
+          "displayName": "Navigation drawers large badge label color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.navigation-drawer.active-indicator.width",
+          "displayName": "Navigation drawers active indicator width",
+          "type": "LENGTH",
+          "value": "336dp"
+        },
+        {
+          "name": "md.comp.navigation-drawer.active-indicator.shape",
+          "displayName": "Navigation drawers active indicator shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.navigation-drawer.active-indicator.height",
+          "displayName": "Navigation drawers active indicator height",
+          "type": "LENGTH",
+          "value": "56dp"
+        },
+        {
+          "name": "md.comp.navigation-drawer.active-indicator.color",
+          "displayName": "Navigation drawers active indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary-container"
+        },
+        {
+          "name": "md.comp.navigation-drawer.icon.size",
+          "displayName": "Navigation drawers icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.navigation-drawer.inactive.icon.color",
+          "displayName": "Navigation drawers inactive icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.navigation-drawer.active.icon.color",
+          "displayName": "Navigation drawers active icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.navigation-drawer.inactive.label-text.color",
+          "displayName": "Navigation drawers inactive label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.navigation-drawer.active.label-text.color",
+          "displayName": "Navigation drawers active label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.navigation-drawer.headline.color",
+          "displayName": "Navigation drawers headline color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.navigation-drawer.inactive.pressed.icon.color",
+          "displayName": "Navigation drawers inactive pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.navigation-drawer.active.pressed.icon.color",
+          "displayName": "Navigation drawers active pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.navigation-drawer.inactive.pressed.label-text.color",
+          "displayName": "Navigation drawers inactive pressed label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.navigation-drawer.active.pressed.label-text.color",
+          "displayName": "Navigation drawers active pressed label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.navigation-drawer.pressed.state-layer.opacity",
+          "displayName": "Navigation drawers pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.navigation-drawer.inactive.pressed.state-layer.color",
+          "displayName": "Navigation drawers inactive pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.navigation-drawer.active.pressed.state-layer.color",
+          "displayName": "Navigation drawers active pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,516 @@
+{
+  "id": "100ebfb4332adab1",
+  "component": "Cards",
+  "tokenSets": [
+    {
+      "displayName": "Card - Elevated",
+      "tokenSetName": "md.comp.elevated-card",
+      "description": "For elevated cards.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.elevated-card.focus.indicator.outline.offset",
+          "displayName": "Elevated card focus indicator offset",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.outer-offset"
+        },
+        {
+          "name": "md.comp.elevated-card.focus.indicator.thickness",
+          "displayName": "Elevated card focus indicator thickness",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.thickness"
+        },
+        {
+          "name": "md.comp.elevated-card.focus.indicator.color",
+          "displayName": "Elevated card focus indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary"
+        },
+        {
+          "name": "md.comp.elevated-card.container.surface-tint-layer.color",
+          "displayName": "Elevated card container surface tint layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-tint"
+        },
+        {
+          "name": "md.comp.elevated-card.disabled.container.color",
+          "displayName": "Elevated card disabled container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface"
+        },
+        {
+          "name": "md.comp.elevated-card.disabled.container.opacity",
+          "displayName": "Elevated card disabled container opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.elevated-card.disabled.container.elevation",
+          "displayName": "Elevated card disabled container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.elevated-card.icon.size",
+          "displayName": "Elevated card icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.elevated-card.icon.color",
+          "displayName": "Elevated card icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.elevated-card.container.shadow-color",
+          "displayName": "Elevated card container shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.elevated-card.focus.state-layer.opacity",
+          "displayName": "Elevated card focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.elevated-card.focus.state-layer.color",
+          "displayName": "Elevated card focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.elevated-card.focus.container.elevation",
+          "displayName": "Elevated card focus container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.elevated-card.hover.state-layer.opacity",
+          "displayName": "Elevated card hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.elevated-card.hover.state-layer.color",
+          "displayName": "Elevated card hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.elevated-card.hover.container.elevation",
+          "displayName": "Elevated card hover container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level2"
+        },
+        {
+          "name": "md.comp.elevated-card.container.shape",
+          "displayName": "Elevated card container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.medium"
+        },
+        {
+          "name": "md.comp.elevated-card.container.elevation",
+          "displayName": "Elevated card container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.elevated-card.container.color",
+          "displayName": "Elevated card container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-low"
+        },
+        {
+          "name": "md.comp.elevated-card.dragged.state-layer.opacity",
+          "displayName": "Elevated card dragged state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.dragged.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.elevated-card.dragged.state-layer.color",
+          "displayName": "Elevated card dragged state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.elevated-card.dragged.container.elevation",
+          "displayName": "Elevated card dragged container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level4"
+        },
+        {
+          "name": "md.comp.elevated-card.pressed.state-layer.opacity",
+          "displayName": "Elevated card pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.elevated-card.pressed.state-layer.color",
+          "displayName": "Elevated card pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.elevated-card.pressed.container.elevation",
+          "displayName": "Elevated card pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        }
+      ]
+    },
+    {
+      "displayName": "Card - Filled",
+      "tokenSetName": "md.comp.filled-card",
+      "description": "For filled cards.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.filled-card.focus.indicator.outline.offset",
+          "displayName": "Filled card focus indicator offset",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.outer-offset"
+        },
+        {
+          "name": "md.comp.filled-card.focus.indicator.thickness",
+          "displayName": "Filled card focus indicator thickness",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.thickness"
+        },
+        {
+          "name": "md.comp.filled-card.focus.indicator.color",
+          "displayName": "Filled card focus indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary"
+        },
+        {
+          "name": "md.comp.filled-card.disabled.container.color",
+          "displayName": "Filled card disabled container color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-card.disabled.container.opacity",
+          "displayName": "Filled card disabled container opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.filled-card.disabled.container.elevation",
+          "displayName": "Filled card disabled container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.filled-card.container.surface-tint-layer.color",
+          "displayName": "Filled card container surface tint layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-tint"
+        },
+        {
+          "name": "md.comp.filled-card.container.shadow-color",
+          "displayName": "Filled card container shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.filled-card.container.shape",
+          "displayName": "Filled card container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.medium"
+        },
+        {
+          "name": "md.comp.filled-card.icon.size",
+          "displayName": "Filled card icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.filled-card.icon.color",
+          "displayName": "Filled card icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.filled-card.focus.state-layer.opacity",
+          "displayName": "Filled card focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.filled-card.focus.state-layer.color",
+          "displayName": "Filled card focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-card.focus.container.elevation",
+          "displayName": "Filled card focus container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.filled-card.hover.state-layer.opacity",
+          "displayName": "Filled card hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.filled-card.hover.state-layer.color",
+          "displayName": "Filled card hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-card.hover.container.elevation",
+          "displayName": "Filled card hover container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.filled-card.container.elevation",
+          "displayName": "Filled card container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.filled-card.container.color",
+          "displayName": "Filled card container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-highest"
+        },
+        {
+          "name": "md.comp.filled-card.dragged.state-layer.opacity",
+          "displayName": "Filled card dragged state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.dragged.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.filled-card.dragged.state-layer.color",
+          "displayName": "Filled card dragged state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-card.dragged.container.elevation",
+          "displayName": "Filled card dragged container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.filled-card.pressed.state-layer.opacity",
+          "displayName": "Filled card pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.filled-card.pressed.state-layer.color",
+          "displayName": "Filled card pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filled-card.pressed.container.elevation",
+          "displayName": "Filled card pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        }
+      ]
+    },
+    {
+      "displayName": "Card - Outlined",
+      "tokenSetName": "md.comp.outlined-card",
+      "description": "For outlined cards.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.outlined-card.focus.indicator.outline.offset",
+          "displayName": "Outlined card focus indicator offset",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.outer-offset"
+        },
+        {
+          "name": "md.comp.outlined-card.focus.indicator.thickness",
+          "displayName": "Outlined card focus indicator thickness",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.thickness"
+        },
+        {
+          "name": "md.comp.outlined-card.focus.indicator.color",
+          "displayName": "Outlined card focus indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary"
+        },
+        {
+          "name": "md.comp.outlined-card.container.surface-tint-layer.color",
+          "displayName": "Outlined card container surface tint layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-tint"
+        },
+        {
+          "name": "md.comp.outlined-card.disabled.outline.opacity",
+          "displayName": "Outlined card disabled outline opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.outlined-card.disabled.outline.color",
+          "displayName": "Outlined card disabled outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.outline"
+        },
+        {
+          "name": "md.comp.outlined-card.disabled.container.elevation",
+          "displayName": "Outlined card disabled container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.outlined-card.pressed.container.elevation",
+          "displayName": "Outlined card pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.outlined-card.focus.container.elevation",
+          "displayName": "Outlined card focus container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.outlined-card.hover.container.elevation",
+          "displayName": "Outlined card hover container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.outlined-card.icon.size",
+          "displayName": "Outlined card icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.outlined-card.icon.color",
+          "displayName": "Outlined card icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.outlined-card.outline.color",
+          "displayName": "Outlined card outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.outline-variant"
+        },
+        {
+          "name": "md.comp.outlined-card.outline.width",
+          "displayName": "Outlined card outline width",
+          "type": "LENGTH",
+          "value": "1dp"
+        },
+        {
+          "name": "md.comp.outlined-card.container.shadow-color",
+          "displayName": "Outlined card container shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.outlined-card.focus.state-layer.opacity",
+          "displayName": "Outlined card focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.outlined-card.focus.state-layer.color",
+          "displayName": "Outlined card focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-card.focus.outline.color",
+          "displayName": "Outlined card focus outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-card.hover.state-layer.opacity",
+          "displayName": "Outlined card hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.outlined-card.hover.state-layer.color",
+          "displayName": "Outlined card hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-card.hover.outline.color",
+          "displayName": "Outlined card hover outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.outline-variant"
+        },
+        {
+          "name": "md.comp.outlined-card.container.shape",
+          "displayName": "Outlined card container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.medium"
+        },
+        {
+          "name": "md.comp.outlined-card.container.elevation",
+          "displayName": "Outlined card container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.outlined-card.container.color",
+          "displayName": "Outlined card container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface"
+        },
+        {
+          "name": "md.comp.outlined-card.dragged.state-layer.opacity",
+          "displayName": "Outlined card dragged state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.dragged.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.outlined-card.dragged.state-layer.color",
+          "displayName": "Outlined card dragged state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-card.dragged.outline.color",
+          "displayName": "Outlined card dragged outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.outline-variant"
+        },
+        {
+          "name": "md.comp.outlined-card.dragged.container.elevation",
+          "displayName": "Outlined card dragged container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.outlined-card.pressed.state-layer.opacity",
+          "displayName": "Outlined card pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.outlined-card.pressed.state-layer.color",
+          "displayName": "Outlined card pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.outlined-card.pressed.outline.color",
+          "displayName": "Outlined card pressed outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.outline-variant"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,482 @@
+{
+  "id": "33b1b2925d9ff561",
+  "component": "Switch",
+  "tokenSets": [
+    {
+      "displayName": "Switch",
+      "tokenSetName": "md.comp.switch",
+      "description": "For switches.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.switch.unselected.pressed.track.outline.color",
+          "displayName": "Switch unselected pressed track outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.outline"
+        },
+        {
+          "name": "md.comp.switch.focus.indicator.offset",
+          "displayName": "Switch focus indicator offset",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.outer-offset"
+        },
+        {
+          "name": "md.comp.switch.focus.indicator.color",
+          "displayName": "Switch focus indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary"
+        },
+        {
+          "name": "md.comp.switch.focus.indicator.thickness",
+          "displayName": "Switch focus indicator thickness",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.thickness"
+        },
+        {
+          "name": "md.comp.switch.unselected.track.color",
+          "displayName": "Switch unselected track color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-highest"
+        },
+        {
+          "name": "md.comp.switch.selected.track.color",
+          "displayName": "Switch selected track color",
+          "type": "COLOR",
+          "value": "md.ref.palette.primary60"
+        },
+        {
+          "name": "md.comp.switch.track.shape",
+          "displayName": "Switch track shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.switch.track.outline.width",
+          "displayName": "Switch track outline width",
+          "type": "LENGTH",
+          "value": "2dp"
+        },
+        {
+          "name": "md.comp.switch.unselected.track.outline.color",
+          "displayName": "Switch track outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.outline"
+        },
+        {
+          "name": "md.comp.switch.handle.width",
+          "displayName": "Switch handle width",
+          "type": "LENGTH",
+          "value": "20dp"
+        },
+        {
+          "name": "md.comp.switch.handle.height",
+          "displayName": "Switch handle height",
+          "type": "LENGTH",
+          "value": "20dp"
+        },
+        {
+          "name": "md.comp.switch.disabled.handle.elevation",
+          "displayName": "Switch disabled handle elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.switch.disabled.handle.opacity",
+          "displayName": "Switch disabled handle opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.switch.handle.elevation",
+          "displayName": "Switch handle elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.switch.handle.shadow-color",
+          "displayName": "Switch handle shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.switch.unselected.pressed.icon.color",
+          "displayName": "Switch unselected pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-highest"
+        },
+        {
+          "name": "md.comp.switch.selected.pressed.icon.color",
+          "displayName": "Switch selected pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.switch.unselected.pressed.state-layer.opacity",
+          "displayName": "Switch unselected pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.switch.unselected.pressed.state-layer.color",
+          "displayName": "Switch unselected pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.switch.unselected.pressed.track.color",
+          "displayName": "Switch unselected pressed track color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-highest"
+        },
+        {
+          "name": "md.comp.switch.selected.pressed.state-layer.opacity",
+          "displayName": "Switch selected pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.switch.selected.pressed.state-layer.color",
+          "displayName": "Switch selected pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.switch.unselected.focus.icon.color",
+          "displayName": "Switch unselected focus icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-highest"
+        },
+        {
+          "name": "md.comp.switch.selected.focus.icon.color",
+          "displayName": "Switch selected focus icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.switch.unselected.focus.state-layer.opacity",
+          "displayName": "Switch unselected focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.switch.unselected.focus.state-layer.color",
+          "displayName": "Switch unselected focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.switch.unselected.focus.track.outline.color",
+          "displayName": "Switch unselected focus track outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.outline"
+        },
+        {
+          "name": "md.comp.switch.unselected.focus.track.color",
+          "displayName": "Switch unselected focus track color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-highest"
+        },
+        {
+          "name": "md.comp.switch.selected.focus.state-layer.opacity",
+          "displayName": "Switch selected focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.switch.selected.focus.state-layer.color",
+          "displayName": "Switch selected focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.switch.unselected.hover.icon.color",
+          "displayName": "Switch unselected hover icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-highest"
+        },
+        {
+          "name": "md.comp.switch.selected.hover.icon.color",
+          "displayName": "Switch selected hover icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.switch.unselected.hover.state-layer.opacity",
+          "displayName": "Switch unselected hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.switch.unselected.hover.state-layer.color",
+          "displayName": "Switch unselected hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.switch.unselected.hover.track.outline.color",
+          "displayName": "Switch unselected hover track outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.outline"
+        },
+        {
+          "name": "md.comp.switch.unselected.hover.track.color",
+          "displayName": "Switch unselected hover track color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-highest"
+        },
+        {
+          "name": "md.comp.switch.selected.hover.state-layer.opacity",
+          "displayName": "Switch selected hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.switch.selected.hover.state-layer.color",
+          "displayName": "Switch selected hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.switch.disabled.selected.handle.opacity",
+          "displayName": "Switch disabled selected handle opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.switch.disabled.unselected.handle.opacity",
+          "displayName": "Switch disabled unselected handle opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.switch.disabled.unselected.track.outline.color",
+          "displayName": "Switch disabled unselected track outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.switch.unselected.handle.color",
+          "displayName": "Switch unselected handle color",
+          "type": "COLOR",
+          "value": "md.sys.color.outline"
+        },
+        {
+          "name": "md.comp.switch.selected.handle.color",
+          "displayName": "Switch selected handle color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.switch.state-layer.shape",
+          "displayName": "Switch state layer shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.switch.handle.shape",
+          "displayName": "Switch handle shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.switch.pressed.handle.width",
+          "displayName": "Switch pressed handle width",
+          "type": "LENGTH",
+          "value": "28dp"
+        },
+        {
+          "name": "md.comp.switch.selected.handle.width",
+          "displayName": "Switch selected handle width",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.switch.with-icon.handle.width",
+          "displayName": "Switch with icon handle width",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.switch.unselected.handle.width",
+          "displayName": "Switch unselected handle width",
+          "type": "LENGTH",
+          "value": "16dp"
+        },
+        {
+          "name": "md.comp.switch.pressed.handle.height",
+          "displayName": "Switch pressed handle height",
+          "type": "LENGTH",
+          "value": "28dp"
+        },
+        {
+          "name": "md.comp.switch.selected.handle.height",
+          "displayName": "Switch selected handle height",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.switch.with-icon.handle.height",
+          "displayName": "Switch with icon handle height",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.switch.unselected.handle.height",
+          "displayName": "Switch unselected handle height",
+          "type": "LENGTH",
+          "value": "16dp"
+        },
+        {
+          "name": "md.comp.switch.unselected.focus.handle.color",
+          "displayName": "Switch unselected focus handle color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.switch.selected.focus.handle.color",
+          "displayName": "Switch selected focus handle color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary-container"
+        },
+        {
+          "name": "md.comp.switch.selected.focus.track.color",
+          "displayName": "Switch selected focus track color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.switch.unselected.hover.handle.color",
+          "displayName": "Switch unselected hover handle color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.switch.selected.hover.handle.color",
+          "displayName": "Switch selected hover handle color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary-container"
+        },
+        {
+          "name": "md.comp.switch.selected.hover.track.color",
+          "displayName": "Switch selected hover track color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.switch.unselected.icon.size",
+          "displayName": "Switch unselected icon size",
+          "type": "LENGTH",
+          "value": "16dp"
+        },
+        {
+          "name": "md.comp.switch.unselected.icon.color",
+          "displayName": "Switch unselected icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-highest"
+        },
+        {
+          "name": "md.comp.switch.selected.icon.size",
+          "displayName": "Switch selected icon size",
+          "type": "LENGTH",
+          "value": "16dp"
+        },
+        {
+          "name": "md.comp.switch.selected.icon.color",
+          "displayName": "Switch selected icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.switch.state-layer.size",
+          "displayName": "Switch state layer size",
+          "type": "LENGTH",
+          "value": "40dp"
+        },
+        {
+          "name": "md.comp.switch.track.width",
+          "displayName": "Switch track width",
+          "type": "LENGTH",
+          "value": "52dp"
+        },
+        {
+          "name": "md.comp.switch.track.height",
+          "displayName": "Switch track height",
+          "type": "LENGTH",
+          "value": "32dp"
+        },
+        {
+          "name": "md.comp.switch.disabled.unselected.icon.opacity",
+          "displayName": "Switch disabled unselected icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.switch.disabled.unselected.icon.color",
+          "displayName": "Switch disabled unselected icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-highest"
+        },
+        {
+          "name": "md.comp.switch.disabled.selected.icon.opacity",
+          "displayName": "Switch disabled selected icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.switch.disabled.selected.icon.color",
+          "displayName": "Switch disabled selected icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.switch.unselected.pressed.handle.color",
+          "displayName": "Switch unselected pressed handle color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.switch.selected.pressed.handle.color",
+          "displayName": "Switch selected pressed handle color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary-container"
+        },
+        {
+          "name": "md.comp.switch.selected.pressed.track.color",
+          "displayName": "Switch selected pressed track color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.switch.disabled.unselected.handle.color",
+          "displayName": "Switch disabled unselected handle color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.switch.disabled.unselected.track.color",
+          "displayName": "Switch disabled unselected track color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-highest"
+        },
+        {
+          "name": "md.comp.switch.disabled.selected.handle.color",
+          "displayName": "Switch disabled selected handle color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface"
+        },
+        {
+          "name": "md.comp.switch.disabled.selected.track.color",
+          "displayName": "Switch disabled selected track color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.switch.disabled.track.opacity",
+          "displayName": "Switch disabled track opacity",
+          "type": "OPACITY",
+          "value": null
+        }
+      ]
+    }
+  ]
+}

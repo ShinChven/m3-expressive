@@ -1,0 +1,29 @@
+/* Overview card preview of the navigation rail page (scaled-down window). */
+.navigation-rail-preview {
+  display: flex;
+  width: 400px;
+  height: 220px;
+  overflow: hidden;
+  border-radius: var(--md-sys-shape-corner-extra-large);
+  background: var(--md-sys-color-surface-container);
+  zoom: 0.52;
+}
+.navigation-rail-preview .m3-navigation-rail {
+  height: auto;
+}
+.navigation-rail-preview__content {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  gap: 16px;
+  padding: 32px 24px;
+}
+.navigation-rail-preview__content > span {
+  height: 20px;
+  border-radius: 10px;
+  background: var(--md-sys-color-surface-container-highest);
+}
+.navigation-rail-preview__content > span:first-child {
+  width: 60%;
+  height: 28px;
+}

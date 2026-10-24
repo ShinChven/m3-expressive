@@ -1,0 +1,12 @@
+{
+  "extends": "../tsconfig.base.json",
+  "compilerOptions": {
+    "types": ["vite/client", "node", "vitest/globals", "@testing-library/jest-dom"],
+    "customConditions": ["source", "md3-source"],
+    "paths": {
+      "material-design-3-expressive-components": ["../src/index.ts"],
+      "material-design-3-expressive-components/*": ["../src/*"]
+    }
+  },
+  "include": ["src", "plugins", "test", "vite.config.ts"]
+}

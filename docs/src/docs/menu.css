@@ -1,0 +1,22 @@
+/* Styles used only by the menu page. */
+.menu-doc-preview {
+  width: 200px;
+  padding-block: 4px;
+}
+.menu-doc-preview .m3-menu-item {
+  min-height: 40px;
+  padding-block: 4px;
+}
+.menu-doc-context {
+  display: grid;
+  place-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 420px;
+  min-height: 140px;
+  padding: 16px;
+  border: 1px dashed var(--md-sys-color-outline);
+  border-radius: var(--md-sys-shape-corner-medium);
+  color: var(--md-sys-color-on-surface-variant);
+  text-align: center;
+}

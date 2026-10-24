@@ -1,0 +1,81 @@
+.typography-doc__details {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: baseline;
+  gap: 8px 24px;
+  margin: 0;
+}
+
+.typography-doc__details dt {
+  color: var(--md-sys-color-on-surface-variant);
+}
+
+.typography-doc__details dd {
+  margin: 0;
+}
+
+.typography-doc-specimen {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  user-select: none;
+}
+
+.typography-doc-specimen__glyph {
+  color: var(--md-sys-color-primary);
+  font: var(--md-sys-typescale-display-large);
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.typography-doc-specimen__content {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.typography-doc-specimen__title {
+  color: var(--md-sys-color-on-surface);
+  font: var(--md-sys-typescale-title-medium);
+}
+
+.typography-doc-specimen__subtitle {
+  color: var(--md-sys-color-on-surface-variant);
+  font: var(--md-sys-typescale-body-small);
+}
+
+.typography-doc-specimen__chips {
+  display: flex;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.typography-doc-specimen__chip {
+  padding: 2px 8px;
+  border-radius: var(--md-sys-shape-corner-small, 8px);
+  font: var(--md-sys-typescale-label-small);
+}
+
+.typography-doc-specimen__chip--primary {
+  background: var(--md-sys-color-secondary-container);
+  color: var(--md-sys-color-on-secondary-container);
+}
+
+.typography-doc-specimen__chip--muted {
+  background: var(--md-sys-color-surface-container-highest);
+  color: var(--md-sys-color-on-surface-variant);
+}
+
+.typography-doc-pair {
+  display: grid;
+  grid-template-columns: minmax(120px, 160px) 1fr 1fr;
+  align-items: baseline;
+  gap: 16px;
+  padding-block: 8px;
+  border-bottom: 1px solid var(--md-sys-color-outline-variant);
+}
+.typography-doc-pair > code {
+  color: var(--md-sys-color-on-surface-variant);
+  font: var(--md-sys-typescale-body-small);
+}

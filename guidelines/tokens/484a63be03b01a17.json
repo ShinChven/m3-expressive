@@ -1,0 +1,1934 @@
+{
+  "id": "484a63be03b01a17",
+  "component": "Chips",
+  "tokenSets": [
+    {
+      "displayName": "Chip - Assist",
+      "tokenSetName": "md.comp.assist-chip",
+      "description": "For assist chips.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.assist-chip.elevated.pressed.container.elevation",
+          "displayName": "Assist chip elevated pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.assist-chip.elevated.focus.container.elevation",
+          "displayName": "Assist chip elevated focus container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.assist-chip.flat.focus.outline.color",
+          "displayName": "Assist chip focus outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.assist-chip.elevated.hover.container.elevation",
+          "displayName": "Assist chip elevated hover container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level2"
+        },
+        {
+          "name": "md.comp.assist-chip.elevated.disabled.container.opacity",
+          "displayName": "Assist chip elevated disabled container opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.assist-chip.elevated.disabled.container.color",
+          "displayName": "Assist chip elevated disabled container color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.assist-chip.flat.disabled.outline.opacity",
+          "displayName": "Assist chip disabled outline opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.assist-chip.flat.disabled.outline.color",
+          "displayName": "Assist chip disabled outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.assist-chip.elevated.disabled.container.elevation",
+          "displayName": "Assist chip elevated disabled container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.assist-chip.elevated.container.shadow-color",
+          "displayName": "Assist chip elevated container shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.assist-chip.elevated.container.color",
+          "displayName": "Assist chip elevated container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-low"
+        },
+        {
+          "name": "md.comp.assist-chip.elevated.container.elevation",
+          "displayName": "Assist chip elevated container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.assist-chip.container.surface-tint-layer.color",
+          "displayName": "Assist chip container surface tint",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-tint"
+        },
+        {
+          "name": "md.comp.assist-chip.flat.outline.width",
+          "displayName": "Assist chip container outline width",
+          "type": "LENGTH",
+          "value": "1dp"
+        },
+        {
+          "name": "md.comp.assist-chip.flat.container.elevation",
+          "displayName": "Assist chip container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.assist-chip.flat.outline.color",
+          "displayName": "Assist chip container outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.outline-variant"
+        },
+        {
+          "name": "md.comp.assist-chip.focus.indicator.outline.offset",
+          "displayName": "Assist chip focus indicator offset",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.outer-offset"
+        },
+        {
+          "name": "md.comp.assist-chip.focus.indicator.thickness",
+          "displayName": "Assist chip focus indicator thickness",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.thickness"
+        },
+        {
+          "name": "md.comp.assist-chip.focus.indicator.color",
+          "displayName": "Assist chip focus indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary"
+        },
+        {
+          "name": "md.comp.assist-chip.with-icon.dragged.icon.color",
+          "displayName": "Assist chip with icon dragged icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.assist-chip.dragged.label-text.color",
+          "displayName": "Assist chip dragged label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.assist-chip.dragged.state-layer.opacity",
+          "displayName": "Assist chip dragged state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.dragged.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.assist-chip.dragged.state-layer.color",
+          "displayName": "Assist chip dragged state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.assist-chip.dragged.container.elevation",
+          "displayName": "Assist chip dragged container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level4"
+        },
+        {
+          "name": "md.comp.assist-chip.with-icon.pressed.icon.color",
+          "displayName": "Assist chip with icon pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.assist-chip.pressed.label-text.color",
+          "displayName": "Assist chip pressed label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.assist-chip.pressed.state-layer.opacity",
+          "displayName": "Assist chip pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.assist-chip.pressed.state-layer.color",
+          "displayName": "Assist chip pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.assist-chip.with-icon.focus.icon.color",
+          "displayName": "Assist chip with icon focus icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.assist-chip.focus.label-text.color",
+          "displayName": "Assist chip focus label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.assist-chip.focus.state-layer.opacity",
+          "displayName": "Assist chip focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.assist-chip.focus.state-layer.color",
+          "displayName": "Assist chip focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.assist-chip.with-icon.hover.icon.color",
+          "displayName": "Assist chip with icon hover icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.assist-chip.hover.label-text.color",
+          "displayName": "Assist chip hover label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.assist-chip.hover.state-layer.opacity",
+          "displayName": "Assist chip hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.assist-chip.hover.state-layer.color",
+          "displayName": "Assist chip hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.assist-chip.with-icon.disabled.icon.opacity",
+          "displayName": "Assist chip with icon disabled icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.assist-chip.with-icon.disabled.icon.color",
+          "displayName": "Assist chip with icon disabled icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.assist-chip.disabled.label-text.opacity",
+          "displayName": "Assist chip disabled label text opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.assist-chip.disabled.label-text.color",
+          "displayName": "Assist chip disabled label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.assist-chip.with-icon.icon.color",
+          "displayName": "Assist chip icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.assist-chip.with-icon.icon.size",
+          "displayName": "Assist chip icon size",
+          "type": "LENGTH",
+          "value": "18dp"
+        },
+        {
+          "name": "md.comp.assist-chip.label-text.color",
+          "displayName": "Assist chip label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.assist-chip.label-text.type",
+          "displayName": "Assist chip label text type",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.assist-chip.label-text.font",
+          "displayName": "Assist chip label text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.label-large.font"
+        },
+        {
+          "name": "md.comp.assist-chip.label-text.weight",
+          "displayName": "Assist chip label text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.label-large.weight"
+        },
+        {
+          "name": "md.comp.assist-chip.label-text.size",
+          "displayName": "Assist chip label text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.label-large.size"
+        },
+        {
+          "name": "md.comp.assist-chip.label-text.line-height",
+          "displayName": "Assist chip label text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.label-large.line-height"
+        },
+        {
+          "name": "md.comp.assist-chip.label-text.tracking",
+          "displayName": "Assist chip label text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.label-large.tracking"
+        },
+        {
+          "name": "md.comp.assist-chip.container.height",
+          "displayName": "Assist chip container height",
+          "type": "LENGTH",
+          "value": "32dp"
+        },
+        {
+          "name": "md.comp.assist-chip.container.shape",
+          "displayName": "Assist chip container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.small"
+        }
+      ]
+    },
+    {
+      "displayName": "Chip - Filter",
+      "tokenSetName": "md.comp.filter-chip",
+      "description": "For filter chips.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.filter-chip.elevated.hover.container.elevation",
+          "displayName": "Filter chip elevated hover container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level2"
+        },
+        {
+          "name": "md.comp.filter-chip.elevated.focus.container.elevation",
+          "displayName": "Filter chip elevated focus container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.filter-chip.with-trailing-icon.disabled.trailing-icon.opacity",
+          "displayName": "Filter chip with trailing icon disabled trailing icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.filter-chip.with-leading-icon.disabled.leading-icon.opacity",
+          "displayName": "Filter chip with leading icon disabled leading icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.filter-chip.elevated.disabled.container.opacity",
+          "displayName": "Filter chip elevated disabled container opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.filter-chip.elevated.disabled.container.color",
+          "displayName": "Filter chip elevated disabled container color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filter-chip.elevated.disabled.container.elevation",
+          "displayName": "Filter chip elevated disabled container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.filter-chip.with-trailing-icon.selected.trailing-icon.color",
+          "displayName": "Filter chip with trailing icon selected trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.filter-chip.with-trailing-icon.unselected.trailing-icon.color",
+          "displayName": "Filter chip with trailing icon unselected trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filter-chip.with-leading-icon.unselected.leading-icon.color",
+          "displayName": "Filter chip with leading icon unselected leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.filter-chip.with-leading-icon.selected.leading-icon.color",
+          "displayName": "Filter chip with leading icon selected leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.filter-chip.elevated.selected.container.color",
+          "displayName": "Filter chip elevated (selected) container color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary-container"
+        },
+        {
+          "name": "md.comp.filter-chip.elevated.unselected.container.color",
+          "displayName": "Filter chip elevated (unselected) container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-low"
+        },
+        {
+          "name": "md.comp.filter-chip.elevated.container.elevation",
+          "displayName": "Filter chip elevated container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.filter-chip.elevated.container.shadow-color",
+          "displayName": "Filter chip elevated container shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.filter-chip.with-icon.disabled.icon.color",
+          "displayName": "Filter chip with icon disabled icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filter-chip.with-icon.disabled.icon.opacity",
+          "displayName": "Filter chip with icon disabled icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.filter-chip.with-leading-icon.disabled.leading-icon.color",
+          "displayName": "Filter chip with leading icon disabled icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filter-chip.with-icon.selected.icon.color",
+          "displayName": "Filter chip with icon (selected) icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.filter-chip.with-icon.unselected.icon.color",
+          "displayName": "Filter chip with icon (unselected) icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filter-chip.with-trailing-icon.trailing-icon.unselected.color",
+          "displayName": "Filter chip (unselected) with trailing icon",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filter-chip.with-leading-icon.leading-icon.unselected.color",
+          "displayName": "Filter chip (unselected) with leading icon",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.filter-chip.focus.indicator.outline.offset",
+          "displayName": "Filter chip focus indicator offset",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.outer-offset"
+        },
+        {
+          "name": "md.comp.filter-chip.focus.indicator.thickness",
+          "displayName": "Filter chip focus indicator thickness",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.thickness"
+        },
+        {
+          "name": "md.comp.filter-chip.focus.indicator.color",
+          "displayName": "Filter chip focus indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary"
+        },
+        {
+          "name": "md.comp.filter-chip.container.surface-tint-layer.color",
+          "displayName": "Filter chip container surface tint layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-tint"
+        },
+        {
+          "name": "md.comp.filter-chip.container.shadow-color",
+          "displayName": "Filter chip container shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.filter-chip.with-trailing-icon.disabled.trailing-icon.color",
+          "displayName": "Filter chip with trailing icon disabled icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filter-chip.with-leading-icon.unselected.dragged.leading-icon.color",
+          "displayName": "Filter chip with leading icon (unselected) dragged icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.filter-chip.with-trailing-icon.unselected.dragged.trailing-icon.color",
+          "displayName": "Filter chip with trailing icon (unselected) dragged icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filter-chip.with-leading-icon.selected.dragged.leading-icon.color",
+          "displayName": "Filter chip with leading icon (selected) dragged icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.filter-chip.with-trailing-icon.selected.dragged.trailing-icon.color",
+          "displayName": "Filter chip with trailing icon (selected) dragged icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.filter-chip.with-leading-icon.unselected.pressed.leading-icon.color",
+          "displayName": "Filter chip with leading icon (unselected) pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.filter-chip.with-trailing-icon.unselected.pressed.trailing-icon.color",
+          "displayName": "Filter chip with trailing icon (unselected) pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filter-chip.with-leading-icon.selected.pressed.leading-icon.color",
+          "displayName": "Filter chip with leading icon (selected) pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.filter-chip.with-trailing-icon.selected.pressed.trailing-icon.color",
+          "displayName": "Filter chip with trailing icon (selected) pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.filter-chip.with-leading-icon.unselected.focus.leading-icon.color",
+          "displayName": "Filter chip with leading icon (unselected) focus icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.filter-chip.with-trailing-icon.unselected.focus.trailing-icon.color",
+          "displayName": "Filter chip with trailing icon (unselected) focus icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filter-chip.with-leading-icon.selected.focus.leading-icon.color",
+          "displayName": "Filter chip with leading icon (selected) focus icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.filter-chip.with-trailing-icon.selected.focus.trailing-icon.color",
+          "displayName": "Filter chip with trailing icon (selected) focus icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.filter-chip.with-icon.selected.dragged.icon.color",
+          "displayName": "Filter chip with icon (unselected) dragged icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.filter-chip.with-icon.unselected.dragged.icon.color",
+          "displayName": "Filter chip with icon (unselected) dragged icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filter-chip.with-trailing-icon.selected.hover.trailing-icon.color",
+          "displayName": "Filter chip with trailing icon (selected) hover icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.filter-chip.with-icon.selected.pressed.icon.color",
+          "displayName": "Filter chip with icon (selected) pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.filter-chip.with-icon.unselected.pressed.icon.color",
+          "displayName": "Filter chip with icon (unselected) pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filter-chip.with-leading-icon.selected.hover.leading-icon.color",
+          "displayName": "Filter chip with leading icon (selected) hover icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.filter-chip.with-trailing-icon.unselected.hover.trailing-icon.color",
+          "displayName": "Filter chip with trailing icon (unselected) hover icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filter-chip.with-icon.selected.focus.icon.color",
+          "displayName": "Filter chip with icon (selected) focus icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.filter-chip.with-icon.unselected.focus.icon.color",
+          "displayName": "Filter chip with icon (unselected) focus icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filter-chip.with-icon.selected.hover.icon.color",
+          "displayName": "Filter chip with icon (selected) hover icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.filter-chip.with-icon.unselected.hover.icon.color",
+          "displayName": "Filter chip with icon (unselected) hover icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filter-chip.with-leading-icon.unselected.hover.leading-icon.color",
+          "displayName": "Filter chip with leading icon (unselected) hover icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.filter-chip.elevated.pressed.container.elevation",
+          "displayName": "Filter chip (Elevated style) pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.filter-chip.flat.selected.hover.container.elevation",
+          "displayName": "Filter chip (selected) hover container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.filter-chip.flat.unselected.hover.container.elevation",
+          "displayName": "Filter chip (unselected) hover container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.filter-chip.flat.selected.pressed.container.elevation",
+          "displayName": "Filter chip (selected) pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.filter-chip.flat.unselected.pressed.container.elevation",
+          "displayName": "Filter chip (unselected) pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.filter-chip.unselected.pressed.label-text.color",
+          "displayName": "Filter chip (unselected) pressed label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filter-chip.selected.pressed.label-text.color",
+          "displayName": "Filter chip (selected) pressed label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.filter-chip.unselected.pressed.state-layer.color",
+          "displayName": "Filter chip (unselected) pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.filter-chip.unselected.pressed.state-layer.opacity",
+          "displayName": "Filter chip (unselected) pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.filter-chip.selected.pressed.state-layer.color",
+          "displayName": "Filter chip (selected) pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filter-chip.selected.pressed.state-layer.opacity",
+          "displayName": "Filter chip (selected) pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.filter-chip.container.shape",
+          "displayName": "Filter chip container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.small"
+        },
+        {
+          "name": "md.comp.filter-chip.container.height",
+          "displayName": "Filter chip container height",
+          "type": "LENGTH",
+          "value": "32dp"
+        },
+        {
+          "name": "md.comp.filter-chip.flat.container.elevation",
+          "displayName": "Filter chip container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.filter-chip.flat.unselected.outline.color",
+          "displayName": "Filter chip (unselected) outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.outline-variant"
+        },
+        {
+          "name": "md.comp.filter-chip.flat.unselected.outline.width",
+          "displayName": "Filter chip (unselected) outline width",
+          "type": "LENGTH",
+          "value": "1dp"
+        },
+        {
+          "name": "md.comp.filter-chip.flat.selected.container.color",
+          "displayName": "Filter chip (selected) outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary-container"
+        },
+        {
+          "name": "md.comp.filter-chip.flat.selected.outline.width",
+          "displayName": "Filter chip (selected) outline width",
+          "type": "LENGTH",
+          "value": "undefineddp"
+        },
+        {
+          "name": "md.comp.filter-chip.label-text.font",
+          "displayName": "Filter chip label text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.label-large.font"
+        },
+        {
+          "name": "md.comp.filter-chip.label-text.line-height",
+          "displayName": "Filter chip label text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.label-large.line-height"
+        },
+        {
+          "name": "md.comp.filter-chip.label-text.size",
+          "displayName": "Filter chip label text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.label-large.size"
+        },
+        {
+          "name": "md.comp.filter-chip.label-text.weight",
+          "displayName": "Filter chip label text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.label-large.weight"
+        },
+        {
+          "name": "md.comp.filter-chip.label-text.tracking",
+          "displayName": "Filter chip label text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.label-large.tracking"
+        },
+        {
+          "name": "md.comp.filter-chip.label-text.type",
+          "displayName": "Filter chip label text type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.filter-chip.unselected.label-text.color",
+          "displayName": "Filter chip (unselected) label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filter-chip.selected.label-text.color",
+          "displayName": "Filter chip (selected) label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.filter-chip.with-icon.icon.size",
+          "displayName": "Filter chip with icon icon size",
+          "type": "LENGTH",
+          "value": "18dp"
+        },
+        {
+          "name": "md.comp.filter-chip.flat.disabled.unselected.outline.color",
+          "displayName": "Filter chip disabled (unselected) outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filter-chip.flat.disabled.unselected.outline.opacity",
+          "displayName": "Filter chip disabled (unselected) outline opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.filter-chip.flat.disabled.selected.container.color",
+          "displayName": "Filter chip disabled (selected) container color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filter-chip.flat.disabled.selected.container.opacity",
+          "displayName": "Filter chip disabled (selected) container opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.filter-chip.disabled.label-text.color",
+          "displayName": "Filter chip disabled label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.filter-chip.disabled.label-text.opacity",
+          "displayName": "Filter chip disabled label text opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.filter-chip.flat.unselected.focus.outline.color",
+          "displayName": "Filter chip (unselected) focus outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filter-chip.flat.selected.focus.container.elevation",
+          "displayName": "Filter chip (selected) focus container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.filter-chip.flat.unselected.focus.container.elevation",
+          "displayName": "Filter chip (unselected) focus container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.filter-chip.unselected.focus.label-text.color",
+          "displayName": "Filter chip (unselected) focus label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filter-chip.selected.focus.label-text.color",
+          "displayName": "Filter chip (selected) focus label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.filter-chip.unselected.focus.state-layer.color",
+          "displayName": "Filter chip (unselected) focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filter-chip.unselected.focus.state-layer.opacity",
+          "displayName": "Filter chip (unselected) focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.filter-chip.selected.focus.state-layer.color",
+          "displayName": "Filter chip (selected) focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.filter-chip.selected.focus.state-layer.opacity",
+          "displayName": "Filter chip (selected) focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.filter-chip.unselected.hover.label-text.color",
+          "displayName": "Filter chip (unselected) hover label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filter-chip.selected.hover.label-text.color",
+          "displayName": "Filter chip (selected) hover label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.filter-chip.unselected.hover.state-layer.color",
+          "displayName": "Filter chip (unselected) hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filter-chip.unselected.hover.state-layer.opacity",
+          "displayName": "Filter chip (unselected) hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.filter-chip.selected.hover.state-layer.color",
+          "displayName": "Filter chip (selected) hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.filter-chip.selected.hover.state-layer.opacity",
+          "displayName": "Filter chip (selected) hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.filter-chip.dragged.container.elevation",
+          "displayName": "Filter chip dragged container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level4"
+        },
+        {
+          "name": "md.comp.filter-chip.unselected.dragged.label-text.color",
+          "displayName": "Filter chip (unselected) dragged label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filter-chip.selected.dragged.label-text.color",
+          "displayName": "Filter chip (selected) dragged label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.filter-chip.unselected.dragged.state-layer.color",
+          "displayName": "Filter chip (unselected) dragged state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.filter-chip.unselected.dragged.state-layer.opacity",
+          "displayName": "Filter chip (unselected) dragged state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.dragged.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.filter-chip.selected.dragged.state-layer.color",
+          "displayName": "Filter chip (selected) dragged state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.filter-chip.selected.dragged.state-layer.opacity",
+          "displayName": "Filter chip (selected) dragged state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.dragged.state-layer-opacity"
+        }
+      ]
+    },
+    {
+      "displayName": "Chip - Input",
+      "tokenSetName": "md.comp.input-chip",
+      "description": "For input chips.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.input-chip.with-leading-icon.selected.pressed.leading-icon.color",
+          "displayName": "Input chip with leading icon selected pressed leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.input-chip.with-leading-icon.unselected.leading-icon.color",
+          "displayName": "Input chip with leading icon unselected leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.input-chip.unselected.focus.state-layer.opacity",
+          "displayName": "Input chip unselected focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.input-chip.selected.focus.state-layer.color",
+          "displayName": "Input chip selected focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.input-chip.with-leading-icon.selected.dragged.leading-icon.color",
+          "displayName": "Input chip with leading icon selected dragged leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.input-chip.with-leading-icon.dragged.leading-icon.color",
+          "displayName": "Input chip with leading icon draged leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.input-chip.with-leading-icon.unselected.dragged.leading-icon.color",
+          "displayName": "Input chip with leading icon unselected dragged leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.input-chip.with-trailing-icon.dragged.trailing-icon.color",
+          "displayName": "Input chip with trailing icon dragged trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.input-chip.with-trailing-icon.selected.dragged.trailing-icon.color",
+          "displayName": "Input chip with trailing icon selected dragged trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.input-chip.with-trailing-icon.unselected.dragged.trailing-icon.color",
+          "displayName": "Input chip with trailing icon unselected dragged trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.input-chip.selected.dragged.state-layer.opacity",
+          "displayName": "Input chip selected dragged state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.dragged.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.input-chip.dragged.state-layer.color",
+          "displayName": "Input chip dragged state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.input-chip.dragged.state-layer.opacity",
+          "displayName": "Input chip dragged state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.dragged.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.input-chip.selected.dragged.state-layer.color",
+          "displayName": "Input chip selected dragged state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.input-chip.unselected.dragged.state-layer.opacity",
+          "displayName": "Input chip unselected dragged state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.dragged.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.input-chip.unselected.dragged.state-layer.color",
+          "displayName": "Input chip unselected dragged state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.input-chip.selected.dragged.label-text.color",
+          "displayName": "Input chip selected dragged label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.input-chip.dragged.label-text.color",
+          "displayName": "Input chip dragged label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.input-chip.unselected.dragged.label-text.color",
+          "displayName": "Input chip unselected dragged label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.input-chip.with-trailing-icon.selected.pressed.trailing-icon.color",
+          "displayName": "Input chip with trailing icon selected pressed trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.input-chip.with-trailing-icon.pressed.trailing-icon.color",
+          "displayName": "Input chip with trailing icon pressed trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.input-chip.with-trailing-icon.unselected.pressed.trailing-icon.color",
+          "displayName": "Input chip with trailing icon unselected pressed trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.input-chip.with-leading-icon.pressed.leading-icon.color",
+          "displayName": "Input chip with leading icon pressed leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.input-chip.with-leading-icon.unselected.pressed.leading-icon.color",
+          "displayName": "Input chip with leading icon unselected pressed leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.input-chip.selected.pressed.state-layer.opacity",
+          "displayName": "Input chip selected pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.input-chip.pressed.state-layer.color",
+          "displayName": "Input chip pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.input-chip.pressed.state-layer.opacity",
+          "displayName": "Input chip pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.input-chip.selected.pressed.state-layer.color",
+          "displayName": "Input chip selected pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.input-chip.unselected.pressed.state-layer.opacity",
+          "displayName": "Input chip unselected pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.input-chip.unselected.pressed.state-layer.color",
+          "displayName": "Input chip unselected pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.input-chip.pressed.label-text.color",
+          "displayName": "Input chip pressed label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.input-chip.selected.pressed.label-text.color",
+          "displayName": "Input chip selected pressed label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.input-chip.unselected.pressed.label-text.color",
+          "displayName": "Input chip unselected pressed label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.input-chip.with-trailing-icon.focus.trailing-icon.color",
+          "displayName": "Input chip with trailing icon focus trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.input-chip.with-trailing-icon.selected.focus.trailing-icon.color",
+          "displayName": "Input chip with trailing icon selected focus trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.input-chip.with-trailing-icon.unselected.focus.trailing-icon.color",
+          "displayName": "Input chip with trailing icon unselected focus trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.input-chip.with-leading-icon.focus.leading-icon.color",
+          "displayName": "Input chip with leading icon focus leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.input-chip.with-leading-icon.selected.focus.leading-icon.color",
+          "displayName": "Input chip with leading icon selected focus leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.input-chip.with-leading-icon.unselected.focus.leading-icon.color",
+          "displayName": "Input chip with leading icon unselected focus leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.input-chip.selected.focus.state-layer.opacity",
+          "displayName": "Input chip selected focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.input-chip.focus.state-layer.color",
+          "displayName": "Input chip focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.input-chip.focus.state-layer.opacity",
+          "displayName": "Input chip focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.input-chip.unselected.focus.state-layer.color",
+          "displayName": "Input chip unselected focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.input-chip.focus.label-text.color",
+          "displayName": "Input chip focus label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.input-chip.selected.focus.label-text.color",
+          "displayName": "Input chip selected focus label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.input-chip.unselected.focus.label-text.color",
+          "displayName": "Input chip unselected focus label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.input-chip.unselected.focus.outline.color",
+          "displayName": "Input chip unselected focus outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.input-chip.focus.outline.color",
+          "displayName": "Input chip focus outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.input-chip.with-trailing-icon.hover.trailing-icon.color",
+          "displayName": "Input chip with trailing icon hover trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.input-chip.with-trailing-icon.selected.hover.trailing-icon.color",
+          "displayName": "Input chip with trailing icon selected hover trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.input-chip.with-trailing-icon.unselected.hover.trailing-icon.color",
+          "displayName": "Input chip with trailing icon unselected hover trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.input-chip.with-leading-icon.hover.leading-icon.color",
+          "displayName": "Input chip with leading icon hover leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.input-chip.with-leading-icon.selected.hover.leading-icon.color",
+          "displayName": "Input chip with leading icon selected hover leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.input-chip.with-leading-icon.unselected.hover.leading-icon.color",
+          "displayName": "Input chip with leading icon unselected hover leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.input-chip.selected.hover.state-layer.opacity",
+          "displayName": "Input chip selected hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.input-chip.hover.state-layer.opacity",
+          "displayName": "Input chip hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.input-chip.hover.state-layer.color",
+          "displayName": "Input chip hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.input-chip.selected.hover.state-layer.color",
+          "displayName": "Input chip selected hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.input-chip.selected.hover.label-text.color",
+          "displayName": "Input chip selected hover label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.input-chip.hover.label-text.color",
+          "displayName": "Input chip hover label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.input-chip.unselected.hover.label-text.color",
+          "displayName": "Input chip unselected hover label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.input-chip.with-leading-icon.leading-icon.color",
+          "displayName": "Input chip leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.input-chip.with-leading-icon.selected.leading-icon.color",
+          "displayName": "Input chip with leading icon selected leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.input-chip.label-text.color",
+          "displayName": "Input chip label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.input-chip.unselected.label-text.color",
+          "displayName": "Input chip unselected label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.input-chip.selected.label-text.color",
+          "displayName": "Input chip selected label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.input-chip.selected.outline.width",
+          "displayName": "Input chip selected outline width",
+          "type": "LENGTH",
+          "value": "undefineddp"
+        },
+        {
+          "name": "md.comp.input-chip.outline.color",
+          "displayName": "Input chip outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.outline"
+        },
+        {
+          "name": "md.comp.input-chip.outline.width",
+          "displayName": "Input chip outline width",
+          "type": "LENGTH",
+          "value": "1dp"
+        },
+        {
+          "name": "md.comp.input-chip.selected.container.color",
+          "displayName": "Input chip selected container color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary-container"
+        },
+        {
+          "name": "md.comp.input-chip.unselected.outline.width",
+          "displayName": "Input chip unselected outline width",
+          "type": "LENGTH",
+          "value": "1dp"
+        },
+        {
+          "name": "md.comp.input-chip.unselected.outline.color",
+          "displayName": "Input chip unselected outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.outline-variant"
+        },
+        {
+          "name": "md.comp.input-chip.with-trailing-icon.selected.trailing-icon.color",
+          "displayName": "Input chip with trailing icon selected trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.input-chip.with-trailing-icon.unselected.trailing-icon.color",
+          "displayName": "Input chip with trailing icon unselected trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.input-chip.with-trailing-icon.trailing-icon.color",
+          "displayName": "Input chip trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.input-chip.unselected.hover.state-layer.color",
+          "displayName": "Input chip unselected hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.input-chip.unselected.hover.state-layer.opacity",
+          "displayName": "Input chip unselected hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.input-chip.disabled.outline.color",
+          "displayName": "Input chip disabled outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.input-chip.disabled.outline.opacity",
+          "displayName": "Input chip disabled outline opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.input-chip.disabled.selected.container.opacity",
+          "displayName": "Input chip disabled selected container opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.input-chip.disabled.selected.container.color",
+          "displayName": "Input chip disabled selected container color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.input-chip.disabled.unselected.outline.opacity",
+          "displayName": "Input chip disabled unselected outline opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.input-chip.disabled.unselected.outline.color",
+          "displayName": "Input chip disabled unselected outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.input-chip.focus.indicator.outline.offset",
+          "displayName": "Input chip focus indicator offset",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.outer-offset"
+        },
+        {
+          "name": "md.comp.input-chip.focus.indicator.thickness",
+          "displayName": "Input chip focus indicator thickness",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.thickness"
+        },
+        {
+          "name": "md.comp.input-chip.focus.indicator.color",
+          "displayName": "Input chip focus indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary"
+        },
+        {
+          "name": "md.comp.input-chip.dragged.container.elevation",
+          "displayName": "Input chip dragged container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level4"
+        },
+        {
+          "name": "md.comp.input-chip.disabled.label-text.color",
+          "displayName": "Input chip disabled label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.input-chip.disabled.label-text.opacity",
+          "displayName": "Input chip disabled label text opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.input-chip.with-leading-icon.disabled.leading-icon.color",
+          "displayName": "Input chip with leading icon disabled leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.input-chip.with-leading-icon.disabled.leading-icon.opacity",
+          "displayName": "Input chip with leading icon disabled leading icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.input-chip.with-trailing-icon.disabled.trailing-icon.color",
+          "displayName": "Input chip with trailing icon disabled trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.input-chip.with-trailing-icon.disabled.trailing-icon.opacity",
+          "displayName": "Input chip with trailing icon disabled trailing icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.input-chip.with-avatar.disabled.avatar.opacity",
+          "displayName": "Input chip with avatar disabled avatar opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.input-chip.with-avatar.avatar.size",
+          "displayName": "Input chip with avatar avatar size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.input-chip.with-avatar.avatar.shape",
+          "displayName": "Input chip with avatar avatar shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.input-chip.container.shape",
+          "displayName": "Input chip container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.small"
+        },
+        {
+          "name": "md.comp.input-chip.container.height",
+          "displayName": "Input chip container height",
+          "type": "LENGTH",
+          "value": "32dp"
+        },
+        {
+          "name": "md.comp.input-chip.container.elevation",
+          "displayName": "Input chip container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.input-chip.label-text.font",
+          "displayName": "Input chip label text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.label-large.font"
+        },
+        {
+          "name": "md.comp.input-chip.label-text.line-height",
+          "displayName": "Input chip label text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.label-large.line-height"
+        },
+        {
+          "name": "md.comp.input-chip.label-text.size",
+          "displayName": "Input chip label text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.label-large.size"
+        },
+        {
+          "name": "md.comp.input-chip.label-text.weight",
+          "displayName": "Input chip label text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.label-large.weight"
+        },
+        {
+          "name": "md.comp.input-chip.label-text.tracking",
+          "displayName": "Input chip label text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.label-large.tracking"
+        },
+        {
+          "name": "md.comp.input-chip.label-text.type",
+          "displayName": "Input chip label text type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.input-chip.with-leading-icon.leading-icon.size",
+          "displayName": "Input chip leading icon size",
+          "type": "LENGTH",
+          "value": "18dp"
+        },
+        {
+          "name": "md.comp.input-chip.with-trailing-icon.trailing-icon.size",
+          "displayName": "Input chip trailing icon size",
+          "type": "LENGTH",
+          "value": "18dp"
+        }
+      ]
+    },
+    {
+      "displayName": "Chip - Suggestion",
+      "tokenSetName": "md.comp.suggestion-chip",
+      "description": "For suggestion chips.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.suggestion-chip.with-leading-icon.dragged.leading-icon.color",
+          "displayName": "Suggestion chip dragged leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.suggestion-chip.pressed.state-layer.opacity",
+          "displayName": "Suggestion chip elevated pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.suggestion-chip.pressed.state-layer.color",
+          "displayName": "Suggestion chip elevated pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.suggestion-chip.pressed.label-text.color",
+          "displayName": "Suggestion chip elevated pressed label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.suggestion-chip.elevated.pressed.container.elevation",
+          "displayName": "Suggestion chip elevated pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.suggestion-chip.with-leading-icon.pressed.leading-icon.color",
+          "displayName": "Suggestion chip pressed leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.suggestion-chip.elevated.focus.container.elevation",
+          "displayName": "Suggestion chip elevated focus container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.suggestion-chip.with-leading-icon.focus.leading-icon.color",
+          "displayName": "Suggestion chip focus leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.suggestion-chip.hover.state-layer.opacity",
+          "displayName": "Suggestion chip elevated hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.suggestion-chip.hover.state-layer.color",
+          "displayName": "Suggestion chip elevated hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.suggestion-chip.hover.label-text.color",
+          "displayName": "Suggestion chip hover label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.suggestion-chip.elevated.hover.container.elevation",
+          "displayName": "Suggestion chip elevated hover container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level2"
+        },
+        {
+          "name": "md.comp.suggestion-chip.with-leading-icon.hover.leading-icon.color",
+          "displayName": "Suggestion chip hover leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.suggestion-chip.elevated.disabled.container.opacity",
+          "displayName": "Suggestion chip elevated disabled container opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.suggestion-chip.elevated.disabled.container.color",
+          "displayName": "Suggestion chip elevated disabled container color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.suggestion-chip.elevated.disabled.container.elevation",
+          "displayName": "Suggestion chip elevated disabled container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.suggestion-chip.with-leading-icon.disabled.leading-icon.opacity",
+          "displayName": "Suggestion chip disabled leading icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.suggestion-chip.with-leading-icon.disabled.leading-icon.color",
+          "displayName": "Suggestion chip disabled leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.suggestion-chip.elevated.container.shadow-color",
+          "displayName": "Suggestion chip elevated container shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.suggestion-chip.elevated.container.color",
+          "displayName": "Suggestion chip elevated container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-low"
+        },
+        {
+          "name": "md.comp.suggestion-chip.elevated.container.elevation",
+          "displayName": "Suggestion chip elevated container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.suggestion-chip.flat.outline.color",
+          "displayName": "Suggestion chip container outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.outline-variant"
+        },
+        {
+          "name": "md.comp.suggestion-chip.flat.outline.width",
+          "displayName": "Suggestion chip container outline width",
+          "type": "LENGTH",
+          "value": "1dp"
+        },
+        {
+          "name": "md.comp.suggestion-chip.flat.container.elevation",
+          "displayName": "Suggestion chip container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.suggestion-chip.container.height",
+          "displayName": "Suggestion chip container height",
+          "type": "LENGTH",
+          "value": "32dp"
+        },
+        {
+          "name": "md.comp.suggestion-chip.container.surface-tint-layer.color",
+          "displayName": "Suggestion chip container surface tint color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-tint"
+        },
+        {
+          "name": "md.comp.suggestion-chip.with-leading-icon.leading-icon.size",
+          "displayName": "Suggestion chip leading icon size",
+          "type": "LENGTH",
+          "value": "18dp"
+        },
+        {
+          "name": "md.comp.suggestion-chip.with-leading-icon.leading-icon.color",
+          "displayName": "Suggestion chip leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.suggestion-chip.flat.disabled.outline.opacity",
+          "displayName": "Suggestion chip disabled outline opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.suggestion-chip.flat.disabled.outline.color",
+          "displayName": "Suggestion chip disabled outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.suggestion-chip.flat.focus.outline.color",
+          "displayName": "Suggestion chip focus outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.suggestion-chip.focus.indicator.outline.offset",
+          "displayName": "Suggestion chip focus indicator offset",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.outer-offset"
+        },
+        {
+          "name": "md.comp.suggestion-chip.focus.indicator.thickness",
+          "displayName": "Suggestion chip focus indicator thickness",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.thickness"
+        },
+        {
+          "name": "md.comp.suggestion-chip.focus.indicator.color",
+          "displayName": "Suggestion chip focus indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary"
+        },
+        {
+          "name": "md.comp.suggestion-chip.container.shape",
+          "displayName": "Suggestion chip container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.small"
+        },
+        {
+          "name": "md.comp.suggestion-chip.label-text.font",
+          "displayName": "Suggestion chip label text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.label-large.font"
+        },
+        {
+          "name": "md.comp.suggestion-chip.label-text.line-height",
+          "displayName": "Suggestion chip label text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.label-large.line-height"
+        },
+        {
+          "name": "md.comp.suggestion-chip.label-text.size",
+          "displayName": "Suggestion chip label text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.label-large.size"
+        },
+        {
+          "name": "md.comp.suggestion-chip.label-text.weight",
+          "displayName": "Suggestion chip label text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.label-large.weight"
+        },
+        {
+          "name": "md.comp.suggestion-chip.label-text.tracking",
+          "displayName": "Suggestion chip label text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.label-large.tracking"
+        },
+        {
+          "name": "md.comp.suggestion-chip.label-text.type",
+          "displayName": "Suggestion chip label text type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.suggestion-chip.label-text.color",
+          "displayName": "Suggestion chip label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.suggestion-chip.disabled.label-text.color",
+          "displayName": "Suggestion chip disabled label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.suggestion-chip.disabled.label-text.opacity",
+          "displayName": "Suggestion chip disabled label text opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.suggestion-chip.focus.label-text.color",
+          "displayName": "Suggestion chip focus label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.suggestion-chip.focus.state-layer.color",
+          "displayName": "Suggestion chip focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.suggestion-chip.focus.state-layer.opacity",
+          "displayName": "Suggestion chip focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.suggestion-chip.dragged.container.elevation",
+          "displayName": "Suggestion chip dragged container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level4"
+        },
+        {
+          "name": "md.comp.suggestion-chip.dragged.label-text.color",
+          "displayName": "Suggestion chip dragged label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.suggestion-chip.dragged.state-layer.color",
+          "displayName": "Suggestion chip dragged state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.suggestion-chip.dragged.state-layer.opacity",
+          "displayName": "Suggestion chip dragged state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.dragged.state-layer-opacity"
+        }
+      ]
+    }
+  ]
+}

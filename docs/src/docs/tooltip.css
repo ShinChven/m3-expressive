@@ -1,0 +1,11 @@
+.tooltip-doc__anchor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.tooltip-doc__rich.m3-rich-tooltip {
+  max-width: 156px;
+  padding-bottom: 12px;
+}

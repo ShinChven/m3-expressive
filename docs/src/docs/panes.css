@@ -1,0 +1,21 @@
+/* Styles used only by the panes page. */
+.panes-doc-frame {
+  height: 400px;
+}
+.panes-doc-frame .m3-pane-layout:not([data-flush]) {
+  padding-top: var(--m3-window-margin);
+}
+.panes-doc-preview {
+  width: 460px;
+  height: 232px;
+  zoom: 0.5;
+}
+.panes-doc-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+}
+.panes-doc-content h3 {
+  margin: 0;
+}

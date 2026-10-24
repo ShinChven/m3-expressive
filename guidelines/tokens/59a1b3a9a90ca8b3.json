@@ -1,0 +1,92 @@
+{
+  "id": "59a1b3a9a90ca8b3",
+  "component": "Badges",
+  "tokenSets": [
+    {
+      "displayName": "Badges",
+      "tokenSetName": "md.comp.badge",
+      "description": "For badges.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.badge.large.label-text.type",
+          "displayName": "Badge large label text type",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.badge.large.label-text.font",
+          "displayName": "Badge large label text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.label-small.font"
+        },
+        {
+          "name": "md.comp.badge.large.label-text.weight",
+          "displayName": "Badge large label text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.label-small.weight"
+        },
+        {
+          "name": "md.comp.badge.large.label-text.size",
+          "displayName": "Badge large label text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.label-small.size"
+        },
+        {
+          "name": "md.comp.badge.large.label-text.line-height",
+          "displayName": "Badge large label text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.label-small.line-height"
+        },
+        {
+          "name": "md.comp.badge.large.label-text.tracking",
+          "displayName": "Badge large label text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.label-small.tracking"
+        },
+        {
+          "name": "md.comp.badge.large.label-text.color",
+          "displayName": "Badge large label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-error"
+        },
+        {
+          "name": "md.comp.badge.large.size",
+          "displayName": "Badge large size",
+          "type": "LENGTH",
+          "value": "16dp"
+        },
+        {
+          "name": "md.comp.badge.large.shape",
+          "displayName": "Badge large shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.badge.large.color",
+          "displayName": "Badge large color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.badge.size",
+          "displayName": "Badge size",
+          "type": "LENGTH",
+          "value": "6dp"
+        },
+        {
+          "name": "md.comp.badge.shape",
+          "displayName": "Badge shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.badge.color",
+          "displayName": "Badge color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        }
+      ]
+    }
+  ]
+}

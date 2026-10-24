@@ -1,0 +1,1274 @@
+{
+  "id": "6c818a16475113bd",
+  "component": "Lists",
+  "tokenSets": [
+    {
+      "displayName": "List - Common",
+      "tokenSetName": "md.comp.list",
+      "description": "Common baseline and expressive list tokens. ",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.list.list-item.selected.dragged.container.expressive.shape",
+          "displayName": "List list item container selected dragged expressive shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.large"
+        },
+        {
+          "name": "md.comp.list.list-item.selected.pressed.container.expressive.shape",
+          "displayName": "List list item container selected pressed expressive shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.large"
+        },
+        {
+          "name": "md.comp.list.list-item.selected.focused.container.expressive.shape",
+          "displayName": "List list item container selected focsued expressive shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.large"
+        },
+        {
+          "name": "md.comp.list.list-item.selected.hovered.container.expressive.shape",
+          "displayName": "List list item container selected hovered expressive shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.large"
+        },
+        {
+          "name": "md.comp.list.list-item.selected.disabled.container.expressive.shape",
+          "displayName": "List list item container selected disabled expressive shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.large"
+        },
+        {
+          "name": "md.comp.list.list-item.selected.container.expressive.shape",
+          "displayName": "List list item container selected expressive shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.large"
+        },
+        {
+          "name": "md.comp.list.list-item.dragged.container.expressive.shape",
+          "displayName": "List list item container dragged expressive shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.large"
+        },
+        {
+          "name": "md.comp.list.list-item.pressed.container.expressive.shape",
+          "displayName": "List list item container pressed expressive shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.large"
+        },
+        {
+          "name": "md.comp.list.list-item.focused.container.expressive.shape",
+          "displayName": "List list item container focused expressive shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.large"
+        },
+        {
+          "name": "md.comp.list.list-item.hovered.container.expressive.shape",
+          "displayName": "List list item container hovered expressive shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.medium"
+        },
+        {
+          "name": "md.comp.list.list-item.disabled.container.expressive.shape",
+          "displayName": "List list item container disabled expressive shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.extra-small"
+        },
+        {
+          "name": "md.comp.list.list-item.leading-avatar.shape",
+          "displayName": "List list item leading avatar shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.list.list-item.selected.container.shape",
+          "displayName": "List list item selected container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.large"
+        },
+        {
+          "name": "md.comp.list.list-item.leading-image.expressive.shape",
+          "displayName": "List list item leading image expressive shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.small"
+        },
+        {
+          "name": "md.comp.list.list-item.leading-image.shape",
+          "displayName": "List list item leading image shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.none"
+        },
+        {
+          "name": "md.comp.list.list-item.leading-video.shape",
+          "displayName": "List list item leading video shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.small"
+        },
+        {
+          "name": "md.comp.list.list-item.selected.disabled.trailing-icon.opacity",
+          "displayName": "List list item selected disabled trailing icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.list.list-item.selected.disabled.leading-icon.opacity",
+          "displayName": "List list item selected disabled leading icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.list.list-item.selected.disabled.state-layer.opacity",
+          "displayName": "List list item selected disabled state layer opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.list.list-item.selected.disabled.overline.opacity",
+          "displayName": "List list item selected disabled overline opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.list.list-item.selected.disabled.trailing-supporting-text.opacity",
+          "displayName": "List list item selected disabled trailing supporting text opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.list.list-item.selected.disabled.supporting-text.opacity",
+          "displayName": "List list item selected disabled supporting text opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.list.list-item.selected.disabled.label-text.opacity",
+          "displayName": "List list item selected disabled label text opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.list.list-item.selected.disabled.container.opacity",
+          "displayName": "List list item selected disabled container opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.list.list-item.selected.disabled.trailing-icon.color",
+          "displayName": "List list item selected disabled trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.list.list-item.selected.disabled.leading-icon.color",
+          "displayName": "List list item selected disabled leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.list.list-item.selected.disabled.state-layer.color",
+          "displayName": "List list item selected disabled state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.list.list-item.selected.disabled.overline.color",
+          "displayName": "List list item selected disabled overline color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.list.list-item.selected.disabled.trailing-supporting-text.color",
+          "displayName": "List list item selected disabled trailing supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.list.list-item.selected.disabled.supporting-text.color",
+          "displayName": "List list item selected disabled supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.list.list-item.selected.disabled.label-text.color",
+          "displayName": "List list item selected disabled label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.list.list-item.selected.disabled.container.color",
+          "displayName": "List list item selected disabled container color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.list.list-item.leading-avatar.size",
+          "displayName": "List list item leading avatar size",
+          "type": "LENGTH",
+          "value": "40dp"
+        },
+        {
+          "name": "md.comp.list.list-item.trailing-icon.expressive.size",
+          "displayName": "List list item trailing icon expressive size",
+          "type": "LENGTH",
+          "value": "20dp"
+        },
+        {
+          "name": "md.comp.list.list-item.leading-avatar-label.type",
+          "displayName": "List list item leading avatar label type",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.list.list-item.leading-avatar-label.font",
+          "displayName": "List list item leading avatar label font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.title-medium.font"
+        },
+        {
+          "name": "md.comp.list.list-item.leading-avatar-label.weight",
+          "displayName": "List list item leading avatar label weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.title-medium.weight"
+        },
+        {
+          "name": "md.comp.list.list-item.leading-avatar-label.size",
+          "displayName": "List list item leading avatar label size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.title-medium.size"
+        },
+        {
+          "name": "md.comp.list.list-item.leading-avatar-label.line-height",
+          "displayName": "List list item leading avatar label line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.title-medium.line-height"
+        },
+        {
+          "name": "md.comp.list.list-item.leading-avatar-label.tracking",
+          "displayName": "List list item leading avatar label tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.title-medium.tracking"
+        },
+        {
+          "name": "md.comp.list.list-item.trailing-icon.size",
+          "displayName": "List list item trailing icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.list.list-item.two-line.container.height",
+          "displayName": "Two lines list item container height",
+          "type": "LENGTH",
+          "value": "72dp"
+        },
+        {
+          "name": "md.comp.list.list-item.label-text.weight",
+          "displayName": "List list item label text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.body-large.weight"
+        },
+        {
+          "name": "md.comp.list.list-item.label-text.size",
+          "displayName": "List list item label text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.body-large.size"
+        },
+        {
+          "name": "md.comp.list.list-item.label-text.tracking",
+          "displayName": "List list item label text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.body-large.tracking"
+        },
+        {
+          "name": "md.comp.list.list-item.label-text.line-height",
+          "displayName": "List list item label text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.body-large.line-height"
+        },
+        {
+          "name": "md.comp.list.list-item.label-text.font",
+          "displayName": "List list item label text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.body-large.font"
+        },
+        {
+          "name": "md.comp.list.list-item.trailing-supporting-text.weight",
+          "displayName": "List list item trailing supporting text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.label-small.weight"
+        },
+        {
+          "name": "md.comp.list.list-item.trailing-supporting-text.tracking",
+          "displayName": "List list item trailing supporting text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.label-small.tracking"
+        },
+        {
+          "name": "md.comp.list.list-item.supporting-text.type",
+          "displayName": "List list item supporting text type",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.list.list-item.supporting-text.font",
+          "displayName": "List list item supporting text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.body-medium.font"
+        },
+        {
+          "name": "md.comp.list.list-item.supporting-text.weight",
+          "displayName": "List list item supporting text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.body-medium.weight"
+        },
+        {
+          "name": "md.comp.list.list-item.supporting-text.size",
+          "displayName": "List list item supporting text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.body-medium.size"
+        },
+        {
+          "name": "md.comp.list.list-item.supporting-text.line-height",
+          "displayName": "List list item supporting text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.body-medium.line-height"
+        },
+        {
+          "name": "md.comp.list.list-item.supporting-text.tracking",
+          "displayName": "List list item supporting text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.body-medium.tracking"
+        },
+        {
+          "name": "md.comp.list.list-item.overline.tracking",
+          "displayName": "List list item overline tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.label-small.tracking"
+        },
+        {
+          "name": "md.comp.list.list-item.overline.type",
+          "displayName": "List list item overline type",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.list.list-item.overline.font",
+          "displayName": "List list item overline font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.label-small.font"
+        },
+        {
+          "name": "md.comp.list.list-item.overline.weight",
+          "displayName": "List list item overline weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.label-small.weight"
+        },
+        {
+          "name": "md.comp.list.list-item.overline.size",
+          "displayName": "List list item overline size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.label-small.size"
+        },
+        {
+          "name": "md.comp.list.list-item.overline.line-height",
+          "displayName": "List list item overline line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.label-small.line-height"
+        },
+        {
+          "name": "md.comp.list.list-item.trailing-supporting-text.size",
+          "displayName": "List list item trailing supporting text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.label-small.size"
+        },
+        {
+          "name": "md.comp.list.list-item.trailing-supporting-text.line-height",
+          "displayName": "List list item trailing supporting text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.label-small.line-height"
+        },
+        {
+          "name": "md.comp.list.list-item.trailing-supporting-text.font",
+          "displayName": "List list item trailing supporting text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.label-small.font"
+        },
+        {
+          "name": "md.comp.list.list-item.trailing-supporting-text.type",
+          "displayName": "List list item trailing supporting text type",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.list.list-item.label-text.type",
+          "displayName": "List list item label text type",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.list.list-item.small.leading-video.height",
+          "displayName": "List list item small leading video height",
+          "type": "LENGTH",
+          "value": "56dp"
+        },
+        {
+          "name": "md.comp.list.list-item.leading-image.height",
+          "displayName": "List list item leading image height",
+          "type": "LENGTH",
+          "value": "56dp"
+        },
+        {
+          "name": "md.comp.list.list-item.large.leading-video.width",
+          "displayName": "List list item large leading video width",
+          "type": "LENGTH",
+          "value": "114dp"
+        },
+        {
+          "name": "md.comp.list.list-item.large.leading-video.height",
+          "displayName": "List list item large leading video height",
+          "type": "LENGTH",
+          "value": "64dp"
+        },
+        {
+          "name": "md.comp.list.list-item.small.leading-video.width",
+          "displayName": "List list item small leading video width",
+          "type": "LENGTH",
+          "value": "100dp"
+        },
+        {
+          "name": "md.comp.list.list-item.leading-video.width",
+          "displayName": "List list item leading video width",
+          "type": "LENGTH",
+          "value": "100dp"
+        },
+        {
+          "name": "md.comp.list.list-item.leading-image.width",
+          "displayName": "List list item leading image width",
+          "type": "LENGTH",
+          "value": "56dp"
+        },
+        {
+          "name": "md.comp.list.list-item.leading-icon.size",
+          "displayName": "List list item leading icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.list.list-item.leading-icon.expressive.size",
+          "displayName": "List list item leading icon expressive size",
+          "type": "LENGTH",
+          "value": "20dp"
+        },
+        {
+          "name": "md.comp.list.list-item.three-line.container.height",
+          "displayName": "Three lines list item container height",
+          "type": "LENGTH",
+          "value": "88dp"
+        },
+        {
+          "name": "md.comp.list.list-item.one-line.container.height",
+          "displayName": "One line list item container height",
+          "type": "LENGTH",
+          "value": "56dp"
+        },
+        {
+          "name": "md.comp.list.list-item.container.expressive.shape",
+          "displayName": "List list item container expressive shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.extra-small"
+        },
+        {
+          "name": "md.comp.list.container.shape",
+          "displayName": "List container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.large"
+        },
+        {
+          "name": "md.comp.list.list-item.container.shape",
+          "displayName": "List list item container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.none"
+        },
+        {
+          "name": "md.comp.list.segmented.gap",
+          "displayName": "List segment gap",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space25"
+        },
+        {
+          "name": "md.comp.list.divider.bottom-space",
+          "displayName": "List list item divider bottom space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space0"
+        },
+        {
+          "name": "md.comp.list.divider.top-space",
+          "displayName": "List list item divider top space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space0"
+        },
+        {
+          "name": "md.comp.list.list-item.between-space",
+          "displayName": "List list item between space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space150"
+        },
+        {
+          "name": "md.comp.list.divider.trailing-space",
+          "displayName": "List list item divider trailing space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space200"
+        },
+        {
+          "name": "md.comp.list.divider.leading-space",
+          "displayName": "List list item divider leading space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space200"
+        },
+        {
+          "name": "md.comp.list.list-item.bottom-space",
+          "displayName": "List list item bottom space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space125"
+        },
+        {
+          "name": "md.comp.list.list-item.top-space",
+          "displayName": "List list item top space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space125"
+        },
+        {
+          "name": "md.comp.list.list-item.selected.dragged.leading-icon.color",
+          "displayName": "List list item selected dragged leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.list.list-item.dragged.trailing-icon.icon.color",
+          "displayName": "List list item dragged trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.list.list-item.selected.dragged.trailing-icon.color",
+          "displayName": "List list item selected dragged trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.list.list-item.dragged.leading-icon.icon.color",
+          "displayName": "List list item dragged leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.list.list-item.selected.dragged.state-layer.color",
+          "displayName": "List list item selected dragged state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.list.list-item.selected.dragged.state-layer.opacity",
+          "displayName": "List list item selected dragged state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.dragged.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.list.list-item.selected.pressed.leading-icon.color",
+          "displayName": "List list item selected pressed leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.list.list-item.selected.pressed.trailing-icon.color",
+          "displayName": "List list item selected pressed trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.list.list-item.selected.pressed.label-text.color",
+          "displayName": "List list item selected pressed label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.list.list-item.selected.pressed.state-layer.color",
+          "displayName": "List list item selected pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.list.list-item.selected.pressed.state-layer.opacity",
+          "displayName": "List list item selected pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.list.list-item.pressed.state-layer.opacity",
+          "displayName": "List list item pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.list.list-item.pressed.label-text.color",
+          "displayName": "List list item pressed label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.list.list-item.selected.focus.trailing-icon.color",
+          "displayName": "List list item selected focus trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.list.list-item.selected.focus.leading-icon.color",
+          "displayName": "List list item selected focus leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.list.list-item.selected.focus.label-text.color",
+          "displayName": "List list item selected focus label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.list.focus.indicator.thickness",
+          "displayName": "List list item focus indicator thickness",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.thickness"
+        },
+        {
+          "name": "md.comp.list.focus.indicator.outline.offset",
+          "displayName": "List list item focus indicator offset",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.inner-offset"
+        },
+        {
+          "name": "md.comp.list.list-item.focus.label-text.color",
+          "displayName": "List list item focus label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.list.list-item.selected.hover.leading-icon.color",
+          "displayName": "List list item selected hover leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.list.list-item.selected.hover.label-text.color",
+          "displayName": "List list item selected hover label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.list.list-item.selected.hover.state-layer.opacity",
+          "displayName": "List list item selected hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.list.list-item.selected.hover.state-layer.color",
+          "displayName": "List list item selected hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.list.list-item.hover.state-layer.opacity",
+          "displayName": "List list item hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.list.list-item.hover.label-text.color",
+          "displayName": "List list item hover label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.list.list-item.hover.leading-icon.icon.color",
+          "displayName": "List list item hover leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.list.list-item.selected.hover.trailing-icon.color",
+          "displayName": "List list item selected hover trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.list.list-item.disabled.trailing-icon.opacity",
+          "displayName": "List list item disabled trailing icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.list.list-item.disabled.trailing-icon.color",
+          "displayName": "List list item disabled trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.list.list-item.disabled.supporting-text.color",
+          "displayName": "List list item disabled supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.list.list-item.disabled.overline.color",
+          "displayName": "List list item disabled overline color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.list.list-item.disabled.label-text.opacity",
+          "displayName": "List list item disabled label text opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.list.list-item.disabled.leading-icon.color",
+          "displayName": "List list item disabled leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.list.list-item.disabled.state-layer.opacity",
+          "displayName": "List list item disabled state layer opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.list.list-item.disabled.overline.opacity",
+          "displayName": "List list item disabled overline opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.list.list-item.disabled.label-text.color",
+          "displayName": "List list item disabled label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.list.list-item.disabled.supporting-text.opacity",
+          "displayName": "List list item disabled supporting text opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.list.list-item.disabled.leading-icon.opacity",
+          "displayName": "List list item disabled leading icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.list.list-item.disabled.state-layer.color",
+          "displayName": "List list item disabled state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.list.list-item.selected.overline.color",
+          "displayName": "List list item selected overline color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.list.list-item.selected.trailing-icon.color",
+          "displayName": "List list item selected trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.list.list-item.selected.leading-icon.color",
+          "displayName": "List list item selected leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.list.list-item.selected.supporting-text.color",
+          "displayName": "List list item selected supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.list.list-item.selected.trailing-supporting-text.color",
+          "displayName": "List list item selected trailing supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.list.list-item.selected.label-text.color",
+          "displayName": "List list item selected label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.list.list-item.selected.container.color",
+          "displayName": "List list item selected container color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary-container"
+        },
+        {
+          "name": "md.comp.list.list-item.trailing-supporting-text.color",
+          "displayName": "List list item trailing supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.list.list-item.container.elevation",
+          "displayName": "List list item container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.list.list-item.trailing-icon.color",
+          "displayName": "List list item trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.list.list-item.leading-icon.color",
+          "displayName": "List list item leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.list.divider.color",
+          "displayName": "List list item divider color",
+          "type": "COLOR",
+          "value": "md.sys.color.outline"
+        },
+        {
+          "name": "md.comp.list.list-item.overline.color",
+          "displayName": "List list item overline color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.list.list-item.label-text.color",
+          "displayName": "List list item label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.list.list-item.supporting-text.color",
+          "displayName": "List list item supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.list.list-item.segmented.container.color",
+          "displayName": "List list item segmented container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface"
+        },
+        {
+          "name": "md.comp.list.divider.height",
+          "displayName": "List list item divider height",
+          "type": "LENGTH",
+          "value": "1dp"
+        },
+        {
+          "name": "md.comp.list.list-item.selected.focus.state-layer.color",
+          "displayName": "List list item selected focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.list.list-item.selected.focus.state-layer.opacity",
+          "displayName": "List list item selected focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.list.list-item.leading-avatar.color",
+          "displayName": "List list item leading avatar color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary-container"
+        },
+        {
+          "name": "md.comp.list.list-item.trailing-space",
+          "displayName": "List list item trailing space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space200"
+        },
+        {
+          "name": "md.comp.list.list-item.leading-space",
+          "displayName": "List list item leading space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space200"
+        },
+        {
+          "name": "md.comp.list.list-item.container.height",
+          "displayName": "List list item container height",
+          "type": "LENGTH",
+          "value": "56dp"
+        },
+        {
+          "name": "md.comp.list.list-item.unselected.trailing-icon.color",
+          "displayName": "List list item unselected trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.list.md.comp.list.list-item.two-line.container.height",
+          "displayName": "Two lines list item container height",
+          "type": "LENGTH",
+          "value": "72dp"
+        },
+        {
+          "name": "md.comp.list.md.comp.list.list-item.three-line.container.height",
+          "displayName": "Three lines list item container height",
+          "type": "LENGTH",
+          "value": "88dp"
+        },
+        {
+          "name": "md.comp.list.md.comp.list.list-item.one-line.container.height",
+          "displayName": "One line list item container height",
+          "type": "LENGTH",
+          "value": "56dp"
+        },
+        {
+          "name": "md.comp.list.list-item.leading-avatar-label.color",
+          "displayName": "List list item leading avatar label color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.list.list-item.focus.trailing-icon.icon.color",
+          "displayName": "List list item focus trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.list.list-item.focus.leading-icon.icon.color",
+          "displayName": "List list item focus leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.list.list-item.focus.state-layer.opacity",
+          "displayName": "List list item focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.list.list-item.hover.trailing-icon.icon.color",
+          "displayName": "List list item hover trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.list.list-item.hover.state-layer.color",
+          "displayName": "List list item hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.list.list-item.focus.state-layer.color",
+          "displayName": "List list item focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.list.focus.indicator.color",
+          "displayName": "List list item focus indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary"
+        },
+        {
+          "name": "md.comp.list.list-item.pressed.leading-icon.icon.color",
+          "displayName": "List list item pressed leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.list.list-item.pressed.trailing-icon.icon.color",
+          "displayName": "List list item pressed trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.list.list-item.pressed.state-layer.color",
+          "displayName": "List list item pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.list.list-item.dragged.state-layer.opacity",
+          "displayName": "List list item dragged state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.dragged.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.list.list-item.dragged.state-layer.color",
+          "displayName": "List list item dragged state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.list.list-item.selected.dragged.label-text.color",
+          "displayName": "List list item selected dragged label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.list.list-item.dragged.label-text.color",
+          "displayName": "List list item dragged label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.list.list-item.dragged.container.elevation",
+          "displayName": "List list item dragged container color",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level4"
+        },
+        {
+          "name": "md.comp.list.list-item.container.color",
+          "displayName": "List list item container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface"
+        }
+      ]
+    },
+    {
+      "displayName": "List - Reveal",
+      "tokenSetName": "md.comp.list.reveal",
+      "description": "For list items that can be swiped or tapped to reveal more actions as buttons. Only use for expressive lists.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.list.reveal.list-item.icon-button.action.container.shape",
+          "displayName": "List reveal list item icon button action container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.large"
+        },
+        {
+          "name": "md.comp.list.reveal.list-item.icon-button.container.shape",
+          "displayName": "List reveal list item icon button container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.list.reveal.list-item.segmented.container.shape",
+          "displayName": "List reveal list item segmented container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.large"
+        },
+        {
+          "name": "md.comp.list.reveal.list-item.container.shape",
+          "displayName": "List reveal list item container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.large"
+        },
+        {
+          "name": "md.comp.list.reveal.list-item.action.icon-button.pressed.state-layer.color",
+          "displayName": "List reveal list item action icon button pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.list.reveal.list-item.action.icon-button.focused.state-layer.color",
+          "displayName": "List reveal list item action icon button focused icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.list.reveal.list-item.action.icon-button.hovered.state-layer.color",
+          "displayName": "List reveal list item action icon button hovered icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.list.reveal.list-item.action.icon-button.icon.color",
+          "displayName": "List reveal list item action icon button icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.list.reveal.list-item.action.icon-button.container.color",
+          "displayName": "List reveal list item action icon button container color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.list.reveal.list-item.icon-button.pressed.state-layer.color",
+          "displayName": "List reveal list item icon button pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.list.reveal.list-item.icon-button.focused.state-layer.color",
+          "displayName": "List reveal list item icon button focused icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.list.reveal.list-item.icon-button.hovered.state-layer.color",
+          "displayName": "List reveal list item icon button hovered icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.list.reveal.list-item.icon-button.icon.color",
+          "displayName": "List reveal list item icon button icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.list.reveal.list-item.icon-button.container.color",
+          "displayName": "List reveal list item icon button container color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary-container"
+        },
+        {
+          "name": "md.comp.list.reveal.list-item.container.color",
+          "displayName": "List reveal list item container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface"
+        }
+      ]
+    },
+    {
+      "displayName": "List - Reorder",
+      "tokenSetName": "md.comp.list.reorder",
+      "description": "For reordering a list item using a drag handle or accessible alternative. Only use for Expressive lists. For baseline lists, use `md.comp.list.list-item.dragged` tokens.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.list.reorder.list-item.overline.color",
+          "displayName": "List reorder list item overline color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.list.reorder.list-item.drop-zone.color",
+          "displayName": "List reorder list item drop zone color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-low"
+        },
+        {
+          "name": "md.comp.list.reorder.list-item.trailing-icon.color",
+          "displayName": "List reorder list item trailing icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.list.reorder.list-item.state-layer.opacity",
+          "displayName": "List reorder list item state layer opacity",
+          "type": "COLOR",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.list.reorder.list-item.leading-icon.color",
+          "displayName": "List reorder list item leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.list.reorder.list-item.trailing-supporting-text.color",
+          "displayName": "List reorder list item trailing supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.list.reorder.list-item.shadow-color",
+          "displayName": "List reorder list item shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.list.reorder.list-item.state-layer.color",
+          "displayName": "List reorder list item state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.list.reorder.list-item.shape",
+          "displayName": "List reorder list item shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.large"
+        },
+        {
+          "name": "md.comp.list.reorder.list-item.supporting-text.color",
+          "displayName": "List reorder list item supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.list.reorder.list-item.label-text.color",
+          "displayName": "List reorder list item label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.list.reorder.list-item.container.color",
+          "displayName": "List reorder list item container color",
+          "type": "COLOR",
+          "value": "md.sys.color.tertiary-container"
+        }
+      ]
+    },
+    {
+      "displayName": "List - Expand",
+      "tokenSetName": "md.comp.list.expand",
+      "description": "For list items that can expand and collapse.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.list.expand.expanded.list-item.segmented.container.color",
+          "displayName": "List expand expanded list item segmented container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface"
+        },
+        {
+          "name": "md.comp.list.expand.collapsed.list-item.trailing-icon.container.color",
+          "displayName": "List expand collapsed list item trailing icon container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface"
+        },
+        {
+          "name": "md.comp.list.expand.expanded.list-item.trailing-icon.container.color",
+          "displayName": "List expand expanded list item trailing icon container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container"
+        },
+        {
+          "name": "md.comp.list.expand.expanded.list-item.trailing-icon.icon.color",
+          "displayName": "List expand expanded list item trailing icon icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.list.expand.collapsed.list-item.trailing-icon.icon.color",
+          "displayName": "List expand collapsed list item trailing icon icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.list.expand.trailing-icon.shape",
+          "displayName": "List expand trailing icon shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.list.expand.container.shape",
+          "displayName": "List expand container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.large"
+        },
+        {
+          "name": "md.comp.list.expand.expanded.list-item.container.color",
+          "displayName": "List expand expanded list item container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface"
+        }
+      ]
+    }
+  ]
+}

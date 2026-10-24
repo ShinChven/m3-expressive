@@ -1,0 +1,10 @@
+/* Overview card preview of the tabs page: narrower tabs so three fit the card. */
+.tabs-preview {
+  width: 100%;
+  overflow: hidden;
+  border-radius: var(--md-sys-shape-corner-medium);
+}
+.tabs-preview .m3-tab {
+  min-width: 0;
+  padding-inline: 8px;
+}

@@ -1,0 +1,53 @@
+/* Styles used only by the regional formats page. */
+.regional-doc-preview {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  width: 100%;
+  max-width: 240px;
+}
+.regional-doc-preview > div {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 8px 10px;
+  border-radius: var(--md-sys-shape-corner-medium);
+  background: var(--md-sys-color-surface-container-high);
+  font: var(--md-sys-typescale-body-small);
+}
+.regional-doc-preview strong {
+  color: var(--md-sys-color-primary);
+  font: var(--md-sys-typescale-label-medium);
+}
+.regional-doc-columns {
+  display: grid;
+  flex: 1 1 100%;
+  grid-template-columns: repeat(auto-fit, minmax(min(360px, 100%), 1fr));
+  gap: 24px;
+  min-width: 0;
+}
+.regional-doc-column {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 16px;
+  min-width: 0;
+}
+.regional-doc-column > .m3-calendar-standalone {
+  align-self: center;
+}
+.regional-doc-table {
+  border-collapse: collapse;
+  width: 100%;
+  font: var(--md-sys-typescale-body-medium);
+}
+.regional-doc-table th,
+.regional-doc-table td {
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--md-sys-color-outline-variant);
+  text-align: start;
+}
+.regional-doc-table th {
+  color: var(--md-sys-color-on-surface-variant);
+  font: var(--md-sys-typescale-label-large);
+}

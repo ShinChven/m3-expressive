@@ -1,0 +1,12 @@
+.avatar-doc__group {
+  display: inline-flex;
+  align-items: center;
+}
+
+.avatar-doc__group > .m3-avatar {
+  box-shadow: 0 0 0 2px var(--md-sys-color-surface-container-low);
+}
+
+.avatar-doc__group > .m3-avatar + .m3-avatar {
+  margin-inline-start: -8px;
+}

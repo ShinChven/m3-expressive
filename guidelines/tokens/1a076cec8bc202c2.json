@@ -1,0 +1,764 @@
+{
+  "id": "1a076cec8bc202c2",
+  "component": "FAB menu",
+  "tokenSets": [
+    {
+      "displayName": "FAB menu list items - Color - Tertiary",
+      "tokenSetName": "md.comp.fab-menu.tertiary-container",
+      "description": "Tertiary container color tokens for the items in the FAB menu.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.fab-menu.tertiary-container.list-item.focused.state-layer.color",
+          "displayName": "FAB menu tertiary list item focused state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.fab-menu.tertiary-container.list-item.focused.state-layer.opacity",
+          "displayName": "FAB menu tertiary list item focused state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab-menu.tertiary-container.list-item.focused.icon.color",
+          "displayName": "FAB menu tertiary list item focused icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.fab-menu.tertiary-container.list-item.focused.label-text.color",
+          "displayName": "FAB menu tertiary list item focused label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.fab-menu.tertiary-container.list-item.pressed.container.elevation",
+          "displayName": "FAB menu tertiary list item pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab-menu.tertiary-container.list-item.pressed.state-layer.color",
+          "displayName": "FAB menu tertiary list item pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.fab-menu.tertiary-container.list-item.pressed.state-layer.opacity",
+          "displayName": "FAB menu tertiary list item pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab-menu.tertiary-container.list-item.pressed.icon.color",
+          "displayName": "FAB menu tertiary list item pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.fab-menu.tertiary-container.list-item.pressed.label-text.color",
+          "displayName": "FAB menu tertiary list item pressed label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.fab-menu.tertiary-container.list-item.container.color",
+          "displayName": "FAB menu tertiary list item container color",
+          "type": "COLOR",
+          "value": "md.sys.color.tertiary-container"
+        },
+        {
+          "name": "md.comp.fab-menu.tertiary-container.list-item.container.shadow-color",
+          "displayName": "FAB menu tertiary list item container shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.fab-menu.tertiary-container.list-item.icon.color",
+          "displayName": "FAB menu tertiary list item icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.fab-menu.tertiary-container.list-item.label-text.color",
+          "displayName": "FAB menu tertiary list item label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.fab-menu.tertiary-container.list-item.hovered.container.elevation",
+          "displayName": "FAB menu tertiary list item hovered container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level4"
+        },
+        {
+          "name": "md.comp.fab-menu.tertiary-container.list-item.hovered.state-layer.color",
+          "displayName": "FAB menu tertiary list item hovered state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.fab-menu.tertiary-container.list-item.hovered.state-layer.opacity",
+          "displayName": "FAB menu tertiary list item hovered state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab-menu.tertiary-container.list-item.hovered.icon.color",
+          "displayName": "FAB menu tertiary list item hovered icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.fab-menu.tertiary-container.list-item.hovered.label-text.color",
+          "displayName": "FAB menu tertiary list item hovered label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.fab-menu.tertiary-container.list-item.focused.container.elevation",
+          "displayName": "FAB menu tertiary list item focused container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        }
+      ]
+    },
+    {
+      "displayName": "FAB menu list items - Color - Secondary",
+      "tokenSetName": "md.comp.fab-menu.secondary-container",
+      "description": "Secondary container color tokens for the items in the FAB menu.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.fab-menu.secondary-container.list-item.container.color",
+          "displayName": "FAB menu secondary list item container color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary-container"
+        },
+        {
+          "name": "md.comp.fab-menu.secondary-container.list-item.container.shadow-color",
+          "displayName": "FAB menu secondary list item container shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.fab-menu.secondary-container.list-item.icon.color",
+          "displayName": "FAB menu secondary list item icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.fab-menu.secondary-container.list-item.label-text.color",
+          "displayName": "FAB menu secondary list item label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.fab-menu.secondary-container.list-item.hovered.container.elevation",
+          "displayName": "FAB menu secondary list item hovered container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level4"
+        },
+        {
+          "name": "md.comp.fab-menu.secondary-container.list-item.hovered.state-layer.color",
+          "displayName": "FAB menu secondary list item hovered state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.fab-menu.secondary-container.list-item.hovered.state-layer.opacity",
+          "displayName": "FAB menu secondary list item hovered state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab-menu.secondary-container.list-item.hovered.icon.color",
+          "displayName": "FAB menu secondary list item hovered icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.fab-menu.secondary-container.list-item.hovered.label-text.color",
+          "displayName": "FAB menu secondary list item hovered label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.fab-menu.secondary-container.list-item.focused.container.elevation",
+          "displayName": "FAB menu secondary list item focused container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab-menu.secondary-container.list-item.focused.state-layer.color",
+          "displayName": "FAB menu secondary list item focused state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.fab-menu.secondary-container.list-item.focused.state-layer.opacity",
+          "displayName": "FAB menu secondary list item focused state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab-menu.secondary-container.list-item.focused.icon.color",
+          "displayName": "FAB menu secondary list item focused icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.fab-menu.secondary-container.list-item.focused.label-text.color",
+          "displayName": "FAB menu secondary list item focused label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.fab-menu.secondary-container.list-item.pressed.container.elevation",
+          "displayName": "FAB menu secondary list item pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab-menu.secondary-container.list-item.pressed.state-layer.color",
+          "displayName": "FAB menu secondary list item pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.fab-menu.secondary-container.list-item.pressed.state-layer.opacity",
+          "displayName": "FAB menu secondary list item pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab-menu.secondary-container.list-item.pressed.icon.color",
+          "displayName": "FAB menu secondary list item pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.fab-menu.secondary-container.list-item.pressed.label-text.color",
+          "displayName": "FAB menu secondary list item pressed label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        }
+      ]
+    },
+    {
+      "displayName": "FAB menu list items - Color - Primary",
+      "tokenSetName": "md.comp.fab-menu.primary-container",
+      "description": "Primary container color tokens for the items in the FAB menu.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.fab-menu.primary-container.list-item.container.color",
+          "displayName": "FAB menu primary list item container color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary-container"
+        },
+        {
+          "name": "md.comp.fab-menu.primary-container.list-item.container.shadow-color",
+          "displayName": "FAB menu primary list item container shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.fab-menu.primary-container.list-item.icon.color",
+          "displayName": "FAB menu primary list item icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.fab-menu.primary-container.list-item.label-text.color",
+          "displayName": "FAB menu primary list item label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.fab-menu.primary-container.list-item.hovered.container.elevation",
+          "displayName": "FAB menu primary list item hovered container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level4"
+        },
+        {
+          "name": "md.comp.fab-menu.primary-container.list-item.hovered.state-layer.color",
+          "displayName": "FAB menu primary list item hovered state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.fab-menu.primary-container.list-item.hovered.state-layer.opacity",
+          "displayName": "FAB menu primary list item hovered state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab-menu.primary-container.list-item.hovered.icon.color",
+          "displayName": "FAB menu primary list item hovered icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.fab-menu.primary-container.list-item.hovered.label-text.color",
+          "displayName": "FAB menu primary list item hovered label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.fab-menu.primary-container.list-item.focused.container.elevation",
+          "displayName": "FAB menu primary list item focused container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab-menu.primary-container.list-item.focused.state-layer.color",
+          "displayName": "FAB menu primary list item focused state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.fab-menu.primary-container.list-item.focused.state-layer.opacity",
+          "displayName": "FAB menu primary list item focused state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab-menu.primary-container.list-item.focused.icon.color",
+          "displayName": "FAB menu primary list item focused icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.fab-menu.primary-container.list-item.focused.label-text.color",
+          "displayName": "FAB menu primary list item focused label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.fab-menu.primary-container.list-item.pressed.container.elevation",
+          "displayName": "FAB menu primary list item pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab-menu.primary-container.list-item.pressed.state-layer.color",
+          "displayName": "FAB menu primary list item pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.fab-menu.primary-container.list-item.pressed.state-layer.opacity",
+          "displayName": "FAB menu primary list item pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab-menu.primary-container.list-item.pressed.icon.color",
+          "displayName": "FAB menu primary list item pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.fab-menu.primary-container.list-item.pressed.label-text.color",
+          "displayName": "FAB menu primary list item pressed label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        }
+      ]
+    },
+    {
+      "displayName": "FAB menu - Common",
+      "tokenSetName": "md.comp.fab-menu",
+      "description": "Common tokens for all FAB menus.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.fab-menu.menu-item.trailing-space",
+          "displayName": "FAB menu - menu item trailing space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space300"
+        },
+        {
+          "name": "md.comp.fab-menu.menu-item.between-space",
+          "displayName": "FAB menu - menu item between space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space50"
+        },
+        {
+          "name": "md.comp.fab-menu.menu-item.icon-label-space",
+          "displayName": "FAB menu - menu item icon label space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space100"
+        },
+        {
+          "name": "md.comp.fab-menu.menu-item.leading-space",
+          "displayName": "FAB menu - menu item leading space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space300"
+        },
+        {
+          "name": "md.comp.fab-menu.menu-item.container.shape",
+          "displayName": "FAB menu - menu item container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.fab-menu.menu-item.container.elevation",
+          "displayName": "FAB menu - menu item container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.fab-menu.menu-item.icon.size",
+          "displayName": "FAB menu - menu item icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.fab-menu.menu-item.label-text",
+          "displayName": "FAB menu - menu item label text",
+          "type": "TYPOGRAPHY",
+          "value": "md.sys.typescale.title-medium"
+        },
+        {
+          "name": "md.comp.fab-menu.menu-item.container.height",
+          "displayName": "FAB menu - menu item container height",
+          "type": "LENGTH",
+          "value": "56dp"
+        },
+        {
+          "name": "md.comp.fab-menu.close-button.container.height",
+          "displayName": "FAB menu close button container height",
+          "type": "LENGTH",
+          "value": "56dp"
+        },
+        {
+          "name": "md.comp.fab-menu.close-button.container.width",
+          "displayName": "FAB menu close width",
+          "type": "LENGTH",
+          "value": "56dp"
+        },
+        {
+          "name": "md.comp.fab-menu.close-button.icon.size",
+          "displayName": "FAB menu close button icon size",
+          "type": "LENGTH",
+          "value": "20dp"
+        },
+        {
+          "name": "md.comp.fab-menu.close-button.between-space",
+          "displayName": "FAB menu close button between space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space100"
+        },
+        {
+          "name": "md.comp.fab-menu.close-button.container.shape",
+          "displayName": "FAB menu close button container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.fab-menu.close-button.container.elevation",
+          "displayName": "FAB menu close button container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        }
+      ]
+    },
+    {
+      "displayName": "FAB menu close button - Color - Tertiary",
+      "tokenSetName": "md.comp.fab-menu.tertiary.close-button",
+      "description": "Tertiary color tokens for the close button in the FAB menu.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.fab-menu.tertiary.close-button.icon.color",
+          "displayName": "FAB menu tertiary close button icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary"
+        },
+        {
+          "name": "md.comp.fab-menu.tertiary.close-button.hovered.container.elevation",
+          "displayName": "FAB menu tertiary close button hovered container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level4"
+        },
+        {
+          "name": "md.comp.fab-menu.tertiary.close-button.hovered.state-layer.color",
+          "displayName": "FAB menu tertiary close button hovered state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary"
+        },
+        {
+          "name": "md.comp.fab-menu.tertiary.close-button.hovered.state-layer.opacity",
+          "displayName": "FAB menu tertiary close button hovered state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab-menu.tertiary.close-button.hovered.icon.color",
+          "displayName": "FAB menu tertiary close button hovered icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary"
+        },
+        {
+          "name": "md.comp.fab-menu.tertiary.close-button.focused.container.elevation",
+          "displayName": "FAB menu tertiary close button focused container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab-menu.tertiary.close-button.focused.state-layer.color",
+          "displayName": "FAB menu tertiary close button focused state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary"
+        },
+        {
+          "name": "md.comp.fab-menu.tertiary.close-button.focused.state-layer.opacity",
+          "displayName": "FAB menu tertiary close button focused state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab-menu.tertiary.close-button.focused.icon.color",
+          "displayName": "FAB menu tertiary close button focused icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary"
+        },
+        {
+          "name": "md.comp.fab-menu.tertiary.close-button.pressed.container.elevation",
+          "displayName": "FAB menu tertiary close button pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab-menu.tertiary.close-button.pressed.state-layer.color",
+          "displayName": "FAB menu tertiary close button pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary"
+        },
+        {
+          "name": "md.comp.fab-menu.tertiary.close-button.pressed.state-layer.opacity",
+          "displayName": "FAB menu tertiary close button pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab-menu.tertiary.close-button.pressed.icon.color",
+          "displayName": "FAB menu tertiary close button pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary"
+        },
+        {
+          "name": "md.comp.fab-menu.tertiary.close-button.container.color",
+          "displayName": "FAB menu tertiary close button container color",
+          "type": "COLOR",
+          "value": "md.sys.color.tertiary"
+        },
+        {
+          "name": "md.comp.fab-menu.tertiary.close-button.container.shadow-color",
+          "displayName": "FAB menu tertiary close button container shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        }
+      ]
+    },
+    {
+      "displayName": "FAB menu close button - Color - Secondary",
+      "tokenSetName": "md.comp.fab-menu.secondary.close-button",
+      "description": "Secondary color tokens for the close button in the FAB menu.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.fab-menu.secondary.close-button.container.color",
+          "displayName": "FAB menu secondary close button container color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary"
+        },
+        {
+          "name": "md.comp.fab-menu.secondary.close-button.container.shadow-color",
+          "displayName": "FAB menu secondary close button container shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.fab-menu.secondary.close-button.icon.color",
+          "displayName": "FAB menu secondary close button icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary"
+        },
+        {
+          "name": "md.comp.fab-menu.secondary.close-button.hovered.container.elevation",
+          "displayName": "FAB menu secondary close button hovered container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level4"
+        },
+        {
+          "name": "md.comp.fab-menu.secondary.close-button.hovered.state-layer.color",
+          "displayName": "FAB menu secondary close button hovered state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary"
+        },
+        {
+          "name": "md.comp.fab-menu.secondary.close-button.hovered.state-layer.opacity",
+          "displayName": "FAB menu secondary close button hovered state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab-menu.secondary.close-button.hovered.icon.color",
+          "displayName": "FAB menu secondary close button hovered icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary"
+        },
+        {
+          "name": "md.comp.fab-menu.secondary.close-button.focused.container.elevation",
+          "displayName": "FAB menu secondary close button focused container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab-menu.secondary.close-button.focused.state-layer.color",
+          "displayName": "FAB menu secondary close button focused state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary"
+        },
+        {
+          "name": "md.comp.fab-menu.secondary.close-button.focused.state-layer.opacity",
+          "displayName": "FAB menu secondary close button focused state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab-menu.secondary.close-button.focused.icon.color",
+          "displayName": "FAB menu secondary close button focused icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary"
+        },
+        {
+          "name": "md.comp.fab-menu.secondary.close-button.pressed.container.elevation",
+          "displayName": "FAB menu secondary close button pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab-menu.secondary.close-button.pressed.state-layer.color",
+          "displayName": "FAB menu secondary close button pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary"
+        },
+        {
+          "name": "md.comp.fab-menu.secondary.close-button.pressed.state-layer.opacity",
+          "displayName": "FAB menu secondary close button pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab-menu.secondary.close-button.pressed.icon.color",
+          "displayName": "FAB menu secondary close button pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary"
+        }
+      ]
+    },
+    {
+      "displayName": "FAB menu close button - Color - Primary",
+      "tokenSetName": "md.comp.fab-menu.primary.close-button",
+      "description": "Primary color tokens for the close button in the FAB menu.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.fab-menu.primary.close-button.container.color",
+          "displayName": "FAB menu primary close button container color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.fab-menu.primary.close-button.container.shadow-color",
+          "displayName": "FAB menu primary close button container shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.fab-menu.primary.close-button.icon.color",
+          "displayName": "FAB menu primary close button icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.fab-menu.primary.close-button.hovered.container.elevation",
+          "displayName": "FAB menu primary close button hovered container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level4"
+        },
+        {
+          "name": "md.comp.fab-menu.primary.close-button.hovered.state-layer.color",
+          "displayName": "FAB menu primary close button hovered state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.fab-menu.primary.close-button.hovered.state-layer.opacity",
+          "displayName": "FAB menu primary close button hovered state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab-menu.primary.close-button.hovered.icon.color",
+          "displayName": "FAB menu primary close button hovered icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.fab-menu.primary.close-button.focused.container.elevation",
+          "displayName": "FAB menu primary close button focused container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab-menu.primary.close-button.focused.state-layer.color",
+          "displayName": "FAB menu primary close button focused state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.fab-menu.primary.close-button.focused.state-layer.opacity",
+          "displayName": "FAB menu primary close button focused state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab-menu.primary.close-button.focused.icon.color",
+          "displayName": "FAB menu primary close button focused icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.fab-menu.primary.close-button.pressed.container.elevation",
+          "displayName": "FAB menu primary close button pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab-menu.primary.close-button.pressed.state-layer.color",
+          "displayName": "FAB menu primary close button pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.fab-menu.primary.close-button.pressed.state-layer.opacity",
+          "displayName": "FAB menu primary close button pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab-menu.primary.close-button.pressed.icon.color",
+          "displayName": "FAB menu primary close button pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        }
+      ]
+    }
+  ]
+}

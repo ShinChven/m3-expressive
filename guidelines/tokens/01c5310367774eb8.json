@@ -1,0 +1,1404 @@
+{
+  "id": "01c5310367774eb8",
+  "component": "Date pickers",
+  "tokenSets": [
+    {
+      "displayName": "Date picker - Docked",
+      "tokenSetName": "md.comp.date-picker.docked",
+      "description": "For docked date pickers.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.date-picker.docked.date.unselected.outside-month.label-text.opacity",
+          "displayName": "Date unselected outside month label text opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu.list-item.label-text.font",
+          "displayName": "Menu list item label text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.body-large.font"
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu-button.label-text.line-height",
+          "displayName": "Menu button label text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.label-large.line-height"
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu-button.label-text.tracking",
+          "displayName": "Menu button label text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.label-large.tracking"
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu-button.label-text.color",
+          "displayName": "Menu button label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu-button.label-text.type",
+          "displayName": "Menu button label text type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu-button.label-text.font",
+          "displayName": "Menu button label text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.label-large.font"
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu-button.label-text.weight",
+          "displayName": "Menu button label text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.label-large.weight"
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu-button.label-text.size",
+          "displayName": "Menu button label text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.label-large.size"
+        },
+        {
+          "name": "md.comp.date-picker.docked.date.today.label-text.color",
+          "displayName": "Date today label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.date-picker.docked.date.selected.label-text.color",
+          "displayName": "Date selected label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu.list-item.label-text.type",
+          "displayName": "Menu list item label text type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu.list-item.label-text.weight",
+          "displayName": "Menu list item label text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.body-large.weight"
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu.list-item.label-text.size",
+          "displayName": "Menu list item label text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.body-large.size"
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu.list-item.label-text.line-height",
+          "displayName": "Menu list item label text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.body-large.line-height"
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu.list-item.label-text.tracking",
+          "displayName": "Menu list item label text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.body-large.tracking"
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu.list-item.label-text.color",
+          "displayName": "Menu list item label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.date-picker.docked.date.unselected.label-text.color",
+          "displayName": "Date unselected label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.date-picker.docked.date.label-text.size",
+          "displayName": "Date label text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.body-large.size"
+        },
+        {
+          "name": "md.comp.date-picker.docked.date.label-text.type",
+          "displayName": "Date label text type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.date-picker.docked.date.label-text.font",
+          "displayName": "Date label text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.body-large.font"
+        },
+        {
+          "name": "md.comp.date-picker.docked.date.label-text.weight",
+          "displayName": "Date label text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.body-large.weight"
+        },
+        {
+          "name": "md.comp.date-picker.docked.date.label-text.line-height",
+          "displayName": "Date label text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.body-large.line-height"
+        },
+        {
+          "name": "md.comp.date-picker.docked.date.label-text.tracking",
+          "displayName": "Date label text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.body-large.tracking"
+        },
+        {
+          "name": "md.comp.date-picker.docked.date.unselected.outside-month.label-text.color",
+          "displayName": "Date unselected outside month label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.date-picker.docked.date.container.height",
+          "displayName": "Date container height",
+          "type": "LENGTH",
+          "value": "48dp"
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu.list-item.container.height",
+          "displayName": "Menu list item container height",
+          "type": "LENGTH",
+          "value": "48dp"
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu-button.container.height",
+          "displayName": "Menu button container height",
+          "type": "LENGTH",
+          "value": "40dp"
+        },
+        {
+          "name": "md.comp.date-picker.docked.container.surface-tint-layer.color",
+          "displayName": "Container surface tint layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-tint"
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu.list-item.selected.leading-icon.size",
+          "displayName": "Menu list item selected leading icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.date-picker.docked.date.state-layer.height",
+          "displayName": "Date state layer height",
+          "type": "LENGTH",
+          "value": "40dp"
+        },
+        {
+          "name": "md.comp.date-picker.docked.date.state-layer.width",
+          "displayName": "Date state layer width",
+          "type": "LENGTH",
+          "value": "40dp"
+        },
+        {
+          "name": "md.comp.date-picker.docked.date.container.width",
+          "displayName": "Date container width",
+          "type": "LENGTH",
+          "value": "48dp"
+        },
+        {
+          "name": "md.comp.date-picker.docked.header.height",
+          "displayName": "Header height",
+          "type": "LENGTH",
+          "value": "64dp"
+        },
+        {
+          "name": "md.comp.date-picker.docked.container.height",
+          "displayName": "Container height",
+          "type": "LENGTH",
+          "value": "456dp"
+        },
+        {
+          "name": "md.comp.date-picker.docked.container.width",
+          "displayName": "Container width",
+          "type": "LENGTH",
+          "value": "360dp"
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu.list-item.selected.pressed.leading-icon.color",
+          "displayName": "Menu list item selected pressed leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu.list-item.pressed.label-text.color",
+          "displayName": "Menu list item pressed label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu.list-item.pressed.state-layer.opacity",
+          "displayName": "Menu list item pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu.list-item.pressed.state-layer.color",
+          "displayName": "Menu list item pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu-button.pressed.icon.color",
+          "displayName": "Menu button pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu-button.pressed.label-text.color",
+          "displayName": "Menu button pressed label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu-button.pressed.state-layer.opacity",
+          "displayName": "Menu button pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu-button.pressed.state-layer.color",
+          "displayName": "Menu button pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.date-picker.docked.date.pressed.state-layer.opacity",
+          "displayName": "Date pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.date-picker.docked.date.today.pressed.state-layer.color",
+          "displayName": "Date today pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.date-picker.docked.date.selected.pressed.state-layer.color",
+          "displayName": "Date selected pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.date-picker.docked.date.unselected.pressed.state-layer.color",
+          "displayName": "Date unselected pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu.list-item.selected.focus.leading-icon.color",
+          "displayName": "Menu list item selected focus leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu.list-item.focus.label-text.color",
+          "displayName": "Menu list item focus label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu.list-item.focus.state-layer.opacity",
+          "displayName": "Menu list item focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu.list-item.focus.state-layer.color",
+          "displayName": "Menu list item focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu-button.focus.icon.color",
+          "displayName": "Menu button focus icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu-button.focus.label-text.color",
+          "displayName": "Menu button focus label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu-button.focus.state-layer.opacity",
+          "displayName": "Menu button focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu-button.focus.state-layer.color",
+          "displayName": "Menu button focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.date-picker.docked.date.focus.state-layer.opacity",
+          "displayName": "Date focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.date-picker.docked.date.today.focus.state-layer.color",
+          "displayName": "Date today focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.date-picker.docked.date.selected.focus.state-layer.color",
+          "displayName": "Date selected focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.date-picker.docked.date.unselected.focus.state-layer.color",
+          "displayName": "Date unselected focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu.list-item.selected.hover.leading-icon.color",
+          "displayName": "Menu list item selected hover leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu.list-item.hover.label-text.color",
+          "displayName": "Menu list item hover label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu.list-item.hover.state-layer.opacity",
+          "displayName": "Menu list item hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu.list-item.hover.state-layer.color",
+          "displayName": "Menu list item hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu-button.hover.icon.color",
+          "displayName": "Menu button hover icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu-button.hover.label-text.color",
+          "displayName": "Menu button hover label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu-button.hover.state-layer.opacity",
+          "displayName": "Menu button hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu-button.hover.state-layer.color",
+          "displayName": "Menu button hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.date-picker.docked.date.hover.state-layer.opacity",
+          "displayName": "Date hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.date-picker.docked.date.today.hover.state-layer.color",
+          "displayName": "Date today hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.date-picker.docked.date.selected.hover.state-layer.color",
+          "displayName": "Date selected hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.date-picker.docked.date.unselected.hover.state-layer.color",
+          "displayName": "Date unselected hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu-button.disabled.icon.opacity",
+          "displayName": "Menu button disabled icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu-button.disabled.icon.color",
+          "displayName": "Menu button disabled icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu-button.disabled.label-text.opacity",
+          "displayName": "Menu button disabled label text opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu-button.disabled.label-text.color",
+          "displayName": "Menu button disabled label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu.list-item.selected.leading-icon.color",
+          "displayName": "Menu list item selected leading icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu.list-item.selected.container.color",
+          "displayName": "Menu list item selected container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-variant"
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu-button.icon.size",
+          "displayName": "Menu button icon size",
+          "type": "LENGTH",
+          "value": "18dp"
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu-button.icon.color",
+          "displayName": "Menu button icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.date-picker.docked.menu-button.container.shape",
+          "displayName": "Menu button container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.date-picker.docked.date.selected.container.color",
+          "displayName": "Date selected container color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.date-picker.docked.date.today.container.outline.width",
+          "displayName": "Date today container outline width",
+          "type": "LENGTH",
+          "value": "1dp"
+        },
+        {
+          "name": "md.comp.date-picker.docked.date.today.container.outline.color",
+          "displayName": "Date today container outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.date-picker.docked.date.state-layer.shape",
+          "displayName": "Date state layer shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.date-picker.docked.date.container.shape",
+          "displayName": "Date container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.date-picker.docked.weekdays.label-text.type",
+          "displayName": "Weekdays label text type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.date-picker.docked.weekdays.label-text.font",
+          "displayName": "Weekdays label text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.body-large.font"
+        },
+        {
+          "name": "md.comp.date-picker.docked.weekdays.label-text.weight",
+          "displayName": "Weekdays label text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.body-large.weight"
+        },
+        {
+          "name": "md.comp.date-picker.docked.weekdays.label-text.size",
+          "displayName": "Weekdays label text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.body-large.size"
+        },
+        {
+          "name": "md.comp.date-picker.docked.weekdays.label-text.line-height",
+          "displayName": "Weekdays label text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.body-large.line-height"
+        },
+        {
+          "name": "md.comp.date-picker.docked.weekdays.label-text.tracking",
+          "displayName": "Weekdays label text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.body-large.tracking"
+        },
+        {
+          "name": "md.comp.date-picker.docked.weekdays.label-text.color",
+          "displayName": "Weekdays label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.date-picker.docked.container.shape",
+          "displayName": "Container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.large"
+        },
+        {
+          "name": "md.comp.date-picker.docked.container.elevation",
+          "displayName": "Container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.date-picker.docked.container.color",
+          "displayName": "Container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-high"
+        }
+      ]
+    },
+    {
+      "displayName": "Date picker - Modal",
+      "tokenSetName": "md.comp.date-picker.modal",
+      "description": "For modal calendar date pickers.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.date-picker.modal.container.surface-tint-layer.color",
+          "displayName": "Container surface tint layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-tint"
+        },
+        {
+          "name": "md.comp.date-picker.modal.range-selection.date.in-range.hover.state-layer.opacity",
+          "displayName": "Range selection date in range hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.date-picker.modal.range-selection.date.in-range.focus.state-layer.opacity",
+          "displayName": "Range selection date in range focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.date-picker.modal.range-selection.date.in-range.pressed.state-layer.opacity",
+          "displayName": "Range selection date in range pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.date-picker.modal.range-selection.date.in-range.hover.state-layer.opcaity",
+          "displayName": "Range selection date in range hover state layer opcaity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.date-picker.modal.range-selection.date.in-range.focus.state-layer.opcaity",
+          "displayName": "Range selection date in range focus state layer opcaity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.date-picker.modal.range-selection.date.in-range.pressed.state-layer.opcaity",
+          "displayName": "Range selection date in range pressed state layer opcaity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.date-picker.modal.range-selection.active-indicator.container.height",
+          "displayName": "Range selection active indicator container height",
+          "type": "LENGTH",
+          "value": "40dp"
+        },
+        {
+          "name": "md.comp.date-picker.modal.year-selection.year.state-layer.height",
+          "displayName": "Year selection year state layer height",
+          "type": "LENGTH",
+          "value": "36dp"
+        },
+        {
+          "name": "md.comp.date-picker.modal.year-selection.year.state-layer.width",
+          "displayName": "Year selection year state layer width",
+          "type": "LENGTH",
+          "value": "72dp"
+        },
+        {
+          "name": "md.comp.date-picker.modal.year-selection.year.container.height",
+          "displayName": "Year selection year container height",
+          "type": "LENGTH",
+          "value": "36dp"
+        },
+        {
+          "name": "md.comp.date-picker.modal.year-selection.year.container.width",
+          "displayName": "Year selection year container width",
+          "type": "LENGTH",
+          "value": "72dp"
+        },
+        {
+          "name": "md.comp.date-picker.modal.date.state-layer.height",
+          "displayName": "Date state layer height",
+          "type": "LENGTH",
+          "value": "40dp"
+        },
+        {
+          "name": "md.comp.date-picker.modal.date.state-layer.width",
+          "displayName": "Date state layer width",
+          "type": "LENGTH",
+          "value": "40dp"
+        },
+        {
+          "name": "md.comp.date-picker.modal.date.container.height",
+          "displayName": "Date container height",
+          "type": "LENGTH",
+          "value": "40dp"
+        },
+        {
+          "name": "md.comp.date-picker.modal.date.container.width",
+          "displayName": "Date container width",
+          "type": "LENGTH",
+          "value": "40dp"
+        },
+        {
+          "name": "md.comp.date-picker.modal.range-selection.header.container.height",
+          "displayName": "Range selection header container height",
+          "type": "LENGTH",
+          "value": "128dp"
+        },
+        {
+          "name": "md.comp.date-picker.modal.header.container.height",
+          "displayName": "Header container height",
+          "type": "LENGTH",
+          "value": "120dp"
+        },
+        {
+          "name": "md.comp.date-picker.modal.header.container.width",
+          "displayName": "Header container width",
+          "type": "LENGTH",
+          "value": "360dp"
+        },
+        {
+          "name": "md.comp.date-picker.modal.container.height",
+          "displayName": "Container height",
+          "type": "LENGTH",
+          "value": "524dp"
+        },
+        {
+          "name": "md.comp.date-picker.modal.container.width",
+          "displayName": "Container width",
+          "type": "LENGTH",
+          "value": "360dp"
+        },
+        {
+          "name": "md.comp.date-picker.modal.year-selection.year.pressed.state-layer.opacity",
+          "displayName": "Year selection year pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.date-picker.modal.year-selection.year.selected.pressed.state-layer.color",
+          "displayName": "Year selection year selected pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.date-picker.modal.year-selection.year.unselected.pressed.state-layer.color",
+          "displayName": "Year selection year unselected pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.date-picker.modal.range-selection.date.in-range.pressed.state-layer.color",
+          "displayName": "Range selection date in range pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.date-picker.modal.date.pressed.state-layer.opacity",
+          "displayName": "Date pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.date-picker.modal.date.today.pressed.state-layer.color",
+          "displayName": "Date today pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.date-picker.modal.date.selected.pressed.state-layer.color",
+          "displayName": "Date selected pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.date-picker.modal.date.unselected.pressed.state-layer.color",
+          "displayName": "Date unselected pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.date-picker.modal.year-selection.year.focus.state-layer.opacity",
+          "displayName": "Year selection year focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.date-picker.modal.year-selection.year.selected.focus.state-layer.color",
+          "displayName": "Year selection year selected focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.date-picker.modal.year-selection.year.unselected.focus.state-layer.color",
+          "displayName": "Year selection year unselected focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.date-picker.modal.range-selection.date.in-range.focus.state-layer.color",
+          "displayName": "Range selection date in range focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.date-picker.modal.date.focus.state-layer.opacity",
+          "displayName": "Date focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.date-picker.modal.date.today.focus.state-layer.color",
+          "displayName": "Date today focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.date-picker.modal.date.selected.focus.state-layer.color",
+          "displayName": "Date selected focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.date-picker.modal.date.unselected.focus.state-layer.color",
+          "displayName": "Date unselected focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.date-picker.modal.year-selection.year.hover.state-layer.opacity",
+          "displayName": "Year selection year hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.date-picker.modal.year-selection.year.selected.hover.state-layer.color",
+          "displayName": "Year selection year selected hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.date-picker.modal.year-selection.year.unselected.hover.state-layer.color",
+          "displayName": "Year selection year unselected hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.date-picker.modal.range-selection.date.in-range.hover.state-layer.color",
+          "displayName": "Range selection date in range hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.date-picker.modal.date.hover.state-layer.opacity",
+          "displayName": "Date hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.date-picker.modal.date.today.hover.state-layer.color",
+          "displayName": "Date today hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.date-picker.modal.date.selected.hover.state-layer.color",
+          "displayName": "Date selected hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.date-picker.modal.date.unselected.hover.state-layer.color",
+          "displayName": "Date unselected hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.date-picker.modal.year-selection.year.state-layer.shape",
+          "displayName": "Year selection year state layer shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.date-picker.modal.year-selection.year.unselected.label-text.color",
+          "displayName": "Year selection year unselected label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.date-picker.modal.year-selection.year.selected.label-text.color",
+          "displayName": "Year selection year selected label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.date-picker.modal.year-selection.year.selected.container.color",
+          "displayName": "Year selection year selected container color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.date-picker.modal.year-selection.year.label-text.type",
+          "displayName": "Year selection year label text type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.date-picker.modal.year-selection.year.label-text.font",
+          "displayName": "Year selection year label text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.body-large.font"
+        },
+        {
+          "name": "md.comp.date-picker.modal.year-selection.year.label-text.weight",
+          "displayName": "Year selection year label text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.body-large.weight"
+        },
+        {
+          "name": "md.comp.date-picker.modal.year-selection.year.label-text.size",
+          "displayName": "Year selection year label text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.body-large.size"
+        },
+        {
+          "name": "md.comp.date-picker.modal.year-selection.year.label-text.line-height",
+          "displayName": "Year selection year label text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.body-large.line-height"
+        },
+        {
+          "name": "md.comp.date-picker.modal.year-selection.year.label-text.tracking",
+          "displayName": "Year selection year label text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.body-large.tracking"
+        },
+        {
+          "name": "md.comp.date-picker.modal.range-selection.month.subhead.type",
+          "displayName": "Range selection month subhead type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.date-picker.modal.range-selection.month.subhead.font",
+          "displayName": "Range selection month subhead font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.title-small.font"
+        },
+        {
+          "name": "md.comp.date-picker.modal.range-selection.month.subhead.weight",
+          "displayName": "Range selection month subhead weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.title-small.weight"
+        },
+        {
+          "name": "md.comp.date-picker.modal.range-selection.month.subhead.size",
+          "displayName": "Range selection month subhead size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.title-small.size"
+        },
+        {
+          "name": "md.comp.date-picker.modal.range-selection.month.subhead.line-height",
+          "displayName": "Range selection month subhead line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.title-small.line-height"
+        },
+        {
+          "name": "md.comp.date-picker.modal.range-selection.month.subhead.tracking",
+          "displayName": "Range selection month subhead tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.title-small.tracking"
+        },
+        {
+          "name": "md.comp.date-picker.modal.range-selection.month.subhead.color",
+          "displayName": "Range selection month subhead color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.date-picker.modal.range-selection.active-indicator.container.shape",
+          "displayName": "Range selection active indicator container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.date-picker.modal.range-selection.active-indicator.container.color",
+          "displayName": "Range selection active indicator container color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary-container"
+        },
+        {
+          "name": "md.comp.date-picker.modal.range-selection.date.in-range.label-text.color",
+          "displayName": "Range selection date in range label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.date-picker.modal.date.selected.container.color",
+          "displayName": "Date selected container color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.date-picker.modal.date.selected.label-text.color",
+          "displayName": "Date selected label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.date-picker.modal.date.today.container.outline.width",
+          "displayName": "Date today container outline width",
+          "type": "LENGTH",
+          "value": "1dp"
+        },
+        {
+          "name": "md.comp.date-picker.modal.date.today.container.outline.color",
+          "displayName": "Date today container outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.date-picker.modal.date.today.label-text.color",
+          "displayName": "Date today label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.date-picker.modal.date.unselected.label-text.color",
+          "displayName": "Date unselected label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.date-picker.modal.date.label-text.type",
+          "displayName": "Date label text type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.date-picker.modal.date.label-text.font",
+          "displayName": "Date label text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.body-large.font"
+        },
+        {
+          "name": "md.comp.date-picker.modal.date.label-text.weight",
+          "displayName": "Date label text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.body-large.weight"
+        },
+        {
+          "name": "md.comp.date-picker.modal.date.label-text.size",
+          "displayName": "Date label text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.body-large.size"
+        },
+        {
+          "name": "md.comp.date-picker.modal.date.label-text.line-height",
+          "displayName": "Date label text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.body-large.line-height"
+        },
+        {
+          "name": "md.comp.date-picker.modal.date.label-text.tracking",
+          "displayName": "Date label text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.body-large.tracking"
+        },
+        {
+          "name": "md.comp.date-picker.modal.date.state-layer.shape",
+          "displayName": "Date state layer shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.date-picker.modal.date.container.shape",
+          "displayName": "Date container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.date-picker.modal.weekdays.label-text.type",
+          "displayName": "Weekdays label text type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.date-picker.modal.weekdays.label-text.font",
+          "displayName": "Weekdays label text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.body-large.font"
+        },
+        {
+          "name": "md.comp.date-picker.modal.weekdays.label-text.weight",
+          "displayName": "Weekdays label text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.body-large.weight"
+        },
+        {
+          "name": "md.comp.date-picker.modal.weekdays.label-text.size",
+          "displayName": "Weekdays label text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.body-large.size"
+        },
+        {
+          "name": "md.comp.date-picker.modal.weekdays.label-text.line-height",
+          "displayName": "Weekdays label text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.body-large.line-height"
+        },
+        {
+          "name": "md.comp.date-picker.modal.weekdays.label-text.tracking",
+          "displayName": "Weekdays label text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.body-large.tracking"
+        },
+        {
+          "name": "md.comp.date-picker.modal.weekdays.label-text.color",
+          "displayName": "Weekdays label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.date-picker.modal.range-selection.header.headline.type",
+          "displayName": "Range selection header headline type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.date-picker.modal.range-selection.header.headline.font",
+          "displayName": "Range selection header headline font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.title-large.font"
+        },
+        {
+          "name": "md.comp.date-picker.modal.range-selection.header.headline.weight",
+          "displayName": "Range selection header headline weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.title-large.weight"
+        },
+        {
+          "name": "md.comp.date-picker.modal.range-selection.header.headline.size",
+          "displayName": "Range selection header headline size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.title-large.size"
+        },
+        {
+          "name": "md.comp.date-picker.modal.range-selection.header.headline.line-height",
+          "displayName": "Range selection header headline line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.title-large.line-height"
+        },
+        {
+          "name": "md.comp.date-picker.modal.range-selection.header.headline.tracking",
+          "displayName": "Range selection header headline tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.title-large.tracking"
+        },
+        {
+          "name": "md.comp.date-picker.modal.header.headline.type",
+          "displayName": "Header headline type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.date-picker.modal.header.headline.font",
+          "displayName": "Header headline font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.headline-large.font"
+        },
+        {
+          "name": "md.comp.date-picker.modal.header.headline.weight",
+          "displayName": "Header headline weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.headline-large.weight"
+        },
+        {
+          "name": "md.comp.date-picker.modal.header.headline.size",
+          "displayName": "Header headline size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.headline-large.size"
+        },
+        {
+          "name": "md.comp.date-picker.modal.header.headline.line-height",
+          "displayName": "Header headline line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.headline-large.line-height"
+        },
+        {
+          "name": "md.comp.date-picker.modal.header.headline.tracking",
+          "displayName": "Header headline tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.headline-large.tracking"
+        },
+        {
+          "name": "md.comp.date-picker.modal.header.headline.color",
+          "displayName": "Header headline color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.date-picker.modal.header.supporting-text.type",
+          "displayName": "Header supporting text type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.date-picker.modal.header.supporting-text.font",
+          "displayName": "Header supporting text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.label-large.font"
+        },
+        {
+          "name": "md.comp.date-picker.modal.header.supporting-text.weight",
+          "displayName": "Header supporting text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.label-large.weight"
+        },
+        {
+          "name": "md.comp.date-picker.modal.header.supporting-text.size",
+          "displayName": "Header supporting text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.label-large.size"
+        },
+        {
+          "name": "md.comp.date-picker.modal.header.supporting-text.line-height",
+          "displayName": "Header supporting text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.label-large.line-height"
+        },
+        {
+          "name": "md.comp.date-picker.modal.header.supporting-text.tracking",
+          "displayName": "Header supporting text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.label-large.tracking"
+        },
+        {
+          "name": "md.comp.date-picker.modal.header.supporting-text.color",
+          "displayName": "Header supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.date-picker.modal.range-selection.container.shape",
+          "displayName": "Range selection container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.none"
+        },
+        {
+          "name": "md.comp.date-picker.modal.range-selection.container.elevation",
+          "displayName": "Range selection container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.date-picker.modal.container.shape",
+          "displayName": "Container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.extra-large"
+        },
+        {
+          "name": "md.comp.date-picker.modal.container.elevation",
+          "displayName": "Container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.date-picker.modal.container.color",
+          "displayName": "Container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-high"
+        }
+      ]
+    },
+    {
+      "displayName": "Date picker - Modal input",
+      "tokenSetName": "md.comp.date-input.modal",
+      "description": "For modal input date pickers.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.date-input.modal.container.surface-tint-layer.color",
+          "displayName": "Container surface tint layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-tint"
+        },
+        {
+          "name": "md.comp.date-input.modal.header.container.height",
+          "displayName": "Header container height",
+          "type": "LENGTH",
+          "value": "120dp"
+        },
+        {
+          "name": "md.comp.date-input.modal.header.container.width",
+          "displayName": "Header container width",
+          "type": "LENGTH",
+          "value": "328dp"
+        },
+        {
+          "name": "md.comp.date-input.modal.container.height",
+          "displayName": "Container height",
+          "type": "LENGTH",
+          "value": "512dp"
+        },
+        {
+          "name": "md.comp.date-input.modal.container.width",
+          "displayName": "Container width",
+          "type": "LENGTH",
+          "value": "328dp"
+        },
+        {
+          "name": "md.comp.date-input.modal.header.headline.type",
+          "displayName": "Header headline type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.date-input.modal.header.headline.font",
+          "displayName": "Header headline font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.headline-large.font"
+        },
+        {
+          "name": "md.comp.date-input.modal.header.headline.weight",
+          "displayName": "Header headline weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.headline-large.weight"
+        },
+        {
+          "name": "md.comp.date-input.modal.header.headline.size",
+          "displayName": "Header headline size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.headline-large.size"
+        },
+        {
+          "name": "md.comp.date-input.modal.header.headline.line-height",
+          "displayName": "Header headline line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.headline-large.line-height"
+        },
+        {
+          "name": "md.comp.date-input.modal.header.headline.tracking",
+          "displayName": "Header headline tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.headline-large.tracking"
+        },
+        {
+          "name": "md.comp.date-input.modal.header.headline.color",
+          "displayName": "Header headline color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.date-input.modal.header.supporting-text.type",
+          "displayName": "Header supporting text type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.date-input.modal.header.supporting-text.font",
+          "displayName": "Header supporting text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.label-large.font"
+        },
+        {
+          "name": "md.comp.date-input.modal.header.supporting-text.weight",
+          "displayName": "Header supporting text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.label-large.weight"
+        },
+        {
+          "name": "md.comp.date-input.modal.header.supporting-text.size",
+          "displayName": "Header supporting text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.label-large.size"
+        },
+        {
+          "name": "md.comp.date-input.modal.header.supporting-text.line-height",
+          "displayName": "Header supporting text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.label-large.line-height"
+        },
+        {
+          "name": "md.comp.date-input.modal.header.supporting-text.tracking",
+          "displayName": "Header supporting text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.label-large.tracking"
+        },
+        {
+          "name": "md.comp.date-input.modal.header.supporting-text.color",
+          "displayName": "Header supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.date-input.modal.container.shape",
+          "displayName": "Container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.extra-large"
+        },
+        {
+          "name": "md.comp.date-input.modal.container.elevation",
+          "displayName": "Container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.date-input.modal.container.color",
+          "displayName": "Container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-high"
+        }
+      ]
+    }
+  ]
+}

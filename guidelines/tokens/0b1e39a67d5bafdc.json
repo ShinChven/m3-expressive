@@ -1,0 +1,628 @@
+{
+  "id": "0b1e39a67d5bafdc",
+  "component": "Dialogs",
+  "tokenSets": [
+    {
+      "displayName": "Dialog - Basic",
+      "tokenSetName": "md.comp.dialog",
+      "description": "For basic dialogs.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.dialog.action.focus.state-layer.opacity",
+          "displayName": "Dialog action focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.dialog.container.surface-tint-layer.color",
+          "displayName": "Dialog container surface tint layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-tint"
+        },
+        {
+          "name": "md.comp.dialog.with-divider.divider.color",
+          "displayName": "Dialog divider color",
+          "type": "COLOR",
+          "value": "md.sys.color.outline"
+        },
+        {
+          "name": "md.comp.dialog.with-divider.divider.height",
+          "displayName": "Dialog divider color",
+          "type": "LENGTH",
+          "value": "1dp"
+        },
+        {
+          "name": "md.comp.dialog.subhead.color",
+          "displayName": "Dialog subhead color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.dialog.subhead.type",
+          "displayName": "Subhead type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.dialog.subhead.font",
+          "displayName": "Dialog subhead font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.headline-small.font"
+        },
+        {
+          "name": "md.comp.dialog.subhead.weight",
+          "displayName": "Dialog subhead weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.headline-small.weight"
+        },
+        {
+          "name": "md.comp.dialog.subhead.size",
+          "displayName": "Dialog subhead size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.headline-small.size"
+        },
+        {
+          "name": "md.comp.dialog.subhead.line-height",
+          "displayName": "Dialog subhead line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.headline-small.line-height"
+        },
+        {
+          "name": "md.comp.dialog.subhead.tracking",
+          "displayName": "Dialog subhead tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.headline-small.tracking"
+        },
+        {
+          "name": "md.comp.dialog.headline.color",
+          "displayName": "Dialog headline color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.dialog.headline.type",
+          "displayName": "headline type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.dialog.headline.font",
+          "displayName": "Dialog headline font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.headline-small.font"
+        },
+        {
+          "name": "md.comp.dialog.headline.weight",
+          "displayName": "Dialog headline weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.headline-small.weight"
+        },
+        {
+          "name": "md.comp.dialog.headline.size",
+          "displayName": "Dialog headline size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.headline-small.size"
+        },
+        {
+          "name": "md.comp.dialog.headline.line-height",
+          "displayName": "Dialog headline line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.headline-small.line-height"
+        },
+        {
+          "name": "md.comp.dialog.headline.tracking",
+          "displayName": "Dialog headline tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.headline-small.tracking"
+        },
+        {
+          "name": "md.comp.dialog.action.label-text.type",
+          "displayName": "Label text type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.dialog.action.label-text.font",
+          "displayName": "Dialog action label text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.label-large.font"
+        },
+        {
+          "name": "md.comp.dialog.action.label-text.weight",
+          "displayName": "Dialog action label text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.label-large.weight"
+        },
+        {
+          "name": "md.comp.dialog.action.label-text.size",
+          "displayName": "Dialog action label text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.label-large.size"
+        },
+        {
+          "name": "md.comp.dialog.action.label-text.line-height",
+          "displayName": "Dialog action label text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.label-large.line-height"
+        },
+        {
+          "name": "md.comp.dialog.action.label-text.tracking",
+          "displayName": "Dialog action label text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.label-large.tracking"
+        },
+        {
+          "name": "md.comp.dialog.supporting-text.type",
+          "displayName": "Supporting text type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.dialog.supporting-text.font",
+          "displayName": "Dialog supporting text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.body-medium.font"
+        },
+        {
+          "name": "md.comp.dialog.supporting-text.weight",
+          "displayName": "Dialog supporting text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.body-medium.weight"
+        },
+        {
+          "name": "md.comp.dialog.supporting-text.size",
+          "displayName": "Dialog supporting text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.body-medium.size"
+        },
+        {
+          "name": "md.comp.dialog.supporting-text.line-height",
+          "displayName": "Dialog supporting text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.body-medium.line-height"
+        },
+        {
+          "name": "md.comp.dialog.supporting-text.tracking",
+          "displayName": "Dialog supporting text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.body-medium.tracking"
+        },
+        {
+          "name": "md.comp.dialog.action.focus.label-text.color",
+          "displayName": "Dialog action focus label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.dialog.action.focus.state-layer.color",
+          "displayName": "Dialog action focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.dialog.action.hover.label-text.color",
+          "displayName": "Dialog action hover label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.dialog.action.hover.state-layer.opacity",
+          "displayName": "Dialog action hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.dialog.action.hover.state-layer.color",
+          "displayName": "Dialog action hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.dialog.action.label-text.color",
+          "displayName": "Dialog action label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.dialog.supporting-text.color",
+          "displayName": "Dialog supporting text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.dialog.with-icon.icon.color",
+          "displayName": "Dialog icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary"
+        },
+        {
+          "name": "md.comp.dialog.with-icon.icon.size",
+          "displayName": "Dialog icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.dialog.container.shape",
+          "displayName": "Dialog container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.extra-large"
+        },
+        {
+          "name": "md.comp.dialog.container.elevation",
+          "displayName": "Dialog container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.dialog.container.color",
+          "displayName": "Dialog container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-high"
+        },
+        {
+          "name": "md.comp.dialog.action.pressed.label-text.color",
+          "displayName": "Dialog action pressed label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.dialog.action.pressed.state-layer.opacity",
+          "displayName": "Dialog action pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.dialog.action.pressed.state-layer.color",
+          "displayName": "Dialog action pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        }
+      ]
+    },
+    {
+      "displayName": "Dialog - Full screen",
+      "tokenSetName": "md.comp.full-screen-dialog",
+      "description": "For full-screen dialogs.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.full-screen-dialog.header.on-scroll.container.color",
+          "displayName": "Full screen dialog on-scroll container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.header.container.surface-tint-layer.color",
+          "displayName": "Full screen dialog header container surface tint layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-tint"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.with-divider.divider.color",
+          "displayName": "Full screen dialog divider color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-variant"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.with-divider.divider.height",
+          "displayName": "Full screen dialog divider height",
+          "type": "LENGTH",
+          "value": "1dp"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.action-bar.pressed.label-text.color",
+          "displayName": "Full screen dialog action bar pressed label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.action-bar.pressed.state-layer.opacity",
+          "displayName": "Full screen dialog action bar pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.action-bar.pressed.state-layer.color",
+          "displayName": "Full screen dialog action bar pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.action-bar.focus.label-text.color",
+          "displayName": "Full screen dialog action bar focus label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.action-bar.focus.state-layer.opacity",
+          "displayName": "Full screen dialog action bar focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.action-bar.focus.state-layer.color",
+          "displayName": "Full screen dialog action bar focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.action-bar.hover.label-text.color",
+          "displayName": "Full screen dialog action bar hover label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.action-bar.hover.state-layer.opacity",
+          "displayName": "Full screen dialog action bar hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.action-bar.hover.state-layer.color",
+          "displayName": "Full screen dialog action bar hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.action-bar.label-text.color",
+          "displayName": "Full screen dialog action bar label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.action-bar.label-text.type",
+          "displayName": "Full screen dialog action bar label text type",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.full-screen-dialog.action-bar.label-text.font",
+          "displayName": "Full screen dialog action bar label text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.label-large.font"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.action-bar.label-text.weight",
+          "displayName": "Full screen dialog action bar label text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.label-large.weight"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.action-bar.label-text.size",
+          "displayName": "Full screen dialog action bar label text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.label-large.size"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.action-bar.label-text.line-height",
+          "displayName": "Full screen dialog action bar label text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.label-large.line-height"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.action-bar.label-text.tracking",
+          "displayName": "Full screen dialog action bar label text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.label-large.tracking"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.action-bar.on-scroll.container.elevation",
+          "displayName": "Full screen dialog action bar on scroll container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level2"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.action-bar.container.elevation",
+          "displayName": "Full screen dialog action bar container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.action-bar.container.color",
+          "displayName": "Full screen dialog action bar container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.action-bar.container.height",
+          "displayName": "Full screen dialog action bar container height",
+          "type": "LENGTH",
+          "value": "56dp"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.header.headline.type",
+          "displayName": "Header type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.full-screen-dialog.header.headline.font",
+          "displayName": "Full screen dialog header headline font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.title-large.font"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.header.headline.weight",
+          "displayName": "Full screen dialog header headline weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.title-large.weight"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.header.headline.size",
+          "displayName": "Full screen dialog header headline size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.title-large.size"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.header.headline.line-height",
+          "displayName": "Full screen dialog header headline line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.title-large.line-height"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.header.headline.tracking",
+          "displayName": "Full screen dialog header headline tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.title-large.tracking"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.header.action.focus.label-text.color",
+          "displayName": "Full screen dialog header action focus label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.header.action.focus.state-layer.opacity",
+          "displayName": "Full screen dialog header action focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.header.action.focus.state-layer.color",
+          "displayName": "Full screen dialog header action focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.header.action.hover.label-text.color",
+          "displayName": "Full screen dialog header action hover label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.header.action.hover.state-layer.opacity",
+          "displayName": "Full screen dialog header action hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.header.action.hover.state-layer.color",
+          "displayName": "Full screen dialog header action hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.header.action.label-text.color",
+          "displayName": "Full screen dialog header action label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.header.action.label-text.type",
+          "displayName": "Full screen dialog header action label text type",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.full-screen-dialog.header.action.label-text.font",
+          "displayName": "Full screen dialog header action label text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.label-large.font"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.header.action.label-text.weight",
+          "displayName": "Full screen dialog header action label text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.label-large.weight"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.header.action.label-text.size",
+          "displayName": "Full screen dialog header action label text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.label-large.size"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.header.action.label-text.line-height",
+          "displayName": "Full screen dialog header action label text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.label-large.line-height"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.header.action.label-text.tracking",
+          "displayName": "Full screen dialog header action label text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.label-large.tracking"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.header.headline.color",
+          "displayName": "Full screen dialog header headline color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.header.icon.size",
+          "displayName": "Full screen dialog header icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.header.icon.color",
+          "displayName": "Full screen dialog header icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.header.on-scroll.container.elevation",
+          "displayName": "Full screen dialog header on scroll container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level2"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.header.container.elevation",
+          "displayName": "Full screen dialog header container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.header.container.color",
+          "displayName": "Full screen dialog header container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.header.container.height",
+          "displayName": "Full screen dialog header container height",
+          "type": "LENGTH",
+          "value": "56dp"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.container.shape",
+          "displayName": "Full screen dialog container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.none"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.container.elevation",
+          "displayName": "Full screen dialog container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.container.color",
+          "displayName": "Full screen dialog container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.header.action.pressed.label-text.color",
+          "displayName": "Full screen dialog header action pressed label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.header.action.pressed.state-layer.opacity",
+          "displayName": "Full screen dialog header action pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.full-screen-dialog.header.action.pressed.state-layer.color",
+          "displayName": "Full screen dialog header action pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        }
+      ]
+    }
+  ]
+}

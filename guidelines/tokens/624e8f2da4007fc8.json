@@ -1,0 +1,1674 @@
+{
+  "id": "624e8f2da4007fc8",
+  "component": "Split buttons",
+  "tokenSets": [
+    {
+      "displayName": "Button - Color - Filled",
+      "tokenSetName": "md.comp.button.filled",
+      "description": "For filled buttons.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.button.filled.hovered.container.elevation",
+          "displayName": "Button filled hovered container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.button.filled.selected.label-text.color",
+          "displayName": "Button filled label color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.button.filled.unselected.label-text.color",
+          "displayName": "Button filled label color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.button.filled.container.color",
+          "displayName": "Button filled container color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.button.filled.unselected.container.color",
+          "displayName": "Button filled container color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container"
+        },
+        {
+          "name": "md.comp.button.filled.selected.container.color",
+          "displayName": "Button filled container color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.button.filled.container.shadow-color",
+          "displayName": "Button filled shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.button.filled.container.elevation",
+          "displayName": "Button filled elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.button.filled.label-text.color",
+          "displayName": "Button filled label color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.button.filled.icon.color",
+          "displayName": "Button filled icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.button.filled.unselected.icon.color",
+          "displayName": "Button filled icon color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.button.filled.selected.icon.color",
+          "displayName": "Button filled icon color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.button.filled.disabled.container.color",
+          "displayName": "Button filled disabled container color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.button.filled.disabled.container.opacity",
+          "displayName": "Button filled disabled container opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.button.filled.disabled.container.elevation",
+          "displayName": "Button filled disabled container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.button.filled.disabled.label-text.color",
+          "displayName": "Button filled disabled label color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.button.filled.disabled.label-text.opacity",
+          "displayName": "Button filled disabled label opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.button.filled.disabled.icon.color",
+          "displayName": "Button filled disabled icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.button.filled.disabled.icon.opacity",
+          "displayName": "Button filled disabled icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.button.filled.hovered.state-layer.color",
+          "displayName": "Button filled hovered container state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.button.filled.unselected.hovered.state-layer.color",
+          "displayName": "Button filled hovered container state layer color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.button.filled.selected.hovered.state-layer.color",
+          "displayName": "Button filled hovered container state layer color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.button.filled.hovered.state-layer.opacity",
+          "displayName": "Button filled hovered container state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.button.filled.hovered.label-text.color",
+          "displayName": "Button filled hovered label color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.button.filled.unselected.hovered.label-text.color",
+          "displayName": "Button filled hovered label color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.button.filled.selected.hovered.label-text.color",
+          "displayName": "Button filled hovered label color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.button.filled.hovered.icon.color",
+          "displayName": "Button filled hovered icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.button.filled.unselected.hovered.icon.color",
+          "displayName": "Button filled hovered icon color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.button.filled.selected.hovered.icon.color",
+          "displayName": "Button filled hovered icon color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.button.filled.focused.state-layer.color",
+          "displayName": "Button filled focused container state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.button.filled.unselected.focused.state-layer.color",
+          "displayName": "Button filled focused container state layer color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.button.filled.selected.focused.state-layer.color",
+          "displayName": "Button filled focused container state layer color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.button.filled.focused.state-layer.opacity",
+          "displayName": "Button filled focused container state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.button.filled.focused.container.elevation",
+          "displayName": "Button filled focused container state layer elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.button.filled.focused.label-text.color",
+          "displayName": "Button filled focused label color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.button.filled.unselected.focused.label-text.color",
+          "displayName": "Button filled focused label color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.button.filled.selected.focused.label-text.color",
+          "displayName": "Button filled focused label color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.button.filled.focused.icon.color",
+          "displayName": "Button filled focused icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.button.filled.unselected.focused.icon.color",
+          "displayName": "Button filled focused icon color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.button.filled.selected.focused.icon.color",
+          "displayName": "Button filled focused icon color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.button.filled.pressed.state-layer.color",
+          "displayName": "Button filled pressed container state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.button.filled.unselected.pressed.state-layer.color",
+          "displayName": "Button filled pressed container state layer color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.button.filled.selected.pressed.state-layer.color",
+          "displayName": "Button filled pressed container state layer color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.button.filled.pressed.state-layer.opacity",
+          "displayName": "Button filled pressed container state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.button.filled.pressed.container.elevation",
+          "displayName": "Button filled pressed container state layer elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.button.filled.pressed.label-text.color",
+          "displayName": "Button filled pressed label color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.button.filled.unselected.pressed.label-text.color",
+          "displayName": "Button filled pressed label color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.button.filled.selected.pressed.label-text.color",
+          "displayName": "Button filled pressed label color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.button.filled.pressed.icon.color",
+          "displayName": "Button filled pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.button.filled.unselected.pressed.icon.color",
+          "displayName": "Button filled pressed icon color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.button.filled.selected.pressed.icon.color",
+          "displayName": "Button filled pressed icon color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        }
+      ]
+    },
+    {
+      "displayName": "Split button - Size - Xsmall",
+      "tokenSetName": "md.comp.split-button.xsmall",
+      "description": "For XS split buttons.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.split-button.xsmall.trailing-button.inner-corner.selected.corner-size",
+          "displayName": "Split button xsmall trailing button inner corner selected size",
+          "type": "LENGTH",
+          "value": "50percent"
+        },
+        {
+          "name": "md.comp.split-button.xsmall.inner-corner.pressed.corner-size",
+          "displayName": "Split button xsmall inner corner pressed size",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner-value.small"
+        },
+        {
+          "name": "md.comp.split-button.xsmall.inner-corner.hovered.corner-size",
+          "displayName": "Split button xsmall inner corner hovered size",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner-value.small"
+        },
+        {
+          "name": "md.comp.split-button.xsmall.outer-corner.corner-size",
+          "displayName": "Split button xsmall outer corner size",
+          "type": "LENGTH",
+          "value": "50percent"
+        },
+        {
+          "name": "md.comp.split-button.xsmall.inner-corner.corner-size",
+          "displayName": "Split button xsmall inner corner size",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner-value.extra-small"
+        },
+        {
+          "name": "md.comp.split-button.xsmall.leading-button.leading-space",
+          "displayName": "Split button xsmall leading button leading space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space150"
+        },
+        {
+          "name": "md.comp.split-button.xsmall.leading-button.trailing-space",
+          "displayName": "Split button xsmall leading button trailing space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space125"
+        },
+        {
+          "name": "md.comp.split-button.xsmall.trailing-button.icon.size",
+          "displayName": "Split button xsmall trailing button icon size",
+          "type": "LENGTH",
+          "value": "22dp"
+        },
+        {
+          "name": "md.comp.split-button.xsmall.trailing-button.trailing-space",
+          "displayName": "Split button xsmall trailing button trailing space",
+          "type": "LENGTH",
+          "value": "13dp"
+        },
+        {
+          "name": "md.comp.split-button.xsmall.trailing-button.leading-space",
+          "displayName": "Split button xsmall trailing button leading space",
+          "type": "LENGTH",
+          "value": "13dp"
+        },
+        {
+          "name": "md.comp.split-button.xsmall.container.height",
+          "displayName": "Split button xsmall container height",
+          "type": "LENGTH",
+          "value": "32dp"
+        },
+        {
+          "name": "md.comp.split-button.xsmall.between-space",
+          "displayName": "Split button xsmall between space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space25"
+        },
+        {
+          "name": "md.comp.split-button.xsmall.container.shape",
+          "displayName": "Split button xsmall container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        }
+      ]
+    },
+    {
+      "displayName": "Split button - Size - Small",
+      "tokenSetName": "md.comp.split-button.small",
+      "description": "For small split buttons.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.split-button.small.trailing-button.inner-corner.selected.corner-size",
+          "displayName": "Split button small trailing button inner corner selected size",
+          "type": "LENGTH",
+          "value": "50percent"
+        },
+        {
+          "name": "md.comp.split-button.small.inner-corner.pressed.corner-size",
+          "displayName": "Split button small inner corner pressed size",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner-value.medium"
+        },
+        {
+          "name": "md.comp.split-button.small.inner-corner.hovered.corner-size",
+          "displayName": "Split button small inner corner hovered size",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner-value.medium"
+        },
+        {
+          "name": "md.comp.split-button.small.inner-corner.corner-size",
+          "displayName": "Split button small inner corner size",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner-value.extra-small"
+        },
+        {
+          "name": "md.comp.split-button.small.container.height",
+          "displayName": "Split button small container height",
+          "type": "LENGTH",
+          "value": "40dp"
+        },
+        {
+          "name": "md.comp.split-button.small.between-space",
+          "displayName": "Split button small between space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space25"
+        },
+        {
+          "name": "md.comp.split-button.small.container.shape",
+          "displayName": "Split button small container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.split-button.small.leading-button.leading-space",
+          "displayName": "Split button small leading button leading space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space200"
+        },
+        {
+          "name": "md.comp.split-button.small.leading-button.trailing-space",
+          "displayName": "Split button small leading button trailing space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space150"
+        },
+        {
+          "name": "md.comp.split-button.small.trailing-button.icon.size",
+          "displayName": "Split button small trailing button icon size",
+          "type": "LENGTH",
+          "value": "22dp"
+        },
+        {
+          "name": "md.comp.split-button.small.trailing-button.leading-space",
+          "displayName": "Split button small trailing button leading space",
+          "type": "LENGTH",
+          "value": "13dp"
+        },
+        {
+          "name": "md.comp.split-button.small.trailing-button.trailing-space",
+          "displayName": "Split button small trailing button trailing space",
+          "type": "LENGTH",
+          "value": "13dp"
+        }
+      ]
+    },
+    {
+      "displayName": "Split button - Size - Medium",
+      "tokenSetName": "md.comp.split-button.medium",
+      "description": "For medium split buttons.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.split-button.medium.trailing-button.inner-corner.selected.corner-size",
+          "displayName": "Split button medium trailing button inner corner selected size",
+          "type": "LENGTH",
+          "value": "50percent"
+        },
+        {
+          "name": "md.comp.split-button.medium.inner-corner.pressed.corner-size",
+          "displayName": "Split button medium inner corner pressed size",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner-value.medium"
+        },
+        {
+          "name": "md.comp.split-button.medium.inner-corner.hovered.corner-size",
+          "displayName": "Split button medium inner corner hovered size",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner-value.medium"
+        },
+        {
+          "name": "md.comp.split-button.medium.inner-corner.corner-size",
+          "displayName": "Split button medium inner corner size",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner-value.extra-small"
+        },
+        {
+          "name": "md.comp.split-button.medium.container.height",
+          "displayName": "Split button medium container height",
+          "type": "LENGTH",
+          "value": "56dp"
+        },
+        {
+          "name": "md.comp.split-button.medium.between-space",
+          "displayName": "Split button medium between space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space25"
+        },
+        {
+          "name": "md.comp.split-button.medium.container.shape",
+          "displayName": "Split button medium container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.split-button.medium.leading-button.leading-space",
+          "displayName": "Split button medium leading button leading space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space300"
+        },
+        {
+          "name": "md.comp.split-button.medium.leading-button.trailing-space",
+          "displayName": "Split button medium leading button trailing space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space300"
+        },
+        {
+          "name": "md.comp.split-button.medium.trailing-button.icon.size",
+          "displayName": "Split button medium trailing button icon size",
+          "type": "LENGTH",
+          "value": "26dp"
+        },
+        {
+          "name": "md.comp.split-button.medium.trailing-button.leading-space",
+          "displayName": "Split button medium trailing button leading space",
+          "type": "LENGTH",
+          "value": "15dp"
+        },
+        {
+          "name": "md.comp.split-button.medium.trailing-button.trailing-space",
+          "displayName": "Split button medium trailing button trailing space",
+          "type": "LENGTH",
+          "value": "15dp"
+        }
+      ]
+    },
+    {
+      "displayName": "Split button - Size - Large",
+      "tokenSetName": "md.comp.split-button.large",
+      "description": "For large split buttons.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.split-button.large.trailing-button.inner-corner.selected.corner-size",
+          "displayName": "Split button large trailing button inner corner selected size",
+          "type": "LENGTH",
+          "value": "50percent"
+        },
+        {
+          "name": "md.comp.split-button.large.inner-corner.pressed.corner-size",
+          "displayName": "Split button large inner corner pressed size",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner-value.large-increased"
+        },
+        {
+          "name": "md.comp.split-button.large.inner-corner.hovered.corner-size",
+          "displayName": "Split button large inner corner hovered size",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner-value.large-increased"
+        },
+        {
+          "name": "md.comp.split-button.large.inner-corner.corner-size",
+          "displayName": "Split button large inner corner size",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner-value.small"
+        },
+        {
+          "name": "md.comp.split-button.large.container.shape",
+          "displayName": "Split button large container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.split-button.large.between-space",
+          "displayName": "Split button large between space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space25"
+        },
+        {
+          "name": "md.comp.split-button.large.container.height",
+          "displayName": "Split button large container height",
+          "type": "LENGTH",
+          "value": "96dp"
+        },
+        {
+          "name": "md.comp.split-button.large.leading-button.leading-space",
+          "displayName": "Split button large leading button leading space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space600"
+        },
+        {
+          "name": "md.comp.split-button.large.leading-button.trailing-space",
+          "displayName": "Split button large leading button trailing space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space600"
+        },
+        {
+          "name": "md.comp.split-button.large.trailing-button.icon.size",
+          "displayName": "Split button large trailing button icon size",
+          "type": "LENGTH",
+          "value": "38dp"
+        },
+        {
+          "name": "md.comp.split-button.large.trailing-button.leading-space",
+          "displayName": "Split button large trailing button leading space",
+          "type": "LENGTH",
+          "value": "29dp"
+        },
+        {
+          "name": "md.comp.split-button.large.trailing-button.trailing-space",
+          "displayName": "Split button large trailing button trailing space",
+          "type": "LENGTH",
+          "value": "29dp"
+        }
+      ]
+    },
+    {
+      "displayName": "Split button - Size - Xlarge",
+      "tokenSetName": "md.comp.split-button.xlarge",
+      "description": "For XL split buttons.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.split-button.xlarge.inner-corner.corner-size",
+          "displayName": "Split button xlarge inner corner size",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner-value.medium"
+        },
+        {
+          "name": "md.comp.split-button.xlarge.inner-corner.hovered.corner-size",
+          "displayName": "Split button xlarge inner corner hovered size",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner-value.large-increased"
+        },
+        {
+          "name": "md.comp.split-button.xlarge.trailing-button.inner-corner.selected.corner-size",
+          "displayName": "Split button xlarge trailing button inner corner selected size",
+          "type": "LENGTH",
+          "value": "50percent"
+        },
+        {
+          "name": "md.comp.split-button.xlarge.inner-corner.pressed.corner-size",
+          "displayName": "Split button xlarge inner corner pressed size",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner-value.large-increased"
+        },
+        {
+          "name": "md.comp.split-button.xlarge.container.height",
+          "displayName": "Split button xlarge container height",
+          "type": "LENGTH",
+          "value": "136dp"
+        },
+        {
+          "name": "md.comp.split-button.xlarge.between-space",
+          "displayName": "Split button xlarge between space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space25"
+        },
+        {
+          "name": "md.comp.split-button.xlarge.container.shape",
+          "displayName": "Split button xlarge container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.split-button.xlarge.leading-button.leading-space",
+          "displayName": "Split button xlarge leading button leading space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space800"
+        },
+        {
+          "name": "md.comp.split-button.xlarge.leading-button.trailing-space",
+          "displayName": "Split button xlarge leading button trailing space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space800"
+        },
+        {
+          "name": "md.comp.split-button.xlarge.trailing-button.icon.size",
+          "displayName": "Split button xlarge trailing button icon size",
+          "type": "LENGTH",
+          "value": "50dp"
+        },
+        {
+          "name": "md.comp.split-button.xlarge.trailing-button.leading-space",
+          "displayName": "Split button xlarge trailing button leading space",
+          "type": "LENGTH",
+          "value": "43dp"
+        },
+        {
+          "name": "md.comp.split-button.xlarge.trailing-button.trailing-space",
+          "displayName": "Split button xlarge trailing button trailing space",
+          "type": "LENGTH",
+          "value": "43dp"
+        }
+      ]
+    },
+    {
+      "displayName": "Button - Color - Elevated",
+      "tokenSetName": "md.comp.button.elevated",
+      "description": "For elevated buttons.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.button.elevated.hovered.container.elevation",
+          "displayName": "Button elevated hovered container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level2"
+        },
+        {
+          "name": "md.comp.button.elevated.selected.label-text.color",
+          "displayName": "Button elevated label color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.button.elevated.unselected.label-text.color",
+          "displayName": "Button elevated label color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.button.elevated.container.shadow-color",
+          "displayName": "Button elevated shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.button.elevated.container.color",
+          "displayName": "Button elevated container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-low"
+        },
+        {
+          "name": "md.comp.button.elevated.unselected.container.color",
+          "displayName": "Button elevated container color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-low"
+        },
+        {
+          "name": "md.comp.button.elevated.selected.container.color",
+          "displayName": "Button elevated container color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.button.elevated.container.elevation",
+          "displayName": "Button elevated elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.button.elevated.label-text.color",
+          "displayName": "Button elevated label color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.button.elevated.icon.color",
+          "displayName": "Button elevated icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.button.elevated.unselected.icon.color",
+          "displayName": "Button elevated icon color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.button.elevated.selected.icon.color",
+          "displayName": "Button elevated icon color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.button.elevated.disabled.container.color",
+          "displayName": "Button elevated disabled container color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.button.elevated.disabled.container.opacity",
+          "displayName": "Button elevated disabled container opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.button.elevated.disabled.container.elevation",
+          "displayName": "Button elevated disabled container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.button.elevated.disabled.label-text.color",
+          "displayName": "Button elevated disabled label color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.button.elevated.disabled.label-text.opacity",
+          "displayName": "Button elevated disabled label opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.button.elevated.disabled.icon.color",
+          "displayName": "Button elevated disabled icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.button.elevated.disabled.icon.opacity",
+          "displayName": "Button elevated disabled icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.button.elevated.hovered.state-layer.color",
+          "displayName": "Button elevated hovered container state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.button.elevated.unselected.hovered.state-layer.color",
+          "displayName": "Button elevated hovered container state layer color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.button.elevated.selected.hovered.state-layer.color",
+          "displayName": "Button elevated hovered container state layer color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.button.elevated.hovered.state-layer.opacity",
+          "displayName": "Button elevated hovered container state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.button.elevated.hovered.label-text.color",
+          "displayName": "Button elevated hovered label color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.button.elevated.unselected.hovered.label-text.color",
+          "displayName": "Button elevated hovered label color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.button.elevated.selected.hovered.label-text.color",
+          "displayName": "Button elevated hovered label color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.button.elevated.hovered.icon.color",
+          "displayName": "Button elevated hovered icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.button.elevated.unselected.hovered.icon.color",
+          "displayName": "Button elevated hovered icon color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.button.elevated.selected.hovered.icon.color",
+          "displayName": "Button elevated hovered icon color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.button.elevated.pressed.state-layer.color",
+          "displayName": "Button elevated pressed container state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.button.elevated.unselected.pressed.state-layer.color",
+          "displayName": "Button elevated pressed container state layer color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.button.elevated.selected.pressed.state-layer.color",
+          "displayName": "Button elevated pressed container state layer color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.button.elevated.pressed.state-layer.opacity",
+          "displayName": "Button elevated pressed container state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.button.elevated.pressed.container.elevation",
+          "displayName": "Button elevated pressed container state layer elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.button.elevated.pressed.label-text.color",
+          "displayName": "Button elevated pressed label color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.button.elevated.unselected.pressed.label-text.color",
+          "displayName": "Button elevated pressed label color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.button.elevated.selected.pressed.label-text.color",
+          "displayName": "Button elevated pressed label color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.button.elevated.pressed.icon.color",
+          "displayName": "Button elevated pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.button.elevated.unselected.pressed.icon.color",
+          "displayName": "Button elevated pressed icon color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.button.elevated.selected.pressed.icon.color",
+          "displayName": "Button elevated pressed icon color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.button.elevated.focused.state-layer.color",
+          "displayName": "Button elevated focused container state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.button.elevated.unselected.focused.state-layer.color",
+          "displayName": "Button elevated focused container state layer color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.button.elevated.selected.focused.state-layer.color",
+          "displayName": "Button elevated focused container state layer color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.button.elevated.focused.state-layer.opacity",
+          "displayName": "Button elevated focused container state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.button.elevated.focused.container.elevation",
+          "displayName": "Button elevated focused container state layer elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.button.elevated.focused.label-text.color",
+          "displayName": "Button elevated focused label color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.button.elevated.unselected.focused.label-text.color",
+          "displayName": "Button elevated focused label color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.button.elevated.selected.focused.label-text.color",
+          "displayName": "Button elevated focused label color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.button.elevated.focused.icon.color",
+          "displayName": "Button elevated focused icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.button.elevated.unselected.focused.icon.color",
+          "displayName": "Button elevated focused icon color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.button.elevated.selected.focused.icon.color",
+          "displayName": "Button elevated focused icon color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        }
+      ]
+    },
+    {
+      "displayName": "Button - Color - Outlined",
+      "tokenSetName": "md.comp.button.outlined",
+      "description": "For outlined buttons.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.button.outlined.outline.color",
+          "displayName": "Button outlined outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.outline-variant"
+        },
+        {
+          "name": "md.comp.button.outlined.selected.container.color",
+          "displayName": "Button outlined container color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.inverse-surface"
+        },
+        {
+          "name": "md.comp.button.outlined.label-text.color",
+          "displayName": "Button outlined label color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.button.outlined.unselected.label-text.color",
+          "displayName": "Button outlined label color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.button.outlined.selected.label-text.color",
+          "displayName": "Button outlined label color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.inverse-on-surface"
+        },
+        {
+          "name": "md.comp.button.outlined.icon.color",
+          "displayName": "Button outlined icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.button.outlined.unselected.icon.color",
+          "displayName": "Button outlined icon color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.button.outlined.selected.icon.color",
+          "displayName": "Button outlined icon color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.inverse-on-surface"
+        },
+        {
+          "name": "md.comp.button.outlined.disabled.outline.color",
+          "displayName": "Button outlined disabled outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.outline-variant"
+        },
+        {
+          "name": "md.comp.button.outlined.hovered.state-layer.color",
+          "displayName": "Button outlined hovered state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.button.outlined.unselected.hovered.state-layer.color",
+          "displayName": "Button outlined hovered state layer color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.button.outlined.selected.hovered.state-layer.color",
+          "displayName": "Button outlined hovered state layer color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.inverse-on-surface"
+        },
+        {
+          "name": "md.comp.button.outlined.hovered.state-layer.opacity",
+          "displayName": "Button outlined hovered state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.button.outlined.hovered.outline.color",
+          "displayName": "Button outlined hovered outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.outline-variant"
+        },
+        {
+          "name": "md.comp.button.outlined.unselected.hovered.outline.color",
+          "displayName": "Button outlined hovered outline color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.outline-variant"
+        },
+        {
+          "name": "md.comp.button.outlined.hovered.label-text.color",
+          "displayName": "Button outlined hovered label color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.button.outlined.unselected.hovered.label-text.color",
+          "displayName": "Button outlined hovered label color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.button.outlined.selected.hovered.label-text.color",
+          "displayName": "Button outlined hovered label color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.inverse-on-surface"
+        },
+        {
+          "name": "md.comp.button.outlined.hovered.icon.color",
+          "displayName": "Button outlined hovered icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.button.outlined.unselected.hovered.icon.color",
+          "displayName": "Button outlined hovered icon color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.button.outlined.selected.hovered.icon.color",
+          "displayName": "Button outlined hovered icon color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.inverse-on-surface"
+        },
+        {
+          "name": "md.comp.button.outlined.focused.state-layer.color",
+          "displayName": "Button outlined focused container state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.button.outlined.unselected.focused.state-layer.color",
+          "displayName": "Button outlined focused container state layer color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.button.outlined.selected.focused.state-layer.color",
+          "displayName": "Button outlined focused container state layer color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.inverse-on-surface"
+        },
+        {
+          "name": "md.comp.button.outlined.focused.state-layer.opacity",
+          "displayName": "Button outlined focused container state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.button.outlined.focused.outline.color",
+          "displayName": "Button outlined focused outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.outline-variant"
+        },
+        {
+          "name": "md.comp.button.outlined.unselected.focused.outline.color",
+          "displayName": "Button outlined focused outline color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.outline-variant"
+        },
+        {
+          "name": "md.comp.button.outlined.focused.label-text.color",
+          "displayName": "Button outlined focused label color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.button.outlined.unselected.focused.label-text.color",
+          "displayName": "Button outlined focused label color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.button.outlined.selected.focused.label-text.color",
+          "displayName": "Button outlined focused label color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.inverse-on-surface"
+        },
+        {
+          "name": "md.comp.button.outlined.focused.icon.color",
+          "displayName": "Button outlined focused icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.button.outlined.unselected.focused.icon.color",
+          "displayName": "Button outlined focused icon color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.button.outlined.selected.focused.icon.color",
+          "displayName": "Button outlined focused icon color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.inverse-on-surface"
+        },
+        {
+          "name": "md.comp.button.outlined.pressed.state-layer.color",
+          "displayName": "Button outlined pressed container state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.button.outlined.unselected.pressed.state-layer.color",
+          "displayName": "Button outlined pressed container state layer color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.button.outlined.selected.pressed.state-layer.color",
+          "displayName": "Button outlined pressed container state layer color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.inverse-on-surface"
+        },
+        {
+          "name": "md.comp.button.outlined.pressed.state-layer.opacity",
+          "displayName": "Button outlined pressed container state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.button.outlined.pressed.outline.color",
+          "displayName": "Button outlined pressed outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.outline-variant"
+        },
+        {
+          "name": "md.comp.button.outlined.unselected.pressed.outline.color",
+          "displayName": "Button outlined pressed outline color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.outline-variant"
+        },
+        {
+          "name": "md.comp.button.outlined.pressed.label-text.color",
+          "displayName": "Button outlined pressed label color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.button.outlined.unselected.pressed.label-text.color",
+          "displayName": "Button outlined pressed label color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.button.outlined.selected.pressed.label-text.color",
+          "displayName": "Button outlined pressed label color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.inverse-on-surface"
+        },
+        {
+          "name": "md.comp.button.outlined.pressed.icon.color",
+          "displayName": "Button outlined pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.button.outlined.unselected.pressed.icon.color",
+          "displayName": "Button outlined pressed icon color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.button.outlined.selected.pressed.icon.color",
+          "displayName": "Button outlined pressed icon color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.inverse-on-surface"
+        },
+        {
+          "name": "md.comp.button.outlined.disabled.icon.opacity",
+          "displayName": "Button outlined disabled icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.button.outlined.disabled.container.opacity",
+          "displayName": "Button outlined disabled container opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.button.outlined.disabled.label-text.opacity",
+          "displayName": "Button outlined disabled label opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.button.outlined.disabled.icon.color",
+          "displayName": "Button outlined disabled icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.button.outlined.disabled.label-text.color",
+          "displayName": "Button outlined disabled label color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.button.outlined.unselected.disabled.outline.color",
+          "displayName": "Button outlined disabled outline color (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.outline-variant"
+        },
+        {
+          "name": "md.comp.button.outlined.selected.disabled.container.color",
+          "displayName": "Button outlined disabled container color (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        }
+      ]
+    },
+    {
+      "displayName": "Button - Color - Tonal",
+      "tokenSetName": "md.comp.button.tonal",
+      "description": "For tonal buttons.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.button.tonal.hovered.container.elevation",
+          "displayName": "Button tonal hovered container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.button.tonal.container.color",
+          "displayName": "Button tonal container color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary-container"
+        },
+        {
+          "name": "md.comp.button.tonal.unselected.container.color",
+          "displayName": "Button tonal container color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary-container"
+        },
+        {
+          "name": "md.comp.button.tonal.selected.container.color",
+          "displayName": "Button tonal container color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary"
+        },
+        {
+          "name": "md.comp.button.tonal.container.shadow-color",
+          "displayName": "Button tonal shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.button.tonal.container.elevation",
+          "displayName": "Button tonal elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.button.tonal.label-text.color",
+          "displayName": "Button tonal label color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.button.tonal.unselected.label-text.color",
+          "displayName": "Button tonal label color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.button.tonal.selected.label-text.color",
+          "displayName": "Button tonal label color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary"
+        },
+        {
+          "name": "md.comp.button.tonal.icon.color",
+          "displayName": "Button tonal icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.button.tonal.unselected.icon.color",
+          "displayName": "Button tonal icon color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.button.tonal.selected.icon.color",
+          "displayName": "Button tonal icon color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary"
+        },
+        {
+          "name": "md.comp.button.tonal.disabled.container.color",
+          "displayName": "Button tonal disabled container color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.button.tonal.disabled.container.opacity",
+          "displayName": "Button tonal disabled container opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.button.tonal.disabled.container.elevation",
+          "displayName": "Button tonal disabled container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.button.tonal.disabled.label-text.color",
+          "displayName": "Button tonal disabled label color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.button.tonal.disabled.icon.color",
+          "displayName": "Button tonal disabled icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.button.tonal.disabled.icon.opacity",
+          "displayName": "Button tonal disabled icon opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.button.tonal.disabled.label-text.opacity",
+          "displayName": "Button tonal disabled label opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.button.tonal.hovered.state-layer.color",
+          "displayName": "Button tonal hovered container state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.button.tonal.unselected.hovered.state-layer.color",
+          "displayName": "Button tonal hovered container state layer color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.button.tonal.selected.hovered.state-layer.color",
+          "displayName": "Button tonal hovered container state layer color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary"
+        },
+        {
+          "name": "md.comp.button.tonal.hovered.state-layer.opacity",
+          "displayName": "Button tonal hovered container state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.button.tonal.hovered.label-text.color",
+          "displayName": "Button tonal hovered label color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.button.tonal.unselected.hovered.label-text.color",
+          "displayName": "Button tonal hovered label color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.button.tonal.selected.hovered.label-text.color",
+          "displayName": "Button tonal hovered label color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary"
+        },
+        {
+          "name": "md.comp.button.tonal.hovered.icon.color",
+          "displayName": "Button tonal hovered icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.button.tonal.unselected.hovered.icon.color",
+          "displayName": "Button tonal hovered icon color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.button.tonal.selected.hovered.icon.color",
+          "displayName": "Button tonal hovered icon color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary"
+        },
+        {
+          "name": "md.comp.button.tonal.focused.state-layer.color",
+          "displayName": "Button tonal focused container state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.button.tonal.unselected.focused.state-layer.color",
+          "displayName": "Button tonal focused container state layer color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.button.tonal.selected.focused.state-layer.color",
+          "displayName": "Button tonal focused container state layer color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary"
+        },
+        {
+          "name": "md.comp.button.tonal.focused.state-layer.opacity",
+          "displayName": "Button tonal focused container state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.button.tonal.focused.container.elevation",
+          "displayName": "Button tonal focused container state layer elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.button.tonal.focused.label-text.color",
+          "displayName": "Button tonal focused label color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.button.tonal.unselected.focused.label-text.color",
+          "displayName": "Button tonal focused label color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.button.tonal.selected.focused.label-text.color",
+          "displayName": "Button tonal focused label color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary"
+        },
+        {
+          "name": "md.comp.button.tonal.focused.icon.color",
+          "displayName": "Button tonal focused icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.button.tonal.unselected.focused.icon.color",
+          "displayName": "Button tonal focused icon color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.button.tonal.selected.focused.icon.color",
+          "displayName": "Button tonal focused icon color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary"
+        },
+        {
+          "name": "md.comp.button.tonal.pressed.state-layer.color",
+          "displayName": "Button tonal pressed container state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.button.tonal.unselected.pressed.state-layer.color",
+          "displayName": "Button tonal pressed container state layer color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.button.tonal.selected.pressed.state-layer.color",
+          "displayName": "Button tonal pressed container state layer color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary"
+        },
+        {
+          "name": "md.comp.button.tonal.pressed.state-layer.opacity",
+          "displayName": "Button tonal pressed container state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.button.tonal.pressed.container.elevation",
+          "displayName": "Button tonal pressed container state layer elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.button.tonal.pressed.label-text.color",
+          "displayName": "Button tonal pressed label color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.button.tonal.unselected.pressed.label-text.color",
+          "displayName": "Button tonal pressed label color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.button.tonal.selected.pressed.label-text.color",
+          "displayName": "Button tonal pressed label color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary"
+        },
+        {
+          "name": "md.comp.button.tonal.pressed.icon.color",
+          "displayName": "Button tonal pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.button.tonal.unselected.pressed.icon.color",
+          "displayName": "Button tonal pressed icon color - toggle (unselected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.button.tonal.selected.pressed.icon.color",
+          "displayName": "Button tonal pressed icon color - toggle (selected)",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary"
+        }
+      ]
+    }
+  ]
+}

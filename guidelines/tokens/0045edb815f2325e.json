@@ -1,0 +1,816 @@
+{
+  "id": "0045edb815f2325e",
+  "component": "Sliders",
+  "tokenSets": [
+    {
+      "displayName": "Slider",
+      "tokenSetName": "md.comp.slider",
+      "description": "Common tokens for all expressive slider sizes, and baseline sliders.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.slider.active.handle.color",
+          "displayName": "Slider active handle color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.slider.active.track.outer-corner.corner-size",
+          "displayName": "Slider active track outer corner size",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.slider.active.track.inner-corner.corner-size",
+          "displayName": "Slider active track inner corner size",
+          "type": "SHAPE",
+          "value": null
+        },
+        {
+          "name": "md.comp.slider.disabled.stop-indicator.container.opacity",
+          "displayName": "Slider disabled stop indicator container opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.slider.disabled.stop-indicator.container.color",
+          "displayName": "Slider disabled stop indicator container color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.slider.disabled.stop-indicator.color",
+          "displayName": "Slider disabled stop color inactive track",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.slider.disabled.stop-indicator.color-selected",
+          "displayName": "Slider disabled stop color active track",
+          "type": "COLOR",
+          "value": "md.sys.color.inverse-on-surface"
+        },
+        {
+          "name": "md.comp.slider.disabled.inactive.stop-indicator.container.color",
+          "displayName": "Slider disabled inactive stop indicator container color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.slider.disabled.active.stop-indicator.container.color",
+          "displayName": "Slider disabled active stop indicator container color",
+          "type": "COLOR",
+          "value": "md.sys.color.inverse-on-surface"
+        },
+        {
+          "name": "md.comp.slider.inactive.stop-indicator.container.opacity",
+          "displayName": "Slider inactive stop indicator container opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.slider.inactive.stop-indicator.container.color",
+          "displayName": "Slider inactive stop indicator container color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.slider.active.stop-indicator.container.opacity",
+          "displayName": "Slider active stop indicator container opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.slider.active.stop-indicator.container.color",
+          "displayName": "Slider active stop indicator container color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.slider.stop-indicator.color-selected",
+          "displayName": "Slider stop indicator color selected",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.slider.with-tick-marks.inactive.container.opacity",
+          "displayName": "Slider with tick marks inactive container opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.slider.with-tick-marks.inactive.container.color",
+          "displayName": "Slider with tick marks inactive container color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.slider.with-tick-marks.active.container.opacity",
+          "displayName": "Slider with tick marks active container opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.slider.with-tick-marks.active.container.color",
+          "displayName": "Slider with tick marks active container color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.slider.label.container.height",
+          "displayName": "Slider label container height",
+          "type": "LENGTH",
+          "value": "28dp"
+        },
+        {
+          "name": "md.comp.slider.label.container.color",
+          "displayName": "Slider label container color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.slider.active.container.opacity",
+          "displayName": "Slider active container opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.slider.inactive.container.opacity",
+          "displayName": "Slider inactive container opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.slider.label.container.elevation",
+          "displayName": "Slider label container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.slider.with-tick-marks.disabled.container.opacity",
+          "displayName": "Slider with tick marks disabled container opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.slider.with-tick-marks.disabled.container.color",
+          "displayName": "Slider with tick marks disabled container color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.slider.focus.stop.color",
+          "displayName": "Slider focus stop color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.slider.label.label-text.color",
+          "displayName": "Slider label label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.inverse-on-surface"
+        },
+        {
+          "name": "md.comp.slider.value-indicator.label.label-text.color",
+          "displayName": "Slider value indicator label font color",
+          "type": "COLOR",
+          "value": "md.sys.color.inverse-on-surface"
+        },
+        {
+          "name": "md.comp.slider.value-indicator.container.color",
+          "displayName": "Slider value indicator container color",
+          "type": "COLOR",
+          "value": "md.sys.color.inverse-surface"
+        },
+        {
+          "name": "md.comp.slider.pressed.stop.color",
+          "displayName": "Slider pressed stop color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.slider.pressed.inactive.track.color",
+          "displayName": "Slider pressed inactive track color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary-container"
+        },
+        {
+          "name": "md.comp.slider.pressed.active.track.color",
+          "displayName": "Slider pressed active track color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.slider.focus.inactive.track.color",
+          "displayName": "Slider focus inactive track color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary-container"
+        },
+        {
+          "name": "md.comp.slider.focus.active.track.color",
+          "displayName": "Slider focus active track color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.slider.hover.stop.color",
+          "displayName": "Slider hover stop color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.slider.active.handle.shape",
+          "displayName": "Slider active handle shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.slider.stop-indicator.color",
+          "displayName": "Slider stop indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.slider.stop-indicator.shape",
+          "displayName": "Slider stop indicator shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.slider.hover.handle.color",
+          "displayName": "Slider hover handle color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.slider.disabled.handle.opacity",
+          "displayName": "Slider disabled handle opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.slider.disabled.inactive.track.opacity",
+          "displayName": "Slider disabled inactive track opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.slider.disabled.active.track.opacity",
+          "displayName": "Slider disabled active track opacity",
+          "type": "OPACITY",
+          "value": null
+        },
+        {
+          "name": "md.comp.slider.value-indicator.label.label-text.size",
+          "displayName": "Slider value indicator label size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.label-large.size"
+        },
+        {
+          "name": "md.comp.slider.value-indicator.label.label-text.line-height",
+          "displayName": "Slider value indicator label line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.label-large.line-height"
+        },
+        {
+          "name": "md.comp.slider.value-indicator.label.label-text.tracking",
+          "displayName": "Slider value indicator label tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.body-large.tracking"
+        },
+        {
+          "name": "md.comp.slider.value-indicator.active.bottom-space",
+          "displayName": "Slider value indicator active bottom space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space150"
+        },
+        {
+          "name": "md.comp.slider.value-indicator.label.label-text.weight",
+          "displayName": "Slider value indicator label weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.body-large.weight"
+        },
+        {
+          "name": "md.comp.slider.label.label-text.type",
+          "displayName": "Type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.slider.label.label-text.font",
+          "displayName": "Slider label label text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.label-medium.font"
+        },
+        {
+          "name": "md.comp.slider.label.label-text.weight",
+          "displayName": "Slider label label text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.label-medium.weight"
+        },
+        {
+          "name": "md.comp.slider.label.label-text.size",
+          "displayName": "Slider label label text font size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.label-medium.size"
+        },
+        {
+          "name": "md.comp.slider.label.label-text.line-height",
+          "displayName": "Slider label label text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.label-medium.line-height"
+        },
+        {
+          "name": "md.comp.slider.label.label-text.tracking",
+          "displayName": "Slider label label text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.label-medium.tracking"
+        },
+        {
+          "name": "md.comp.slider.pressed.state-layer.opacity",
+          "displayName": "Slider pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.slider.pressed.state-layer.color",
+          "displayName": "Slider pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.slider.focus.state-layer.opacity",
+          "displayName": "Slider focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.slider.focus.state-layer.color",
+          "displayName": "Slider focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.slider.focus.handle.color",
+          "displayName": "Slider focus handle color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.slider.hover.state-layer.opacity",
+          "displayName": "Slider hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.slider.hover.state-layer.color",
+          "displayName": "Slider hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.slider.disabled.handle.elevation",
+          "displayName": "Slider disabled handle elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.slider.with-tick-marks.container.size",
+          "displayName": "Slider with tick marks container size",
+          "type": "LENGTH",
+          "value": "2dp"
+        },
+        {
+          "name": "md.comp.slider.with-tick-marks.container.shape",
+          "displayName": "Slider with tick marks container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.slider.with-overlap.handle.outline.width",
+          "displayName": "Slider with overlap handle outline width",
+          "type": "LENGTH",
+          "value": "1dp"
+        },
+        {
+          "name": "md.comp.slider.with-overlap.handle.outline.color",
+          "displayName": "Slider with overlap handle outline color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.slider.handle.elevation",
+          "displayName": "Slider handle elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.slider.handle.shadow-color",
+          "displayName": "Slider handle shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.slider.state-layer.size",
+          "displayName": "Slider state layer size",
+          "type": "LENGTH",
+          "value": "40dp"
+        },
+        {
+          "name": "md.comp.slider.track.elevation",
+          "displayName": "Slider track elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.slider.stop-indicator.size",
+          "displayName": "Slider stop indicator size",
+          "type": "LENGTH",
+          "value": "4dp"
+        },
+        {
+          "name": "md.comp.slider.disabled.handle.width",
+          "displayName": "Slider disabled handle width",
+          "type": "LENGTH",
+          "value": "4dp"
+        },
+        {
+          "name": "md.comp.slider.focus.handle.width",
+          "displayName": "Slider focus handle width",
+          "type": "LENGTH",
+          "value": "2dp"
+        },
+        {
+          "name": "md.comp.slider.value-indicator.label.label-text.font",
+          "displayName": "Slider value indicator label font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.label-large.font"
+        },
+        {
+          "name": "md.comp.slider.pressed.handle.width",
+          "displayName": "Slider pressed handle width",
+          "type": "LENGTH",
+          "value": "2dp"
+        },
+        {
+          "name": "md.comp.slider.hover.handle.width",
+          "displayName": "Slider hover handle width",
+          "type": "LENGTH",
+          "value": "4dp"
+        },
+        {
+          "name": "md.comp.slider.stop-indicator.trailing-space",
+          "displayName": "Slider stop indicator trailing space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space50"
+        },
+        {
+          "name": "md.comp.slider.label.label-text.font-size",
+          "displayName": "Slider label label text font size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.label-medium.size"
+        },
+        {
+          "name": "md.comp.slider.inactive.track.color",
+          "displayName": "Slider inactive track color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary-container"
+        },
+        {
+          "name": "md.comp.slider.inactive.track.shape",
+          "displayName": "Slider inactive track shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.slider.active.track.color",
+          "displayName": "Slider active track color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.slider.active.handle.padding",
+          "displayName": "Slider active handle padding",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space75"
+        },
+        {
+          "name": "md.comp.slider.active.handle.trailing-space",
+          "displayName": "Slider active handle trailing space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space75"
+        },
+        {
+          "name": "md.comp.slider.active.handle.leading-space",
+          "displayName": "Slider active handle leading space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space75"
+        },
+        {
+          "name": "md.comp.slider.active.handle.width",
+          "displayName": "Slider active handle width",
+          "type": "LENGTH",
+          "value": "4dp"
+        },
+        {
+          "name": "md.comp.slider.active.handle.height",
+          "displayName": "Slider active handle height",
+          "type": "LENGTH",
+          "value": "44dp"
+        },
+        {
+          "name": "md.comp.slider.active.track.shape",
+          "displayName": "Slider active track shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.slider.handle.color",
+          "displayName": "Slider handle color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.slider.handle.shape",
+          "displayName": "Slider handle shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.slider.handle.width",
+          "displayName": "Slider handle width",
+          "type": "LENGTH",
+          "value": "4dp"
+        },
+        {
+          "name": "md.comp.slider.handle.height",
+          "displayName": "Slider handle height",
+          "type": "LENGTH",
+          "value": "44dp"
+        },
+        {
+          "name": "md.comp.slider.inactive.track.height",
+          "displayName": "Slider inactive track height",
+          "type": "LENGTH",
+          "value": "16dp"
+        },
+        {
+          "name": "md.comp.slider.active.track.height",
+          "displayName": "Slider active track height",
+          "type": "LENGTH",
+          "value": "16dp"
+        },
+        {
+          "name": "md.comp.slider.disabled.inactive.track.color",
+          "displayName": "Slider disabled inactive track color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.slider.disabled.active.track.color",
+          "displayName": "Slider disabled active track color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.slider.pressed.handle.color",
+          "displayName": "Slider pressed handle color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.slider.disabled.handle.color",
+          "displayName": "Slider disabled handle color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        }
+      ]
+    },
+    {
+      "displayName": "Slider - Size - Xsmall",
+      "tokenSetName": "md.comp.slider.xsmall",
+      "description": "For expressive XS sliders.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.slider.xsmall.inactive.track.shape.trailing",
+          "displayName": "Slider xsmall inactive track trailing shape",
+          "type": "LENGTH",
+          "value": "8dp"
+        },
+        {
+          "name": "md.comp.slider.xsmall.active.handle.height",
+          "displayName": "Slider xsmall active handle height",
+          "type": "LENGTH",
+          "value": "44dp"
+        },
+        {
+          "name": "md.comp.slider.xsmall.inactive.track.height",
+          "displayName": "Slider xsmall inactive track height",
+          "type": "LENGTH",
+          "value": "16dp"
+        },
+        {
+          "name": "md.comp.slider.xsmall.active.track.shape.leading",
+          "displayName": "Slider xsmall active track leading shape",
+          "type": "LENGTH",
+          "value": "8dp"
+        },
+        {
+          "name": "md.comp.slider.xsmall.active.track.height",
+          "displayName": "Slider xsmall active track height",
+          "type": "LENGTH",
+          "value": "16dp"
+        }
+      ]
+    },
+    {
+      "displayName": "Slider - Size - Small",
+      "tokenSetName": "md.comp.slider.small",
+      "description": "For expressive small sliders.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.slider.small.inactive.track.shape.trailing",
+          "displayName": "Slider small inactive track trailing shape",
+          "type": "LENGTH",
+          "value": "8dp"
+        },
+        {
+          "name": "md.comp.slider.small.inactive.track.height",
+          "displayName": "Slider small inactive track height",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.slider.small.active.handle.height",
+          "displayName": "Slider small active handle height",
+          "type": "LENGTH",
+          "value": "44dp"
+        },
+        {
+          "name": "md.comp.slider.small.active.track.shape.leading",
+          "displayName": "Slider small active track leading shape",
+          "type": "LENGTH",
+          "value": "8dp"
+        },
+        {
+          "name": "md.comp.slider.small.active.track.height",
+          "displayName": "Slider small active track height",
+          "type": "LENGTH",
+          "value": "24dp"
+        }
+      ]
+    },
+    {
+      "displayName": "Slider - Size - Medium",
+      "tokenSetName": "md.comp.slider.medium",
+      "description": "For expressive medium sliders.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.slider.medium.icon.padding",
+          "displayName": "Slider medium icon padding",
+          "type": "LENGTH",
+          "value": "6dp"
+        },
+        {
+          "name": "md.comp.slider.medium.icon.size",
+          "displayName": "Slider medium icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.slider.medium.active.handle.height",
+          "displayName": "Slider medium active handle height",
+          "type": "LENGTH",
+          "value": "44dp"
+        },
+        {
+          "name": "md.comp.slider.medium.inactive.track.shape.trailing",
+          "displayName": "Slider medium inactive track trailing shape",
+          "type": "LENGTH",
+          "value": "12dp"
+        },
+        {
+          "name": "md.comp.slider.medium.inactive.track.height",
+          "displayName": "Slider medium inactive track height",
+          "type": "LENGTH",
+          "value": "40dp"
+        },
+        {
+          "name": "md.comp.slider.medium.active.track.shape.leading",
+          "displayName": "Slider medium active track leading shape",
+          "type": "LENGTH",
+          "value": "12dp"
+        },
+        {
+          "name": "md.comp.slider.medium.active.track.height",
+          "displayName": "Slider medium active track height",
+          "type": "LENGTH",
+          "value": "40dp"
+        }
+      ]
+    },
+    {
+      "displayName": "Slider - Size - Large",
+      "tokenSetName": "md.comp.slider.large",
+      "description": "For expressive large sliders.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.slider.large.icon.padding",
+          "displayName": "Slider large icon padding",
+          "type": "LENGTH",
+          "value": "6dp"
+        },
+        {
+          "name": "md.comp.slider.large.icon.size",
+          "displayName": "Slider large icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.slider.large.active.handle.height",
+          "displayName": "Slider large active handle height",
+          "type": "LENGTH",
+          "value": "68dp"
+        },
+        {
+          "name": "md.comp.slider.large.inactive.track.shape.trailing",
+          "displayName": "Slider large inactive track trailing shape",
+          "type": "LENGTH",
+          "value": "16dp"
+        },
+        {
+          "name": "md.comp.slider.large.inactive.track.height",
+          "displayName": "Slider large inactive track trailing shape",
+          "type": "LENGTH",
+          "value": "56dp"
+        },
+        {
+          "name": "md.comp.slider.large.active.track.shape.leading",
+          "displayName": "Slider large active track leading shape",
+          "type": "LENGTH",
+          "value": "16dp"
+        },
+        {
+          "name": "md.comp.slider.large.active.track.height",
+          "displayName": "Slider large active track height",
+          "type": "LENGTH",
+          "value": "56dp"
+        }
+      ]
+    },
+    {
+      "displayName": "Slider - Size - Xlarge",
+      "tokenSetName": "md.comp.slider.xlarge",
+      "description": "For expressive XL sliders.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.slider.xlarge.icon.padding",
+          "displayName": "Slider xlarge icon padding",
+          "type": "LENGTH",
+          "value": "8dp"
+        },
+        {
+          "name": "md.comp.slider.xlarge.icon.size",
+          "displayName": "Slider xlarge icon size",
+          "type": "LENGTH",
+          "value": "32dp"
+        },
+        {
+          "name": "md.comp.slider.xlarge.active.handle.height",
+          "displayName": "Slider xlarge active handle height",
+          "type": "LENGTH",
+          "value": "108dp"
+        },
+        {
+          "name": "md.comp.slider.xlarge.inactive.track.shape.trailing",
+          "displayName": "Slider xlarge inactive track trailing shape",
+          "type": "LENGTH",
+          "value": "28dp"
+        },
+        {
+          "name": "md.comp.slider.xlarge.inactive.track.height",
+          "displayName": "Slider xlarge inactive track height",
+          "type": "LENGTH",
+          "value": "96dp"
+        },
+        {
+          "name": "md.comp.slider.xlarge.active.track.shape.leading",
+          "displayName": "Slider xlarge active track leading shape",
+          "type": "LENGTH",
+          "value": "28dp"
+        },
+        {
+          "name": "md.comp.slider.xlarge.active.track.height",
+          "displayName": "Slider xlarge active track height",
+          "type": "LENGTH",
+          "value": "96dp"
+        }
+      ]
+    }
+  ]
+}

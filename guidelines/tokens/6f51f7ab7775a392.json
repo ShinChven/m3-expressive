@@ -1,0 +1,382 @@
+{
+  "id": "6f51f7ab7775a392",
+  "component": "Progress indicators",
+  "tokenSets": [
+    {
+      "displayName": "Progress Indicator - Common",
+      "tokenSetName": "md.comp.progress-indicator",
+      "description": "Common tokens for circular and linear progress indicators.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.progress-indicator.active-indicator.color",
+          "displayName": "Progress indicator active indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.progress-indicator.track.color",
+          "displayName": "Progress indicator track color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary-container"
+        },
+        {
+          "name": "md.comp.progress-indicator.stop-indicator.color",
+          "displayName": "Progress indicator stop indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.progress-indicator.active-indicator.shape",
+          "displayName": "Progress indicator active indicator shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.progress-indicator.track.shape",
+          "displayName": "Progress indicator track shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.progress-indicator.stop-indicator.shape",
+          "displayName": "Progress indicator stop indicator shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.progress-indicator.active-indicator.thickness",
+          "displayName": "Active indicator thickness",
+          "type": "LENGTH",
+          "value": "4dp"
+        },
+        {
+          "name": "md.comp.progress-indicator.track.thickness",
+          "displayName": "Track thickness",
+          "type": "LENGTH",
+          "value": "4dp"
+        },
+        {
+          "name": "md.comp.progress-indicator.stop-indicator.size",
+          "displayName": "Stop indicator size",
+          "type": "LENGTH",
+          "value": "4dp"
+        },
+        {
+          "name": "md.comp.progress-indicator.active-indicator-track-space",
+          "displayName": "Spacing between active indicator and track",
+          "type": "LENGTH",
+          "value": "4dp"
+        }
+      ]
+    },
+    {
+      "displayName": "Progress indicator - Circular",
+      "tokenSetName": "md.comp.progress-indicator.circular",
+      "description": "For circular progress indicators.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.progress-indicator.circular.size",
+          "displayName": "Progress indicator circular size",
+          "type": "LENGTH",
+          "value": "40dp"
+        },
+        {
+          "name": "md.comp.progress-indicator.circular.active-indicator.thickness",
+          "displayName": "Progress indicator circular active indicator thickness",
+          "type": "LENGTH",
+          "value": "4dp"
+        },
+        {
+          "name": "md.comp.progress-indicator.circular.active-indicator.wave.amplitude",
+          "displayName": "Progress indicator circular active indicator wave amplitude",
+          "type": "LENGTH",
+          "value": "1.6dp"
+        },
+        {
+          "name": "md.comp.progress-indicator.circular.active-indicator.wave.wavelength",
+          "displayName": "Progress indicator circular active indicator wave wavelength",
+          "type": "LENGTH",
+          "value": "15dp"
+        },
+        {
+          "name": "md.comp.progress-indicator.circular.track-active-indicator-space",
+          "displayName": "Progress indicator circular track active indicator space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space50"
+        },
+        {
+          "name": "md.comp.progress-indicator.circular.track.thickness",
+          "displayName": "Progress indicator circular track thickness",
+          "type": "LENGTH",
+          "value": "4dp"
+        },
+        {
+          "name": "md.comp.progress-indicator.circular.with-wave.size",
+          "displayName": "Progress indicator circular size with wave",
+          "type": "LENGTH",
+          "value": "48dp"
+        },
+        {
+          "name": "md.comp.progress-indicator.circular.thick.size",
+          "displayName": "Progress indicator circular thick size",
+          "type": "LENGTH",
+          "value": "52dp"
+        },
+        {
+          "name": "md.comp.progress-indicator.circular.thick.active-indicator.thickness",
+          "displayName": "Progress indicator circular thick active indicator thickness",
+          "type": "LENGTH",
+          "value": "8dp"
+        },
+        {
+          "name": "md.comp.progress-indicator.circular.thick.track.thickness",
+          "displayName": "Progress indicator circular thick track thickness",
+          "type": "LENGTH",
+          "value": "8dp"
+        },
+        {
+          "name": "md.comp.progress-indicator.circular.thick.track-active-indicator-space",
+          "displayName": "Progress indicator circular thick track active indicator space",
+          "type": "LENGTH",
+          "value": "4dp"
+        }
+      ]
+    },
+    {
+      "displayName": "Progress indicator - Linear",
+      "tokenSetName": "md.comp.progress-indicator.linear",
+      "description": "For linear progress indicators.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.progress-indicator.linear.indeterminate.active-indicator.wave.wavelength",
+          "displayName": "Progress indicator linear indeterminate wave wavelength ",
+          "type": "LENGTH",
+          "value": "20dp"
+        },
+        {
+          "name": "md.comp.progress-indicator.linear.height",
+          "displayName": "Progress indicator linear height",
+          "type": "LENGTH",
+          "value": "4dp"
+        },
+        {
+          "name": "md.comp.progress-indicator.linear.with-wave.height",
+          "displayName": "Progress indicator linear with wave height",
+          "type": "LENGTH",
+          "value": "10dp"
+        },
+        {
+          "name": "md.comp.progress-indicator.linear.active-indicator.thickness",
+          "displayName": "Progress indicator linear active indicator thickness",
+          "type": "LENGTH",
+          "value": "4dp"
+        },
+        {
+          "name": "md.comp.progress-indicator.linear.track.thickness",
+          "displayName": "Progress indicator linear track thickness",
+          "type": "LENGTH",
+          "value": "4dp"
+        },
+        {
+          "name": "md.comp.progress-indicator.linear.stop-indicator.size",
+          "displayName": "Progress indicator linear stop indicator size",
+          "type": "LENGTH",
+          "value": "4dp"
+        },
+        {
+          "name": "md.comp.progress-indicator.linear.stop-indicator.trailing-space",
+          "displayName": "Progress indicator linear stop indicator trailing space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space0"
+        },
+        {
+          "name": "md.comp.progress-indicator.linear.active-indicator.wave.amplitude",
+          "displayName": "Progress indicator linear wave amplitude",
+          "type": "LENGTH",
+          "value": "3dp"
+        },
+        {
+          "name": "md.comp.progress-indicator.linear.active-indicator.wave.wavelength",
+          "displayName": "Progress indicator linear wave wavelenght",
+          "type": "LENGTH",
+          "value": "40dp"
+        },
+        {
+          "name": "md.comp.progress-indicator.linear.track-active-indicator-space",
+          "displayName": "Progress indicator linear track active indicator space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space50"
+        },
+        {
+          "name": "md.comp.progress-indicator.linear.thick.height",
+          "displayName": "Progress indicator linear thick height",
+          "type": "LENGTH",
+          "value": "8dp"
+        },
+        {
+          "name": "md.comp.progress-indicator.linear.thick.with-wave.height",
+          "displayName": "Progress indicator linear thick active indicator thickness",
+          "type": "LENGTH",
+          "value": "14dp"
+        },
+        {
+          "name": "md.comp.progress-indicator.linear.thick.active-indicator.thickness",
+          "displayName": "Progress indicator linear thick with wave height",
+          "type": "LENGTH",
+          "value": "8dp"
+        },
+        {
+          "name": "md.comp.progress-indicator.linear.thick.track.thickness",
+          "displayName": "Progress indicator linear thick track thickness",
+          "type": "LENGTH",
+          "value": "8dp"
+        },
+        {
+          "name": "md.comp.progress-indicator.linear.thick.stop-indicator.size",
+          "displayName": "Progress indicator linear thick stop indicator size",
+          "type": "LENGTH",
+          "value": "4dp"
+        },
+        {
+          "name": "md.comp.progress-indicator.linear.thick.track-active-indicator-space",
+          "displayName": "Progress indicator linear thick track active indicator space",
+          "type": "LENGTH",
+          "value": "4dp"
+        },
+        {
+          "name": "md.comp.progress-indicator.linear.thick.stop-indicator.trailing-space",
+          "displayName": "Progress indicator linear thick stop indicator trailing space",
+          "type": "LENGTH",
+          "value": "2dp"
+        }
+      ]
+    },
+    {
+      "displayName": "[Deprecated] Progress indicator - Linear",
+      "tokenSetName": "md.comp.linear-progress-indicator",
+      "description": "This token set is deprecated. Use `md.comp.progress-indicator.linear` instead. Original tokens for the linear progress indicator.",
+      "isDeprecated": true,
+      "tokens": [
+        {
+          "name": "md.comp.linear-progress-indicator.four-color.active-indicator.four.color",
+          "displayName": "Linear progress indicator four color active indicator four color",
+          "type": "COLOR",
+          "value": "md.sys.color.tertiary-container"
+        },
+        {
+          "name": "md.comp.linear-progress-indicator.four-color.active-indicator.three.color",
+          "displayName": "Linear progress indicator four color active indicator three color",
+          "type": "COLOR",
+          "value": "md.sys.color.tertiary"
+        },
+        {
+          "name": "md.comp.linear-progress-indicator.four-color.active-indicator.two.color",
+          "displayName": "Linear progress indicator four color active indicator two color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary-container"
+        },
+        {
+          "name": "md.comp.linear-progress-indicator.four-color.active-indicator.one.color",
+          "displayName": "Linear progress indicator four color active indicator one color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.linear-progress-indicator.active-indicator.color",
+          "displayName": "Linear progress indicator active indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.linear-progress-indicator.active-indicator.shape",
+          "displayName": "Linear progress indicator active indicator shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.none"
+        },
+        {
+          "name": "md.comp.linear-progress-indicator.active-indicator.height",
+          "displayName": "Linear progress indicator active indicator height",
+          "type": "LENGTH",
+          "value": "4dp"
+        },
+        {
+          "name": "md.comp.linear-progress-indicator.track.color",
+          "displayName": "Linear progress indicator track color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-highest"
+        },
+        {
+          "name": "md.comp.linear-progress-indicator.track.shape",
+          "displayName": "Linear progress indicator track shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.none"
+        },
+        {
+          "name": "md.comp.linear-progress-indicator.track.height",
+          "displayName": "Linear progress indicator track height",
+          "type": "LENGTH",
+          "value": "4dp"
+        }
+      ]
+    },
+    {
+      "displayName": "[Deprecated] Progress indicator - Circular",
+      "tokenSetName": "md.comp.circular-progress-indicator",
+      "description": "This token set is deprecated. Use `md.comp.progress-indicator.circular` instead. Original tokens for the circular progress indicator.",
+      "isDeprecated": true,
+      "tokens": [
+        {
+          "name": "md.comp.circular-progress-indicator.four-color.active-indicator.four.color",
+          "displayName": "Circular progress indicator four color active indicator four color",
+          "type": "COLOR",
+          "value": "md.sys.color.tertiary-container"
+        },
+        {
+          "name": "md.comp.circular-progress-indicator.four-color.active-indicator.three.color",
+          "displayName": "Circular progress indicator four color active indicator three color",
+          "type": "COLOR",
+          "value": "md.sys.color.tertiary"
+        },
+        {
+          "name": "md.comp.circular-progress-indicator.four-color.active-indicator.two.color",
+          "displayName": "Circular progress indicator four color active indicator two color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary-container"
+        },
+        {
+          "name": "md.comp.circular-progress-indicator.four-color.active-indicator.one.color",
+          "displayName": "Circular progress indicator four color active indicator one color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.circular-progress-indicator.active-indicator.color",
+          "displayName": "Circular progress indicator active indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.circular-progress-indicator.active-indicator.shape",
+          "displayName": "Circular progress indicator active indicator shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.none"
+        },
+        {
+          "name": "md.comp.circular-progress-indicator.active-indicator.width",
+          "displayName": "Circular progress indicator active indicator width",
+          "type": "LENGTH",
+          "value": "4dp"
+        },
+        {
+          "name": "md.comp.circular-progress-indicator.size",
+          "displayName": "Circular progress indicator active indicator size",
+          "type": "LENGTH",
+          "value": "48dp"
+        }
+      ]
+    }
+  ]
+}

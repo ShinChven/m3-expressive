@@ -1,0 +1,126 @@
+/* Styles used only by the motion page. */
+.motion-doc-preview {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+  height: 80px;
+}
+.motion-doc-preview > span {
+  width: 24px;
+  border-radius: var(--md-sys-shape-corner-full);
+  background: var(--md-sys-color-primary);
+  animation: motion-doc-bounce 1.6s var(--md-sys-motion-spring-default-spatial) infinite alternate;
+}
+.motion-doc-preview > span:nth-child(2) {
+  background: var(--md-sys-color-tertiary);
+  animation-delay: 0.2s;
+}
+.motion-doc-preview > span:nth-child(3) {
+  background: var(--md-sys-color-secondary);
+  animation-delay: 0.4s;
+}
+@keyframes motion-doc-bounce {
+  from {
+    height: 24px;
+  }
+  to {
+    height: 72px;
+  }
+}
+.motion-doc-stage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  width: min(100%, 420px);
+  background: transparent;
+}
+.motion-doc-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: transparent;
+}
+.motion-doc-label {
+  width: 88px;
+  color: var(--md-sys-color-on-surface-variant);
+  font: var(--md-sys-typescale-label-large);
+}
+.motion-doc-track {
+  position: relative;
+  width: min(100%, 320px);
+  height: 48px;
+  border-radius: var(--md-sys-shape-corner-full);
+  background: var(--md-sys-color-surface-container-high);
+}
+.motion-doc-stage .motion-doc-track {
+  width: 100%;
+}
+.motion-doc-ball {
+  --_speed: default;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--md-sys-color-primary);
+  transition: left var(--md-sys-motion-spring-default-spatial-duration)
+    var(--md-sys-motion-spring-default-spatial);
+}
+.motion-doc-ball[data-speed="fast"] {
+  transition: left var(--md-sys-motion-spring-fast-spatial-duration)
+    var(--md-sys-motion-spring-fast-spatial);
+}
+.motion-doc-ball[data-speed="slow"] {
+  transition: left var(--md-sys-motion-spring-slow-spatial-duration)
+    var(--md-sys-motion-spring-slow-spatial);
+}
+.motion-doc-ball[data-moved] {
+  left: calc(100% - 44px);
+}
+.motion-doc-square {
+  width: 72px;
+  height: 72px;
+  border-radius: var(--md-sys-shape-corner-small);
+  background: var(--md-sys-color-secondary-container);
+  transition:
+    translate var(--md-sys-motion-spring-default-spatial-duration)
+    var(--md-sys-motion-spring-default-spatial),
+    border-radius var(--md-sys-motion-spring-default-spatial-duration)
+    var(--md-sys-motion-spring-default-spatial),
+    background-color var(--md-sys-motion-spring-default-effects-duration)
+    var(--md-sys-motion-spring-default-effects);
+}
+.motion-doc-square[data-on] {
+  translate: 48px 0;
+  border-radius: var(--md-sys-shape-corner-full);
+  background: var(--md-sys-color-tertiary);
+}
+.motion-doc-curves {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.motion-doc-curve {
+  margin: 0;
+  padding: 12px;
+  border-radius: var(--md-sys-shape-corner-large);
+  background: var(--md-sys-color-surface-container-low);
+}
+.motion-doc-curve > figcaption {
+  color: var(--md-sys-color-on-surface-variant);
+  font: var(--md-sys-typescale-label-medium);
+  text-align: center;
+}
+.motion-doc-line {
+  fill: none;
+  stroke: var(--md-sys-color-primary);
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.motion-doc-target {
+  stroke: var(--md-sys-color-outline-variant);
+  stroke-dasharray: 4 4;
+}

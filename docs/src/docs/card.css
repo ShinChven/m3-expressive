@@ -1,0 +1,11 @@
+/* Styles used only by the card page. */
+.card-doc-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(220px, 100%), 1fr));
+  gap: 16px;
+  width: 100%;
+}
+.card-doc-stat {
+  color: var(--md-sys-color-on-surface);
+  font: var(--md-sys-typescale-display-small);
+}

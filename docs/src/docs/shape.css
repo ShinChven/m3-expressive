@@ -1,0 +1,74 @@
+/* Styles used only by the shape page. */
+.shape-doc-preview,
+.shape-doc-primary {
+  color: var(--md-sys-color-primary);
+}
+.shape-doc-preview > :nth-child(2) {
+  color: var(--md-sys-color-tertiary);
+}
+.shape-doc-preview > :nth-child(3) {
+  color: var(--md-sys-color-secondary);
+}
+.shape-doc-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(96px, 1fr));
+  gap: 8px;
+}
+.shape-doc-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 12px 4px;
+  border: none;
+  border-radius: var(--md-sys-shape-corner-large);
+  background: var(--md-sys-color-surface-container-low);
+  color: var(--md-sys-color-primary);
+  cursor: pointer;
+  transition: background-color var(--md-sys-motion-spring-fast-effects-duration)
+    var(--md-sys-motion-spring-fast-effects);
+}
+.shape-doc-tile > span {
+  color: var(--md-sys-color-on-surface-variant);
+  font: var(--md-sys-typescale-label-small);
+}
+.shape-doc-tile:hover {
+  background: var(--md-sys-color-surface-container-high);
+}
+.shape-doc-tile[aria-pressed="true"] {
+  background: var(--md-sys-color-primary-container);
+  color: var(--md-sys-color-on-primary-container);
+}
+.shape-doc-tile:focus-visible {
+  outline: var(--md-sys-focus-ring-width) solid var(--md-sys-focus-ring-color);
+  outline-offset: var(--md-sys-focus-ring-offset);
+}
+.shape-doc-morph {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 32px;
+}
+.shape-doc-corners {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 16px;
+}
+.shape-doc-corner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+.shape-doc-corner > span {
+  width: 96px;
+  height: 64px;
+  background: var(--md-sys-color-tertiary-container);
+}
+.shape-doc-corner > code {
+  font: var(--md-sys-typescale-label-medium);
+}
+.shape-doc-corner > small {
+  color: var(--md-sys-color-on-surface-variant);
+  font: var(--md-sys-typescale-body-small);
+}

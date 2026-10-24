@@ -1,0 +1,1890 @@
+{
+  "id": "36500f77b86d20a5",
+  "component": "Extended FAB",
+  "tokenSets": [
+    {
+      "displayName": "Extended FAB - Color - Branded",
+      "tokenSetName": "md.comp.extended-fab.branded",
+      "description": "For branded color extended FABs. Not recommended with expressive extended FABs.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.extended-fab.branded.focus.indicator.outline.offset",
+          "displayName": "Extended FAB (branded) focus indicator offset",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.outer-offset"
+        },
+        {
+          "name": "md.comp.extended-fab.branded.focus.indicator.thickness",
+          "displayName": "Extended FAB (branded) focus indicator thickness",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.thickness"
+        },
+        {
+          "name": "md.comp.extended-fab.branded.focus.indicator.color",
+          "displayName": "Extended FAB (branded) focus indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary"
+        },
+        {
+          "name": "md.comp.extended-fab.branded.container.shadow-color",
+          "displayName": "Branded extended FAB container shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.extended-fab.branded.container.shape",
+          "displayName": "Extended FAB (branded) container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.large"
+        },
+        {
+          "name": "md.comp.extended-fab.branded.container.surface-tint-layer.color",
+          "displayName": "Extended FAB (branded) container surface tint layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-tint"
+        },
+        {
+          "name": "md.comp.extended-fab.branded.lowered.container.elevation",
+          "displayName": "Branded extended FAB lowered container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.extended-fab.branded.container.height",
+          "displayName": "Extended FAB (branded) container height",
+          "type": "LENGTH",
+          "value": "56dp"
+        },
+        {
+          "name": "md.comp.extended-fab.branded.container.elevation",
+          "displayName": "Extended FAB (branded) container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.extended-fab.branded.lowered.container.color",
+          "displayName": "Extended FAB (branded) lowered container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-low"
+        },
+        {
+          "name": "md.comp.extended-fab.branded.label-text.type",
+          "displayName": "Label text type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.extended-fab.branded.label-text.font",
+          "displayName": "Extended FAB (branded) font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.label-large.font"
+        },
+        {
+          "name": "md.comp.extended-fab.branded.label-text.weight",
+          "displayName": "Extended FAB (branded) weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.label-large.weight"
+        },
+        {
+          "name": "md.comp.extended-fab.branded.label-text.size",
+          "displayName": "Extended FAB (branded) size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.label-large.size"
+        },
+        {
+          "name": "md.comp.extended-fab.branded.label-text.line-height",
+          "displayName": "Extended FAB (branded) height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.label-large.line-height"
+        },
+        {
+          "name": "md.comp.extended-fab.branded.label-text.tracking",
+          "displayName": "Extended FAB (branded) tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.label-large.tracking"
+        },
+        {
+          "name": "md.comp.extended-fab.branded.lowered.focus.container.elevation",
+          "displayName": "Branded extended FAB lowered focus container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.extended-fab.branded.focus.container.elevation",
+          "displayName": "Branded extended FAB focus container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.extended-fab.branded.focus.label-text.color",
+          "displayName": "Extended FAB (branded) focus color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.extended-fab.branded.focus.state-layer.opacity",
+          "displayName": "Extended FAB (branded) focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.extended-fab.branded.focus.state-layer.color",
+          "displayName": "Extended FAB (branded) focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.extended-fab.branded.lowered.hover.container.elevation",
+          "displayName": "Branded extended FAB lowered hover container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level2"
+        },
+        {
+          "name": "md.comp.extended-fab.branded.hover.label-text.color",
+          "displayName": "Extended FAB (branded) hover color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.extended-fab.branded.hover.state-layer.opacity",
+          "displayName": "Extended FAB (branded) hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.extended-fab.branded.hover.state-layer.color",
+          "displayName": "Extended FAB (branded) hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.extended-fab.branded.hover.container.elevation",
+          "displayName": "Extended FAB (branded) hover container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level4"
+        },
+        {
+          "name": "md.comp.extended-fab.branded.label-text.color",
+          "displayName": "Extended FAB (branded) color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.extended-fab.branded.icon.size",
+          "displayName": "Extended FAB (branded) icon size",
+          "type": "LENGTH",
+          "value": "36dp"
+        },
+        {
+          "name": "md.comp.extended-fab.branded.container.color",
+          "displayName": "Extended FAB (branded) container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-high"
+        },
+        {
+          "name": "md.comp.extended-fab.branded.lowered.pressed.container.elevation",
+          "displayName": "Branded extended FAB lowered pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.extended-fab.branded.pressed.label-text.color",
+          "displayName": "Extended FAB (branded) pressed color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.extended-fab.branded.pressed.state-layer.opacity",
+          "displayName": "Extended FAB (branded) pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.extended-fab.branded.pressed.state-layer.color",
+          "displayName": "Extended FAB (branded) pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.extended-fab.branded.pressed.container.elevation",
+          "displayName": "Extended FAB (branded) pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        }
+      ]
+    },
+    {
+      "displayName": "Extended FAB - Color - Primary",
+      "tokenSetName": "md.comp.extended-fab.primary",
+      "description": "For primary color extended FABs.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.extended-fab.primary.container.color",
+          "displayName": "Extended FAB primary container color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.extended-fab.primary.container.elevation",
+          "displayName": "Extended FAB primary container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.extended-fab.primary.container.shadow-color",
+          "displayName": "Extended FAB primary container shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.extended-fab.primary.label-text.color",
+          "displayName": "Extended FAB primary label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.extended-fab.primary.icon.color",
+          "displayName": "Extended FAB primary container icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.extended-fab.primary.hovered.container.elevation",
+          "displayName": "Extended FAB primary hovered container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level4"
+        },
+        {
+          "name": "md.comp.extended-fab.primary.hovered.state-layer.color",
+          "displayName": "Extended FAB primary hovered state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.extended-fab.primary.hovered.state-layer.opacity",
+          "displayName": "Extended FAB primary hovered state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.extended-fab.primary.hovered.label-text.color",
+          "displayName": "Extended FAB primary hovered label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.extended-fab.primary.hovered.icon.color",
+          "displayName": "Extended FAB primary hovered icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.extended-fab.primary.focused.container.elevation",
+          "displayName": "Extended FAB primary focused container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.extended-fab.primary.focused.state-layer.color",
+          "displayName": "Extended FAB primary focused state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.extended-fab.primary.focused.state-layer.opacity",
+          "displayName": "Extended FAB primary focused state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.extended-fab.primary.focused.label-text.color",
+          "displayName": "Extended FAB primary focused label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.extended-fab.primary.focused.icon.color",
+          "displayName": "Extended FAB primary focused icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.extended-fab.primary.pressed.container.elevation",
+          "displayName": "Extended FAB primary pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.extended-fab.primary.pressed.state-layer.color",
+          "displayName": "Extended FAB primary pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.extended-fab.primary.pressed.state-layer.opacity",
+          "displayName": "Extended FAB primary pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.extended-fab.primary.pressed.label-text.color",
+          "displayName": "Extended FAB primary pressed label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.extended-fab.primary.pressed.icon.color",
+          "displayName": "Extended FAB primary pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.extended-fab.primary.focus.indicator.outline.offset",
+          "displayName": "Extended FAB (primary) focus indicator offset",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.outer-offset"
+        },
+        {
+          "name": "md.comp.extended-fab.primary.focus.indicator.thickness",
+          "displayName": "Extended FAB (primary) focus indicator thickness",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.thickness"
+        },
+        {
+          "name": "md.comp.extended-fab.primary.focus.indicator.color",
+          "displayName": "Extended FAB (primary) focus indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary"
+        },
+        {
+          "name": "md.comp.extended-fab.primary.label-text.type",
+          "displayName": "Label text type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.extended-fab.primary.label-text.font",
+          "displayName": "Extended FAB (primary) font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.label-large.font"
+        },
+        {
+          "name": "md.comp.extended-fab.primary.label-text.weight",
+          "displayName": "Extended FAB (primary) weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.label-large.weight"
+        },
+        {
+          "name": "md.comp.extended-fab.primary.label-text.size",
+          "displayName": "Extended FAB (primary) size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.label-large.size"
+        },
+        {
+          "name": "md.comp.extended-fab.primary.label-text.line-height",
+          "displayName": "Extended FAB (primary) height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.label-large.line-height"
+        },
+        {
+          "name": "md.comp.extended-fab.primary.label-text.tracking",
+          "displayName": "Extended FAB (primary) tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.label-large.tracking"
+        },
+        {
+          "name": "md.comp.extended-fab.primary.lowered.focus.container.elevation",
+          "displayName": "Primary extended FAB lowered focus container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.extended-fab.primary.focus.container.elevation",
+          "displayName": "Primary extended FAB focus container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.extended-fab.primary.focus.label-text.color",
+          "displayName": "Extended FAB (primary) focus label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.primary.focus.icon.color",
+          "displayName": "Extended FAB (primary) focus icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.primary.focus.state-layer.opacity",
+          "displayName": "Extended FAB (primary) focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.extended-fab.primary.focus.state-layer.color",
+          "displayName": "Extended FAB (primary) focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.primary.lowered.hover.container.elevation",
+          "displayName": "Primary extended FAB lowered hover container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level2"
+        },
+        {
+          "name": "md.comp.extended-fab.primary.hover.label-text.color",
+          "displayName": "Extended FAB (primary) hover label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.primary.hover.icon.color",
+          "displayName": "Extended FAB (primary) hover icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.primary.hover.state-layer.opacity",
+          "displayName": "Extended FAB (primary) hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.extended-fab.primary.hover.state-layer.color",
+          "displayName": "Extended FAB (primary) hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.primary.hover.container.elevation",
+          "displayName": "Extended FAB (primary) hover container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level4"
+        },
+        {
+          "name": "md.comp.extended-fab.primary.icon.size",
+          "displayName": "Extended FAB (primary) icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.extended-fab.primary.lowered.container.elevation",
+          "displayName": "Primary extended FAB lowered container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.extended-fab.primary.container.height",
+          "displayName": "Extended FAB (primary) container height",
+          "type": "LENGTH",
+          "value": "56dp"
+        },
+        {
+          "name": "md.comp.extended-fab.primary.container.shape",
+          "displayName": "Extended FAB (primary) container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.large"
+        },
+        {
+          "name": "md.comp.extended-fab.primary.lowered.pressed.container.elevation",
+          "displayName": "Primary extended FAB lowered pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        }
+      ]
+    },
+    {
+      "displayName": "Extended FAB - Color - Secondary",
+      "tokenSetName": "md.comp.extended-fab.secondary",
+      "description": "For secondary color extended FABs.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.extended-fab.secondary.container.color",
+          "displayName": "Extended FAB secondary container color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary.container.elevation",
+          "displayName": "Extended FAB secondary container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary.container.shadow-color",
+          "displayName": "Extended FAB secondary container shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary.label-text.color",
+          "displayName": "Extended FAB secondary label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary.icon.color",
+          "displayName": "Extended FAB secondary container icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary.pressed.container.elevation",
+          "displayName": "Extended FAB secondary pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary.pressed.state-layer.color",
+          "displayName": "Extended FAB secondary pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary.pressed.state-layer.opacity",
+          "displayName": "Extended FAB secondary pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary.pressed.label-text.color",
+          "displayName": "Extended FAB secondary pressed label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary.pressed.icon.color",
+          "displayName": "Extended FAB secondary pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary.hovered.container.elevation",
+          "displayName": "Extended FAB secondary hovered container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level4"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary.hovered.state-layer.color",
+          "displayName": "Extended FAB secondary hovered state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary.hovered.state-layer.opacity",
+          "displayName": "Extended FAB secondary hovered state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary.hovered.label-text.color",
+          "displayName": "Extended FAB secondary hovered label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary.hovered.icon.color",
+          "displayName": "Extended FAB secondary hovered icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary.focused.container.elevation",
+          "displayName": "Extended FAB secondary focused container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary.focused.state-layer.color",
+          "displayName": "Extended FAB secondary focused state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary.focused.state-layer.opacity",
+          "displayName": "Extended FAB secondary focused state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary.focused.label-text.color",
+          "displayName": "Extended FAB secondary focused label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary.focused.icon.color",
+          "displayName": "Extended FAB secondary focused icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary.lowered.pressed.container.elevation",
+          "displayName": "Secondary extended FAB lowered pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary.container.shape",
+          "displayName": "Extended FAB (secondary) container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.large"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary.container.height",
+          "displayName": "Extended FAB (secondary) container height",
+          "type": "LENGTH",
+          "value": "56dp"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary.lowered.container.elevation",
+          "displayName": "Secondary extended FAB lowered container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary.icon.size",
+          "displayName": "Extended FAB (secondary) icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary.label-text.font",
+          "displayName": "Extended FAB (secondary) font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.label-large.font"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary.label-text.line-height",
+          "displayName": "Extended FAB (secondary) height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.label-large.line-height"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary.label-text.size",
+          "displayName": "Extended FAB (secondary) size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.label-large.size"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary.label-text.weight",
+          "displayName": "Extended FAB (secondary) weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.label-large.weight"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary.label-text.tracking",
+          "displayName": "Extended FAB (secondary) tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.label-large.tracking"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary.hover.container.elevation",
+          "displayName": "Extended FAB (secondary) hover container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level4"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary.hover.state-layer.color",
+          "displayName": "Extended FAB (secondary) hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary.hover.state-layer.opacity",
+          "displayName": "Extended FAB (secondary) hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary.hover.icon.color",
+          "displayName": "Extended FAB (secondary) hover icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary.hover.label-text.color",
+          "displayName": "Extended FAB (secondary) hover color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary.lowered.hover.container.elevation",
+          "displayName": "Secondary extended FAB lowered hover container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level2"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary.focus.state-layer.color",
+          "displayName": "Extended FAB (secondary) focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary.focus.state-layer.opacity",
+          "displayName": "Extended FAB (secondary) focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary.focus.icon.color",
+          "displayName": "Extended FAB (secondary) focus icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary.focus.label-text.color",
+          "displayName": "Extended FAB (secondary) focus color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary.focus.container.elevation",
+          "displayName": "Secondary extended FAB focus container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary.lowered.focus.container.elevation",
+          "displayName": "Secondary extended FAB lowered focus container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary.label-text.type",
+          "displayName": "Label text type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.extended-fab.secondary.focus.indicator.color",
+          "displayName": "Extended FAB (secondary) focus indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary.focus.indicator.thickness",
+          "displayName": "Extended FAB (secondary) focus indicator thickness",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.thickness"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary.focus.indicator.outline.offset",
+          "displayName": "Extended FAB (secondary) focus indicator offset",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.outer-offset"
+        }
+      ]
+    },
+    {
+      "displayName": "Extended FAB - Color - Surface",
+      "tokenSetName": "md.comp.extended-fab.surface",
+      "description": "For surface color extended FABs. Not recommended with expressive extended FABs.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.extended-fab.surface.focus.indicator.outline.offset",
+          "displayName": "Extended FAB (primary) focus indicator offset",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.outer-offset"
+        },
+        {
+          "name": "md.comp.extended-fab.surface.focus.indicator.thickness",
+          "displayName": "Extended FAB (primary) focus indicator thickness",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.thickness"
+        },
+        {
+          "name": "md.comp.extended-fab.surface.focus.indicator.color",
+          "displayName": "Extended FAB (primary) focus indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary"
+        },
+        {
+          "name": "md.comp.extended-fab.surface.container.surface-tint-layer.color",
+          "displayName": "Extended FAB (primary) container surface tint layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-tint"
+        },
+        {
+          "name": "md.comp.extended-fab.surface.container.shadow-color",
+          "displayName": "Surface extended FAB container shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.extended-fab.surface.container.shape",
+          "displayName": "Extended FAB (primary) container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.large"
+        },
+        {
+          "name": "md.comp.extended-fab.surface.container.elevation",
+          "displayName": "Extended FAB (primary) container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.extended-fab.surface.lowered.container.elevation",
+          "displayName": "Surface extended FAB lowered container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.extended-fab.surface.container.height",
+          "displayName": "Extended FAB (primary) container height",
+          "type": "LENGTH",
+          "value": "56dp"
+        },
+        {
+          "name": "md.comp.extended-fab.surface.lowered.container.color",
+          "displayName": "Extended FAB (surface) lowered container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-low"
+        },
+        {
+          "name": "md.comp.extended-fab.surface.label-text.type",
+          "displayName": "Label text type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.extended-fab.surface.label-text.font",
+          "displayName": "Extended FAB (primary) font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.label-large.font"
+        },
+        {
+          "name": "md.comp.extended-fab.surface.label-text.weight",
+          "displayName": "Extended FAB (primary) weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.label-large.weight"
+        },
+        {
+          "name": "md.comp.extended-fab.surface.label-text.size",
+          "displayName": "Extended FAB (primary) size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.label-large.size"
+        },
+        {
+          "name": "md.comp.extended-fab.surface.label-text.line-height",
+          "displayName": "Extended FAB (primary) height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.label-large.line-height"
+        },
+        {
+          "name": "md.comp.extended-fab.surface.label-text.tracking",
+          "displayName": "Extended FAB (primary) tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.label-large.tracking"
+        },
+        {
+          "name": "md.comp.extended-fab.surface.lowered.focus.container.elevation",
+          "displayName": "Surface extended FAB lowered focus container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.extended-fab.surface.focus.container.elevation",
+          "displayName": "Surface extended FAB focus container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.extended-fab.surface.focus.label-text.color",
+          "displayName": "Extended FAB (primary) focus color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.extended-fab.surface.focus.icon.color",
+          "displayName": "Extended FAB (primary) focus icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.extended-fab.surface.focus.state-layer.opacity",
+          "displayName": "Extended FAB (primary) focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.extended-fab.surface.focus.state-layer.color",
+          "displayName": "Extended FAB (primary) focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.extended-fab.surface.lowered.hover.container.elevation",
+          "displayName": "Surface extended FAB lowered hover container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level2"
+        },
+        {
+          "name": "md.comp.extended-fab.surface.hover.label-text.color",
+          "displayName": "Extended FAB (primary) hover color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.extended-fab.surface.hover.icon.color",
+          "displayName": "Extended FAB (primary) hover icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.extended-fab.surface.hover.state-layer.opacity",
+          "displayName": "Extended FAB (primary) hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.extended-fab.surface.hover.state-layer.color",
+          "displayName": "Extended FAB (primary) hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.extended-fab.surface.hover.container.elevation",
+          "displayName": "Extended FAB (primary) hover container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level4"
+        },
+        {
+          "name": "md.comp.extended-fab.surface.label-text.color",
+          "displayName": "Extended FAB (primary) color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.extended-fab.surface.icon.color",
+          "displayName": "Extended FAB (primary) icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.extended-fab.surface.icon.size",
+          "displayName": "Extended FAB (primary) icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.extended-fab.surface.container.color",
+          "displayName": "Extended FAB (primary) container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-high"
+        },
+        {
+          "name": "md.comp.extended-fab.surface.lowered.pressed.container.elevation",
+          "displayName": "Surface extended FAB lowered pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.extended-fab.surface.pressed.label-text.color",
+          "displayName": "Extended FAB (primary) pressed color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.extended-fab.surface.pressed.icon.color",
+          "displayName": "Extended FAB (primary) pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.extended-fab.surface.pressed.state-layer.opacity",
+          "displayName": "Extended FAB (primary) pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.extended-fab.surface.pressed.state-layer.color",
+          "displayName": "Extended FAB (primary) pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.extended-fab.surface.pressed.container.elevation",
+          "displayName": "Extended FAB (primary) pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        }
+      ]
+    },
+    {
+      "displayName": "Extended FAB - Color - Tertiary",
+      "tokenSetName": "md.comp.extended-fab.tertiary",
+      "description": "For tertiary color extended FABs.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.extended-fab.tertiary.container.color",
+          "displayName": "Extended FAB tertiary container color",
+          "type": "COLOR",
+          "value": "md.sys.color.tertiary"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary.container.elevation",
+          "displayName": "Extended FAB tertiary container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary.container.shadow-color",
+          "displayName": "Extended FAB tertiary container shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary.label-text.color",
+          "displayName": "Extended FAB tertiary label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary.icon.color",
+          "displayName": "Extended FAB tertiary container icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary.pressed.container.elevation",
+          "displayName": "Extended FAB tertiary pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary.pressed.state-layer.color",
+          "displayName": "Extended FAB tertiary pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary.pressed.state-layer.opacity",
+          "displayName": "Extended FAB tertiary pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary.pressed.label-text.color",
+          "displayName": "Extended FAB tertiary pressed label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary.pressed.icon.color",
+          "displayName": "Extended FAB tertiary pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary.hovered.container.elevation",
+          "displayName": "Extended FAB tertiary hovered container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level4"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary.hovered.state-layer.color",
+          "displayName": "Extended FAB tertiary hovered state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary.hovered.state-layer.opacity",
+          "displayName": "Extended FAB tertiary hovered state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary.hovered.label-text.color",
+          "displayName": "Extended FAB tertiary hovered label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary.hovered.icon.color",
+          "displayName": "Extended FAB tertiary hovered icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary.focused.container.elevation",
+          "displayName": "Extended FAB tertiary focused container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary.focused.state-layer.color",
+          "displayName": "Extended FAB tertiary focused state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary.focused.state-layer.opacity",
+          "displayName": "Extended FAB tertiary focused state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary.focused.label-text.color",
+          "displayName": "Extended FAB tertiary focused label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary.focused.icon.color",
+          "displayName": "Extended FAB tertiary focused icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary.lowered.container.elevation",
+          "displayName": "Extended FAB (tertiary) lowered container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary.container.height",
+          "displayName": "Extended FAB (tertiary) container height",
+          "type": "LENGTH",
+          "value": "56dp"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary.container.shape",
+          "displayName": "Extended FAB (tertiary) container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.large"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary.label-text.font",
+          "displayName": "Extended FAB (tertiary) label text font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.label-large.font"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary.label-text.line-height",
+          "displayName": "Extended FAB (tertiary) label text line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.label-large.line-height"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary.label-text.size",
+          "displayName": "Extended FAB (tertiary) label text size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.label-large.size"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary.label-text.tracking",
+          "displayName": "Extended FAB (tertiary) label text tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.label-large.tracking"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary.label-text.weight",
+          "displayName": "Extended FAB (tertiary) label text weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.label-large.weight"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary.icon.size",
+          "displayName": "Extended FAB (tertiary) icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary.hover.container.elevation",
+          "displayName": "Extended FAB (tertiary) hover container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level4"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary.lowered.hover.container.elevation",
+          "displayName": "Extended FAB (tertiary) lowered hover container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level2"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary.hover.state-layer.color",
+          "displayName": "Extended FAB (tertiary) hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary.hover.state-layer.opacity",
+          "displayName": "Extended FAB (tertiary) hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary.hover.label-text.color",
+          "displayName": "Extended FAB (tertiary) hover label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary.hover.icon.color",
+          "displayName": "Extended FAB (tertiary) hover icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary.focus.container.elevation",
+          "displayName": "Extended FAB (tertiary) focus container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary.lowered.focus.container.elevation",
+          "displayName": "Extended FAB (tertiary) lowered focus container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary.focus.state-layer.color",
+          "displayName": "Extended FAB (tertiary) focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary.focus.state-layer.opacity",
+          "displayName": "Extended FAB (tertiary) focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary.focus.label-text.color",
+          "displayName": "Extended FAB (tertiary) focus label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary.focus.icon.color",
+          "displayName": "Extended FAB (tertiary) focus icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary.label-text.type",
+          "displayName": "Label text type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary.lowered.pressed.container.elevation",
+          "displayName": "Extended FAB (tertiary) lowered pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary.focus.indicator.color",
+          "displayName": "Extended FAB (tertiary) focus indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary.focus.indicator.thickness",
+          "displayName": "Extended FAB (tertiary) focus indicator thickness",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.thickness"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary.focus.indicator.outline.offset",
+          "displayName": "Extended FAB (tertiary) focus indicator offset",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.outer-offset"
+        }
+      ]
+    },
+    {
+      "displayName": "Extended FAB - Color - Tonal tertiary",
+      "tokenSetName": "md.comp.extended-fab.tertiary-container",
+      "description": "For tonal tertiary container extended FABs.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.extended-fab.tertiary-container.container.color",
+          "displayName": "Extended FAB tonal tertiary container color",
+          "type": "COLOR",
+          "value": "md.sys.color.tertiary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary-container.container.elevation",
+          "displayName": "Extended FAB tonal tertiary container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary-container.container.shadow-color",
+          "displayName": "Extended FAB tonal tertiary container shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary-container.label-text.color",
+          "displayName": "Extended FAB tonal tertiary label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary-container.icon.color",
+          "displayName": "Extended FAB tonal tertiary container icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary-container.hovered.container.elevation",
+          "displayName": "Extended FAB tonal tertiary hovered container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level4"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary-container.hovered.state-layer.color",
+          "displayName": "Extended FAB tonal tertiary hovered state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary-container.hovered.state-layer.opacity",
+          "displayName": "Extended FAB tonal tertiary hovered state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary-container.hovered.label-text.color",
+          "displayName": "Extended FAB tonal tertiary hovered label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary-container.hovered.icon.color",
+          "displayName": "Extended FAB tonal tertiary hovered icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary-container.focused.container.elevation",
+          "displayName": "Extended FAB tonal tertiary focused container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary-container.focused.state-layer.color",
+          "displayName": "Extended FAB tonal tertiary focused state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary-container.focused.state-layer.opacity",
+          "displayName": "Extended FAB tonal tertiary focused state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary-container.focused.label-text.color",
+          "displayName": "Extended FAB tonal tertiary focused label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary-container.focused.icon.color",
+          "displayName": "Extended FAB tonal tertiary focused icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary-container.pressed.container.elevation",
+          "displayName": "Extended FAB tonal tertiary pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary-container.pressed.state-layer.color",
+          "displayName": "Extended FAB tonal tertiary pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary-container.pressed.state-layer.opacity",
+          "displayName": "Extended FAB tonal tertiary pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary-container.pressed.label-text.color",
+          "displayName": "Extended FAB tonal tertiary pressed label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.tertiary-container.pressed.icon.color",
+          "displayName": "Extended FAB tonal tertiary pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        }
+      ]
+    },
+    {
+      "displayName": "Extended FAB - Color - Tonal secondary",
+      "tokenSetName": "md.comp.extended-fab.secondary-container",
+      "description": "For tonal secondary container extended FABs.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.extended-fab.secondary-container.container.color",
+          "displayName": "Extended FAB tonal secondary container color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary-container.container.elevation",
+          "displayName": "Extended FAB tonal secondary container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary-container.container.shadow-color",
+          "displayName": "Extended FAB tonal secondary container shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary-container.label-text.color",
+          "displayName": "Extended FAB tonal secondary label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary-container.icon.color",
+          "displayName": "Extended FAB tonal secondary container icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary-container.hovered.container.elevation",
+          "displayName": "Extended FAB tonal secondary hovered container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level4"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary-container.hovered.state-layer.color",
+          "displayName": "Extended FAB tonal secondary hovered state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary-container.hovered.state-layer.opacity",
+          "displayName": "Extended FAB tonal secondary hovered state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary-container.hovered.label-text.color",
+          "displayName": "Extended FAB tonal secondary hovered label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary-container.hovered.icon.color",
+          "displayName": "Extended FAB tonal secondary hovered icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary-container.focused.container.elevation",
+          "displayName": "Extended FAB tonal secondary focused container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary-container.focused.state-layer.color",
+          "displayName": "Extended FAB tonal secondary focused state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary-container.focused.state-layer.opacity",
+          "displayName": "Extended FAB tonal secondary focused state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary-container.focused.label-text.color",
+          "displayName": "Extended FAB tonal secondary focused label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary-container.focused.icon.color",
+          "displayName": "Extended FAB tonal secondary focused icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary-container.pressed.container.elevation",
+          "displayName": "Extended FAB tonal secondary pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary-container.pressed.state-layer.color",
+          "displayName": "Extended FAB tonal secondary pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary-container.pressed.state-layer.opacity",
+          "displayName": "Extended FAB tonal secondary pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary-container.pressed.label-text.color",
+          "displayName": "Extended FAB tonal secondary pressed label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.secondary-container.pressed.icon.color",
+          "displayName": "Extended FAB tonal secondary pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        }
+      ]
+    },
+    {
+      "displayName": "Extended FAB - Color - Tonal primary",
+      "tokenSetName": "md.comp.extended-fab.primary-container",
+      "description": "For tonal primary container extended FABs.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.extended-fab.primary-container.container.color",
+          "displayName": "Extended FAB tonal primary container color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.primary-container.container.shadow-color",
+          "displayName": "Extended FAB tonal primary container shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.extended-fab.primary-container.label-text.color",
+          "displayName": "Extended FAB tonal primary label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.primary-container.icon.color",
+          "displayName": "Extended FAB tonal primary container icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.primary-container.hovered.state-layer.color",
+          "displayName": "Extended FAB tonal primary hovered state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.primary-container.hovered.label-text.color",
+          "displayName": "Extended FAB tonal primary hovered label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.primary-container.hovered.icon.color",
+          "displayName": "Extended FAB tonal primary hovered icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.primary-container.hovered.state-layer.opacity",
+          "displayName": "Extended FAB tonal primary hovered state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.extended-fab.primary-container.hovered.container.elevation",
+          "displayName": "Extended FAB tonal primary hovered container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level4"
+        },
+        {
+          "name": "md.comp.extended-fab.primary-container.container.elevation",
+          "displayName": "Extended FAB tonal primary container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.extended-fab.primary-container.pressed.container.elevation",
+          "displayName": "Extended FAB tonal primary pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.extended-fab.primary-container.pressed.state-layer.color",
+          "displayName": "Extended FAB tonal primary pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.primary-container.pressed.state-layer.opacity",
+          "displayName": "Extended FAB tonal primary pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.extended-fab.primary-container.pressed.label-text.color",
+          "displayName": "Extended FAB tonal primary pressed label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.primary-container.pressed.icon.color",
+          "displayName": "Extended FAB tonal primary pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.primary-container.focused.container.elevation",
+          "displayName": "Extended FAB tonal primary focused container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.extended-fab.primary-container.focused.state-layer.color",
+          "displayName": "Extended FAB tonal primary focused state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.primary-container.focused.state-layer.opacity",
+          "displayName": "Extended FAB tonal primary focused state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.extended-fab.primary-container.focused.label-text.color",
+          "displayName": "Extended FAB tonal primary focused label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.extended-fab.primary-container.focused.icon.color",
+          "displayName": "Extended FAB tonal primary focused icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        }
+      ]
+    },
+    {
+      "displayName": "Extended FAB - Size - Medium",
+      "tokenSetName": "md.comp.extended-fab.medium",
+      "description": "For medium extended FABs.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.extended-fab.medium.container.height",
+          "displayName": "Extended FAB medium container height",
+          "type": "LENGTH",
+          "value": "80dp"
+        },
+        {
+          "name": "md.comp.extended-fab.medium.label-text",
+          "displayName": "Extended FAB medium label text",
+          "type": "TYPOGRAPHY",
+          "value": "md.sys.typescale.title-large"
+        },
+        {
+          "name": "md.comp.extended-fab.medium.icon.size",
+          "displayName": "Extended FAB medium icon size",
+          "type": "LENGTH",
+          "value": "28dp"
+        },
+        {
+          "name": "md.comp.extended-fab.medium.container.shape",
+          "displayName": "Extended FAB medium container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.large-increased"
+        },
+        {
+          "name": "md.comp.extended-fab.medium.leading-space",
+          "displayName": "Extended FAB medium leading space",
+          "type": "LENGTH",
+          "value": "26dp"
+        },
+        {
+          "name": "md.comp.extended-fab.medium.icon-label-space",
+          "displayName": "Extended FAB medium icon label space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space150"
+        },
+        {
+          "name": "md.comp.extended-fab.medium.trailing-space",
+          "displayName": "Extended FAB medium trailing space",
+          "type": "LENGTH",
+          "value": "26dp"
+        }
+      ]
+    },
+    {
+      "displayName": "Extended FAB - Size - Large",
+      "tokenSetName": "md.comp.extended-fab.large",
+      "description": "For large extended FABs.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.extended-fab.large.container.height",
+          "displayName": "Extended FAB large container height",
+          "type": "LENGTH",
+          "value": "96dp"
+        },
+        {
+          "name": "md.comp.extended-fab.large.label-text",
+          "displayName": "Extended FAB large label text",
+          "type": "TYPOGRAPHY",
+          "value": "md.sys.typescale.headline-small"
+        },
+        {
+          "name": "md.comp.extended-fab.large.icon.size",
+          "displayName": "Extended FAB large icon size",
+          "type": "LENGTH",
+          "value": "36dp"
+        },
+        {
+          "name": "md.comp.extended-fab.large.container.shape",
+          "displayName": "Extended FAB large container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.extra-large"
+        },
+        {
+          "name": "md.comp.extended-fab.large.leading-space",
+          "displayName": "Extended FAB large leading space",
+          "type": "LENGTH",
+          "value": "28dp"
+        },
+        {
+          "name": "md.comp.extended-fab.large.icon-label-space",
+          "displayName": "Extended FAB large icon label space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space200"
+        },
+        {
+          "name": "md.comp.extended-fab.large.trailing-space",
+          "displayName": "Extended FAB large trailing space",
+          "type": "LENGTH",
+          "value": "28dp"
+        }
+      ]
+    },
+    {
+      "displayName": "Extended FAB - Size - Baseline",
+      "tokenSetName": "md.comp.extended-fab",
+      "description": "For baseline extended FABs. For expressive, use the small extended FAB token set `md.comp.extended-fab.small` instead.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.extended-fab.container.height",
+          "displayName": "Extended FAB container height",
+          "type": "LENGTH",
+          "value": "56dp"
+        },
+        {
+          "name": "md.comp.extended-fab.leading-space",
+          "displayName": "Extended FAB leading space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space200"
+        },
+        {
+          "name": "md.comp.extended-fab.icon-label-space",
+          "displayName": "Extended FAB icon label space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space150"
+        },
+        {
+          "name": "md.comp.extended-fab.trailing-space",
+          "displayName": "Extended FAB trailing space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space250"
+        },
+        {
+          "name": "md.comp.extended-fab.label-text",
+          "displayName": "Extended FAB label text",
+          "type": "TYPOGRAPHY",
+          "value": "md.sys.typescale.label-large"
+        },
+        {
+          "name": "md.comp.extended-fab.icon.size",
+          "displayName": "Extended FAB icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.extended-fab.container.shape",
+          "displayName": "Extended FAB container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.large"
+        }
+      ]
+    },
+    {
+      "displayName": "Extended FAB - Size - Small",
+      "tokenSetName": "md.comp.extended-fab.small",
+      "description": "For expressive small extended FABs.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.extended-fab.small.container.height",
+          "displayName": "Extended FAB small container height",
+          "type": "LENGTH",
+          "value": "56dp"
+        },
+        {
+          "name": "md.comp.extended-fab.small.label-text",
+          "displayName": "Extended FAB small label text",
+          "type": "TYPOGRAPHY",
+          "value": "md.sys.typescale.title-medium"
+        },
+        {
+          "name": "md.comp.extended-fab.small.icon.size",
+          "displayName": "Extended FAB small icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.extended-fab.small.container.shape",
+          "displayName": "Extended FAB small container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.large"
+        },
+        {
+          "name": "md.comp.extended-fab.small.leading-space",
+          "displayName": "Extended FAB small leading space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space200"
+        },
+        {
+          "name": "md.comp.extended-fab.small.icon-label-space",
+          "displayName": "Extended FAB small icon label space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space100"
+        },
+        {
+          "name": "md.comp.extended-fab.small.trailing-space",
+          "displayName": "Extended FAB small trailing space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space200"
+        }
+      ]
+    }
+  ]
+}

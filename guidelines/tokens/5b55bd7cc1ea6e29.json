@@ -1,0 +1,806 @@
+{
+  "id": "5b55bd7cc1ea6e29",
+  "component": "Navigation rail",
+  "tokenSets": [
+    {
+      "displayName": "Nav rail item - Horizontal",
+      "tokenSetName": "md.comp.nav-rail.item.horizontal",
+      "description": "For horizontal nav rail items, where elements are side-by-side.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.nav-rail.item.horizontal.label-text.font",
+          "displayName": "Nav rail item horizontal label text",
+          "type": "TYPOGRAPHY",
+          "value": "md.sys.typescale.label-large"
+        },
+        {
+          "name": "md.comp.nav-rail.item.horizontal.active-indicator.height",
+          "displayName": "Nav rail item horizontal active indicator height",
+          "type": "LENGTH",
+          "value": "56dp"
+        },
+        {
+          "name": "md.comp.nav-rail.item.horizontal.full-width.leading-space",
+          "displayName": "Nav rail item horizontal full width leading space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space200"
+        },
+        {
+          "name": "md.comp.nav-rail.item.horizontal.full-width.trailing-space",
+          "displayName": "Nav rail item horizontal full width trailing space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space200"
+        },
+        {
+          "name": "md.comp.nav-rail.item.horizontal.icon-label-space",
+          "displayName": "Nav rail item horizontal icon-label-space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space100"
+        }
+      ]
+    },
+    {
+      "displayName": "Nav rail item - Vertical",
+      "tokenSetName": "md.comp.nav-rail.item.vertical",
+      "description": "For vertical nav rail items, where elements are stacked. ",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.nav-rail.item.vertical.trailing-space",
+          "displayName": "Nav rail item vertical icon trailing space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space200"
+        },
+        {
+          "name": "md.comp.nav-rail.item.vertical.leading-space",
+          "displayName": "Nav rail item vertical icon leading-space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space200"
+        },
+        {
+          "name": "md.comp.nav-rail.item.vertical.active-indicator.height",
+          "displayName": "Nav rail item vertical active indicator height",
+          "type": "LENGTH",
+          "value": "32dp"
+        },
+        {
+          "name": "md.comp.nav-rail.item.vertical.icon-label-space",
+          "displayName": "Nav rail item vertical icon label space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space50"
+        },
+        {
+          "name": "md.comp.nav-rail.item.vertical.label-text.font",
+          "displayName": "Nav rail item vertical label text",
+          "type": "TYPOGRAPHY",
+          "value": "md.sys.typescale.label-medium"
+        },
+        {
+          "name": "md.comp.nav-rail.item.vertical.active-indicator.width",
+          "displayName": "Nav rail item vertical active indicator width",
+          "type": "LENGTH",
+          "value": "56dp"
+        }
+      ]
+    },
+    {
+      "displayName": "Nav rail - Expanded",
+      "tokenSetName": "md.comp.nav-rail.expanded",
+      "description": "For expanded nav rail.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.nav-rail.expanded.modal.container.color",
+          "displayName": "Nav rail expanded modal container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container"
+        },
+        {
+          "name": "md.comp.nav-rail.expanded.container.color",
+          "displayName": "Nav rail expanded container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface"
+        },
+        {
+          "name": "md.comp.nav-rail.expanded.modal.container.shape",
+          "displayName": "Nav rail expanded modal container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.large"
+        },
+        {
+          "name": "md.comp.nav-rail.expanded.container.shape",
+          "displayName": "Nav rail expanded container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.none"
+        },
+        {
+          "name": "md.comp.nav-rail.expanded.vertical.trailing-space",
+          "displayName": "Nav rail expanded vertical trailing space",
+          "type": "LENGTH",
+          "value": "20dp"
+        },
+        {
+          "name": "md.comp.nav-rail.expanded.between-item-space",
+          "displayName": "Nav rail expanded between item space",
+          "type": "LENGTH",
+          "value": "undefineddp"
+        },
+        {
+          "name": "md.comp.nav-rail.expanded.container.width.minimum",
+          "displayName": "Nav rail expanded container width minimum",
+          "type": "LENGTH",
+          "value": "220dp"
+        },
+        {
+          "name": "md.comp.nav-rail.expanded.container.width.maximum",
+          "displayName": "Nav rail expanded container width maximum",
+          "type": "LENGTH",
+          "value": "360dp"
+        },
+        {
+          "name": "md.comp.nav-rail.expanded.top-space",
+          "displayName": "Nav rail expanded top space",
+          "type": "LENGTH",
+          "value": "44dp"
+        },
+        {
+          "name": "md.comp.nav-rail.expanded.container.elevation",
+          "displayName": "Nav rail expanded container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.nav-rail.expanded.modal.container.elevation",
+          "displayName": "Nav rail expanded modal container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level2"
+        }
+      ]
+    },
+    {
+      "displayName": "Nav rail - Collapsed",
+      "tokenSetName": "md.comp.nav-rail.collapsed",
+      "description": "For collapsed nav rail.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.nav-rail.collapsed.container.color",
+          "displayName": "Nav rail collapsed container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface"
+        },
+        {
+          "name": "md.comp.nav-rail.collapsed.item.vertical-space",
+          "displayName": "Nav rail collapsed item vertical space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space50"
+        },
+        {
+          "name": "md.comp.nav-rail.collapsed.container.width",
+          "displayName": "Nav rail collapsed container width",
+          "type": "LENGTH",
+          "value": "96dp"
+        },
+        {
+          "name": "md.comp.nav-rail.collapsed.container.elevation",
+          "displayName": "Nav rail collapsed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.nav-rail.collapsed.container.shape",
+          "displayName": "Nav rail collapsed container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.none"
+        },
+        {
+          "name": "md.comp.nav-rail.collapsed.top-space",
+          "displayName": "Nav rail collapsed item top space",
+          "type": "LENGTH",
+          "value": "44dp"
+        },
+        {
+          "name": "md.comp.nav-rail.collapsed.narrow.container.width",
+          "displayName": "Nav rail collapsed narrow container width",
+          "type": "LENGTH",
+          "value": "80dp"
+        }
+      ]
+    },
+    {
+      "displayName": "Nav rail - Common",
+      "tokenSetName": "md.comp.nav-rail",
+      "description": "Common tokens for nav rail.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.nav-rail.item.active.indicator.color",
+          "displayName": "Nav rail item active indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary-container"
+        },
+        {
+          "name": "md.comp.nav-rail.item.active.label-text.color",
+          "displayName": "Nav rail item active label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary"
+        },
+        {
+          "name": "md.comp.nav-rail.item.inactive.label-text.color",
+          "displayName": "Nav rail item inactive label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.nav-rail.item.active.icon.color",
+          "displayName": "Nav rail item active icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.nav-rail.item.inactive.icon.color",
+          "displayName": "Nav rail item inactive icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.nav-rail.item.active.hovered.state-layer.color",
+          "displayName": "Nav rail item active hovered state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.nav-rail.item.inactive.hovered.state-layer.color",
+          "displayName": "Nav rail item inactive hovered state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.nav-rail.item.active.focused.state-layer.color",
+          "displayName": "Nav rail item active focused state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.nav-rail.item.inactive.focused.state-layer.color",
+          "displayName": "Nav rail item inactive focused state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.nav-rail.item.active.pressed.state-layer.color",
+          "displayName": "Nav rail item active pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.nav-rail.item.inactive.pressed.state-layer.color",
+          "displayName": "Nav rail item inactive pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.nav-rail.item.active.hovered.state-layer.opacity",
+          "displayName": "Nav rail item active hovered state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.nav-rail.item.active.focused.state-layer.opacity",
+          "displayName": "Nav rail item active focused state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.nav-rail.item.active.pressed.state-layer.opacity",
+          "displayName": "Nav rail item active pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        }
+      ]
+    },
+    {
+      "displayName": "Nav rail item - Common",
+      "tokenSetName": "md.comp.nav-rail.item",
+      "description": "Common tokens for all nav items.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.nav-rail.item.icon.size",
+          "displayName": "Nav rail item icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.nav-rail.item.active-indicator.shape",
+          "displayName": "Nav rail item active indicator shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.nav-rail.item.active-indicator.leading-space",
+          "displayName": "Nav rail item active indicator leading space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space200"
+        },
+        {
+          "name": "md.comp.nav-rail.item.active-indicator.icon-label-space",
+          "displayName": "Nav rail item active indicator icon label space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space100"
+        },
+        {
+          "name": "md.comp.nav-rail.item.active-indicator.trailing-space",
+          "displayName": "Nav rail item active indicator trailing space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space200"
+        },
+        {
+          "name": "md.comp.nav-rail.item.container.height",
+          "displayName": "Nav rail item container height",
+          "type": "LENGTH",
+          "value": "64dp"
+        },
+        {
+          "name": "md.comp.nav-rail.item.container.vertical-space",
+          "displayName": "Nav rail item container vertical space",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space75"
+        },
+        {
+          "name": "md.comp.nav-rail.item.header-space-minimum",
+          "displayName": "Nav rail item header space minimum",
+          "type": "LENGTH",
+          "value": "md.sys.measurement.space500"
+        },
+        {
+          "name": "md.comp.nav-rail.item.container.shape",
+          "displayName": "Nav rail item container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.none"
+        },
+        {
+          "name": "md.comp.nav-rail.item.short.container.height",
+          "displayName": "Nav rail item short container height",
+          "type": "LENGTH",
+          "value": "56dp"
+        }
+      ]
+    },
+    {
+      "displayName": "Navigation rail (baseline)",
+      "tokenSetName": "md.comp.navigation-rail",
+      "description": "For baseline navigation rails. For expressive, use all nav rail token sets`md.comp.nav-rail` and corresponding `.collapsed` and `.item` token sets.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.navigation-rail.menu.pressed.icon.color",
+          "displayName": "Navigation rail menu pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.navigation-rail.menu.pressed.state-layer.opacity",
+          "displayName": "Navigation rail menu pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.navigation-rail.menu.pressed.state-layer.color",
+          "displayName": "Navigation rail menu pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.navigation-rail.menu.focus.icon.color",
+          "displayName": "Navigation rail menu focus icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.navigation-rail.menu.focus.state-layer.opacity",
+          "displayName": "Navigation rail menu focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.navigation-rail.menu.focus.state-layer.color",
+          "displayName": "Navigation rail menu focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.navigation-rail.menu.hover.icon.color",
+          "displayName": "Navigation rail menu hover icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.navigation-rail.menu.hover.state-layer.opacity",
+          "displayName": "Navigation rail menu hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.navigation-rail.menu.hover.state-layer.color",
+          "displayName": "Navigation rail menu hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.navigation-rail.menu.icon.size",
+          "displayName": "Navigation rail menu icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.navigation-rail.menu.icon.color",
+          "displayName": "Navigation rail menu icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.navigation-rail.label-text.type",
+          "displayName": "Label text type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.navigation-rail.label-text.font",
+          "displayName": "Navigation rail label font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.label-medium.font"
+        },
+        {
+          "name": "md.comp.navigation-rail.label-text.weight",
+          "displayName": "Navigation rail label weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.label-medium.weight"
+        },
+        {
+          "name": "md.comp.navigation-rail.label-text.size",
+          "displayName": "Navigation rail label size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.label-medium.size"
+        },
+        {
+          "name": "md.comp.navigation-rail.label-text.line-height",
+          "displayName": "Navigation rail label line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.label-medium.line-height"
+        },
+        {
+          "name": "md.comp.navigation-rail.label-text.tracking",
+          "displayName": "Navigation rail label tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.label-medium.tracking"
+        },
+        {
+          "name": "md.comp.navigation-rail.label-text.letter-spacing",
+          "displayName": "Navigation rail label letter spacing",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.label-medium.tracking"
+        },
+        {
+          "name": "md.comp.navigation-rail.inactive.label-text.color",
+          "displayName": "Navigation rail label inactive text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.navigation-rail.active.label-text.weight",
+          "displayName": "Navigation rail active label weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.label-medium.weight.prominent"
+        },
+        {
+          "name": "md.comp.navigation-rail.label-text.font-size",
+          "displayName": "Navigation rail label font size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.label-medium.size"
+        },
+        {
+          "name": "md.comp.navigation-rail.active.label-text.color",
+          "displayName": "Navigation rail label active text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.navigation-rail.label-text.font-family",
+          "displayName": "Navigation rail label font family",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.label-medium.font"
+        },
+        {
+          "name": "md.comp.navigation-rail.large-badge-label.color",
+          "displayName": "Navigation rail large badge label color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-error"
+        },
+        {
+          "name": "md.comp.navigation-rail.large-badge-label.type",
+          "displayName": "Navigation rail large badge label type style",
+          "type": "TYPOGRAPHY",
+          "value": null
+        },
+        {
+          "name": "md.comp.navigation-rail.large-badge-label.font",
+          "displayName": "Navigation rail large badge label font",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.label-small.font"
+        },
+        {
+          "name": "md.comp.navigation-rail.large-badge-label.weight",
+          "displayName": "Navigation rail large badge label weight",
+          "type": "FONT_WEIGHT",
+          "value": "md.sys.typescale.label-small.weight"
+        },
+        {
+          "name": "md.comp.navigation-rail.large-badge-label.size",
+          "displayName": "Navigation rail large badge label size",
+          "type": "FONT_SIZE",
+          "value": "md.sys.typescale.label-small.size"
+        },
+        {
+          "name": "md.comp.navigation-rail.large-badge-label.line-height",
+          "displayName": "Navigation rail large badge label line height",
+          "type": "LINE_HEIGHT",
+          "value": "md.sys.typescale.label-small.line-height"
+        },
+        {
+          "name": "md.comp.navigation-rail.large-badge-label.tracking",
+          "displayName": "Navigation rail large badge label tracking",
+          "type": "FONT_TRACKING",
+          "value": "md.sys.typescale.label-small.tracking"
+        },
+        {
+          "name": "md.comp.navigation-rail.large-badge.color",
+          "displayName": "Navigation rail large badge color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.navigation-rail.large-badge.shape",
+          "displayName": "Navigation rail large badge shape",
+          "type": "SHAPE",
+          "value": null
+        },
+        {
+          "name": "md.comp.navigation-rail.large-badge.size",
+          "displayName": "Navigation rail large badge size",
+          "type": "LENGTH",
+          "value": "16dp"
+        },
+        {
+          "name": "md.comp.navigation-rail.badge.shape",
+          "displayName": "Navigation rail badge shape",
+          "type": "SHAPE",
+          "value": null
+        },
+        {
+          "name": "md.comp.navigation-rail.badge.size",
+          "displayName": "Navigation rail badge size",
+          "type": "LENGTH",
+          "value": "6dp"
+        },
+        {
+          "name": "md.comp.navigation-rail.badge.color",
+          "displayName": "Navigation rail badge color",
+          "type": "COLOR",
+          "value": "md.sys.color.error"
+        },
+        {
+          "name": "md.comp.navigation-rail.large-badge-label.font-family",
+          "displayName": "Navigation rail large badge label font family",
+          "type": "FONT_NAMES",
+          "value": "md.sys.typescale.label-small.font"
+        },
+        {
+          "name": "md.comp.navigation-rail.inactive.focus.label-text.color",
+          "displayName": "Navigation rail inactive focus label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.navigation-rail.active.focus.label-text.color",
+          "displayName": "Navigation rail focus label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.navigation-rail.inactive.focus.icon.color",
+          "displayName": "Navigation rail inactive focus icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.navigation-rail.active.focus.icon.color",
+          "displayName": "Navigation rail active focus icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.navigation-rail.focus.state-layer.opacity",
+          "displayName": "Navigation rail active focus state layer color",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.navigation-rail.inactive.focus.state-layer.color",
+          "displayName": "Navigation rail inactive focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.navigation-rail.active.focus.state-layer.color",
+          "displayName": "Navigation rail active focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.navigation-rail.inactive.hover.label-text.color",
+          "displayName": "Navigation rail inactive hover label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.navigation-rail.active.hover.label-text.color",
+          "displayName": "Navigation rail active hover label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.navigation-rail.inactive.hover.icon.color",
+          "displayName": "Navigation rail inactive hover icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.navigation-rail.active.hover.icon.color",
+          "displayName": "Navigation rail active hover icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.navigation-rail.hover.state-layer.opacity",
+          "displayName": "Navigation rail hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.navigation-rail.inactive.hover.state-layer.color",
+          "displayName": "Navigation rail inactive hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.navigation-rail.active.hover.state-layer.color",
+          "displayName": "Navigation rail active hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.navigation-rail.active-indicator.width",
+          "displayName": "Navigation rail active indicator width",
+          "type": "LENGTH",
+          "value": "56dp"
+        },
+        {
+          "name": "md.comp.navigation-rail.no-label.active-indicator.shape",
+          "displayName": "Navigation rail no label active indicator shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.navigation-rail.active-indicator.shape",
+          "displayName": "Navigation rail active indicator shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.full"
+        },
+        {
+          "name": "md.comp.navigation-rail.no-label.active-indicator.height",
+          "displayName": "Navigation rail no label active indicator height",
+          "type": "LENGTH",
+          "value": "56dp"
+        },
+        {
+          "name": "md.comp.navigation-rail.active-indicator.height",
+          "displayName": "Navigation rail active indicator height",
+          "type": "LENGTH",
+          "value": "32dp"
+        },
+        {
+          "name": "md.comp.navigation-rail.active-indicator.color",
+          "displayName": "Navigation rail active indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary-container"
+        },
+        {
+          "name": "md.comp.navigation-rail.inactive.icon.color",
+          "displayName": "Navigation rail inactive icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface-variant"
+        },
+        {
+          "name": "md.comp.navigation-rail.active.icon.color",
+          "displayName": "Navigation rail active icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.navigation-rail.icon.size",
+          "displayName": "Navigation rail icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.navigation-rail.container.elevation",
+          "displayName": "Navigation rail container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level0"
+        },
+        {
+          "name": "md.comp.navigation-rail.container.width",
+          "displayName": "Navigation rail container width",
+          "type": "LENGTH",
+          "value": "80dp"
+        },
+        {
+          "name": "md.comp.navigation-rail.container.shape",
+          "displayName": "Navigation rail container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.none"
+        },
+        {
+          "name": "md.comp.navigation-rail.container.color",
+          "displayName": "Navigation rail container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface"
+        },
+        {
+          "name": "md.comp.navigation-rail.inactive.pressed.label-text.color",
+          "displayName": "Navigation rail inactive pressed label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.navigation-rail.active.pressed.label-text.color",
+          "displayName": "Navigation rail active pressed label text color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.navigation-rail.inactive.pressed.icon.color",
+          "displayName": "Navigation rail inactive pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.navigation-rail.active.pressed.icon.color",
+          "displayName": "Navigation rail active pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.navigation-rail.pressed.state-layer.opacity",
+          "displayName": "Navigation rail pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.navigation-rail.inactive.pressed.state-layer.color",
+          "displayName": "Navigation rail inactive pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        },
+        {
+          "name": "md.comp.navigation-rail.active.pressed.state-layer.color",
+          "displayName": "Navigation rail active pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-surface"
+        }
+      ]
+    }
+  ]
+}

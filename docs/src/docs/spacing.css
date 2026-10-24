@@ -1,0 +1,64 @@
+/* Styles used only by the spacing page. */
+.spacing-doc-preview {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+}
+.spacing-doc-preview > span {
+  border-radius: 2px;
+  background: var(--md-sys-color-primary);
+}
+.spacing-doc-box {
+  display: flex;
+  border-radius: var(--md-sys-shape-corner-large);
+  background: var(--md-sys-color-tertiary-container);
+  transition:
+    padding var(--md-sys-motion-spring-default-spatial-duration)
+    var(--md-sys-motion-spring-default-spatial),
+    gap var(--md-sys-motion-spring-default-spatial-duration)
+    var(--md-sys-motion-spring-default-spatial);
+}
+.spacing-doc-box > span {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--md-sys-shape-corner-medium);
+  background: var(--md-sys-color-tertiary);
+}
+.spacing-doc-scale {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.spacing-doc-step {
+  display: grid;
+  grid-template-columns: 96px 1fr 48px;
+  align-items: center;
+  gap: 12px;
+}
+.spacing-doc-step > code {
+  font: var(--md-sys-typescale-label-medium);
+}
+.spacing-doc-step > span {
+  height: 16px;
+  border-radius: 2px;
+  background: var(--md-sys-color-primary);
+}
+.spacing-doc-step > small {
+  color: var(--md-sys-color-on-surface-variant);
+  font: var(--md-sys-typescale-body-small);
+  text-align: end;
+}
+.spacing-doc-card {
+  width: min(100%, 360px);
+}
+.spacing-doc-card .m3-card__header,
+.spacing-doc-card .m3-card__content {
+  padding: var(--spacing-doc-padding);
+  transition: padding var(--md-sys-motion-spring-default-spatial-duration)
+    var(--md-sys-motion-spring-default-spatial);
+}
+.spacing-doc-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--spacing-doc-gap);
+}

@@ -1,0 +1,2988 @@
+{
+  "id": "41587918e51cca98",
+  "component": "Floating action buttons (FABs)",
+  "tokenSets": [
+    {
+      "displayName": "FAB - Size - Small",
+      "tokenSetName": "md.comp.fab.small",
+      "description": "For small FABs. Not used in expressive FABs.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.fab.small.container.height",
+          "displayName": "FAB small container height",
+          "type": "LENGTH",
+          "value": "40dp"
+        },
+        {
+          "name": "md.comp.fab.small.container.width",
+          "displayName": "FAB small container width",
+          "type": "LENGTH",
+          "value": "40dp"
+        },
+        {
+          "name": "md.comp.fab.small.container.shape",
+          "displayName": "FAB small container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.medium"
+        },
+        {
+          "name": "md.comp.fab.small.icon.size",
+          "displayName": "FAB small icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        }
+      ]
+    },
+    {
+      "displayName": "[Deprecated] FAB - Secondary, small",
+      "tokenSetName": "md.comp.fab.secondary.small",
+      "description": "This token set is deprecated. Use expressive small fab `md.comp.fab` or baseline small fab `md.comp.fab.small` and tonal secondary container fab `md.comp.fab.secondary-container` token sets instead.",
+      "isDeprecated": true,
+      "tokens": [
+        {
+          "name": "md.comp.fab.secondary.small.pressed.icon.color",
+          "displayName": "FAB (small secondary) pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.fab.secondary.small.pressed.state-layer.opacity",
+          "displayName": "FAB (small secondary) pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.secondary.small.pressed.state-layer.color",
+          "displayName": "FAB (small secondary) pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.fab.secondary.small.lowered.pressed.container.elevation",
+          "displayName": "FAB (small secondary) lowered pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.fab.secondary.small.pressed.container.elevation",
+          "displayName": "FAB (small secondary) pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab.secondary.small.focus.icon.color",
+          "displayName": "FAB (small secondary) focus icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.fab.secondary.small.focus.state-layer.opacity",
+          "displayName": "FAB (small secondary) focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.secondary.small.focus.state-layer.color",
+          "displayName": "FAB (small secondary) focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.fab.secondary.small.lowered.focus.container.elevation",
+          "displayName": "FAB (small secondary) lowered focus container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.fab.secondary.small.focus.container.elevation",
+          "displayName": "FAB (small secondary) focus container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab.secondary.small.focus.indicator.outline.offset",
+          "displayName": "FAB (small secondary) focus indicator offset",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.outer-offset"
+        },
+        {
+          "name": "md.comp.fab.secondary.small.focus.indicator.thickness",
+          "displayName": "FAB (small secondary) focus indicator thickness",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.thickness"
+        },
+        {
+          "name": "md.comp.fab.secondary.small.focus.indicator.color",
+          "displayName": "FAB (small secondary) focus indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary"
+        },
+        {
+          "name": "md.comp.fab.secondary.small.hover.icon.color",
+          "displayName": "FAB (small secondary) hover icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.fab.secondary.small.hover.state-layer.opacity",
+          "displayName": "FAB (small secondary) hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.secondary.small.hover.state-layer.color",
+          "displayName": "FAB (small secondary) hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.fab.secondary.small.lowered.hover.container.elevation",
+          "displayName": "FAB (small secondary) lowered hover container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level2"
+        },
+        {
+          "name": "md.comp.fab.secondary.small.hover.container.elevation",
+          "displayName": "FAB (small secondary) hover container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level4"
+        },
+        {
+          "name": "md.comp.fab.secondary.small.icon.color",
+          "displayName": "FAB (small secondary) icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.fab.secondary.small.icon.size",
+          "displayName": "FAB (small secondary) icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.fab.secondary.small.lowered.container.elevation",
+          "displayName": "FAB (small secondary) lowered container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.fab.secondary.small.container.shadow-color",
+          "displayName": "FAB (small secondary) container shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.fab.secondary.small.container.elevation",
+          "displayName": "FAB (small secondary) container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab.secondary.small.container.height",
+          "displayName": "FAB (small secondary) container height",
+          "type": "LENGTH",
+          "value": "40dp"
+        },
+        {
+          "name": "md.comp.fab.secondary.small.container.width",
+          "displayName": "FAB (small secondary) container width",
+          "type": "LENGTH",
+          "value": "40dp"
+        },
+        {
+          "name": "md.comp.fab.secondary.small.container.shape",
+          "displayName": "FAB (small secondary) container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.medium"
+        },
+        {
+          "name": "md.comp.fab.secondary.small.container.color",
+          "displayName": "FAB (small secondary) container color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary-container"
+        }
+      ]
+    },
+    {
+      "displayName": "FAB - Size - Regular",
+      "tokenSetName": "md.comp.fab",
+      "description": "For the default, regular FAB size.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.fab.container.height",
+          "displayName": "FAB container height",
+          "type": "LENGTH",
+          "value": "56dp"
+        },
+        {
+          "name": "md.comp.fab.container.width",
+          "displayName": "FAB container width",
+          "type": "LENGTH",
+          "value": "56dp"
+        },
+        {
+          "name": "md.comp.fab.icon.size",
+          "displayName": "FAB icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.fab.container.shape",
+          "displayName": "FAB container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.large"
+        }
+      ]
+    },
+    {
+      "displayName": "FAB - Color - Surface",
+      "tokenSetName": "md.comp.fab.surface",
+      "description": "For surface color FABs. Not recommended with expressive FABs.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.fab.surface.focus.indicator.outline.offset",
+          "displayName": "FAB (surface) focus indicator offset",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.outer-offset"
+        },
+        {
+          "name": "md.comp.fab.surface.focus.indicator.thickness",
+          "displayName": "FAB (surface) focus indicator thickness",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.thickness"
+        },
+        {
+          "name": "md.comp.fab.surface.focus.indicator.color",
+          "displayName": "FAB (surface) focus indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary"
+        },
+        {
+          "name": "md.comp.fab.surface.container.elevation",
+          "displayName": "FAB (surface) container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab.surface.container.surface-tint-layer.color",
+          "displayName": "FAB (surface) container surface tint layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-tint"
+        },
+        {
+          "name": "md.comp.fab.surface.container.shadow-color",
+          "displayName": "FAB (surface) container shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.fab.surface.container.width",
+          "displayName": "FAB (surface) container width",
+          "type": "LENGTH",
+          "value": "56dp"
+        },
+        {
+          "name": "md.comp.fab.surface.container.shape",
+          "displayName": "FAB (surface) container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.large"
+        },
+        {
+          "name": "md.comp.fab.surface.container.height",
+          "displayName": "FAB (surface) container height",
+          "type": "LENGTH",
+          "value": "56dp"
+        },
+        {
+          "name": "md.comp.fab.surface.lowered.container.color",
+          "displayName": "FAB (surface) lowered container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-low"
+        },
+        {
+          "name": "md.comp.fab.surface.lowered.container.elevation",
+          "displayName": "Surface FAB lowered container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.fab.surface.lowered.focus.container.elevation",
+          "displayName": "Surface FAB lowered focus container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.fab.surface.focus.container.elevation",
+          "displayName": "Surface FAB focus container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab.surface.focus.icon.color",
+          "displayName": "FAB (surface) focus icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.fab.surface.focus.state-layer.opacity",
+          "displayName": "FAB (surface) focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.surface.focus.state-layer.color",
+          "displayName": "FAB (surface) focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.fab.surface.lowered.hover.container.elevation",
+          "displayName": "Surface FAB lowered hover container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level2"
+        },
+        {
+          "name": "md.comp.fab.surface.hover.icon.color",
+          "displayName": "FAB (surface) hover icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.fab.surface.hover.state-layer.opacity",
+          "displayName": "FAB (surface) hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.surface.hover.state-layer.color",
+          "displayName": "FAB (surface) hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.fab.surface.hover.container.elevation",
+          "displayName": "FAB (surface) hover container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level4"
+        },
+        {
+          "name": "md.comp.fab.surface.icon.color",
+          "displayName": "FAB (surface) icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.fab.surface.icon.size",
+          "displayName": "FAB (surface) icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.fab.surface.container.color",
+          "displayName": "FAB (surface) container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-high"
+        },
+        {
+          "name": "md.comp.fab.surface.lowered.pressed.container.elevation",
+          "displayName": "Surface FAB lowered pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.fab.surface.pressed.icon.color",
+          "displayName": "FAB (surface) pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.fab.surface.pressed.state-layer.opacity",
+          "displayName": "FAB (surface) pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.surface.pressed.state-layer.color",
+          "displayName": "FAB (surface) pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.fab.surface.pressed.container.elevation",
+          "displayName": "FAB (surface) pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        }
+      ]
+    },
+    {
+      "displayName": "FAB - Color - Secondary",
+      "tokenSetName": "md.comp.fab.secondary",
+      "description": "For secondary color FABs.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.fab.secondary.pressed.icon.color",
+          "displayName": "FAB secondary pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary"
+        },
+        {
+          "name": "md.comp.fab.secondary.pressed.state-layer.opacity",
+          "displayName": "FAB secondary pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.secondary.pressed.container.elevation",
+          "displayName": "FAB secondary pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab.secondary.focused.icon.color",
+          "displayName": "FAB secondary focused icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary"
+        },
+        {
+          "name": "md.comp.fab.secondary.focused.state-layer.opacity",
+          "displayName": "FAB secondary focused state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.secondary.focused.state-layer.color",
+          "displayName": "FAB secondary focused state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary"
+        },
+        {
+          "name": "md.comp.fab.secondary.focused.container.elevation",
+          "displayName": "FAB secondary focused container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab.secondary.hovered.icon.color",
+          "displayName": "FAB secondary hovered icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary"
+        },
+        {
+          "name": "md.comp.fab.secondary.hovered.state-layer.opacity",
+          "displayName": "FAB secondary hovered state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.secondary.hovered.state-layer.color",
+          "displayName": "FAB secondary hovered state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary"
+        },
+        {
+          "name": "md.comp.fab.secondary.hovered.container.elevation",
+          "displayName": "FAB secondary hovered container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level4"
+        },
+        {
+          "name": "md.comp.fab.secondary.container.color",
+          "displayName": "FAB secondary container color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary"
+        },
+        {
+          "name": "md.comp.fab.secondary.container.shadow-color",
+          "displayName": "FAB secondary container shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.fab.secondary.container.elevation",
+          "displayName": "FAB secondary container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab.secondary.icon.color",
+          "displayName": "FAB secondary icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary"
+        },
+        {
+          "name": "md.comp.fab.secondary.pressed.state-layer.color",
+          "displayName": "FAB secondary pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary"
+        },
+        {
+          "name": "md.comp.fab.secondary.lowered.pressed.container.elevation",
+          "displayName": "FAB (secondary) lowered pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.fab.secondary.container.shape",
+          "displayName": "FAB (secondary) container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.large"
+        },
+        {
+          "name": "md.comp.fab.secondary.container.width",
+          "displayName": "FAB (secondary) container width",
+          "type": "LENGTH",
+          "value": "56dp"
+        },
+        {
+          "name": "md.comp.fab.secondary.container.height",
+          "displayName": "FAB (secondary) container height",
+          "type": "LENGTH",
+          "value": "56dp"
+        },
+        {
+          "name": "md.comp.fab.secondary.lowered.container.elevation",
+          "displayName": "FAB (secondary) lowered container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.fab.secondary.icon.size",
+          "displayName": "FAB (secondary) icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.fab.secondary.hover.container.elevation",
+          "displayName": "FAB (secondary) hover container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level4"
+        },
+        {
+          "name": "md.comp.fab.secondary.hover.state-layer.color",
+          "displayName": "FAB (secondary) hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.fab.secondary.hover.state-layer.opacity",
+          "displayName": "FAB (secondary) hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.secondary.hover.icon.color",
+          "displayName": "FAB (secondary) hover icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.fab.secondary.lowered.hover.container.elevation",
+          "displayName": "FAB (secondary) lowered hover container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level2"
+        },
+        {
+          "name": "md.comp.fab.secondary.focus.state-layer.color",
+          "displayName": "FAB (secondary) focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.fab.secondary.focus.state-layer.opacity",
+          "displayName": "FAB (secondary) focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.secondary.focus.icon.color",
+          "displayName": "FAB (secondary) focus icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.fab.secondary.focus.container.elevation",
+          "displayName": "FAB (secondary) focus container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab.secondary.lowered.focus.container.elevation",
+          "displayName": "FAB (secondary) lowered focus container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.fab.secondary.focus.indicator.color",
+          "displayName": "FAB (secondary) focus indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary"
+        },
+        {
+          "name": "md.comp.fab.secondary.focus.indicator.thickness",
+          "displayName": "FAB (secondary) focus indicator thickness",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.thickness"
+        },
+        {
+          "name": "md.comp.fab.secondary.focus.indicator.outline.offset",
+          "displayName": "FAB (secondary) focus indicator offset",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.outer-offset"
+        }
+      ]
+    },
+    {
+      "displayName": "FAB - Color - Branded",
+      "tokenSetName": "md.comp.fab.branded",
+      "description": "For branded color FABs. Not recommended in expressive FABs.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.fab.branded.indicator.outline.offset",
+          "displayName": "FAB (branded) focus indicator offset",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.outer-offset"
+        },
+        {
+          "name": "md.comp.fab.branded.focus.indicator.thickness",
+          "displayName": "FAB (branded) focus indicator thickness",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.thickness"
+        },
+        {
+          "name": "md.comp.fab.branded.focus.indicator.color",
+          "displayName": "FAB (branded) focus indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary"
+        },
+        {
+          "name": "md.comp.fab.branded.lowered.container.color",
+          "displayName": "FAB (branded) lowered container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-low"
+        },
+        {
+          "name": "md.comp.fab.branded.container.shape",
+          "displayName": "FAB (branded) container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.large"
+        },
+        {
+          "name": "md.comp.fab.branded.lowered.container.elevation",
+          "displayName": "Branded FAB lowered container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.fab.branded.container.shadow-color",
+          "displayName": "Branded FAB container shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.fab.branded.container.elevation",
+          "displayName": "FAB (branded) container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab.branded.container.height",
+          "displayName": "FAB (branded) container height",
+          "type": "LENGTH",
+          "value": "56dp"
+        },
+        {
+          "name": "md.comp.fab.branded.container.width",
+          "displayName": "FAB (branded) container width",
+          "type": "LENGTH",
+          "value": "56dp"
+        },
+        {
+          "name": "md.comp.fab.branded.container.surface-tint-layer.color",
+          "displayName": "FAB (branded) container surface tint layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-tint"
+        },
+        {
+          "name": "md.comp.fab.branded.lowered.focus.container.elevation",
+          "displayName": "Branded FAB lowered focus container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.fab.branded.focus.container.elevation",
+          "displayName": "Branded FAB lowered focus container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab.branded.focus.state-layer.opacity",
+          "displayName": "FAB (branded) focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.branded.focus.state-layer.color",
+          "displayName": "FAB (branded) focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.fab.branded.lowered.hover.container.elevation",
+          "displayName": "Branded FAB lowered hover container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level2"
+        },
+        {
+          "name": "md.comp.fab.branded.hover.state-layer.opacity",
+          "displayName": "FAB (branded) hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.branded.hover.state-layer.color",
+          "displayName": "FAB (branded) hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.fab.branded.hover.container.elevation",
+          "displayName": "FAB (branded) hover container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level4"
+        },
+        {
+          "name": "md.comp.fab.branded.icon.size",
+          "displayName": "FAB (branded) icon size",
+          "type": "LENGTH",
+          "value": "36dp"
+        },
+        {
+          "name": "md.comp.fab.branded.container.color",
+          "displayName": "FAB (branded) container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-high"
+        },
+        {
+          "name": "md.comp.fab.branded.lowered.pressed.container.elevation",
+          "displayName": "Branded FAB lowered pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.fab.branded.pressed.state-layer.opacity",
+          "displayName": "FAB (branded) pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.branded.pressed.state-layer.color",
+          "displayName": "FAB (branded) pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.fab.branded.pressed.container.elevation",
+          "displayName": "FAB (branded) pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        }
+      ]
+    },
+    {
+      "displayName": "FAB - Color - Primary",
+      "tokenSetName": "md.comp.fab.primary",
+      "description": "For primary color FABs.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.fab.primary.container.color",
+          "displayName": "FAB primary container color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.fab.primary.container.shadow-color",
+          "displayName": "FAB primary container shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.fab.primary.container.elevation",
+          "displayName": "FAB primary container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab.primary.icon.color",
+          "displayName": "FAB primary icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.fab.primary.pressed.container.elevation",
+          "displayName": "FAB primary pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab.primary.pressed.state-layer.color",
+          "displayName": "FAB primary pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.fab.primary.pressed.state-layer.opacity",
+          "displayName": "FAB primary pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.primary.pressed.icon.color",
+          "displayName": "FAB primary pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.fab.primary.hovered.container.elevation",
+          "displayName": "FAB primary hovered container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level4"
+        },
+        {
+          "name": "md.comp.fab.primary.hovered.state-layer.color",
+          "displayName": "FAB primary hovered state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.fab.primary.hovered.state-layer.opacity",
+          "displayName": "FAB primary hovered state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.primary.hovered.icon.color",
+          "displayName": "FAB primary hovered icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.fab.primary.focused.container.elevation",
+          "displayName": "FAB primary focused container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab.primary.focused.state-layer.color",
+          "displayName": "FAB primary focused state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.fab.primary.focused.state-layer.opacity",
+          "displayName": "FAB primary focused state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.primary.focused.icon.color",
+          "displayName": "FAB primary focused icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary"
+        },
+        {
+          "name": "md.comp.fab.primary.lowered.pressed.container.elevation",
+          "displayName": "FAB (primary) lowered pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.fab.primary.container.shape",
+          "displayName": "FAB (primary) container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.large"
+        },
+        {
+          "name": "md.comp.fab.primary.container.width",
+          "displayName": "FAB (primary) container width",
+          "type": "LENGTH",
+          "value": "56dp"
+        },
+        {
+          "name": "md.comp.fab.primary.container.height",
+          "displayName": "FAB (primary) container height",
+          "type": "LENGTH",
+          "value": "56dp"
+        },
+        {
+          "name": "md.comp.fab.primary.lowered.container.elevation",
+          "displayName": "FAB (primary) lowered container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.fab.primary.icon.size",
+          "displayName": "FAB (primary) icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.fab.primary.hover.container.elevation",
+          "displayName": "FAB (primary) hover container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level4"
+        },
+        {
+          "name": "md.comp.fab.primary.hover.state-layer.color",
+          "displayName": "FAB (primary) hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.fab.primary.hover.state-layer.opacity",
+          "displayName": "FAB (primary) hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.primary.hover.icon.color",
+          "displayName": "FAB (primary) hover icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.fab.primary.lowered.hover.container.elevation",
+          "displayName": "FAB (primary) lowered hover container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level2"
+        },
+        {
+          "name": "md.comp.fab.primary.focus.state-layer.color",
+          "displayName": "FAB (primary) focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.fab.primary.focus.state-layer.opacity",
+          "displayName": "FAB (primary) focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.primary.focus.icon.color",
+          "displayName": "FAB (primary) focus icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.fab.primary.focus.container.elevation",
+          "displayName": "FAB (primary) focus container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab.primary.lowered.focus.container.elevation",
+          "displayName": "FAB (primary) lowered focus container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.fab.primary.focus.indicator.color",
+          "displayName": "FAB (primary) focus indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary"
+        },
+        {
+          "name": "md.comp.fab.primary.focus.indicator.thickness",
+          "displayName": "FAB (primary) focus indicator thickness",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.thickness"
+        },
+        {
+          "name": "md.comp.fab.primary.focus.indicator.outline.offset",
+          "displayName": "FAB (primary) focus indicator offset",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.outer-offset"
+        }
+      ]
+    },
+    {
+      "displayName": "FAB - Color - Tonal tertiary",
+      "tokenSetName": "md.comp.fab.tertiary-container",
+      "description": "For tonal tertiary container FABs.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.fab.tertiary-container.container.color",
+          "displayName": "FAB tonal tertiary container color",
+          "type": "COLOR",
+          "value": "md.sys.color.tertiary-container"
+        },
+        {
+          "name": "md.comp.fab.tertiary-container.container.shadow-color",
+          "displayName": "FAB tonal tertiary container shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.fab.tertiary-container.container.elevation",
+          "displayName": "FAB tonal tertiary container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab.tertiary-container.icon.color",
+          "displayName": "FAB tonal tertiary icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.fab.tertiary-container.hovered.container.elevation",
+          "displayName": "FAB tonal tertiary hovered container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level4"
+        },
+        {
+          "name": "md.comp.fab.tertiary-container.hovered.state-layer.color",
+          "displayName": "FAB tonal tertiary hovered state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.fab.tertiary-container.hovered.state-layer.opacity",
+          "displayName": "FAB tonal tertiary hovered state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.tertiary-container.hovered.icon.color",
+          "displayName": "FAB tonal tertiary hovered icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.fab.tertiary-container.focused.container.elevation",
+          "displayName": "FAB tonal tertiary focused container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab.tertiary-container.focused.state-layer.color",
+          "displayName": "FAB tonal tertiary focused state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.fab.tertiary-container.focused.state-layer.opacity",
+          "displayName": "FAB tonal tertiary focused state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.tertiary-container.focused.icon.color",
+          "displayName": "FAB tonal tertiary focused icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.fab.tertiary-container.pressed.container.elevation",
+          "displayName": "FAB tonal tertiary pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab.tertiary-container.pressed.state-layer.color",
+          "displayName": "FAB tonal tertiary pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.fab.tertiary-container.pressed.state-layer.opacity",
+          "displayName": "FAB tonal tertiary pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.tertiary-container.pressed.icon.color",
+          "displayName": "FAB tonal tertiary pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        }
+      ]
+    },
+    {
+      "displayName": "FAB - Color - Tonal secondary",
+      "tokenSetName": "md.comp.fab.secondary-container",
+      "description": "For tonal secondary container FABs.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.fab.secondary-container.container.color",
+          "displayName": "FAB tonal secondary container color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary-container"
+        },
+        {
+          "name": "md.comp.fab.secondary-container.container.shadow-color",
+          "displayName": "FAB tonal secondary container shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.fab.secondary-container.container.elevation",
+          "displayName": "FAB tonal secondary container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab.secondary-container.icon.color",
+          "displayName": "FAB tonal secondary icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.fab.secondary-container.hovered.container.elevation",
+          "displayName": "FAB tonal secondary hovered container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level4"
+        },
+        {
+          "name": "md.comp.fab.secondary-container.hovered.state-layer.color",
+          "displayName": "FAB tonal secondary hovered state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.fab.secondary-container.hovered.state-layer.opacity",
+          "displayName": "FAB tonal secondary hovered state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.secondary-container.hovered.icon.color",
+          "displayName": "FAB tonal secondary hovered icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.fab.secondary-container.focused.container.elevation",
+          "displayName": "FAB tonal secondary focused container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab.secondary-container.focused.state-layer.color",
+          "displayName": "FAB tonal secondary focused state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.fab.secondary-container.focused.state-layer.opacity",
+          "displayName": "FAB tonal secondary focused state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.secondary-container.focused.icon.color",
+          "displayName": "FAB tonal secondary focused icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.fab.secondary-container.pressed.container.elevation",
+          "displayName": "FAB tonal secondary pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab.secondary-container.pressed.state-layer.color",
+          "displayName": "FAB tonal secondary pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.fab.secondary-container.pressed.state-layer.opacity",
+          "displayName": "FAB tonal secondary pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.secondary-container.pressed.icon.color",
+          "displayName": "FAB tonal secondary pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        }
+      ]
+    },
+    {
+      "displayName": "FAB - Color - Tonal primary",
+      "tokenSetName": "md.comp.fab.primary-container",
+      "description": "For tonal primary container FABs.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.fab.primary-container.container.color",
+          "displayName": "FAB tonal primary container color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary-container"
+        },
+        {
+          "name": "md.comp.fab.primary-container.container.shadow-color",
+          "displayName": "FAB tonal primary container shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.fab.primary-container.icon.color",
+          "displayName": "FAB tonal primary icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.fab.primary-container.container.elevation",
+          "displayName": "FAB tonal primary container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab.primary-container.hovered.state-layer.color",
+          "displayName": "FAB tonal primary hovered state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.fab.primary-container.hovered.state-layer.opacity",
+          "displayName": "FAB tonal primary hovered state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.primary-container.hovered.icon.color",
+          "displayName": "FAB tonal primary hovered icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.fab.primary-container.focused.state-layer.color",
+          "displayName": "FAB tonal primary focused state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.fab.primary-container.focused.state-layer.opacity",
+          "displayName": "FAB tonal primary focused state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.primary-container.focused.icon.color",
+          "displayName": "FAB tonal primary focused icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.fab.primary-container.pressed.state-layer.color",
+          "displayName": "FAB tonal primary pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.fab.primary-container.pressed.state-layer.opacity",
+          "displayName": "FAB tonal primary pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.primary-container.pressed.icon.color",
+          "displayName": "FAB tonal primary pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.fab.primary-container.hovered.container.elevation",
+          "displayName": "FAB tonal primary hovered container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level4"
+        },
+        {
+          "name": "md.comp.fab.primary-container.focused.container.elevation",
+          "displayName": "FAB tonal primary focused container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab.primary-container.pressed.container.elevation",
+          "displayName": "FAB tonal primary pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        }
+      ]
+    },
+    {
+      "displayName": "[Deprecated] FAB - Primary, small",
+      "tokenSetName": "md.comp.fab.primary.small",
+      "description": "This token set is deprecated. Use expressive small fab `md.comp.fab` or baseline small fab `md.comp.fab.small` and tonal primary container fab `md.comp.fab.primary-container` token sets instead.",
+      "isDeprecated": true,
+      "tokens": [
+        {
+          "name": "md.comp.fab.primary.small.pressed.icon.color",
+          "displayName": "FAB (small primary) pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.fab.primary.small.pressed.state-layer.opacity",
+          "displayName": "FAB (small primary) pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.primary.small.pressed.state-layer.color",
+          "displayName": "FAB (small primary) pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.fab.primary.small.lowered.pressed.container.elevation",
+          "displayName": "FAB (small primary) lowered pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.fab.primary.small.pressed.container.elevation",
+          "displayName": "FAB (small primary) pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab.primary.small.focus.icon.color",
+          "displayName": "FAB (small primary) focus icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.fab.primary.small.focus.state-layer.opacity",
+          "displayName": "FAB (small primary) focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.primary.small.focus.state-layer.color",
+          "displayName": "FAB (small primary) focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.fab.primary.small.lowered.focus.container.elevation",
+          "displayName": "FAB (small primary) lowered focus container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.fab.primary.small.focus.container.elevation",
+          "displayName": "FAB (small primary) focus container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab.primary.small.focus.indicator.outline.offset",
+          "displayName": "FAB (small primary) focus indicator offset",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.outer-offset"
+        },
+        {
+          "name": "md.comp.fab.primary.small.focus.indicator.thickness",
+          "displayName": "FAB (small primary) focus indicator thickness",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.thickness"
+        },
+        {
+          "name": "md.comp.fab.primary.small.focus.indicator.color",
+          "displayName": "FAB (small primary) focus indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary"
+        },
+        {
+          "name": "md.comp.fab.primary.small.hover.icon.color",
+          "displayName": "FAB (small primary) hover icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.fab.primary.small.hover.state-layer.opacity",
+          "displayName": "FAB (small primary) hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.primary.small.hover.state-layer.color",
+          "displayName": "FAB (small primary) hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.fab.primary.small.lowered.hover.container.elevation",
+          "displayName": "FAB (small primary) lowered hover container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level2"
+        },
+        {
+          "name": "md.comp.fab.primary.small.hover.container.elevation",
+          "displayName": "FAB (small primary) hover container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level4"
+        },
+        {
+          "name": "md.comp.fab.primary.small.icon.color",
+          "displayName": "FAB (small primary) icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.fab.primary.small.icon.size",
+          "displayName": "FAB (small primary) icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.fab.primary.small.lowered.container.elevation",
+          "displayName": "FAB (small primary) lowered container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.fab.primary.small.container.shadow-color",
+          "displayName": "FAB (small primary) container shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.fab.primary.small.container.elevation",
+          "displayName": "FAB (small primary) container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab.primary.small.container.height",
+          "displayName": "FAB (small primary) container height",
+          "type": "LENGTH",
+          "value": "40dp"
+        },
+        {
+          "name": "md.comp.fab.primary.small.container.width",
+          "displayName": "FAB (small primary) container width",
+          "type": "LENGTH",
+          "value": "40dp"
+        },
+        {
+          "name": "md.comp.fab.primary.small.container.shape",
+          "displayName": "FAB (small primary) container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.medium"
+        },
+        {
+          "name": "md.comp.fab.primary.small.container.color",
+          "displayName": "FAB (small primary) container color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary-container"
+        }
+      ]
+    },
+    {
+      "displayName": "[Deprecated] FAB - Surface, small",
+      "tokenSetName": "md.fab.surface.small",
+      "description": "This token set is deprecated. Use expressive small fab `md.comp.fab` or baseline small fab `md.comp.fab.small` and surface fab `md.comp.fab.surface` token sets instead.",
+      "isDeprecated": true,
+      "tokens": [
+        {
+          "name": "md.fab.surface.small.pressed.icon.color",
+          "displayName": "FAB (small surface) pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.fab.surface.small.pressed.state-layer.opacity",
+          "displayName": "FAB (small surface) pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.fab.surface.small.pressed.state-layer.color",
+          "displayName": "FAB (small surface) pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.fab.surface.small.lowered.pressed.container.elevation",
+          "displayName": "FAB (small surface) lowered pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.fab.surface.small.pressed.container.elevation",
+          "displayName": "FAB (small surface) pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.fab.surface.small.focus.icon.color",
+          "displayName": "FAB (small surface) focus icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.fab.surface.small.focus.state-layer.opacity",
+          "displayName": "FAB (small surface) focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.fab.surface.small.focus.state-layer.color",
+          "displayName": "FAB (small surface) focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.fab.surface.small.lowered.focus.container.elevation",
+          "displayName": "FAB (small surface) lowered focus container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.fab.surface.small.focus.container.elevation",
+          "displayName": "FAB (small surface) focus container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.fab.surface.small.focus.indicator.outline.offset",
+          "displayName": "FAB (small surface) focus indicator offset",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.outer-offset"
+        },
+        {
+          "name": "md.fab.surface.small.focus.indicator.thickness",
+          "displayName": "FAB (small surface) focus indicator thickness",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.thickness"
+        },
+        {
+          "name": "md.fab.surface.small.focus.indicator.color",
+          "displayName": "FAB (small surface) focus indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary"
+        },
+        {
+          "name": "md.fab.surface.small.hover.icon.color",
+          "displayName": "FAB (small surface) hover icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.fab.surface.small.hover.state-layer.opacity",
+          "displayName": "FAB (small surface) hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.fab.surface.small.hover.state-layer.color",
+          "displayName": "FAB (small surface) hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.fab.surface.small.lowered.hover.container.elevation",
+          "displayName": "FAB (small surface) lowered hover container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level2"
+        },
+        {
+          "name": "md.fab.surface.small.hover.container.elevation",
+          "displayName": "FAB (small surface) hover container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level4"
+        },
+        {
+          "name": "md.fab.surface.small.icon.color",
+          "displayName": "FAB (small surface) icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.fab.surface.small.icon.size",
+          "displayName": "FAB (small surface) icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.fab.surface.small.lowered.container.elevation",
+          "displayName": "FAB (small surface) lowered container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.fab.surface.small.container.shadow-color",
+          "displayName": "FAB (small surface) container shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.fab.surface.small.container.surface-tint-layer.color",
+          "displayName": "FAB (small surface) container surface tint layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-tint"
+        },
+        {
+          "name": "md.fab.surface.small.container.elevation",
+          "displayName": "FAB (small surface) container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.fab.surface.small.container.height",
+          "displayName": "FAB (small surface) container height",
+          "type": "LENGTH",
+          "value": "40dp"
+        },
+        {
+          "name": "md.fab.surface.small.container.width",
+          "displayName": "FAB (small surface) container width",
+          "type": "LENGTH",
+          "value": "40dp"
+        },
+        {
+          "name": "md.fab.surface.small.container.shape",
+          "displayName": "FAB (small surface) container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.medium"
+        },
+        {
+          "name": "md.fab.surface.small.lowered.container.color",
+          "displayName": "FAB (small surface) lowered container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-low"
+        },
+        {
+          "name": "md.fab.surface.small.container.color",
+          "displayName": "FAB (small surface) container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-high"
+        }
+      ]
+    },
+    {
+      "displayName": "[Deprecated] FAB - Tertiary, small",
+      "tokenSetName": "md.comp.fab.tertiary.small",
+      "description": "This token set is deprecated. Use expressive small fab  `md.comp.fab` or baseline small fab `md.comp.fab.small` and tonal tertiary container fab `md.comp.fab.tertiary-container` token sets instead.",
+      "isDeprecated": true,
+      "tokens": [
+        {
+          "name": "md.comp.fab.tertiary.small.pressed.icon.color",
+          "displayName": "FAB (small tertiary) pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.fab.tertiary.small.pressed.state-layer.opacity",
+          "displayName": "FAB (small tertiary) pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.tertiary.small.pressed.state-layer.color",
+          "displayName": "FAB (small tertiary) pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.fab.tertiary.small.lowered.pressed.container.elevation",
+          "displayName": "FAB (small tertiary) lowered pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.fab.tertiary.small.pressed.container.elevation",
+          "displayName": "FAB (small tertiary) pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab.tertiary.small.focus.icon.color",
+          "displayName": "FAB (small tertiary) focus icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.fab.tertiary.small.focus.state-layer.opacity",
+          "displayName": "FAB (small tertiary) focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.tertiary.small.focus.state-layer.color",
+          "displayName": "FAB (small tertiary) focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.fab.tertiary.small.lowered.focus.container.elevation",
+          "displayName": "FAB (small tertiary) lowered focus container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.fab.tertiary.small.focus.container.elevation",
+          "displayName": "FAB (small tertiary) focus container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab.tertiary.small.focus.indicator.outline.offset",
+          "displayName": "FAB (small tertiary) focus indicator offset",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.outer-offset"
+        },
+        {
+          "name": "md.comp.fab.tertiary.small.focus.indicator.thickness",
+          "displayName": "FAB (small tertiary) focus indicator thickness",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.thickness"
+        },
+        {
+          "name": "md.comp.fab.tertiary.small.focus.indicator.color",
+          "displayName": "FAB (small tertiary) focus indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary"
+        },
+        {
+          "name": "md.comp.fab.tertiary.small.hover.icon.color",
+          "displayName": "FAB (small tertiary) hover icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.fab.tertiary.small.hover.state-layer.opacity",
+          "displayName": "FAB (small tertiary) hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.tertiary.small.hover.state-layer.color",
+          "displayName": "FAB (small tertiary) hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.fab.tertiary.small.lowered.hover.container.elevation",
+          "displayName": "FAB (small tertiary) lowered hover container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level2"
+        },
+        {
+          "name": "md.comp.fab.tertiary.small.hover.container.elevation",
+          "displayName": "FAB (small tertiary) hover container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level4"
+        },
+        {
+          "name": "md.comp.fab.tertiary.small.icon.size",
+          "displayName": "FAB (small tertiary) icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.fab.tertiary.small.icon.color",
+          "displayName": "FAB (small tertiary) icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.fab.tertiary.small.container.width",
+          "displayName": "FAB (small tertiary) container width",
+          "type": "LENGTH",
+          "value": "40dp"
+        },
+        {
+          "name": "md.comp.fab.tertiary.small.container.shape",
+          "displayName": "FAB (small tertiary) container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.medium"
+        },
+        {
+          "name": "md.comp.fab.tertiary.small.container.height",
+          "displayName": "FAB (small tertiary) container height",
+          "type": "LENGTH",
+          "value": "40dp"
+        },
+        {
+          "name": "md.comp.fab.tertiary.small.lowered.container.elevation",
+          "displayName": "FAB (small tertiary) lowered container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.fab.tertiary.small.container.elevation",
+          "displayName": "FAB (small tertiary) container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab.tertiary.small.container.shadow-color",
+          "displayName": "FAB (small tertiary) container shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.fab.tertiary.small.container.color",
+          "displayName": "FAB (small tertiary) container color",
+          "type": "COLOR",
+          "value": "md.sys.color.tertiary-container"
+        }
+      ]
+    },
+    {
+      "displayName": "FAB - Size - Medium",
+      "tokenSetName": "md.comp.fab.medium",
+      "description": "For medium FABs.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.fab.medium.container.height",
+          "displayName": "FAB medium container height",
+          "type": "LENGTH",
+          "value": "80dp"
+        },
+        {
+          "name": "md.comp.fab.medium.container.width",
+          "displayName": "FAB medium container width",
+          "type": "LENGTH",
+          "value": "80dp"
+        },
+        {
+          "name": "md.comp.fab.medium.container.shape",
+          "displayName": "FAB medium container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.large-increased"
+        },
+        {
+          "name": "md.comp.fab.medium.icon.size",
+          "displayName": "FAB medium icon size",
+          "type": "LENGTH",
+          "value": "28dp"
+        }
+      ]
+    },
+    {
+      "displayName": "FAB - Size - Large",
+      "tokenSetName": "md.comp.fab.large",
+      "description": "For large FABs.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.fab.large.container.height",
+          "displayName": "FAB large container height",
+          "type": "LENGTH",
+          "value": "96dp"
+        },
+        {
+          "name": "md.comp.fab.large.container.width",
+          "displayName": "FAB large container width",
+          "type": "LENGTH",
+          "value": "96dp"
+        },
+        {
+          "name": "md.comp.fab.large.container.shape",
+          "displayName": "FAB large container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.extra-large"
+        },
+        {
+          "name": "md.comp.fab.large.icon.size",
+          "displayName": "FAB large icon size",
+          "type": "LENGTH",
+          "value": "36dp"
+        }
+      ]
+    },
+    {
+      "displayName": "[Deprecated] FAB - Tertiary, large",
+      "tokenSetName": "md.comp.fab.tertiary.large",
+      "description": "This token set is deprecated. Use large fab size `md.comp.fab.large` and tonal tertiary container fab `md.comp.fab.tertiary-container` token sets instead.",
+      "isDeprecated": true,
+      "tokens": [
+        {
+          "name": "md.comp.fab.tertiary.large.pressed.icon.color",
+          "displayName": "FAB (large tertiary) pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.fab.tertiary.large.pressed.state-layer.opacity",
+          "displayName": "FAB (large tertiary) pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.tertiary.large.pressed.state-layer.color",
+          "displayName": "FAB (large tertiary) pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.fab.tertiary.large.lowered.pressed.container.elevation",
+          "displayName": "FAB (large tertiary) lowered pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.fab.tertiary.large.pressed.container.elevation",
+          "displayName": "FAB (large tertiary) pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab.tertiary.large.focus.icon.color",
+          "displayName": "FAB (large tertiary) focus icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.fab.tertiary.large.focus.state-layer.opacity",
+          "displayName": "FAB (large tertiary) focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.tertiary.large.focus.state-layer.color",
+          "displayName": "FAB (large tertiary) focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.fab.tertiary.large.lowered.focus.container.elevation",
+          "displayName": "FAB (large tertiary) lowered focus container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.fab.tertiary.large.focus.container.elevation",
+          "displayName": "FAB (large tertiary) focus container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab.tertiary.large.focus.indicator.outline.offset",
+          "displayName": "FAB (large tertiary) focus indicator offset",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.outer-offset"
+        },
+        {
+          "name": "md.comp.fab.tertiary.large.focus.indicator.thickness",
+          "displayName": "FAB (large tertiary) focus indicator thickness",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.thickness"
+        },
+        {
+          "name": "md.comp.fab.tertiary.large.focus.indicator.color",
+          "displayName": "FAB (large tertiary) focus indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary"
+        },
+        {
+          "name": "md.comp.fab.tertiary.large.hover.icon.color",
+          "displayName": "FAB (large tertiary) hover icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.fab.tertiary.large.hover.state-layer.opacity",
+          "displayName": "FAB (large tertiary) hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.tertiary.large.hover.state-layer.color",
+          "displayName": "FAB (large tertiary) hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.fab.tertiary.large.lowered.hover.container.elevation",
+          "displayName": "FAB (large tertiary) lowered hover container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level2"
+        },
+        {
+          "name": "md.comp.fab.tertiary.large.hover.container.elevation",
+          "displayName": "FAB (large tertiary) hover container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level4"
+        },
+        {
+          "name": "md.comp.fab.tertiary.large.icon.size",
+          "displayName": "FAB (large tertiary) icon size",
+          "type": "LENGTH",
+          "value": "36dp"
+        },
+        {
+          "name": "md.comp.fab.tertiary.large.icon.color",
+          "displayName": "FAB (large tertiary) icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.fab.tertiary.large.container.width",
+          "displayName": "FAB (large tertiary) container width",
+          "type": "LENGTH",
+          "value": "96dp"
+        },
+        {
+          "name": "md.comp.fab.tertiary.large.container.shape",
+          "displayName": "FAB (large tertiary) container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.extra-large"
+        },
+        {
+          "name": "md.comp.fab.tertiary.large.container.height",
+          "displayName": "FAB (large tertiary) container height",
+          "type": "LENGTH",
+          "value": "96dp"
+        },
+        {
+          "name": "md.comp.fab.tertiary.large.lowered.container.elevation",
+          "displayName": "FAB (large tertiary) lowered container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.fab.tertiary.large.container.elevation",
+          "displayName": "FAB (large tertiary) container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab.tertiary.large.container.shadow-color",
+          "displayName": "FAB (large tertiary) container shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.fab.tertiary.large.container.color",
+          "displayName": "FAB (large tertiary) container color",
+          "type": "COLOR",
+          "value": "md.sys.color.tertiary-container"
+        }
+      ]
+    },
+    {
+      "displayName": "FAB - Color - Tertiary",
+      "tokenSetName": "md.comp.fab.tertiary",
+      "description": "For the tertiary style fab.",
+      "isDeprecated": false,
+      "tokens": [
+        {
+          "name": "md.comp.fab.tertiary.hovered.state-layer.color",
+          "displayName": "FAB tertiary hovered state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary"
+        },
+        {
+          "name": "md.comp.fab.tertiary.container.color",
+          "displayName": "FAB tertiary container color",
+          "type": "COLOR",
+          "value": "md.sys.color.tertiary"
+        },
+        {
+          "name": "md.comp.fab.tertiary.container.shadow-color",
+          "displayName": "FAB tertiary container shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.fab.tertiary.container.elevation",
+          "displayName": "FAB tertiary container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab.tertiary.icon.color",
+          "displayName": "FAB tertiary icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary"
+        },
+        {
+          "name": "md.comp.fab.tertiary.pressed.container.elevation",
+          "displayName": "FAB tertiary pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab.tertiary.pressed.state-layer.color",
+          "displayName": "FAB tertiary pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary"
+        },
+        {
+          "name": "md.comp.fab.tertiary.pressed.state-layer.opacity",
+          "displayName": "FAB tertiary pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.tertiary.pressed.icon.color",
+          "displayName": "FAB tertiary pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary"
+        },
+        {
+          "name": "md.comp.fab.tertiary.hovered.container.elevation",
+          "displayName": "FAB tertiary hovered container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level4"
+        },
+        {
+          "name": "md.comp.fab.tertiary.hovered.state-layer.opacity",
+          "displayName": "FAB tertiary hovered state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.tertiary.hovered.icon.color",
+          "displayName": "FAB tertiary hovered icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary"
+        },
+        {
+          "name": "md.comp.fab.tertiary.focused.container.elevation",
+          "displayName": "FAB tertiary focused container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab.tertiary.focused.state-layer.color",
+          "displayName": "FAB tertiary focused state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary"
+        },
+        {
+          "name": "md.comp.fab.tertiary.focused.state-layer.opacity",
+          "displayName": "FAB tertiary focused state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.tertiary.focused.icon.color",
+          "displayName": "FAB tertiary focused icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary"
+        },
+        {
+          "name": "md.comp.fab.tertiary.lowered.pressed.container.elevation",
+          "displayName": "FAB (tertiary) lowered pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.fab.tertiary.lowered.container.elevation",
+          "displayName": "FAB (tertiary) lowered container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.fab.tertiary.container.height",
+          "displayName": "FAB (tertiary) container height",
+          "type": "LENGTH",
+          "value": "56dp"
+        },
+        {
+          "name": "md.comp.fab.tertiary.container.shape",
+          "displayName": "FAB (tertiary) container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.large"
+        },
+        {
+          "name": "md.comp.fab.tertiary.container.width",
+          "displayName": "FAB (tertiary) container width",
+          "type": "LENGTH",
+          "value": "56dp"
+        },
+        {
+          "name": "md.comp.fab.tertiary.icon.size",
+          "displayName": "FAB (tertiary) icon size",
+          "type": "LENGTH",
+          "value": "24dp"
+        },
+        {
+          "name": "md.comp.fab.tertiary.hover.container.elevation",
+          "displayName": "FAB (tertiary) hover container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level4"
+        },
+        {
+          "name": "md.comp.fab.tertiary.lowered.hover.container.elevation",
+          "displayName": "FAB (tertiary) lowered hover container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level2"
+        },
+        {
+          "name": "md.comp.fab.tertiary.hover.state-layer.color",
+          "displayName": "FAB (tertiary) hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.fab.tertiary.hover.state-layer.opacity",
+          "displayName": "FAB (tertiary) hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.tertiary.hover.icon.color",
+          "displayName": "FAB (tertiary) hover icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.fab.tertiary.focus.container.elevation",
+          "displayName": "FAB (tertiary) focus container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab.tertiary.lowered.focus.container.elevation",
+          "displayName": "FAB (tertiary) lowered focus container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.fab.tertiary.focus.state-layer.color",
+          "displayName": "FAB (tertiary) focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.fab.tertiary.focus.state-layer.opacity",
+          "displayName": "FAB (tertiary) focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.tertiary.focus.icon.color",
+          "displayName": "FAB (tertiary) focus icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-tertiary-container"
+        },
+        {
+          "name": "md.comp.fab.tertiary.focus.indicator.color",
+          "displayName": "FAB (tertiary) focus indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary"
+        },
+        {
+          "name": "md.comp.fab.tertiary.focus.indicator.thickness",
+          "displayName": "FAB (tertiary) focus indicator thickness",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.thickness"
+        },
+        {
+          "name": "md.comp.fab.tertiary.focus.indicator.outline.offset",
+          "displayName": "FAB (tertiary) focus indicator offset",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.outer-offset"
+        }
+      ]
+    },
+    {
+      "displayName": "[Deprecated] FAB - Surface, large",
+      "tokenSetName": "md.comp.fab.surface.large",
+      "description": "This token set is deprecated. Use large fab size `md.comp.fab.large` and surface fab `md.comp.fab.surface` token sets instead.",
+      "isDeprecated": true,
+      "tokens": [
+        {
+          "name": "md.comp.fab.surface.large.pressed.icon.color",
+          "displayName": "FAB (large surface) pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.fab.surface.large.pressed.state-layer.opacity",
+          "displayName": "FAB (large surface) pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.surface.large.pressed.state-layer.color",
+          "displayName": "FAB (large surface) pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.fab.surface.large.lowered.pressed.container.elevation",
+          "displayName": "FAB (large surface) lowered pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.fab.surface.large.pressed.container.elevation",
+          "displayName": "FAB (large surface) pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab.surface.large.focus.icon.color",
+          "displayName": "FAB (large surface) focus icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.fab.surface.large.focus.state-layer.opacity",
+          "displayName": "FAB (large surface) focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.surface.large.focus.state-layer.color",
+          "displayName": "FAB (large surface) focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.fab.surface.large.lowered.focus.container.elevation",
+          "displayName": "FAB (large surface) lowered focus container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.fab.surface.large.focus.container.elevation",
+          "displayName": "FAB (large surface) focus container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab.surface.large.focus.indicator.outline.offset",
+          "displayName": "FAB (large surface) focus indicator offset",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.outer-offset"
+        },
+        {
+          "name": "md.comp.fab.surface.large.focus.indicator.thickness",
+          "displayName": "FAB (large surface) focus indicator thickness",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.thickness"
+        },
+        {
+          "name": "md.comp.fab.surface.large.focus.indicator.color",
+          "displayName": "FAB (large surface) focus indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary"
+        },
+        {
+          "name": "md.comp.fab.surface.large.hover.icon.color",
+          "displayName": "FAB (large surface) hover icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.fab.surface.large.hover.state-layer.opacity",
+          "displayName": "FAB (large surface) hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.surface.large.hover.state-layer.color",
+          "displayName": "FAB (large surface) hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.fab.surface.large.lowered.hover.container.elevation",
+          "displayName": "FAB (large surface) lowered hover container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level2"
+        },
+        {
+          "name": "md.comp.fab.surface.large.hover.container.elevation",
+          "displayName": "FAB (large surface) hover container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level4"
+        },
+        {
+          "name": "md.comp.fab.surface.large.icon.color",
+          "displayName": "FAB (large surface) icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.fab.surface.large.icon.size",
+          "displayName": "FAB (large surface) icon size",
+          "type": "LENGTH",
+          "value": "36dp"
+        },
+        {
+          "name": "md.comp.fab.surface.large.lowered.container.elevation",
+          "displayName": "FAB (large surface) lowered container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.fab.surface.large.container.shadow-color",
+          "displayName": "FAB (large surface) container shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.fab.surface.large.container.elevation",
+          "displayName": "FAB (large surface) container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab.surface.large.container.height",
+          "displayName": "FAB (large surface) container height",
+          "type": "LENGTH",
+          "value": "96dp"
+        },
+        {
+          "name": "md.comp.fab.surface.large.container.width",
+          "displayName": "FAB (large surface) container width",
+          "type": "LENGTH",
+          "value": "96dp"
+        },
+        {
+          "name": "md.comp.fab.surface.large.container.shape",
+          "displayName": "FAB (large surface) container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.extra-large"
+        },
+        {
+          "name": "md.comp.fab.surface.large.lowered.container.color",
+          "displayName": "FAB (large surface) lowered container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-low"
+        },
+        {
+          "name": "md.comp.fab.surface.large.container.color",
+          "displayName": "FAB (large surface) container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-high"
+        },
+        {
+          "name": "md.comp.fab.surface.large.container.surface-tint-layer.color",
+          "displayName": "FAB (large surface) container surface tint layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-tint"
+        }
+      ]
+    },
+    {
+      "displayName": "[Deprecated] FAB - Primary, large",
+      "tokenSetName": "md.comp.fab.primary.large",
+      "description": "This token set is deprecated. Use large fab size `md.comp.fab.large` and tonal primary container fab `md.comp.fab.primary-container` token sets instead.",
+      "isDeprecated": true,
+      "tokens": [
+        {
+          "name": "md.comp.fab.primary.large.pressed.icon.color",
+          "displayName": "FAB (large primary) pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.fab.primary.large.pressed.state-layer.opacity",
+          "displayName": "FAB (large primary) pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.primary.large.pressed.state-layer.color",
+          "displayName": "FAB (large primary) pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.fab.primary.large.lowered.pressed.container.elevation",
+          "displayName": "FAB (large primary) lowered pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.fab.primary.large.pressed.container.elevation",
+          "displayName": "FAB (large primary) pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab.primary.large.focus.icon.color",
+          "displayName": "FAB (large primary) focus icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.fab.primary.large.focus.state-layer.opacity",
+          "displayName": "FAB (large primary) focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.primary.large.focus.state-layer.color",
+          "displayName": "FAB (large primary) focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.fab.primary.large.lowered.focus.container.elevation",
+          "displayName": "FAB (large primary) lowered focus container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.fab.primary.large.focus.container.elevation",
+          "displayName": "FAB (large primary) focus container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab.primary.large.focus.indicator.outline.offset",
+          "displayName": "FAB (large primary) focus indicator offset",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.outer-offset"
+        },
+        {
+          "name": "md.comp.fab.primary.large.focus.indicator.thickness",
+          "displayName": "FAB (large primary) focus indicator thickness",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.thickness"
+        },
+        {
+          "name": "md.comp.fab.primary.large.focus.indicator.color",
+          "displayName": "FAB (large primary) focus indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary"
+        },
+        {
+          "name": "md.comp.fab.primary.large.hover.icon.color",
+          "displayName": "FAB (large primary) hover icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.fab.primary.large.hover.state-layer.opacity",
+          "displayName": "FAB (large primary) hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.primary.large.hover.state-layer.color",
+          "displayName": "FAB (large primary) hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.fab.primary.large.lowered.hover.container.elevation",
+          "displayName": "FAB (large primary) lowered hover container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level2"
+        },
+        {
+          "name": "md.comp.fab.primary.large.hover.container.elevation",
+          "displayName": "FAB (large primary) hover container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level4"
+        },
+        {
+          "name": "md.comp.fab.primary.large.icon.color",
+          "displayName": "FAB (large primary) icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-primary-container"
+        },
+        {
+          "name": "md.comp.fab.primary.large.icon.size",
+          "displayName": "FAB (large primary) icon size",
+          "type": "LENGTH",
+          "value": "36dp"
+        },
+        {
+          "name": "md.comp.fab.primary.large.lowered.container.elevation",
+          "displayName": "FAB (large primary) lowered container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.fab.primary.large.container.shadow-color",
+          "displayName": "FAB (large primary) container shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.fab.primary.large.container.elevation",
+          "displayName": "FAB (large primary) container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab.primary.large.container.height",
+          "displayName": "FAB (large primary) container height",
+          "type": "LENGTH",
+          "value": "96dp"
+        },
+        {
+          "name": "md.comp.fab.primary.large.container.width",
+          "displayName": "FAB (large primary) container width",
+          "type": "LENGTH",
+          "value": "96dp"
+        },
+        {
+          "name": "md.comp.fab.primary.large.container.shape",
+          "displayName": "FAB (large primary) container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.extra-large"
+        },
+        {
+          "name": "md.comp.fab.primary.large.container.color",
+          "displayName": "FAB (large primary) container color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary-container"
+        }
+      ]
+    },
+    {
+      "displayName": "[Deprecated] FAB - Secondary, large",
+      "tokenSetName": "md.comp.fab.secondary.large",
+      "description": "This token set is deprecated. Use large fab size `md.comp.fab.large` and tonal secondary container fab `md.comp.fab.secondary-container` token sets instead.",
+      "isDeprecated": true,
+      "tokens": [
+        {
+          "name": "md.comp.fab.secondary.large.pressed.icon.color",
+          "displayName": "FAB (large secondary) pressed icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.fab.secondary.large.pressed.state-layer.opacity",
+          "displayName": "FAB (large secondary) pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.secondary.large.pressed.state-layer.color",
+          "displayName": "FAB (large secondary) pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.fab.secondary.large.lowered.pressed.container.elevation",
+          "displayName": "FAB (secondary) lowered pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.fab.secondary.large.pressed.container.elevation",
+          "displayName": "FAB (large secondary) pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab.secondary.large.focus.icon.color",
+          "displayName": "FAB (large secondary) focus icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.fab.secondary.large.focus.state-layer.opacity",
+          "displayName": "FAB (large secondary) focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.secondary.large.focus.state-layer.color",
+          "displayName": "FAB (large secondary) focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.fab.secondary.large.lowered.focus.container.elevation",
+          "displayName": "FAB (secondary) lowered focus container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.fab.secondary.large.focus.container.elevation",
+          "displayName": "FAB (secondary) focus container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab.secondary.large.focus.indicator.outline.offset",
+          "displayName": "FAB (large secondary) focus indicator offset",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.outer-offset"
+        },
+        {
+          "name": "md.comp.fab.secondary.large.focus.indicator.thickness",
+          "displayName": "FAB (large secondary) focus indicator thickness",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.thickness"
+        },
+        {
+          "name": "md.comp.fab.secondary.large.focus.indicator.color",
+          "displayName": "FAB (large secondary) focus indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary"
+        },
+        {
+          "name": "md.comp.fab.secondary.large.hover.icon.color",
+          "displayName": "FAB (large secondary) hover icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.fab.secondary.large.hover.state-layer.opacity",
+          "displayName": "FAB (large secondary) hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.secondary.large.hover.state-layer.color",
+          "displayName": "FAB (large secondary) hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.fab.secondary.large.lowered.hover.container.elevation",
+          "displayName": "FAB (secondary) lowered hover container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level2"
+        },
+        {
+          "name": "md.comp.fab.secondary.large.hover.container.elevation",
+          "displayName": "FAB (large secondary) hover container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level4"
+        },
+        {
+          "name": "md.comp.fab.secondary.large.icon.color",
+          "displayName": "FAB (large secondary) icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary-container"
+        },
+        {
+          "name": "md.comp.fab.secondary.large.icon.size",
+          "displayName": "FAB (large secondary) icon size",
+          "type": "LENGTH",
+          "value": "36dp"
+        },
+        {
+          "name": "md.comp.fab.secondary.large.lowered.container.elevation",
+          "displayName": "FAB (secondary) lowered container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.fab.secondary.large.container.shadow-color",
+          "displayName": "FAB (large secondary) container shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.fab.secondary.large.container.elevation",
+          "displayName": "FAB (large secondary) container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab.secondary.large.container.height",
+          "displayName": "FAB (large secondary) container height",
+          "type": "LENGTH",
+          "value": "96dp"
+        },
+        {
+          "name": "md.comp.fab.secondary.large.container.width",
+          "displayName": "FAB (large secondary) container width",
+          "type": "LENGTH",
+          "value": "96dp"
+        },
+        {
+          "name": "md.comp.fab.secondary.large.container.shape",
+          "displayName": "FAB (large secondary) container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.extra-large"
+        },
+        {
+          "name": "md.comp.fab.secondary.large.container.color",
+          "displayName": "FAB (large secondary) container color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary-container"
+        }
+      ]
+    },
+    {
+      "displayName": "[Deprecated] FAB - Branded, large",
+      "tokenSetName": "md.comp.fab.branded.large",
+      "description": "This token set is deprecated. Use large fab size `md.comp.fab.large` and branded fab `md.comp.fab.branded` token sets instead.",
+      "isDeprecated": true,
+      "tokens": [
+        {
+          "name": "md.comp.fab.branded.large.pressed.state-layer.opacity",
+          "displayName": "FAB (large branded) pressed state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.pressed.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.branded.large.pressed.state-layer.color",
+          "displayName": "FAB (large branded) pressed state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.fab.branded.large.pressed.container.elevation",
+          "displayName": "FAB (large branded) pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab.branded.large.lowered.pressed.container.elevation",
+          "displayName": "FAB (large branded) lowered pressed container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.fab.branded.large.focus.state-layer.opacity",
+          "displayName": "FAB (large branded) focus state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.focus.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.branded.large.focus.state-layer.color",
+          "displayName": "FAB (large branded) focus state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.fab.branded.large.lowered.focus.container.elevation",
+          "displayName": "FAB (large branded) lowered focus container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.fab.branded.large.focus.container.elevation",
+          "displayName": "FAB (large branded) focus focus container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab.branded.large.focus.indicator.outline.offset",
+          "displayName": "FAB (large branded) focus indicator offset",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.outer-offset"
+        },
+        {
+          "name": "md.comp.fab.branded.large.focus.indicator.thickness",
+          "displayName": "FAB (large branded) focus indicator thickness",
+          "type": "LENGTH",
+          "value": "md.sys.state.focus-indicator.thickness"
+        },
+        {
+          "name": "md.comp.fab.branded.large.focus.indicator.color",
+          "displayName": "FAB (large branded) focus indicator color",
+          "type": "COLOR",
+          "value": "md.sys.color.secondary"
+        },
+        {
+          "name": "md.comp.fab.branded.large.hover.state-layer.opacity",
+          "displayName": "FAB (large branded) hover state layer opacity",
+          "type": "OPACITY",
+          "value": "md.sys.state.hover.state-layer-opacity"
+        },
+        {
+          "name": "md.comp.fab.branded.large.hover.state-layer.color",
+          "displayName": "FAB (large branded) hover state layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.primary"
+        },
+        {
+          "name": "md.comp.fab.branded.large.hover.container.elevation",
+          "displayName": "FAB (large branded) hover container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level4"
+        },
+        {
+          "name": "md.comp.fab.branded.large.lowered.hover.container.elevation",
+          "displayName": "FAB (large branded) lowered hover container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level2"
+        },
+        {
+          "name": "md.comp.fab.branded.large.icon.size",
+          "displayName": "FAB (large branded) icon size",
+          "type": "LENGTH",
+          "value": "48dp"
+        },
+        {
+          "name": "md.comp.fab.branded.large.lowered.container.elevation",
+          "displayName": "FAB (large branded) lowered container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level1"
+        },
+        {
+          "name": "md.comp.fab.branded.large.container.shadow-color",
+          "displayName": "FAB (large branded) container shadow color",
+          "type": "COLOR",
+          "value": "md.sys.color.shadow"
+        },
+        {
+          "name": "md.comp.fab.branded.large.container.elevation",
+          "displayName": "FAB (large branded) container elevation",
+          "type": "ELEVATION",
+          "value": "md.sys.elevation.level3"
+        },
+        {
+          "name": "md.comp.fab.branded.large.container.height",
+          "displayName": "FAB (large branded) container height",
+          "type": "LENGTH",
+          "value": "96dp"
+        },
+        {
+          "name": "md.comp.fab.branded.large.container.width",
+          "displayName": "FAB (large branded) container width",
+          "type": "LENGTH",
+          "value": "96dp"
+        },
+        {
+          "name": "md.comp.fab.branded.large.container.shape",
+          "displayName": "FAB (large branded) container shape",
+          "type": "SHAPE",
+          "value": "md.sys.shape.corner.extra-large"
+        },
+        {
+          "name": "md.comp.fab.branded.large.lowered.container.color",
+          "displayName": "FAB (large branded) lowered container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-low"
+        },
+        {
+          "name": "md.comp.fab.branded.large.container.color",
+          "displayName": "FAB (large branded) container color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-container-high"
+        },
+        {
+          "name": "md.comp.fab.branded.large.container.surface-tint-layer.color",
+          "displayName": "FAB (large branded) container surface tint layer color",
+          "type": "COLOR",
+          "value": "md.sys.color.surface-tint"
+        },
+        {
+          "name": "md.comp.fab.branded.large.icon.color",
+          "displayName": "FAB (large branded) icon color",
+          "type": "COLOR",
+          "value": "md.sys.color.on-secondary"
+        }
+      ]
+    }
+  ]
+}

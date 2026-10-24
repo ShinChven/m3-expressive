@@ -1,0 +1,14 @@
+/* Overview card preview: a smaller table that fits the card. */
+.m3-data-table.dt-preview {
+  --_row: 28px;
+  width: 100%;
+}
+.m3-data-table.dt-preview th,
+.m3-data-table.dt-preview td {
+  padding: 0 6px;
+  font: var(--md-sys-typescale-body-small);
+}
+.m3-data-table.dt-preview th {
+  height: 28px;
+  font: var(--md-sys-typescale-label-medium);
+}

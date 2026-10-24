@@ -1,0 +1,90 @@
+{
+  "name": "material-design-3-expressive-components",
+  "version": "0.1.0",
+  "description": "Material 3 Expressive components, layouts and dynamic color theming for React.",
+  "keywords": [
+    "material-design",
+    "material-3",
+    "material-3-expressive",
+    "m3",
+    "react",
+    "components",
+    "design-system"
+  ],
+  "type": "module",
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "exports": {
+    ".": {
+      "source": "./src/index.ts",
+      "md3-source": "./src/index.ts",
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./styles.css": {
+      "source": "./src/styles/index.css",
+      "md3-source": "./src/styles/index.css",
+      "default": "./dist/styles.css"
+    },
+    "./fonts.css": {
+      "source": "./src/styles/fonts.css",
+      "md3-source": "./src/styles/fonts.css",
+      "default": "./dist/fonts.css"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "vite docs",
+    "dev:lib": "vite build --watch",
+    "build": "vite build && node scripts/build-assets.mjs && tsc -p tsconfig.build.json && node scripts/fix-dts-imports.mjs",
+    "build:docs": "vite build docs",
+    "preview": "vite preview docs",
+    "typecheck": "tsc -p tsconfig.json && tsc -p docs/tsconfig.json",
+    "test": "vitest run",
+    "test:docs": "vitest run --config docs/vitest.config.ts",
+    "test:all": "vitest run && vitest run --config docs/vitest.config.ts",
+    "test:watch": "vitest",
+    "lint": "biome check .",
+    "format": "biome format --write .",
+    "gen:baseline": "node scripts/gen-baseline.mjs && biome format --write src/styles/baseline-scheme.css",
+    "sync:guidelines": "node scripts/download-m3-guidelines.mjs"
+  },
+  "peerDependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "dependencies": {
+    "@fontsource-variable/roboto-flex": "5.3.0",
+    "@tanstack/react-virtual": "3.14.22",
+    "material-symbols": "0.48.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.6.2",
+    "@material/material-color-utilities": "0.4.0",
+    "@testing-library/jest-dom": "7.0.1",
+    "@testing-library/react": "16.3.3",
+    "@testing-library/user-event": "14.6.8",
+    "@types/node": "26.6.5",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "jsdom": "30.1.3",
+    "lightningcss": "1.33.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "react-router": "^8.5.0",
+    "typescript": "7.0.2",
+    "vite": "8.3.5",
+    "vitest": "5.0.5"
+  }
+}
