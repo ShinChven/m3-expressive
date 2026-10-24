@@ -199,6 +199,46 @@ function Shell() {
   useThemedFavicon()
   const [searchOpen, setSearchOpen] = useState(false)
 
+  const toggleTheme = (e: React.MouseEvent<HTMLElement>) => {
+    const nextMode = theme.resolvedMode === 'dark' ? 'light' : 'dark'
+    if (
+      typeof document === 'undefined' ||
+      !('startViewTransition' in document) ||
+      window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    ) {
+      theme.setMode(nextMode)
+      return
+    }
+
+    const rect = e.currentTarget.getBoundingClientRect()
+    const x = rect.left + rect.width / 2
+    const y = rect.top + rect.height / 2
+    const endRadius = Math.hypot(
+      Math.max(x, window.innerWidth - x),
+      Math.max(y, window.innerHeight - y),
+    )
+
+    const docWithVT = document as unknown as {
+      startViewTransition: (cb: () => void) => { ready: Promise<void> }
+    }
+
+    const transition = docWithVT.startViewTransition(() => {
+      theme.setMode(nextMode)
+    })
+
+    transition.ready.then(() => {
+      document.documentElement.animate(
+        {
+          clipPath: [`circle(0px at ${x}px ${y}px)`, `circle(${endRadius}px at ${x}px ${y}px)`],
+        },
+        {
+          duration: 500,
+          easing: 'cubic-bezier(0.2, 0, 0, 1)',
+          pseudoElement: '::view-transition-new(root)',
+        },
+      )
+    })
+  }
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
@@ -250,7 +290,7 @@ function Shell() {
                   icon={theme.resolvedMode === 'dark' ? 'light_mode' : 'dark_mode'}
                   label={theme.resolvedMode === 'dark' ? 'Use light theme' : 'Use dark theme'}
                   tooltip
-                  onClick={() => theme.setMode(theme.resolvedMode === 'dark' ? 'light' : 'dark')}
+                  onClick={toggleTheme}
                 />
               </div>
             }
