@@ -127,7 +127,8 @@
   background: var(--md-sys-color-surface);
   border-inline-start: 1px solid var(--md-sys-color-outline-variant);
 }
-.m3-data-table thead th[data-sticky-end] {
+.m3-data-table thead th[data-sticky-end],
+.m3-data-table table[data-sticky] thead th[data-sticky-end] {
   z-index: 3;
 }
 .m3-data-table tbody tr:hover [data-sticky-end] {
@@ -210,11 +211,16 @@
   top: 0;
   z-index: 1;
 }
-.m3-data-table .m3-data-table__progress-row th {
+.m3-data-table table[data-sticky] thead th[data-sticky-end] {
+  z-index: 3;
+}
+.m3-data-table .m3-data-table__progress-row th,
+.m3-data-table table[data-sticky] .m3-data-table__progress-row th {
   top: 56px;
   height: 0;
   padding: 0;
   border: none;
+  z-index: 3;
 }
 .m3-data-table__progress-row .m3-linear-progress {
   position: absolute;
