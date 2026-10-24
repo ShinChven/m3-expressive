@@ -14,21 +14,25 @@ npm install @m3-expressive/vue @m3-expressive/styles
 <script setup>
 import '@m3-expressive/styles'
 import '@m3-expressive/styles/fonts.css'
-import { M3Button, useTheme } from '@m3-expressive/vue'
+import { Button, useTheme } from '@m3-expressive/vue'
 
-const { setSeed } = useTheme()
+const { setSeed, setDark } = useTheme()
 </script>
 
 <template>
-  <M3Button variant="filled" icon="add">Create</M3Button>
+  <Button variant="filled" icon="add">Create</Button>
 </template>
 ```
 
+> All components are exported both directly (e.g. `Button`) and with the `M3` prefix (e.g. `M3Button`) for template flexibility.
+
 ## Components
 
-- **Actions**: `M3Button`, `M3IconButton`, `M3ButtonGroup`, `M3SplitButton`, `M3Fab`
-- **Communication**: `M3Badge`, `M3Icon`, `M3LoadingIndicator`, `M3LinearProgress`, `M3CircularProgress`
-- **Containment**: `M3Card`, `M3CardActionArea`, `M3CardHeader`, `M3CardContent`, `M3CardActions`, `M3Divider`
-- **Selection & Inputs**: `M3Switch`, `M3Checkbox`, `M3Radio`, `M3Slider`, `M3TextField`
-- **Directives**: `v-ripple`
+- **Actions**: `Button`, `IconButton`, `ButtonGroup`, `SplitButton`, `Fab`
+- **Communication**: `Badge`, `Icon`, `LoadingIndicator`, `LinearProgress`, `CircularProgress`
+- **Containment**: `Card`, `CardActionArea`, `CardHeader`, `CardContent`, `CardActions`, `Divider`
+- **Selection & Inputs**: `Switch`, `Checkbox`, `Radio`, `Slider`, `TextField`
+- **Data**: `ListView` (virtualized list; standard, segmented; single and multiple selection)
+- **Directives & Primitives**: `Ripple`, `v-ripple` directive
 - **Composables**: `useTheme`
+- **Core Utilities**: Re-exports all dynamic color, shape, and spring utilities from `@m3-expressive/core`
