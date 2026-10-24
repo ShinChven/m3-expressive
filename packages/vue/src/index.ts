@@ -23,6 +23,7 @@ export {
   default as LinearProgress,
   default as M3LinearProgress,
 } from './components/LinearProgress.vue'
+export { default as ListView, default as M3ListView } from './components/ListView.vue'
 export {
   default as LoadingIndicator,
   default as M3LoadingIndicator,

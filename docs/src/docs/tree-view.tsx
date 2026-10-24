@@ -39,7 +39,7 @@ export const doc = defineDoc({
   name: 'Tree view',
   group: 'data',
   icon: 'account_tree',
-  order: 2,
+  order: 3,
   summary:
     'Tree views show nested content, such as the folders of a shared drive. Children load on demand, one page at a time, and only visible rows render, so very large trees stay fast.',
   imports: ['TreeView', 'Card', 'Button', 'useSnackbar'],

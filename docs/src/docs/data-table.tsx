@@ -5,7 +5,6 @@ import {
   Icon,
   IconButton,
   type SortState,
-  TextField,
   useSnackbar,
 } from '@m3-expressive/react'
 import { useEffect, useMemo, useState } from 'react'
@@ -86,15 +85,20 @@ const PLAYGROUND_COLUMNS: DataTableColumn<FileRow>[] = [
 ]
 
 const TOOLBAR_CODE = `
-    <TextField
-      variant="outlined"
-      aria-label="Filter files"
-      placeholder="Filter by name or folder"
-      leadingIcon="filter_list"
-      value={search}
-      onValueChange={setSearch}
-      onClear={() => setSearch('')}
-    />
+    <div className="g-table-search">
+      <Icon name="filter_list" size={20} />
+      <input
+        type="text"
+        placeholder="Filter by name or folder"
+        value={search}
+        onChange={(e) => setSearch(e.target.value)}
+      />
+      {search && (
+        <button type="button" onClick={() => setSearch('')}>
+          <Icon name="cancel" size={18} />
+        </button>
+      )}
+    </div>
   `
 
 const BULK_CODE = `
@@ -191,23 +195,33 @@ export const doc = defineDoc({
           onRowClick={v.rowClick ? (row) => snackbar.show(`Open “${row.name}”`) : undefined}
           toolbar={
             v.toolbar ? (
-              <TextField
-                variant="outlined"
-                aria-label="Filter files"
-                placeholder="Filter by name or folder"
-                leadingIcon="filter_list"
-                value={search}
-                className="g-table-filter"
-                onValueChange={(text) => {
-                  setSearch(text)
-                  setCursor(0)
-                }}
-                onClear={() => {
-                  setSearch('')
-                  setCursor(0)
-                }}
-                style={{ flex: '1 1 240px', maxWidth: 420 }}
-              />
+              <div className="g-table-search" style={{ flex: '1 1 240px', maxWidth: 420 }}>
+                <Icon name="filter_list" size={20} className="g-table-search__icon" />
+                <input
+                  type="text"
+                  className="g-table-search__input"
+                  placeholder="Filter by name or folder"
+                  value={search}
+                  onChange={(e) => {
+                    setSearch(e.target.value)
+                    setCursor(0)
+                  }}
+                  aria-label="Filter files"
+                />
+                {search ? (
+                  <button
+                    type="button"
+                    className="g-table-search__clear"
+                    aria-label="Clear filter"
+                    onClick={() => {
+                      setSearch('')
+                      setCursor(0)
+                    }}
+                  >
+                    <Icon name="cancel" size={18} />
+                  </button>
+                ) : null}
+              </div>
             ) : undefined
           }
           pagination={
@@ -438,23 +452,33 @@ export function ExampleServerData() {
       empty="No files match the filter"
       toolbar={
         <>
-          <TextField
-            variant="outlined"
-            aria-label="Filter files"
-            placeholder="Filter by name or folder"
-            leadingIcon="filter_list"
-            value={search}
-            className="g-table-filter"
-            onValueChange={(text) => {
-              setSearch(text)
-              restart()
-            }}
-            onClear={() => {
-              setSearch('')
-              restart()
-            }}
-            style={{ flex: '1 1 240px', maxWidth: 420 }}
-          />
+          <div className="g-table-search" style={{ flex: '1 1 240px', maxWidth: 420 }}>
+            <Icon name="filter_list" size={20} className="g-table-search__icon" />
+            <input
+              type="text"
+              className="g-table-search__input"
+              placeholder="Filter by name or folder"
+              value={search}
+              onChange={(e) => {
+                setSearch(e.target.value)
+                restart()
+              }}
+              aria-label="Filter files"
+            />
+            {search ? (
+              <button
+                type="button"
+                className="g-table-search__clear"
+                aria-label="Clear filter"
+                onClick={() => {
+                  setSearch('')
+                  restart()
+                }}
+              >
+                <Icon name="cancel" size={18} />
+              </button>
+            ) : null}
+          </div>
           <span className="g-muted" style={{ marginInlineStart: 'auto' }}>
             {page.total.toLocaleString()} files
           </span>
