@@ -183,6 +183,25 @@ describe('DataTable', () => {
     expect(actionCells[0]).toHaveAttribute('data-sticky-end', '')
   })
 
+  it('supports stickyHeader with stickyActions', () => {
+    const { container } = render(
+      <DataTable
+        columns={columns}
+        rows={rows}
+        getRowId={(r) => r.id}
+        stickyHeader
+        stickyActions
+        rowActions={(row) => <button type="button">Action {row.id}</button>}
+      />,
+    )
+    const table = container.querySelector('table')
+    expect(table).toHaveAttribute('data-sticky', '')
+    const actionHeader = screen.getByRole('columnheader', { name: 'Actions' })
+    expect(actionHeader).toHaveAttribute('data-sticky-end', '')
+    const actionCells = container.querySelectorAll('.m3-data-table__actions')
+    expect(actionCells[0]).toHaveAttribute('data-sticky-end', '')
+  })
+
   it('supports mobile swipe-to-reveal gestures', () => {
     const { container } = render(
       <DataTable
