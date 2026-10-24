@@ -12,3 +12,29 @@
   height: 28px;
   font: var(--md-sys-typescale-label-medium);
 }
+
+/* Simulated mobile device frame for touch swipe demo */
+.dt-mobile-frame {
+  width: 100%;
+  max-width: 380px;
+  margin: 0 auto;
+  border: 1px solid var(--md-sys-color-outline-variant);
+  border-radius: var(--md-sys-shape-corner-large);
+  overflow: hidden;
+  background: var(--md-sys-color-surface);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+.dt-mobile-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--md-sys-color-outline-variant);
+  background: var(--md-sys-color-surface-container-low);
+  font: var(--md-sys-typescale-title-small);
+  color: var(--md-sys-color-on-surface-variant);
+}
+.dt-mobile-frame .m3-data-table {
+  border: none;
+  border-radius: 0;
+}
