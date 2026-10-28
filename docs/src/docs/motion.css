@@ -94,7 +94,7 @@
 }
 .motion-doc-square[data-on] {
   translate: 48px 0;
-  border-radius: var(--md-sys-shape-corner-full);
+  border-radius: 36px;
   background: var(--md-sys-color-tertiary);
 }
 .motion-doc-curves {
