@@ -89,7 +89,11 @@ describe('date picker dialogs', () => {
     expect(onConfirm).toHaveBeenCalledWith('2026-11-02')
   })
 
-  it('selects a range start and end', async () => {
+  it('completes a range in the month of its start date', async ({ onTestFinished }) => {
+    vi.setSystemTime(new Date(2026, 10, 7))
+    onTestFinished(() => {
+      vi.useRealTimers()
+    })
     const onConfirm = vi.fn()
     render(
       <DateRangePickerDialog
@@ -99,6 +103,7 @@ describe('date picker dialogs', () => {
         onConfirm={onConfirm}
       />,
     )
+    expect(screen.getByRole('grid', { name: 'October 2026' })).toBeInTheDocument()
     await userEvent.click(screen.getByRole('button', { name: 'Thursday, October 8, 2026' }))
     await userEvent.click(screen.getByRole('button', { name: 'OK' }))
     expect(onConfirm).toHaveBeenCalledWith(['2026-10-05', '2026-10-08'])
