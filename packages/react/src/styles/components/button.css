@@ -5,7 +5,7 @@
   --_padding-icon: var(--md-sys-measurement-space200);
   --_gap: var(--md-sys-measurement-space100);
   --_outline-width: 1px;
-  --_radius-round: var(--md-sys-shape-corner-full);
+  --_radius-round: calc(var(--_height) / 2);
   --_radius-square: var(--md-sys-shape-corner-medium);
   --_radius-pressed: var(--md-sys-shape-corner-small);
   --_radius: var(--_radius-round);
@@ -230,7 +230,7 @@
 .m3-icon-button {
   --_size: 40px;
   --_width: 40px;
-  --_radius-round: var(--md-sys-shape-corner-full);
+  --_radius-round: calc(var(--_size) / 2);
   --_radius-square: var(--md-sys-shape-corner-medium);
   --_radius-pressed: var(--md-sys-shape-corner-small);
   --_radius: var(--_radius-round);
@@ -569,7 +569,7 @@
   --_inner-pressed: var(--md-sys-shape-corner-large);
 }
 .m3-button-group[data-variant="connected"] > :is(.m3-button, .m3-icon-button) {
-  --_outer: var(--md-sys-shape-corner-full);
+  --_outer: var(--_radius-round);
   --_start: var(--_inner);
   --_end: var(--_inner);
   border-start-start-radius: var(--_start);
@@ -596,8 +596,8 @@
 }
 .m3-button-group[data-variant="connected"]
   > :is(.m3-button, .m3-icon-button):is([data-selected], [aria-checked="true"]) {
-  --_start: var(--md-sys-shape-corner-full);
-  --_end: var(--md-sys-shape-corner-full);
+  --_start: var(--_radius-round);
+  --_end: var(--_radius-round);
 }
 .m3-button-group[data-variant="connected"] > .m3-button {
   min-width: 48px;
@@ -660,7 +660,7 @@
   --_corner: var(--_inner-active);
 }
 .m3-split-button[data-open] > .m3-button.m3-split-button__trailing {
-  --_corner: var(--md-sys-shape-corner-full);
+  --_corner: var(--_radius-round);
 }
 .m3-split-button__chevron {
   display: inline-flex;
@@ -752,7 +752,7 @@
 .m3-fab-menu[data-open] .m3-fab-menu__fab {
   width: 56px;
   height: 56px;
-  border-radius: var(--md-sys-shape-corner-full);
+  border-radius: 28px;
   background: var(--_close);
   color: var(--_on-close);
 }
