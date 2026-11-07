@@ -690,8 +690,8 @@ export function DateRangePickerDialog({
   initialMode = 'calendar',
 }: DateRangePickerDialogProps) {
   const { locale, messages } = useM3Locale()
-  const [start, setStart] = useState<PlainDate | null>(null)
-  const [end, setEnd] = useState<PlainDate | null>(null)
+  const [start, setStart] = useState(() => parseISODate(value?.[0]))
+  const [end, setEnd] = useState(() => parseISODate(value?.[1]))
   const [inputMode, setInputMode] = useState(initialMode === 'input')
   const [errors, setErrors] = useState<{ start?: string | undefined; end?: string | undefined }>({})
   const minDate = parseISODate(min)
