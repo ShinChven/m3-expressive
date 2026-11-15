@@ -212,16 +212,28 @@ export function ButtonGroup(props: ButtonGroupProps) {
   )
 }
 
+/** Cancels a released item's pending cleanup without touching its styles. */
+const pendingCleanup = new WeakMap<HTMLElement, () => void>()
+
 /** Widens `pressed` and narrows its neighbours until the pointer is released. */
 function squeeze(items: HTMLElement[], pressed: HTMLElement) {
   const index = items.indexOf(pressed)
   const neighbours = [items[index - 1], items[index + 1]].filter(Boolean) as HTMLElement[]
   const affected = [pressed, ...neighbours]
+  // A quick re-press can land while the previous release is still animating. Start from the
+  // widths on screen, and drop the old cleanup so it cannot clear this press's widths later.
+  const from = new Map(affected.map((el) => [el, el.getBoundingClientRect().width]))
+  for (const el of affected) {
+    pendingCleanup.get(el)?.()
+    el.style.removeProperty('width')
+    el.removeAttribute('data-squeezing')
+  }
+  // Natural widths: `auto` does not interpolate, so this reads the final layout, not a frame.
   const widths = new Map(affected.map((el) => [el, el.getBoundingClientRect().width]))
   const grow = widths.get(pressed)! * PRESSED_WIDTH_MULTIPLIER
   // Freeze the current widths first so the change animates from them.
   for (const el of affected) {
-    el.style.width = `${widths.get(el)}px`
+    el.style.width = `${from.get(el)}px`
     el.setAttribute('data-squeezing', '')
   }
   let released = false
@@ -234,23 +246,28 @@ function squeeze(items: HTMLElement[], pressed: HTMLElement) {
     released = true
     window.removeEventListener('pointerup', release)
     window.removeEventListener('pointercancel', release)
-    for (const el of affected) el.style.width = `${widths.get(el)}px`
-    let cleaned = false
-    const cleanup = () => {
-      if (cleaned) return
-      cleaned = true
-      pressed.removeEventListener('transitionend', onEnd)
-      for (const el of affected) {
+    for (const el of affected) {
+      el.style.width = `${widths.get(el)}px`
+      // Each item cleans up on its own, so a new press that takes over one of them leaves the
+      // others to finish their own release.
+      const onEnd = (event: TransitionEvent) => {
+        if (event.target === el && event.propertyName === 'width') cleanup()
+      }
+      const cancel = () => {
+        el.removeEventListener('transitionend', onEnd)
+        window.clearTimeout(timer)
+        pendingCleanup.delete(el)
+      }
+      const cleanup = () => {
+        cancel()
         el.style.removeProperty('width')
         el.removeAttribute('data-squeezing')
       }
+      el.addEventListener('transitionend', onEnd)
+      // No transition runs when the widths never changed (a very short press).
+      const timer = window.setTimeout(cleanup, 1000)
+      pendingCleanup.set(el, cancel)
     }
-    const onEnd = (event: TransitionEvent) => {
-      if (event.propertyName === 'width') cleanup()
-    }
-    pressed.addEventListener('transitionend', onEnd)
-    // No transition runs when the widths never changed (a very short press).
-    window.setTimeout(cleanup, 1000)
   }
   window.addEventListener('pointerup', release)
   window.addEventListener('pointercancel', release)
