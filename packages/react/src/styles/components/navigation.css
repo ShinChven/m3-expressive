@@ -18,10 +18,14 @@
   inset: 0;
   border-radius: inherit;
   background: var(--md-sys-color-secondary-container);
-  scale: 0.4 1;
+  /* Grow from the centre with a clip rather than `scale`: scaling squashes the pill's round ends
+   * into flat ellipses mid-animation, while the clip keeps them semicircular at every width.
+   * The rounding is a constant clamped radius, so it never interpolates through a rectangle. */
+  clip-path: inset(0 30% round 999px);
   opacity: 0;
   transition:
-    scale var(--md-sys-motion-spring-fast-spatial-duration) var(--md-sys-motion-spring-fast-spatial),
+    clip-path var(--md-sys-motion-spring-fast-spatial-duration)
+    var(--md-sys-motion-spring-fast-spatial),
     opacity var(--md-sys-motion-spring-fast-effects-duration)
     var(--md-sys-motion-spring-fast-effects);
 }
@@ -29,7 +33,7 @@
   color: var(--md-sys-color-on-secondary-container);
 }
 [data-active] > .m3-nav-indicator::before {
-  scale: 1 1;
+  clip-path: inset(0 0 round 999px);
   opacity: 1;
 }
 .m3-nav-indicator > .m3-icon,
@@ -799,7 +803,7 @@
   box-sizing: border-box;
   height: 56px;
   margin-inline: var(--_margin);
-  padding-inline: var(--md-sys-measurement-space200) var(--md-sys-measurement-space50);
+  padding-inline: var(--md-sys-measurement-space200);
   border-radius: var(--md-sys-shape-corner-full);
   background: var(--md-sys-color-surface-container-high);
   color: var(--md-sys-color-on-surface);
@@ -811,9 +815,12 @@
     background-color var(--md-sys-motion-spring-fast-effects-duration)
     var(--md-sys-motion-spring-fast-effects);
 }
+.m3-search__bar:has(.m3-search__trailing > .m3-icon-button:only-child) {
+  padding-inline-end: var(--md-sys-measurement-space100);
+}
 .m3-search[data-active] .m3-search__bar {
   margin-inline: 0;
-  padding-inline: var(--md-sys-measurement-space50);
+  padding-inline: var(--md-sys-measurement-space100);
 }
 .m3-search__leading,
 .m3-search__trailing {

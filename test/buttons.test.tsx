@@ -1,4 +1,4 @@
-import { render, screen } from '@testing-library/react'
+import { fireEvent, render, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import type { LinkComponentProps } from '../src'
 import {
@@ -149,6 +149,35 @@ describe('ButtonGroup', () => {
     // Selection is required by default: clicking the selected button keeps it.
     await userEvent.click(screen.getByRole('radio', { name: 'Week' }))
     expect(onChange).toHaveBeenCalledTimes(1)
+  })
+
+  it('keeps a quick re-press squeezed after the previous release cleans up', () => {
+    vi.useFakeTimers()
+    try {
+      render(
+        <ButtonGroup aria-label="Edit">
+          <Button>Cut</Button>
+          <Button>Copy</Button>
+          <Button>Paste</Button>
+        </ButtonGroup>,
+      )
+      const copy = screen.getByRole('button', { name: 'Copy' })
+      fireEvent.pointerDown(copy, { button: 0 })
+      expect(copy).toHaveAttribute('data-squeezing')
+      fireEvent.pointerUp(window)
+      // Press again before the first release's fallback cleanup runs, and keep holding past it.
+      vi.advanceTimersByTime(200)
+      fireEvent.pointerDown(copy, { button: 0 })
+      vi.advanceTimersByTime(1500)
+      expect(copy).toHaveAttribute('data-squeezing')
+      expect(copy.style.width).not.toBe('')
+      fireEvent.pointerUp(window)
+      vi.advanceTimersByTime(1000)
+      expect(copy).not.toHaveAttribute('data-squeezing')
+      expect(copy.style.width).toBe('')
+    } finally {
+      vi.useRealTimers()
+    }
   })
 
   it('toggles independently in multi-select mode', async () => {

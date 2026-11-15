@@ -81,7 +81,6 @@
 .m3-button[data-toggle][data-selected][data-shape="square"] {
   --_radius: var(--_radius-round);
 }
-/* Shape morph (on by default): smaller corners while pressed. */
 /* Shape morph (on by default): smaller corners while pressed, excluding toggle buttons that morph to square. */
 .m3-button[data-morph]:active:not(:disabled, [aria-disabled="true"], [data-toggle]) {
   border-radius: var(--_radius-pressed);
@@ -291,7 +290,6 @@
 .m3-icon-button[data-toggle][data-selected][data-shape="square"] {
   --_radius: var(--_radius-round);
 }
-/* Shape morph (on by default): smaller corners while pressed. */
 /* Shape morph (on by default): smaller corners while pressed, excluding toggle buttons that morph to square. */
 .m3-icon-button[data-morph]:active:not(:disabled, [aria-disabled="true"], [data-toggle]) {
   border-radius: var(--_radius-pressed);
